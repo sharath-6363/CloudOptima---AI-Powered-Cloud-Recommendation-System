@@ -1,0 +1,198 @@
+# ==========================================
+# CloudOptima - Git Ignore Configuration
+# ==========================================
+
+# ============ SENSITIVE FILES ============
+# NEVER commit these - contain secrets!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ============ PYTHON ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+backend/venv/
+backend/env/
+backend/ENV/
+
+# ============ MACHINE LEARNING ============
+# Uncomment if models are too large (>50 MB)
+# backend/xgb_model.json
+# backend/ml_satisfaction_model.joblib
+# backend/ml_feature_info.joblib
+
+# Training logs
+backend/training_logs/
+backend/model_checkpoints/
+
+# ============ NODE.JS ============
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+
+# ============ NEXT.JS ============
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel
+
+# ============ DATABASE ============
+*.db
+*.sqlite
+*.sqlite3
+*.sql.backup
+
+# Database dumps (optional - uncomment if large)
+# *.sql
+
+# ============ IDE / EDITORS ============
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============ OPERATING SYSTEMS ============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============ LOGS ============
+*.log
+logs/
+backend/*.log
+frontend/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============ TEMPORARY FILES ============
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+tmp/
+temp/
+
+# ============ TESTING ============
+# Coverage
+coverage/
+.nyc_output/
+*.coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# Jest
+/coverage
+
+# ============ BUILD ARTIFACTS ============
+dist/
+build/
+out/
+*.egg-info/
+.eggs/
+
+# ============ CACHE ============
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============ MISC ============
+# Backup files
+*.backup
+*.old
+
+# Compressed files (optional)
+# *.zip
+# *.tar.gz
+# *.rar
+
+# Large datasets (optional - uncomment if needed)
+# backend/data/large_dataset.csv
+
+# User uploads (if any)
+# uploads/
+# media/
+
+# ============ KEEP THESE ============
+# These files SHOULD be committed:
+# - README.md
+# - requirements.txt
+# - package.json
+# - .gitignore
+# - database_setup.sql
+# - xgb_model.json (if <50 MB)
+# - All source code files

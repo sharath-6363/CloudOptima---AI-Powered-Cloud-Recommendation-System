@@ -1,0 +1,3001 @@
+provider,instance_type,region,price_per_hour
+AWS,t3.nano,us-east-1,0.0475
+AWS,t3.micro,us-east-1,0.053
+AWS,m5.large,us-east-1,0.114
+AWS,c5.xlarge,us-east-1,0.214
+AWS,g4dn.xlarge,us-east-1,1.478
+AWS,t3.nano,us-west-1,0.0475
+AWS,t3.micro,us-west-1,0.053
+AWS,m5.large,us-west-1,0.114
+AWS,c5.xlarge,us-west-1,0.214
+AWS,g4dn.xlarge,us-west-1,1.478
+AWS,t3.nano,us-west-2,0.0475
+AWS,t3.micro,us-west-2,0.053
+AWS,m5.large,us-west-2,0.114
+AWS,c5.xlarge,us-west-2,0.214
+AWS,g4dn.xlarge,us-west-2,1.478
+AWS,t3.nano,eu-west-1,0.0475
+AWS,t3.micro,eu-west-1,0.053
+AWS,m5.large,eu-west-1,0.114
+AWS,c5.xlarge,eu-west-1,0.214
+AWS,g4dn.xlarge,eu-west-1,1.478
+AWS,t3.nano,eu-central-1,0.0475
+AWS,t3.micro,eu-central-1,0.053
+AWS,m5.large,eu-central-1,0.114
+AWS,c5.xlarge,eu-central-1,0.214
+AWS,g4dn.xlarge,eu-central-1,1.478
+AWS,t3.nano,ap-south-1,0.0475
+AWS,t3.micro,ap-south-1,0.053
+AWS,m5.large,ap-south-1,0.114
+AWS,c5.xlarge,ap-south-1,0.214
+AWS,g4dn.xlarge,ap-south-1,1.478
+AWS,t3.nano,ap-southeast-1,0.0475
+AWS,t3.micro,ap-southeast-1,0.053
+AWS,m5.large,ap-southeast-1,0.114
+AWS,c5.xlarge,ap-southeast-1,0.214
+AWS,g4dn.xlarge,ap-southeast-1,1.478
+AWS,t3.nano,ap-northeast-1,0.0475
+AWS,t3.micro,ap-northeast-1,0.053
+AWS,m5.large,ap-northeast-1,0.114
+AWS,c5.xlarge,ap-northeast-1,0.214
+AWS,g4dn.xlarge,ap-northeast-1,1.478
+AWS,t3.nano,asia-south1,0.0475
+AWS,t3.micro,asia-south1,0.053
+AWS,m5.large,asia-south1,0.114
+AWS,c5.xlarge,asia-south1,0.214
+AWS,g4dn.xlarge,asia-south1,1.478
+AWS,t3.nano,me-central-1,0.0475
+AWS,t3.micro,me-central-1,0.053
+AWS,m5.large,me-central-1,0.114
+AWS,c5.xlarge,me-central-1,0.214
+AWS,g4dn.xlarge,me-central-1,1.478
+AWS,t3.nano,sa-east-1,0.0475
+AWS,t3.micro,sa-east-1,0.053
+AWS,m5.large,sa-east-1,0.114
+AWS,c5.xlarge,sa-east-1,0.214
+AWS,g4dn.xlarge,sa-east-1,1.478
+Azure,B1s,us-east-1,0.031
+Azure,B2s,us-east-1,0.072
+Azure,D2s_v3,us-east-1,0.114
+Azure,F4s_v2,us-east-1,0.169
+Azure,NC6,us-east-1,1.738
+Azure,B1s,us-west-1,0.031
+Azure,B2s,us-west-1,0.072
+Azure,D2s_v3,us-west-1,0.114
+Azure,F4s_v2,us-west-1,0.169
+Azure,NC6,us-west-1,1.738
+Azure,B1s,us-west-2,0.031
+Azure,B2s,us-west-2,0.072
+Azure,D2s_v3,us-west-2,0.114
+Azure,F4s_v2,us-west-2,0.169
+Azure,NC6,us-west-2,1.738
+Azure,B1s,eu-west-1,0.031
+Azure,B2s,eu-west-1,0.072
+Azure,D2s_v3,eu-west-1,0.114
+Azure,F4s_v2,eu-west-1,0.169
+Azure,NC6,eu-west-1,1.738
+Azure,B1s,eu-central-1,0.031
+Azure,B2s,eu-central-1,0.072
+Azure,D2s_v3,eu-central-1,0.114
+Azure,F4s_v2,eu-central-1,0.169
+Azure,NC6,eu-central-1,1.738
+Azure,B1s,ap-south-1,0.031
+Azure,B2s,ap-south-1,0.072
+Azure,D2s_v3,ap-south-1,0.114
+Azure,F4s_v2,ap-south-1,0.169
+Azure,NC6,ap-south-1,1.738
+Azure,B1s,ap-southeast-1,0.031
+Azure,B2s,ap-southeast-1,0.072
+Azure,D2s_v3,ap-southeast-1,0.114
+Azure,F4s_v2,ap-southeast-1,0.169
+Azure,NC6,ap-southeast-1,1.738
+Azure,B1s,ap-northeast-1,0.031
+Azure,B2s,ap-northeast-1,0.072
+Azure,D2s_v3,ap-northeast-1,0.114
+Azure,F4s_v2,ap-northeast-1,0.169
+Azure,NC6,ap-northeast-1,1.738
+Azure,B1s,asia-south1,0.031
+Azure,B2s,asia-south1,0.072
+Azure,D2s_v3,asia-south1,0.114
+Azure,F4s_v2,asia-south1,0.169
+Azure,NC6,asia-south1,1.738
+Azure,B1s,me-central-1,0.031
+Azure,B2s,me-central-1,0.072
+Azure,D2s_v3,me-central-1,0.114
+Azure,F4s_v2,me-central-1,0.169
+Azure,NC6,me-central-1,1.738
+Azure,B1s,sa-east-1,0.031
+Azure,B2s,sa-east-1,0.072
+Azure,D2s_v3,sa-east-1,0.114
+Azure,F4s_v2,sa-east-1,0.169
+Azure,NC6,sa-east-1,1.738
+GCP,e2-micro,us-east-1,0.05
+GCP,e2-small,us-east-1,0.061
+GCP,n1-standard-2,us-east-1,0.1025
+GCP,n2-standard-8,us-east-1,0.416
+GCP,a2-highgpu-1g,us-east-1,1.895
+GCP,e2-micro,us-west-1,0.05
+GCP,e2-small,us-west-1,0.061
+GCP,n1-standard-2,us-west-1,0.1025
+GCP,n2-standard-8,us-west-1,0.416
+GCP,a2-highgpu-1g,us-west-1,1.895
+GCP,e2-micro,us-west-2,0.05
+GCP,e2-small,us-west-2,0.061
+GCP,n1-standard-2,us-west-2,0.1025
+GCP,n2-standard-8,us-west-2,0.416
+GCP,a2-highgpu-1g,us-west-2,1.895
+GCP,e2-micro,eu-west-1,0.05
+GCP,e2-small,eu-west-1,0.061
+GCP,n1-standard-2,eu-west-1,0.1025
+GCP,n2-standard-8,eu-west-1,0.416
+GCP,a2-highgpu-1g,eu-west-1,1.895
+GCP,e2-micro,eu-central-1,0.05
+GCP,e2-small,eu-central-1,0.061
+GCP,n1-standard-2,eu-central-1,0.1025
+GCP,n2-standard-8,eu-central-1,0.416
+GCP,a2-highgpu-1g,eu-central-1,1.895
+GCP,e2-micro,ap-south-1,0.05
+GCP,e2-small,ap-south-1,0.061
+GCP,n1-standard-2,ap-south-1,0.1025
+GCP,n2-standard-8,ap-south-1,0.416
+GCP,a2-highgpu-1g,ap-south-1,1.895
+GCP,e2-micro,ap-southeast-1,0.05
+GCP,e2-small,ap-southeast-1,0.061
+GCP,n1-standard-2,ap-southeast-1,0.1025
+GCP,n2-standard-8,ap-southeast-1,0.416
+GCP,a2-highgpu-1g,ap-southeast-1,1.895
+GCP,e2-micro,ap-northeast-1,0.05
+GCP,e2-small,ap-northeast-1,0.061
+GCP,n1-standard-2,ap-northeast-1,0.1025
+GCP,n2-standard-8,ap-northeast-1,0.416
+GCP,a2-highgpu-1g,ap-northeast-1,1.895
+GCP,e2-micro,asia-south1,0.05
+GCP,e2-small,asia-south1,0.061
+GCP,n1-standard-2,asia-south1,0.1025
+GCP,n2-standard-8,asia-south1,0.416
+GCP,a2-highgpu-1g,asia-south1,1.895
+GCP,e2-micro,me-central-1,0.05
+GCP,e2-small,me-central-1,0.061
+GCP,n1-standard-2,me-central-1,0.1025
+GCP,n2-standard-8,me-central-1,0.416
+GCP,a2-highgpu-1g,me-central-1,1.895
+GCP,e2-micro,sa-east-1,0.05
+GCP,e2-small,sa-east-1,0.061
+GCP,n1-standard-2,sa-east-1,0.1025
+GCP,n2-standard-8,sa-east-1,0.416
+GCP,a2-highgpu-1g,sa-east-1,1.895
+OracleCloud,VM.Standard.E2.1,us-east-1,0.029
+OracleCloud,VM.Standard2.2,us-east-1,0.109
+OracleCloud,BM.GPU2.2,us-east-1,2.43
+OracleCloud,VM.Standard.E2.1,us-west-1,0.029
+OracleCloud,VM.Standard2.2,us-west-1,0.109
+OracleCloud,BM.GPU2.2,us-west-1,2.43
+OracleCloud,VM.Standard.E2.1,us-west-2,0.029
+OracleCloud,VM.Standard2.2,us-west-2,0.109
+OracleCloud,BM.GPU2.2,us-west-2,2.43
+OracleCloud,VM.Standard.E2.1,eu-west-1,0.029
+OracleCloud,VM.Standard2.2,eu-west-1,0.109
+OracleCloud,BM.GPU2.2,eu-west-1,2.43
+OracleCloud,VM.Standard.E2.1,eu-central-1,0.029
+OracleCloud,VM.Standard2.2,eu-central-1,0.109
+OracleCloud,BM.GPU2.2,eu-central-1,2.43
+OracleCloud,VM.Standard.E2.1,ap-south-1,0.029
+OracleCloud,VM.Standard2.2,ap-south-1,0.109
+OracleCloud,BM.GPU2.2,ap-south-1,2.43
+OracleCloud,VM.Standard.E2.1,ap-southeast-1,0.029
+OracleCloud,VM.Standard2.2,ap-southeast-1,0.109
+OracleCloud,BM.GPU2.2,ap-southeast-1,2.43
+OracleCloud,VM.Standard.E2.1,ap-northeast-1,0.029
+OracleCloud,VM.Standard2.2,ap-northeast-1,0.109
+OracleCloud,BM.GPU2.2,ap-northeast-1,2.43
+OracleCloud,VM.Standard.E2.1,asia-south1,0.029
+OracleCloud,VM.Standard2.2,asia-south1,0.109
+OracleCloud,BM.GPU2.2,asia-south1,2.43
+OracleCloud,VM.Standard.E2.1,me-central-1,0.029
+OracleCloud,VM.Standard2.2,me-central-1,0.109
+OracleCloud,BM.GPU2.2,me-central-1,2.43
+OracleCloud,VM.Standard.E2.1,sa-east-1,0.029
+OracleCloud,VM.Standard2.2,sa-east-1,0.109
+OracleCloud,BM.GPU2.2,sa-east-1,2.43
+IBMCloud,bx2-2x8,us-east-1,0.109
+IBMCloud,bx2-4x16,us-east-1,0.238
+IBMCloud,gpus-1,us-east-1,1.676
+IBMCloud,bx2-2x8,us-west-1,0.109
+IBMCloud,bx2-4x16,us-west-1,0.238
+IBMCloud,gpus-1,us-west-1,1.676
+IBMCloud,bx2-2x8,us-west-2,0.109
+IBMCloud,bx2-4x16,us-west-2,0.238
+IBMCloud,gpus-1,us-west-2,1.676
+IBMCloud,bx2-2x8,eu-west-1,0.109
+IBMCloud,bx2-4x16,eu-west-1,0.238
+IBMCloud,gpus-1,eu-west-1,1.676
+IBMCloud,bx2-2x8,eu-central-1,0.109
+IBMCloud,bx2-4x16,eu-central-1,0.238
+IBMCloud,gpus-1,eu-central-1,1.676
+IBMCloud,bx2-2x8,ap-south-1,0.109
+IBMCloud,bx2-4x16,ap-south-1,0.238
+IBMCloud,gpus-1,ap-south-1,1.676
+IBMCloud,bx2-2x8,ap-southeast-1,0.109
+IBMCloud,bx2-4x16,ap-southeast-1,0.238
+IBMCloud,gpus-1,ap-southeast-1,1.676
+IBMCloud,bx2-2x8,ap-northeast-1,0.109
+IBMCloud,bx2-4x16,ap-northeast-1,0.238
+IBMCloud,gpus-1,ap-northeast-1,1.676
+IBMCloud,bx2-2x8,asia-south1,0.109
+IBMCloud,bx2-4x16,asia-south1,0.238
+IBMCloud,gpus-1,asia-south1,1.676
+IBMCloud,bx2-2x8,me-central-1,0.109
+IBMCloud,bx2-4x16,me-central-1,0.238
+IBMCloud,gpus-1,me-central-1,1.676
+IBMCloud,bx2-2x8,sa-east-1,0.109
+IBMCloud,bx2-4x16,sa-east-1,0.238
+IBMCloud,gpus-1,sa-east-1,1.676
+DigitalOcean,s-1vcpu-1gb,us-east-1,0.03
+DigitalOcean,s-2vcpu-4gb,us-east-1,0.072
+DigitalOcean,g-2vcpu-8gb,us-east-1,0.099
+DigitalOcean,s-1vcpu-1gb,us-west-1,0.03
+DigitalOcean,s-2vcpu-4gb,us-west-1,0.072
+DigitalOcean,g-2vcpu-8gb,us-west-1,0.099
+DigitalOcean,s-1vcpu-1gb,us-west-2,0.03
+DigitalOcean,s-2vcpu-4gb,us-west-2,0.072
+DigitalOcean,g-2vcpu-8gb,us-west-2,0.099
+DigitalOcean,s-1vcpu-1gb,eu-west-1,0.03
+DigitalOcean,s-2vcpu-4gb,eu-west-1,0.072
+DigitalOcean,g-2vcpu-8gb,eu-west-1,0.099
+DigitalOcean,s-1vcpu-1gb,eu-central-1,0.03
+DigitalOcean,s-2vcpu-4gb,eu-central-1,0.072
+DigitalOcean,g-2vcpu-8gb,eu-central-1,0.099
+DigitalOcean,s-1vcpu-1gb,ap-south-1,0.03
+DigitalOcean,s-2vcpu-4gb,ap-south-1,0.072
+DigitalOcean,g-2vcpu-8gb,ap-south-1,0.099
+DigitalOcean,s-1vcpu-1gb,ap-southeast-1,0.03
+DigitalOcean,s-2vcpu-4gb,ap-southeast-1,0.072
+DigitalOcean,g-2vcpu-8gb,ap-southeast-1,0.099
+DigitalOcean,s-1vcpu-1gb,ap-northeast-1,0.03
+DigitalOcean,s-2vcpu-4gb,ap-northeast-1,0.072
+DigitalOcean,g-2vcpu-8gb,ap-northeast-1,0.099
+DigitalOcean,s-1vcpu-1gb,asia-south1,0.03
+DigitalOcean,s-2vcpu-4gb,asia-south1,0.072
+DigitalOcean,g-2vcpu-8gb,asia-south1,0.099
+DigitalOcean,s-1vcpu-1gb,me-central-1,0.03
+DigitalOcean,s-2vcpu-4gb,me-central-1,0.072
+DigitalOcean,g-2vcpu-8gb,me-central-1,0.099
+DigitalOcean,s-1vcpu-1gb,sa-east-1,0.03
+DigitalOcean,s-2vcpu-4gb,sa-east-1,0.072
+DigitalOcean,g-2vcpu-8gb,sa-east-1,0.099
+Linode,nanode,us-east-1,0.028
+Linode,g6-standard-2,us-east-1,0.07
+Linode,g6-highmem-4,us-east-1,0.246
+Linode,nanode,us-west-1,0.028
+Linode,g6-standard-2,us-west-1,0.07
+Linode,g6-highmem-4,us-west-1,0.246
+Linode,nanode,us-west-2,0.028
+Linode,g6-standard-2,us-west-2,0.07
+Linode,g6-highmem-4,us-west-2,0.246
+Linode,nanode,eu-west-1,0.028
+Linode,g6-standard-2,eu-west-1,0.07
+Linode,g6-highmem-4,eu-west-1,0.246
+Linode,nanode,eu-central-1,0.028
+Linode,g6-standard-2,eu-central-1,0.07
+Linode,g6-highmem-4,eu-central-1,0.246
+Linode,nanode,ap-south-1,0.028
+Linode,g6-standard-2,ap-south-1,0.07
+Linode,g6-highmem-4,ap-south-1,0.246
+Linode,nanode,ap-southeast-1,0.028
+Linode,g6-standard-2,ap-southeast-1,0.07
+Linode,g6-highmem-4,ap-southeast-1,0.246
+Linode,nanode,ap-northeast-1,0.028
+Linode,g6-standard-2,ap-northeast-1,0.07
+Linode,g6-highmem-4,ap-northeast-1,0.246
+Linode,nanode,asia-south1,0.028
+Linode,g6-standard-2,asia-south1,0.07
+Linode,g6-highmem-4,asia-south1,0.246
+Linode,nanode,me-central-1,0.028
+Linode,g6-standard-2,me-central-1,0.07
+Linode,g6-highmem-4,me-central-1,0.246
+Linode,nanode,sa-east-1,0.028
+Linode,g6-standard-2,sa-east-1,0.07
+Linode,g6-highmem-4,sa-east-1,0.246
+Hetzner,cx11,us-east-1,0.03
+Hetzner,cx31,us-east-1,0.064
+Hetzner,ccx51,us-east-1,0.442
+Hetzner,cx11,us-west-1,0.03
+Hetzner,cx31,us-west-1,0.064
+Hetzner,ccx51,us-west-1,0.442
+Hetzner,cx11,us-west-2,0.03
+Hetzner,cx31,us-west-2,0.064
+Hetzner,ccx51,us-west-2,0.442
+Hetzner,cx11,eu-west-1,0.03
+Hetzner,cx31,eu-west-1,0.064
+Hetzner,ccx51,eu-west-1,0.442
+Hetzner,cx11,eu-central-1,0.03
+Hetzner,cx31,eu-central-1,0.064
+Hetzner,ccx51,eu-central-1,0.442
+Hetzner,cx11,ap-south-1,0.03
+Hetzner,cx31,ap-south-1,0.064
+Hetzner,ccx51,ap-south-1,0.442
+Hetzner,cx11,ap-southeast-1,0.03
+Hetzner,cx31,ap-southeast-1,0.064
+Hetzner,ccx51,ap-southeast-1,0.442
+Hetzner,cx11,ap-northeast-1,0.03
+Hetzner,cx31,ap-northeast-1,0.064
+Hetzner,ccx51,ap-northeast-1,0.442
+Hetzner,cx11,asia-south1,0.03
+Hetzner,cx31,asia-south1,0.064
+Hetzner,ccx51,asia-south1,0.442
+Hetzner,cx11,me-central-1,0.03
+Hetzner,cx31,me-central-1,0.064
+Hetzner,ccx51,me-central-1,0.442
+Hetzner,cx11,sa-east-1,0.03
+Hetzner,cx31,sa-east-1,0.064
+Hetzner,ccx51,sa-east-1,0.442
+AlibabaCloud,ecs.nano,us-east-1,0.0265
+AlibabaCloud,ecs.c6.large,us-east-1,0.104
+AlibabaCloud,gn5i-c8g1,us-east-1,1.902
+AlibabaCloud,ecs.nano,us-west-1,0.0265
+AlibabaCloud,ecs.c6.large,us-west-1,0.104
+AlibabaCloud,gn5i-c8g1,us-west-1,1.902
+AlibabaCloud,ecs.nano,us-west-2,0.0265
+AlibabaCloud,ecs.c6.large,us-west-2,0.104
+AlibabaCloud,gn5i-c8g1,us-west-2,1.902
+AlibabaCloud,ecs.nano,eu-west-1,0.0265
+AlibabaCloud,ecs.c6.large,eu-west-1,0.104
+AlibabaCloud,gn5i-c8g1,eu-west-1,1.902
+AlibabaCloud,ecs.nano,eu-central-1,0.0265
+AlibabaCloud,ecs.c6.large,eu-central-1,0.104
+AlibabaCloud,gn5i-c8g1,eu-central-1,1.902
+AlibabaCloud,ecs.nano,ap-south-1,0.0265
+AlibabaCloud,ecs.c6.large,ap-south-1,0.104
+AlibabaCloud,gn5i-c8g1,ap-south-1,1.902
+AlibabaCloud,ecs.nano,ap-southeast-1,0.0265
+AlibabaCloud,ecs.c6.large,ap-southeast-1,0.104
+AlibabaCloud,gn5i-c8g1,ap-southeast-1,1.902
+AlibabaCloud,ecs.nano,ap-northeast-1,0.0265
+AlibabaCloud,ecs.c6.large,ap-northeast-1,0.104
+AlibabaCloud,gn5i-c8g1,ap-northeast-1,1.902
+AlibabaCloud,ecs.nano,asia-south1,0.0265
+AlibabaCloud,ecs.c6.large,asia-south1,0.104
+AlibabaCloud,gn5i-c8g1,asia-south1,1.902
+AlibabaCloud,ecs.nano,me-central-1,0.0265
+AlibabaCloud,ecs.c6.large,me-central-1,0.104
+AlibabaCloud,gn5i-c8g1,me-central-1,1.902
+AlibabaCloud,ecs.nano,sa-east-1,0.0265
+AlibabaCloud,ecs.c6.large,sa-east-1,0.104
+AlibabaCloud,gn5i-c8g1,sa-east-1,1.902
+TencentCloud,s1.small,us-east-1,0.029
+TencentCloud,s2.medium,us-east-1,0.07
+TencentCloud,gn6.large,us-east-1,0.154
+TencentCloud,s1.small,us-west-1,0.029
+TencentCloud,s2.medium,us-west-1,0.07
+TencentCloud,gn6.large,us-west-1,0.154
+TencentCloud,s1.small,us-west-2,0.029
+TencentCloud,s2.medium,us-west-2,0.07
+TencentCloud,gn6.large,us-west-2,0.154
+TencentCloud,s1.small,eu-west-1,0.029
+TencentCloud,s2.medium,eu-west-1,0.07
+TencentCloud,gn6.large,eu-west-1,0.154
+TencentCloud,s1.small,eu-central-1,0.029
+TencentCloud,s2.medium,eu-central-1,0.07
+TencentCloud,gn6.large,eu-central-1,0.154
+TencentCloud,s1.small,ap-south-1,0.029
+TencentCloud,s2.medium,ap-south-1,0.07
+TencentCloud,gn6.large,ap-south-1,0.154
+TencentCloud,s1.small,ap-southeast-1,0.029
+TencentCloud,s2.medium,ap-southeast-1,0.07
+TencentCloud,gn6.large,ap-southeast-1,0.154
+TencentCloud,s1.small,ap-northeast-1,0.029
+TencentCloud,s2.medium,ap-northeast-1,0.07
+TencentCloud,gn6.large,ap-northeast-1,0.154
+TencentCloud,s1.small,asia-south1,0.029
+TencentCloud,s2.medium,asia-south1,0.07
+TencentCloud,gn6.large,asia-south1,0.154
+TencentCloud,s1.small,me-central-1,0.029
+TencentCloud,s2.medium,me-central-1,0.07
+TencentCloud,gn6.large,me-central-1,0.154
+TencentCloud,s1.small,sa-east-1,0.029
+TencentCloud,s2.medium,sa-east-1,0.07
+TencentCloud,gn6.large,sa-east-1,0.154
+OVHCloud,b2-7,us-east-1,0.078
+OVHCloud,b2-15,us-east-1,0.155
+OVHCloud,t1-45,us-east-1,0.33
+OVHCloud,b2-7,us-west-1,0.078
+OVHCloud,b2-15,us-west-1,0.155
+OVHCloud,t1-45,us-west-1,0.33
+OVHCloud,b2-7,us-west-2,0.078
+OVHCloud,b2-15,us-west-2,0.155
+OVHCloud,t1-45,us-west-2,0.33
+OVHCloud,b2-7,eu-west-1,0.078
+OVHCloud,b2-15,eu-west-1,0.155
+OVHCloud,t1-45,eu-west-1,0.33
+OVHCloud,b2-7,eu-central-1,0.078
+OVHCloud,b2-15,eu-central-1,0.155
+OVHCloud,t1-45,eu-central-1,0.33
+OVHCloud,b2-7,ap-south-1,0.078
+OVHCloud,b2-15,ap-south-1,0.155
+OVHCloud,t1-45,ap-south-1,0.33
+OVHCloud,b2-7,ap-southeast-1,0.078
+OVHCloud,b2-15,ap-southeast-1,0.155
+OVHCloud,t1-45,ap-southeast-1,0.33
+OVHCloud,b2-7,ap-northeast-1,0.078
+OVHCloud,b2-15,ap-northeast-1,0.155
+OVHCloud,t1-45,ap-northeast-1,0.33
+OVHCloud,b2-7,asia-south1,0.078
+OVHCloud,b2-15,asia-south1,0.155
+OVHCloud,t1-45,asia-south1,0.33
+OVHCloud,b2-7,me-central-1,0.078
+OVHCloud,b2-15,me-central-1,0.155
+OVHCloud,t1-45,me-central-1,0.33
+OVHCloud,b2-7,sa-east-1,0.078
+OVHCloud,b2-15,sa-east-1,0.155
+OVHCloud,t1-45,sa-east-1,0.33
+AWS 212,t3.nano,us-east-1 v41,0.039426534056336
+AWS 757,t3.micro,us-east-1,0.0639731645423777
+AWS 575,m5.large,us-east-1 v32,0.1101438469699229
+AWS 944,c5.xlarge v46,us-east-1,0.2520819242251554
+AWS 946,G4DN.XLARGE,us-east-1,1.6260422195296615
+AWS 331,t3.nano,us-west-1,0.0502825835037072
+AWS 650,t3.micro,us-west-1 v30,0.0660550456242894
+AWS 164,m5.large,us-west-1,0.1370460657204508
+AWS v13 870,c5.xlarge,us-west-1 v46,0.237527195370421
+AWS 750,g4dn.xlarge,us-west-1,1.355413601512463
+AWS 721,t3.nano,us-west-2,0.0590497925869839
+AWS 295,t3.micro v6,us-west-2,0.0482795383918867
+AWS 694,m5.large,us-west-2,0.1327404655834944
+AWS 187,c5.xlarge,us-west-2,0.199391280126217
+AWS 363,g4dn.xlarge,us-west-2,1.6005265861191136
+AWS 680,t3.nano,eu-west-1,0.0476747337895779
+AWS 92,t3.micro v43,eu-west-1,0.0530829148146152
+AWS 512,m5.large,eu-west-1,0.1108042966446242
+AWS 772,c5.xlarge,eu-west-1,0.2129622521262839
+AWS 822,g4dn.xlarge,eu-west-1 v7,1.0792955801359303
+AWS 129,t3.nano,eu-central-1,0.0522209915834012
+AWS 754,t3.micro,eu-central-1,0.0501256901483032
+AWS 341,m5.large,eu-central-1,0.0986596293784535
+AWS 860,c5.xlarge v5,eu-central-1,0.238206515241797
+AWS 621,g4dn.xlarge,eu-central-1,1.7848977998203248
+AWS 69,t3.nano,ap-south-1 v19,0.0344189492651066
+AWS 283,t3.micro,AP-SOUTH-1,0.0556647062454206
+AWS 277,m5.large,ap-south-1,0.1282787214706328
+AWS 856,c5.xlarge,ap-south-1,0.2345838453311683
+AWS v46 864,g4dn.xlarge,ap-south-1,1.7595328201206664
+AWS 177,t3.nano,ap-southeast-1,0.0482636091885198
+AWS 97,t3.micro,ap-southeast-1,0.0503190371110741
+AWS v9 109,m5.large,ap-southeast-1,0.1093561145182561
+AWS 261,c5.xlarge v22,ap-southeast-1,0.2334357842655594
+AWS 471,G4DN.XLARGE,ap-southeast-1,1.4987923676709338
+AWS 895,t3.nano,ap-northeast-1,0.04969699305685
+AWS 677,t3.micro,ap-northeast-1,0.0489239358557756
+AWS 372,m5.large,ap-northeast-1,0.1007750309502296
+AWS 401,c5.xlarge,ap-northeast-1,0.230577905166511
+AWS 485,g4dn.xlarge,ap-northeast-1,1.7096255426142664
+AWS 758,t3.nano,asia-south1 v18,0.0368451421044512
+AWS 416,t3.micro v17,asia-south1,0.0628140687182718
+AWS 115,m5.large,asia-south1 v14,0.0944586407259078
+AWS 540,C5.XLARGE,asia-south1,0.1941497954147781
+AWS 758,G4DN.XLARGE,asia-south1 v39,1.2484854444964937
+AWS 382,t3.nano,me-central-1,0.0574617194785977
+AWS 137,t3.micro,me-central-1 v8,0.0532366193043512
+AWS 330,m5.large v33,me-central-1,0.1094220577607019
+AWS 925,c5.xlarge,me-central-1,0.2194392955186954
+AWS 930,g4dn.xlarge,me-central-1 v13,1.1665417412002954
+AWS 433,t3.nano v47,sa-east-1,0.0455750129749707
+AWS 295,t3.micro,sa-east-1,0.0454209449990731
+AWS 71,m5.large,sa-east-1,0.0937816408944282
+AWS 451,c5.xlarge,sa-east-1,0.1871908126257047
+AWS v49 753,g4dn.xlarge,sa-east-1 v39,1.5476818859581556
+Azure 251,B1s,us-east-1,0.0316943521116575
+Azure 629,B2s,us-east-1,0.0623645517306913
+Azure 25,D2s_v3,us-east-1 v26,0.124047035405965
+Azure 824,F4s_v2,us-east-1,0.201296201081374
+Azure 336,NC6,us-east-1,1.5278609758515491
+AZURE 630,B1s,us-west-1,0.0341956602822085
+Azure 962,B2s v14,us-west-1 v29,0.0663940097761322
+Azure 693,D2s_v3 v15,us-west-1,0.1084884008679161
+Azure v40 560,F4s_v2 v18,us-west-1,0.15012080804455
+Azure v8 751,NC6 v22,us-west-1,1.7706104158654965
+Azure 732,B1s,us-west-2,0.0331906464903216
+Azure 834,B2s v49,us-west-2,0.0693943181969551
+Azure 532,D2s_v3,us-west-2,0.1493028900441443
+Azure 733,F4S_V2,us-west-2,0.1654410384690728
+Azure 832,NC6,us-west-2 v3,1.804819627475838
+Azure 644,B1s,eu-west-1,0.0310748094746495
+Azure 122,B2s,eu-west-1,0.068081407102414
+Azure v32 898,D2s_v3,eu-west-1 v27,0.1217278820857056
+Azure v49 671,F4s_v2,EU-WEST-1,0.1922614248932475
+Azure 719,NC6,eu-west-1,1.3824977722248728
+Azure 201,B1s,eu-central-1,0.0325592195986955
+Azure 429,B2s,eu-central-1,0.0684853671744462
+Azure v32 211,D2s_v3,eu-central-1 v17,0.1150004628455492
+Azure v29 895,F4s_v2,eu-central-1 v7,0.205271611018274
+Azure 400,NC6 v29,eu-central-1,1.8958282974204292
+Azure 858,B1s v3,ap-south-1,0.0367839759115555
+Azure 470,B2s,ap-south-1,0.0819383026920047
+Azure 445,D2s_v3,ap-south-1,0.1238951705896717
+Azure 520,F4s_v2,ap-south-1,0.1724362942936805
+Azure v40 716,NC6 v45,ap-south-1 v2,1.9184292930254132
+Azure 336,B1s,ap-southeast-1,0.0250437573559129
+Azure v2 791,B2s v12,ap-southeast-1,0.0773059355972757
+Azure 384,D2s_v3,ap-southeast-1,0.1202730021148161
+Azure 195,F4S_V2,ap-southeast-1,0.2067866021305295
+Azure 990,NC6,ap-southeast-1 v30,1.4954253379259734
+Azure 378,B1s,ap-northeast-1,0.026714097350688
+Azure 790,B2s v27,ap-northeast-1,0.0568093510954538
+Azure 207,D2s_v3,ap-northeast-1,0.1334414923963493
+Azure 838,F4s_v2,ap-northeast-1,0.1982672030141156
+Azure v37 540,NC6 v20,ap-northeast-1,1.472627442074628
+AZURE 70,B1s,asia-south1 v37,0.0289725080668308
+Azure 591,B2s,asia-south1,0.0769412640532305
+Azure 902,D2s_v3 v46,asia-south1,0.1117866639062805
+Azure v46 744,F4s_v2,asia-south1,0.1962952739018622
+Azure 77,NC6,asia-south1,2.007937972298858
+Azure 331,B1s,me-central-1,0.0370833235360922
+Azure 550,B2s,me-central-1,0.0586046475878933
+Azure 299,D2s_v3,me-central-1,0.1456338683731367
+Azure v27 458,F4s_v2,me-central-1,0.1311350183446268
+Azure v27 655,NC6,me-central-1,1.5271766511205436
+Azure 803,B1s,sa-east-1,0.0231683714083175
+Azure 499,B2s,sa-east-1,0.0676587236486083
+Azure 508,D2S_V3,sa-east-1,0.1168258343640244
+Azure 166,F4s_v2,sa-east-1,0.1247636522457346
+Azure 433,NC6,sa-east-1,2.047842731030347
+GCP 768,e2-micro v32,us-east-1,0.0510416063946571
+GCP 709,e2-small,us-east-1 v35,0.0752768441266648
+GCP 537,n1-standard-2,us-east-1,0.0811272905361481
+GCP 19,n2-standard-8,us-east-1,0.409585290067515
+GCP 939,A2-HIGHGPU-1G,us-east-1,2.0105520682779843
+GCP 855,e2-micro,us-west-1,0.0611263549042581
+GCP 695,e2-small,us-west-1,0.0673879635305148
+GCP 780,n1-standard-2,us-west-1 v5,0.1072654214355186
+GCP 921,n2-standard-8 v49,us-west-1 v42,0.4257988627095001
+GCP 189,a2-highgpu-1g,us-west-1,2.153172766298129
+GCP 722,e2-micro,us-west-2,0.0409661749382756
+GCP 940,e2-small,us-west-2,0.0636042168630427
+GCP 511,n1-standard-2,us-west-2,0.1292257002097915
+GCP 918,n2-standard-8,us-west-2,0.329670987468041
+GCP 260,a2-highgpu-1g,US-WEST-2,1.8380022832656089
+GCP 406,e2-micro,eu-west-1,0.0474332866490103
+GCP 93,e2-small,eu-west-1,0.0759396526177326
+GCP 434,n1-standard-2,eu-west-1,0.1116716967849916
+GCP 43,n2-standard-8,eu-west-1,0.4108019257753236
+GCP 532,a2-highgpu-1g,eu-west-1,2.321199348148363
+GCP 184,e2-micro,eu-central-1,0.061558797389307
+GCP 834,e2-small,eu-central-1,0.0656268855758474
+GCP 804,n1-standard-2,eu-central-1,0.0790970958769849
+GCP 936,n2-standard-8 v11,eu-central-1,0.439613050844118
+GCP 29,a2-highgpu-1g,eu-central-1,1.8592883906345972
+GCP 640,e2-micro,ap-south-1,0.0507098865285521
+GCP 942,e2-small,ap-south-1,0.0641801559889839
+GCP 45,n1-standard-2,ap-south-1,0.1232399820824375
+GCP 155,n2-standard-8,ap-south-1,0.4739222825960792
+GCP 511,a2-highgpu-1g,ap-south-1,1.5070227006235686
+GCP 465,e2-micro,ap-southeast-1 v20,0.0515599003023764
+GCP 885,e2-small v8,ap-southeast-1,0.0497534369387931
+GCP 743,n1-standard-2,ap-southeast-1,0.0975550749821701
+GCP 64,n2-standard-8,ap-southeast-1 v12,0.5132836536938533
+GCP 494,a2-highgpu-1g,ap-southeast-1,1.7519528012517196
+GCP 364,e2-micro,ap-northeast-1,0.0399140420148911
+GCP 728,E2-SMALL,ap-northeast-1 v20,0.0466579912875189
+GCP 485,n1-standard-2,ap-northeast-1,0.1005722773928987
+GCP 808,n2-standard-8 v37,ap-northeast-1,0.3445088437821219
+GCP 919,a2-highgpu-1g,ap-northeast-1,2.070647043282213
+GCP v46 93,e2-micro,asia-south1,0.0438782304645979
+GCP 39,e2-small,asia-south1,0.0547935174966613
+GCP 992,n1-standard-2 v36,asia-south1,0.1290702210965178
+GCP v26 960,n2-standard-8 v22,asia-south1 v4,0.3163301241317711
+GCP v24 471,a2-highgpu-1g,asia-south1,1.462390332895676
+GCP 11,e2-micro,me-central-1,0.053283983475193
+GCP 453,e2-small,me-central-1,0.0621774157733662
+GCP 920,n1-standard-2 v10,me-central-1 v40,0.1067172722862301
+GCP 446,n2-standard-8,me-central-1,0.4829002968712954
+GCP 735,a2-highgpu-1g,me-central-1,1.701653324878786
+GCP 909,e2-micro v42,sa-east-1 v34,0.0459846098319875
+GCP 972,e2-small,sa-east-1,0.0697780678068744
+GCP 271,n1-standard-2,sa-east-1,0.0820471707267669
+GCP v39 32,n2-standard-8,SA-EAST-1,0.5001291354152247
+GCP 731,a2-highgpu-1g,sa-east-1,1.8919310965397047
+OracleCloud 201,VM.Standard.E2.1,us-east-1,0.0288080807587613
+ORACLECLOUD 211,VM.Standard2.2,us-east-1,0.1174176817502764
+OracleCloud 48,BM.GPU2.2,US-EAST-1,2.2280383415238303
+OracleCloud 224,VM.Standard.E2.1 v39,us-west-1 v4,0.0233793250907477
+OracleCloud 849,VM.Standard2.2,us-west-1,0.1224882399987203
+OracleCloud v6 188,BM.GPU2.2,us-west-1,2.433766080704366
+OracleCloud 551,VM.Standard.E2.1 v31,us-west-2,0.0349257831917764
+OracleCloud 187,VM.Standard2.2,us-west-2,0.0916077384079943
+OracleCloud 220,BM.GPU2.2,us-west-2,2.0376832050598708
+OracleCloud 643,VM.Standard.E2.1,EU-WEST-1,0.0252655847955915
+OracleCloud 406,VM.Standard2.2,eu-west-1,0.1183944763632296
+OracleCloud 247,BM.GPU2.2,eu-west-1,2.535862010049542
+OracleCloud v6 906,VM.Standard.E2.1 v14,eu-central-1,0.026407813820149
+OracleCloud 349,VM.Standard2.2 v12,eu-central-1 v49,0.127999222085393
+OracleCloud v25 725,BM.GPU2.2 v41,eu-central-1,2.8131480212446847
+OracleCloud 388,VM.Standard.E2.1,ap-south-1 v39,0.0219529878607172
+OracleCloud 626,VM.Standard2.2,ap-south-1,0.0878048646235614
+OracleCloud v13 932,BM.GPU2.2,ap-south-1,2.3156094970361334
+OracleCloud 273,VM.Standard.E2.1,ap-southeast-1,0.0256252499375891
+OracleCloud 109,VM.Standard2.2,ap-southeast-1 v8,0.1388399769425273
+ORACLECLOUD 474,BM.GPU2.2 v8,ap-southeast-1,2.696038809148277
+OracleCloud 229,VM.Standard.E2.1,ap-northeast-1,0.0287677949678925
+OracleCloud 272,VM.Standard2.2,ap-northeast-1,0.1182852746130382
+OracleCloud v18 608,BM.GPU2.2 v17,ap-northeast-1 v30,2.3929574449765947
+OracleCloud v46 781,VM.Standard.E2.1,asia-south1,0.0325615302533849
+OracleCloud 624,VM.Standard2.2,asia-south1,0.1029393138418763
+OracleCloud 143,BM.GPU2.2 v40,asia-south1,2.8488515559430567
+OracleCloud 479,VM.Standard.E2.1,me-central-1,0.0235625074808301
+OracleCloud 649,VM.Standard2.2 v30,me-central-1 v33,0.1319853341961842
+OracleCloud 739,BM.GPU2.2,me-central-1,2.6453712309117323
+OracleCloud 800,VM.Standard.E2.1,sa-east-1,0.021830155449182
+OracleCloud 974,VM.Standard2.2,sa-east-1,0.1345717043654507
+OracleCloud 667,BM.GPU2.2,sa-east-1,1.9700904258503087
+IBMCloud 232,BX2-2X8,us-east-1,0.0915273511682452
+IBMCloud 615,bx2-4x16,us-east-1,0.184835262494675
+IBMCloud 506,gpus-1 v17,us-east-1,1.7718830225861502
+IBMCloud 407,bx2-2x8,us-west-1,0.1331610871706734
+IBMCloud 614,bx2-4x16,us-west-1,0.1783549931141861
+IBMCloud 227,gpus-1 v8,us-west-1,1.6520249220150474
+IBMCloud 450,bx2-2x8 v24,us-west-2 v49,0.1161663298559119
+IBMCloud 668,bx2-4x16,US-WEST-2,0.260389635211555
+IBMCloud v6 28,gpus-1,us-west-2 v19,1.907170879067733
+IBMCloud 580,bx2-2x8,eu-west-1 v37,0.1047286906252538
+IBMCloud 676,bx2-4x16,eu-west-1,0.3052445325747807
+IBMCloud 288,gpus-1,eu-west-1,1.628210120254502
+IBMCloud v36 494,bx2-2x8,eu-central-1,0.1265834275235361
+IBMCloud v35 796,bx2-4x16 v46,eu-central-1,0.2007408277095781
+IBMCloud 808,gpus-1,eu-central-1,1.6835739105716063
+IBMCloud v12 370,bx2-2x8,ap-south-1 v8,0.1381709383292773
+IBMCloud 137,bx2-4x16,ap-south-1,0.1979855957494361
+IBMCloud 375,gpus-1 v12,ap-south-1,2.0212884355522327
+IBMCloud 802,bx2-2x8,ap-southeast-1,0.0915813315830191
+IBMCloud 630,bx2-4x16,ap-southeast-1,0.2445336531437005
+IBMCLOUD 10,gpus-1 v26,ap-southeast-1 v20,1.4411681528621056
+IBMCloud 954,bx2-2x8 v24,ap-northeast-1,0.1372870849037352
+IBMCloud 163,bx2-4x16,ap-northeast-1,0.2095728142507631
+IBMCloud v44 162,gpus-1,ap-northeast-1,1.956905519745224
+IBMCloud 140,bx2-2x8,asia-south1,0.1294194243312936
+IBMCLOUD 183,bx2-4x16,asia-south1,0.1876804122265963
+IBMCloud 578,gpus-1,asia-south1,1.4032598618149827
+IBMCloud 985,bx2-2x8,ME-CENTRAL-1,0.1267573768536996
+IBMCloud 469,bx2-4x16,me-central-1,0.2745331202054012
+IBMCloud v33 765,gpus-1,me-central-1,1.6060097007092609
+IBMCloud v46 302,bx2-2x8,sa-east-1,0.1173235185998999
+IBMCloud 875,bx2-4x16 v24,sa-east-1 v5,0.2162521044715712
+IBMCloud 964,GPUS-1,sa-east-1,1.7848680547331297
+DigitalOcean 739,s-1vcpu-1gb,us-east-1,0.029777260220309
+DigitalOcean 963,s-2vcpu-4gb,us-east-1,0.069871081534527
+DigitalOcean 180,g-2vcpu-8gb,us-east-1,0.0752381956420145
+DigitalOcean 573,s-1vcpu-1gb,us-west-1,0.0353166238596031
+DigitalOcean 237,s-2vcpu-4gb v45,us-west-1 v37,0.0722007467168355
+DigitalOcean 571,g-2vcpu-8gb,us-west-1,0.1008565579963628
+DigitalOcean 700,s-1vcpu-1gb,us-west-2,0.0325126614890144
+DigitalOcean 844,s-2vcpu-4gb,us-west-2 v11,0.0857077940304436
+DigitalOcean v13 959,g-2vcpu-8gb,us-west-2,0.102725712475923
+DigitalOcean v28 457,s-1vcpu-1gb,eu-west-1,0.0240877540293774
+DigitalOcean 674,s-2vcpu-4gb,eu-west-1 v21,0.0543618506345865
+DIGITALOCEAN 588,g-2vcpu-8gb,eu-west-1,0.0956876910278737
+DigitalOcean 111,s-1vcpu-1gb v22,EU-CENTRAL-1,0.0302655809517527
+DigitalOcean 490,s-2vcpu-4gb,eu-central-1,0.0645078261427283
+DigitalOcean 209,g-2vcpu-8gb,eu-central-1,0.0805585732258894
+DigitalOcean 208,s-1vcpu-1gb,ap-south-1,0.0290444338883611
+DigitalOcean 529,s-2vcpu-4gb,ap-south-1,0.076327399727379
+DigitalOcean 166,g-2vcpu-8gb,ap-south-1,0.0940027730656203
+DigitalOcean 774,s-1vcpu-1gb,ap-southeast-1,0.0309299583142316
+DigitalOcean 72,s-2vcpu-4gb,ap-southeast-1,0.0804655313985826
+DigitalOcean 415,g-2vcpu-8gb v27,ap-southeast-1,0.0917754456527404
+DigitalOcean 709,s-1vcpu-1gb v35,ap-northeast-1,0.0347421002473559
+DigitalOcean v49 930,s-2vcpu-4gb,ap-northeast-1,0.0547385203647569
+DigitalOcean 390,g-2vcpu-8gb,ap-northeast-1 v5,0.0806827739319787
+DIGITALOCEAN 146,s-1vcpu-1gb,asia-south1,0.0279114860967872
+DigitalOcean 903,s-2vcpu-4gb v14,asia-south1,0.0714168038221108
+DigitalOcean 19,g-2vcpu-8gb,asia-south1,0.1082242476419518
+DIGITALOCEAN 337,s-1vcpu-1gb v47,me-central-1,0.0327448435591704
+DigitalOcean 928,s-2vcpu-4gb,me-central-1 v20,0.0882916554219999
+DigitalOcean 920,g-2vcpu-8gb,me-central-1,0.0997979325239839
+DigitalOcean v17 65,s-1vcpu-1gb v7,sa-east-1,0.0284482472684
+DigitalOcean 966,s-2vcpu-4gb,sa-east-1,0.0802880884875855
+DigitalOcean 880,g-2vcpu-8gb,sa-east-1,0.0863335239862157
+Linode v4 720,nanode,us-east-1,0.0327657593056531
+Linode 429,g6-standard-2,us-east-1,0.0574452911197914
+Linode v32 287,g6-highmem-4,us-east-1,0.2037199651655182
+Linode v8 171,nanode,us-west-1,0.0246787903323856
+Linode 962,g6-standard-2,US-WEST-1,0.0819550248479931
+Linode 125,g6-highmem-4,us-west-1 v44,0.2728768237385758
+Linode v35 230,nanode,us-west-2,0.0272760611857565
+Linode 733,g6-standard-2,us-west-2,0.0676168353633219
+Linode 382,g6-highmem-4,us-west-2,0.2013756467609492
+Linode v5 634,nanode,eu-west-1 v30,0.0244180237797646
+Linode 93,g6-standard-2,eu-west-1,0.0812104011277615
+Linode 783,g6-highmem-4,eu-west-1 v32,0.242418303536488
+Linode v32 202,nanode,eu-central-1,0.0283677964803321
+Linode 891,g6-standard-2,eu-central-1,0.0708193263628494
+Linode v42 401,g6-highmem-4,eu-central-1,0.256856181377027
+Linode v4 979,nanode,ap-south-1,0.0251536408443738
+Linode 454,g6-standard-2,ap-south-1,0.0690821394605585
+Linode 150,g6-highmem-4,ap-south-1,0.2705218953076597
+Linode 763,nanode,ap-southeast-1,0.0311754313498657
+Linode 599,g6-standard-2,ap-southeast-1 v9,0.069297859774899
+Linode v18 233,g6-highmem-4,ap-southeast-1,0.2009369453048357
+Linode 125,nanode,ap-northeast-1,0.0230700245850662
+Linode 256,g6-standard-2,ap-northeast-1,0.0829621580693676
+Linode v25 237,g6-highmem-4,ap-northeast-1,0.2454148010285842
+Linode 586,nanode,asia-south1,0.0333776372567901
+Linode 314,G6-STANDARD-2,asia-south1,0.0617400583497303
+LINODE 25,g6-highmem-4,asia-south1,0.2740001212256608
+Linode 99,nanode,me-central-1 v48,0.023471396012648
+Linode 214,g6-standard-2,me-central-1,0.0894737462268532
+Linode v17 810,g6-highmem-4,me-central-1 v2,0.3112411117359795
+Linode 784,nanode,sa-east-1,0.0282040121436424
+Linode 858,g6-standard-2 v18,sa-east-1 v35,0.0816000074198686
+Linode v44 304,g6-highmem-4,sa-east-1 v43,0.2650866152005871
+Hetzner v13 758,cx11,us-east-1,0.0308660149075142
+Hetzner v27 72,cx31,us-east-1,0.078547119677862
+Hetzner v47 575,ccx51,us-east-1,0.3431284094508363
+Hetzner v12 555,cx11,us-west-1,0.0342751841822012
+Hetzner 376,cx31,us-west-1,0.0547483304882518
+Hetzner v8 720,ccx51,us-west-1,0.3903139791660053
+Hetzner 175,cx11,us-west-2,0.0339621006150879
+Hetzner 782,cx31 v30,us-west-2,0.0704914180545248
+Hetzner 124,ccx51,us-west-2,0.4768561890234385
+Hetzner 911,CX11,eu-west-1,0.0290651906005492
+Hetzner v46 461,cx31,eu-west-1,0.0666537030141759
+Hetzner 27,ccx51,eu-west-1,0.549060439647949
+Hetzner 281,cx11,eu-central-1,0.0266483720742889
+Hetzner 918,cx31,EU-CENTRAL-1,0.0512954356592311
+HETZNER 950,ccx51,eu-central-1,0.3280142197369671
+Hetzner 471,cx11,ap-south-1,0.0341693972987267
+Hetzner 692,cx31 v43,ap-south-1 v29,0.0754724177472525
+Hetzner v36 915,ccx51,ap-south-1,0.4567916668035466
+Hetzner v47 9,cx11 v15,ap-southeast-1,0.0316842199607706
+Hetzner 517,cx31,AP-SOUTHEAST-1,0.0509116937321557
+Hetzner 954,ccx51 v11,ap-southeast-1,0.3344885676654164
+Hetzner 589,cx11,ap-northeast-1,0.0392198638127476
+Hetzner 135,cx31,ap-northeast-1,0.049973705606198
+Hetzner v42 163,ccx51 v30,ap-northeast-1,0.4523903127904057
+Hetzner 339,cx11,asia-south1,0.0386423576940886
+Hetzner v32 884,cx31,asia-south1,0.0630297755500238
+Hetzner 984,ccx51,asia-south1,0.4616135570052771
+Hetzner 423,cx11 v16,me-central-1,0.0370454780015841
+Hetzner v43 907,cx31,me-central-1,0.064343556658648
+Hetzner 410,ccx51,me-central-1,0.4597161472344018
+Hetzner 721,cx11,SA-EAST-1,0.0349653317230349
+Hetzner 321,cx31,sa-east-1,0.0722549767483296
+Hetzner 618,ccx51,sa-east-1 v42,0.5380266883445736
+AlibabaCloud v44 971,ecs.nano,us-east-1,0.0314067210881556
+AlibabaCloud 493,ecs.c6.large,us-east-1,0.0865022183659953
+AlibabaCloud 795,gn5i-c8g1,us-east-1,1.9222707334314917
+AlibabaCloud 656,ecs.nano,us-west-1,0.0201523648144543
+AlibabaCloud v30 793,ecs.c6.large v20,us-west-1,0.0771868528386421
+AlibabaCloud 298,gn5i-c8g1,us-west-1,1.6424762691660872
+AlibabaCloud 361,ecs.nano,US-WEST-2,0.0288745239589366
+AlibabaCloud 246,ecs.c6.large,us-west-2,0.0826995291975361
+AlibabaCloud 754,gn5i-c8g1,us-west-2 v22,1.4137538295353862
+AlibabaCloud 162,ecs.nano,eu-west-1,0.022828036126768
+AlibabaCloud 12,ecs.c6.large,eu-west-1,0.0961593373381214
+AlibabaCloud 201,gn5i-c8g1,eu-west-1,2.0117209035332104
+AlibabaCloud 688,ECS.NANO,eu-central-1,0.020865043497251
+AlibabaCloud 321,ecs.c6.large,eu-central-1,0.1144724351446026
+ALIBABACLOUD 923,gn5i-c8g1,eu-central-1,2.074372995662504
+AlibabaCloud 194,ecs.nano,ap-south-1,0.0211706648142907
+AlibabaCloud 340,ecs.c6.large,ap-south-1 v12,0.1083113773552702
+AlibabaCloud 622,gn5i-c8g1,ap-south-1 v24,1.4912216025113134
+ALIBABACLOUD 910,ecs.nano,ap-southeast-1,0.0307852910344736
+AlibabaCloud 454,ecs.c6.large,ap-southeast-1 v12,0.1111425085352565
+AlibabaCloud v36 639,gn5i-c8g1,ap-southeast-1,2.137551447288238
+AlibabaCloud 96,ecs.nano,ap-northeast-1 v36,0.0291409581546352
+AlibabaCloud 294,ecs.c6.large v36,ap-northeast-1,0.0944519539238151
+AlibabaCloud 123,gn5i-c8g1,ap-northeast-1,1.429124577756893
+AlibabaCloud 755,ecs.nano v5,asia-south1 v4,0.0272552261081261
+AlibabaCloud v31 396,ecs.c6.large,asia-south1,0.0904851172667361
+AlibabaCloud 142,gn5i-c8g1,asia-south1,1.573172902359045
+AlibabaCloud 527,ecs.nano,me-central-1,0.0203365089148858
+AlibabaCloud 495,ecs.c6.large,me-central-1,0.1073925150571332
+AlibabaCloud 795,gn5i-c8g1,me-central-1,1.7759546145618783
+AlibabaCloud 891,ecs.nano,sa-east-1,0.024379523824421
+AlibabaCloud 245,ecs.c6.large,sa-east-1,0.1195311448904624
+AlibabaCloud v17 110,gn5i-c8g1,sa-east-1,1.446586145498835
+TencentCloud 909,s1.small v23,us-east-1,0.0367591668494353
+TencentCloud 797,s2.medium,us-east-1 v35,0.0576893280109173
+TencentCloud v25 962,gn6.large,us-east-1,0.1603680152005584
+TencentCloud v27 247,s1.small,us-west-1,0.0279650679137252
+TencentCloud 587,S2.MEDIUM,us-west-1 v44,0.0782513301864261
+TencentCloud 971,gn6.large,us-west-1,0.1639137707101279
+TencentCloud 611,S1.SMALL,us-west-2,0.0359696031377284
+TencentCloud 895,s2.medium,us-west-2,0.0637115535409424
+TencentCloud 925,gn6.large v47,us-west-2 v1,0.1799181069197494
+TencentCloud 112,s1.small,eu-west-1,0.0239001277970646
+TencentCloud 675,s2.medium,eu-west-1,0.0768355799400909
+TencentCloud 212,gn6.large,eu-west-1,0.1630006741634991
+TencentCloud v9 243,s1.small,eu-central-1,0.0298812647433962
+TencentCloud 171,s2.medium v38,eu-central-1,0.0566268302640411
+TencentCloud 86,gn6.large,eu-central-1,0.1325783524888619
+TencentCloud 877,s1.small,ap-south-1,0.0340473364334198
+TencentCloud 200,s2.medium v19,ap-south-1,0.0838596071206546
+TencentCloud 26,gn6.large,ap-south-1,0.133025130479566
+TencentCloud 137,s1.small,ap-southeast-1,0.0224865664402352
+TencentCloud 551,s2.medium,ap-southeast-1,0.082803568247705
+TencentCloud 439,gn6.large,ap-southeast-1,0.1331531394033087
+TencentCloud 411,s1.small,ap-northeast-1,0.0357578520733943
+TencentCloud v34 448,s2.medium,ap-northeast-1,0.0664584073859747
+TencentCloud v38 220,gn6.large,ap-northeast-1,0.1874650956471081
+TencentCloud 443,s1.small,asia-south1,0.0244525432508356
+TencentCloud 267,s2.medium v47,asia-south1,0.0831315891123376
+TencentCloud 908,gn6.large,asia-south1,0.1779523156928209
+TencentCloud 939,s1.small,ME-CENTRAL-1,0.0356027653543879
+TencentCloud 600,s2.medium,me-central-1 v37,0.0807791945019735
+TencentCloud 381,gn6.large,me-central-1,0.1776195336937499
+TencentCloud v4 305,s1.small,sa-east-1,0.0312251681629491
+TencentCloud 348,s2.medium,sa-east-1,0.0835729233106357
+TencentCloud 791,gn6.large,sa-east-1,0.1364973460914944
+OVHCloud 313,b2-7,US-EAST-1,0.0738196463456199
+OVHCloud 467,b2-15,us-east-1,0.1168442826822549
+OVHCloud 547,t1-45,us-east-1,0.3441954348765875
+OVHCloud v17 414,b2-7 v3,us-west-1,0.0947414376955789
+OVHCLOUD 622,b2-15,us-west-1,0.1915867813291818
+OVHCloud 618,t1-45,us-west-1,0.3458356728470246
+OVHCLOUD 246,b2-7,us-west-2,0.0847565534221419
+OVHCloud 87,b2-15,us-west-2,0.141900883019085
+OVHCloud 849,t1-45,us-west-2,0.4143384014661279
+OVHCloud v41 441,b2-7,eu-west-1,0.0793516557620157
+OVHCloud 742,b2-15,eu-west-1,0.1850332585829289
+OVHCloud 949,t1-45 v33,eu-west-1,0.3455813375390141
+OVHCloud 644,b2-7,eu-central-1,0.0635660100499369
+OVHCloud 513,b2-15,eu-central-1,0.1142269732817049
+OVHCloud 189,t1-45,eu-central-1,0.3380290656910976
+OVHCloud 979,b2-7,ap-south-1,0.0689412557940105
+OVHCloud 846,b2-15,ap-south-1 v43,0.1285891533914545
+OVHCloud v28 528,t1-45,ap-south-1,0.3327107832421356
+OVHCloud 31,b2-7,ap-southeast-1,0.0847550710274307
+OVHCloud 304,b2-15,ap-southeast-1,0.1350694996112185
+OVHCloud 489,t1-45,ap-southeast-1,0.3830365522208299
+OVHCloud 203,b2-7,ap-northeast-1,0.0856133200503246
+OVHCloud 90,b2-15 v12,ap-northeast-1 v30,0.1357919109141249
+OVHCLOUD 383,t1-45,ap-northeast-1 v7,0.3988920632647582
+OVHCLOUD 749,b2-7,asia-south1,0.0773502029448844
+OVHCloud 664,b2-15,asia-south1,0.1491962078029031
+OVHCloud 766,t1-45,asia-south1 v37,0.3988209626653699
+OVHCloud 229,b2-7 v42,me-central-1,0.0889841766744792
+OVHCloud 905,b2-15 v30,me-central-1,0.1751825062525781
+OVHCloud 541,t1-45,me-central-1,0.2794466290402393
+OVHCloud 271,b2-7,sa-east-1,0.0792773872042883
+OVHCloud v39 950,B2-15,sa-east-1,0.1245987618753328
+OVHCloud 748,t1-45,sa-east-1 v7,0.3865545908788562
+AWS 364,t3.nano,us-east-1,0.03826492727192
+AWS 580,t3.micro,us-east-1,0.0464777041833101
+AWS 605,m5.large v4,us-east-1,0.0880692155015401
+AWS 383,c5.xlarge,us-east-1,0.2216386029125282
+AWS 185,g4dn.xlarge,us-east-1,1.1510976401809694
+AWS 863,t3.nano,us-west-1,0.0472519369033106
+AWS 179,t3.micro,us-west-1 v28,0.0558516468607289
+AWS v9 453,m5.large,us-west-1 v45,0.1237821492712261
+AWS 480,c5.xlarge,us-west-1,0.2566789141808219
+AWS 890,g4dn.xlarge,us-west-1,1.1727190158766096
+AWS 387,t3.nano,us-west-2 v29,0.0380549788080364
+AWS v28 35,t3.micro,us-west-2,0.0400538444498398
+AWS 349,m5.large,us-west-2 v47,0.1170587746012644
+AWS v8 122,c5.xlarge,us-west-2,0.1720117221028053
+AWS 597,g4dn.xlarge,us-west-2,1.1282154908539803
+AWS 16,t3.nano,eu-west-1,0.0493294237690067
+AWS 828,t3.micro,eu-west-1,0.0483510029641107
+AWS 614,m5.large,eu-west-1 v7,0.1270520232390493
+AWS 113,c5.xlarge,eu-west-1,0.2388227223495647
+AWS 491,g4dn.xlarge,eu-west-1,1.4737711474706885
+AWS 985,t3.nano v8,eu-central-1,0.0566998900788691
+AWS 700,t3.micro,eu-central-1,0.0450991794917889
+AWS 937,m5.large,eu-central-1,0.0951425400104163
+AWS 134,c5.xlarge,eu-central-1,0.2234169742513057
+AWS v43 190,g4dn.xlarge,eu-central-1,1.3278894966730863
+AWS 658,t3.nano,ap-south-1,0.0518766427322001
+AWS v28 155,t3.micro,AP-SOUTH-1,0.0608998480673163
+AWS 468,m5.large,ap-south-1 v9,0.1175359643425977
+AWS 994,c5.xlarge,ap-south-1 v4,0.15960683254725
+AWS 976,g4dn.xlarge v26,ap-south-1,1.8383607185918769
+AWS 269,t3.nano,ap-southeast-1 v39,0.0392270428335426
+AWS 850,t3.micro,ap-southeast-1,0.0581502721545172
+AWS 813,m5.large,ap-southeast-1,0.1145789356075999
+AWS 114,c5.xlarge,ap-southeast-1 v12,0.21794126895685
+AWS 147,G4DN.XLARGE,ap-southeast-1,1.8691295896067568
+AWS 750,t3.nano,ap-northeast-1,0.0569472477120924
+AWS 705,t3.micro v45,ap-northeast-1 v44,0.0505550692354056
+AWS 502,m5.large,ap-northeast-1 v22,0.0935194384620615
+AWS 732,c5.xlarge,ap-northeast-1,0.2118194730704899
+AWS 891,g4dn.xlarge v33,ap-northeast-1,1.197273068032352
+AWS 37,t3.nano,asia-south1,0.0504016226323536
+AWS v34 294,t3.micro v35,asia-south1,0.0502191139281519
+AWS 662,m5.large v23,asia-south1,0.0938463445426074
+AWS 685,c5.xlarge,asia-south1 v48,0.1794309435096924
+AWS 214,g4dn.xlarge,asia-south1,1.6985134954809644
+AWS 921,t3.nano,me-central-1,0.0471863319636397
+AWS 627,t3.micro,me-central-1,0.0566472016604859
+AWS 919,m5.large,me-central-1,0.1188812753138843
+AWS 658,c5.xlarge,me-central-1,0.2318307377656554
+AWS v33 615,g4dn.xlarge,me-central-1,1.541174214255375
+AWS v45 88,t3.nano,sa-east-1,0.0517873448994659
+AWS 682,t3.micro,sa-east-1,0.049802721440585
+AWS 646,m5.large v48,sa-east-1,0.105008648502221
+AWS v45 296,c5.xlarge v31,sa-east-1,0.21891227065268
+AWS 343,g4dn.xlarge,sa-east-1,1.3414010229106816
+Azure v28 937,B1s,us-east-1,0.0263416418588424
+Azure 297,B2s,us-east-1,0.0705641864363784
+Azure 550,D2s_v3,us-east-1,0.0887601308118512
+Azure 834,F4s_v2,us-east-1,0.2025640566850871
+Azure 531,NC6,us-east-1 v35,1.7661066148257856
+Azure v49 702,B1s,us-west-1 v24,0.0332733175793249
+Azure 508,B2s v25,us-west-1,0.0555937134358843
+Azure 912,D2s_v3,us-west-1,0.1205788246703128
+Azure 723,F4s_v2,us-west-1,0.1839684546286057
+Azure 841,NC6,us-west-1,1.7638956326541426
+Azure v19 748,B1s v33,us-west-2,0.0346848115481705
+Azure 345,B2s,us-west-2,0.0731320124076012
+Azure 634,D2s_v3,us-west-2,0.0901266031327318
+Azure 491,F4s_v2,us-west-2,0.1386163259689235
+Azure 542,NC6,us-west-2,1.861583146146888
+Azure 600,B1s,eu-west-1,0.0296874764257336
+Azure 15,B2s,eu-west-1,0.0700673222849152
+Azure 621,D2s_v3,eu-west-1,0.1357858159007914
+Azure v4 143,F4s_v2,eu-west-1,0.1364746643571427
+Azure v5 788,NC6,eu-west-1,1.997088069877395
+Azure 605,B1s,eu-central-1,0.0391465623667432
+Azure v42 189,B2s,eu-central-1,0.0658578587841788
+Azure 496,D2S_V3,eu-central-1,0.1076643576833233
+Azure 990,F4s_v2,eu-central-1,0.1418258821476773
+Azure v35 298,NC6,eu-central-1,2.1327317076551515
+Azure 268,B1s,ap-south-1,0.0287770232038703
+Azure 73,B2s,ap-south-1,0.0847100095720136
+Azure 824,D2S_V3,ap-south-1,0.1360092659821889
+Azure 832,F4s_v2,ap-south-1,0.1834857897024611
+Azure 206,NC6,ap-south-1,1.6992237952625884
+Azure 735,B1s,ap-southeast-1,0.0352829092708405
+Azure v20 493,B2s v44,ap-southeast-1,0.0746982668174873
+Azure 871,D2s_v3,ap-southeast-1,0.1243117844060713
+Azure 707,F4s_v2,ap-southeast-1,0.1565924751947262
+Azure 886,NC6,ap-southeast-1,1.5642992617770757
+Azure 726,B1s,ap-northeast-1,0.0299343877387521
+Azure 367,B2s,ap-northeast-1,0.0851621600587087
+Azure v24 15,D2s_v3,ap-northeast-1,0.1324961052739806
+Azure v35 870,F4s_v2 v14,ap-northeast-1,0.1752226542752653
+Azure 305,NC6,ap-northeast-1,1.2933369289249683
+Azure 232,B1s,asia-south1,0.0357924997581895
+Azure v18 554,B2s v28,asia-south1 v16,0.0759278533536969
+Azure 155,D2s_v3,asia-south1 v45,0.134921803186676
+Azure 920,F4s_v2,asia-south1 v36,0.1302201585551153
+Azure v6 921,NC6,asia-south1,1.374875267925033
+Azure 331,B1s,me-central-1,0.031691622753882
+Azure 75,B2s v34,me-central-1,0.0813018880697373
+Azure 602,D2s_v3,me-central-1,0.0870272830835341
+Azure v39 328,F4s_v2,me-central-1,0.20541660216677
+Azure 59,NC6 v48,me-central-1,1.964075298857938
+Azure 669,B1s,sa-east-1,0.0364414934895303
+Azure 708,B2s,sa-east-1,0.077858840779664
+AZURE 616,D2s_v3,sa-east-1 v3,0.130047825184164
+Azure v1 230,F4s_v2,sa-east-1,0.1338697442632063
+Azure 123,NC6,sa-east-1,1.9683476277760883
+GCP 690,e2-micro,us-east-1,0.0477773683819701
+GCP 699,e2-small,us-east-1,0.0646810579113702
+GCP 389,n1-standard-2,us-east-1,0.1266664009370136
+GCP v3 116,N2-STANDARD-8,us-east-1 v47,0.3933491542245022
+GCP 317,a2-highgpu-1g,us-east-1,1.8014745128863956
+GCP 628,e2-micro v17,us-west-1,0.0395255674028853
+GCP 718,e2-small,us-west-1,0.055182647372221
+GCP 271,n1-standard-2 v15,us-west-1,0.1266646836601833
+GCP 591,n2-standard-8,us-west-1,0.3540392505028126
+GCP 866,a2-highgpu-1g v47,us-west-1,2.234410050257224
+GCP 928,e2-micro,us-west-2,0.0617200743336115
+GCP 781,e2-small,us-west-2,0.0786186532632923
+GCP 236,n1-standard-2,us-west-2,0.1025527966921591
+GCP 82,n2-standard-8,US-WEST-2,0.3904020106733216
+GCP 704,a2-highgpu-1g,us-west-2 v29,1.813561758430228
+GCP v38 347,e2-micro,eu-west-1,0.041838045232427
+GCP 974,e2-small,EU-WEST-1,0.0691769690206439
+GCP 340,N1-STANDARD-2,eu-west-1,0.0988085043017478
+GCP v22 784,N2-STANDARD-8,eu-west-1,0.4745803452793271
+GCP v49 848,a2-highgpu-1g,eu-west-1,1.6040648754423843
+GCP 597,e2-micro,eu-central-1,0.0553818839407868
+GCP v30 985,e2-small,eu-central-1 v6,0.057913292309861
+GCP 528,n1-standard-2,eu-central-1,0.1002118989791876
+GCP 713,n2-standard-8,eu-central-1,0.4019125997770559
+GCP 612,a2-highgpu-1g,eu-central-1 v2,1.8119763402100049
+GCP 439,e2-micro v22,ap-south-1,0.0576858357171453
+GCP 609,e2-small,ap-south-1,0.0694124414275488
+GCP 97,n1-standard-2,ap-south-1,0.1178821235708743
+GCP 125,n2-standard-8,ap-south-1,0.3771621131255518
+GCP 161,a2-highgpu-1g,ap-south-1 v43,2.153535964638344
+GCP 228,e2-micro,ap-southeast-1,0.0580922757314039
+GCP 882,e2-small v16,ap-southeast-1,0.0501631747539078
+GCP 13,n1-standard-2,ap-southeast-1,0.0772986267872323
+GCP 113,n2-standard-8,ap-southeast-1,0.4024572639727503
+GCP 426,a2-highgpu-1g,ap-southeast-1,2.2921891967504697
+GCP 182,e2-micro,ap-northeast-1,0.0387789741132346
+GCP 826,E2-SMALL,AP-NORTHEAST-1,0.0482038116872485
+GCP 146,n1-standard-2,ap-northeast-1,0.1313798468032638
+GCP 470,n2-standard-8,ap-northeast-1,0.4868459657882044
+GCP 52,a2-highgpu-1g,ap-northeast-1 v4,2.349051688971905
+GCP 474,E2-MICRO,asia-south1,0.045064785618576
+GCP 435,e2-small v47,asia-south1,0.0489898709788381
+GCP v6 934,n1-standard-2,asia-south1 v20,0.1318921041585081
+GCP 384,n2-standard-8 v49,asia-south1,0.3143430627067939
+GCP 831,a2-highgpu-1g,asia-south1,1.4331619004612488
+GCP 989,e2-micro,me-central-1 v35,0.058585496033954
+GCP 499,e2-small v20,me-central-1,0.0575382550218321
+GCP 543,n1-standard-2,me-central-1,0.0905587905513826
+GCP 122,n2-standard-8,me-central-1,0.3818105500733085
+GCP 985,a2-highgpu-1g,me-central-1,2.181345178992009
+GCP 963,e2-micro,sa-east-1,0.0555919424253834
+GCP 482,e2-small,sa-east-1 v19,0.072210989088973
+GCP v1 933,n1-standard-2,sa-east-1 v21,0.086066084935707
+GCP 949,n2-standard-8 v1,sa-east-1,0.3322860496111413
+GCP 54,A2-HIGHGPU-1G,sa-east-1,1.425191785057848
+OracleCloud 65,VM.STANDARD.E2.1,us-east-1,0.033918013335848
+OracleCloud v43 699,VM.Standard2.2,us-east-1,0.1238357881601066
+OracleCloud 108,BM.GPU2.2,us-east-1 v44,2.196620841270714
+OracleCloud 206,VM.Standard.E2.1 v46,us-west-1,0.0309875858446684
+OracleCloud 659,VM.Standard2.2,us-west-1,0.1158712019119312
+OracleCloud 838,BM.GPU2.2 v17,us-west-1,2.618867050707509
+OracleCloud 129,VM.Standard.E2.1,us-west-2,0.023795524678232
+OracleCloud 198,VM.Standard2.2,us-west-2,0.1255634569031079
+OracleCloud 97,BM.GPU2.2,us-west-2,1.818581701261417
+OracleCloud 847,VM.Standard.E2.1 v26,eu-west-1,0.0345455560918294
+OracleCloud 548,VM.Standard2.2 v26,eu-west-1,0.0936585081437777
+OracleCloud 567,BM.GPU2.2 v27,eu-west-1 v5,2.7283803040912544
+OracleCloud 806,VM.Standard.E2.1,eu-central-1,0.0273056526457311
+OracleCloud 154,VM.Standard2.2,eu-central-1,0.1270063828121305
+OracleCloud 546,BM.GPU2.2 v3,EU-CENTRAL-1,2.296613558174451
+OracleCloud 515,VM.Standard.E2.1,ap-south-1 v41,0.0351347065226015
+OracleCloud 43,VM.Standard2.2,ap-south-1,0.0871933590084962
+OracleCloud 270,BM.GPU2.2,ap-south-1,2.5946714588208777
+OracleCloud 583,VM.Standard.E2.1 v6,ap-southeast-1,0.0332241387106025
+OracleCloud 126,VM.Standard2.2 v30,ap-southeast-1,0.0979146339198365
+OracleCloud v33 191,BM.GPU2.2,ap-southeast-1,2.542166142132776
+OracleCloud v12 553,VM.Standard.E2.1,ap-northeast-1,0.0296747561452781
+OracleCloud 284,VM.Standard2.2,ap-northeast-1,0.0952810694692143
+OracleCloud 442,BM.GPU2.2 v46,ap-northeast-1,2.035535648948124
+OracleCloud 13,VM.Standard.E2.1 v36,asia-south1,0.0267686925832929
+OracleCloud 512,VM.Standard2.2,asia-south1 v23,0.1183115832331536
+OracleCloud 74,BM.GPU2.2,asia-south1,2.654002681277106
+OracleCloud v48 166,VM.Standard.E2.1,me-central-1,0.0240414398770752
+OracleCloud 120,VM.Standard2.2,me-central-1 v24,0.1074660554555092
+OracleCloud 825,BM.GPU2.2,me-central-1,1.780733881308778
+OracleCloud 318,VM.Standard.E2.1,sa-east-1,0.0334746149778103
+ORACLECLOUD 117,VM.Standard2.2,sa-east-1 v4,0.1176448590547013
+OracleCloud 954,BM.GPU2.2,sa-east-1,2.745716855881567
+IBMCloud 925,bx2-2x8,us-east-1 v21,0.1113131939929464
+IBMCloud 274,bx2-4x16,US-EAST-1,0.2661521399346385
+IBMCloud 82,gpus-1 v20,us-east-1,1.4850362073937688
+IBMCloud v14 735,bx2-2x8,us-west-1,0.0840886163852787
+IBMCloud 376,bx2-4x16,us-west-1,0.249644203292927
+IBMCloud v43 205,GPUS-1,us-west-1,1.4068240464913808
+IBMCloud 997,bx2-2x8,us-west-2,0.128856002202271
+IBMCloud 538,bx2-4x16,us-west-2,0.2194763932121793
+IBMCloud 92,gpus-1,us-west-2,1.7520115448778573
+IBMCloud 131,bx2-2x8,eu-west-1,0.1042389055857416
+IBMCloud 273,bx2-4x16,eu-west-1,0.2228773938793034
+IBMCloud 831,gpus-1 v12,eu-west-1,1.922783978236928
+IBMCloud v49 355,bx2-2x8,eu-central-1,0.1401952689986155
+IBMCloud 630,bx2-4x16,eu-central-1,0.2600216825880475
+IBMCloud 408,gpus-1,eu-central-1 v46,1.9739068701688207
+IBMCloud 561,bx2-2x8,ap-south-1,0.0819718745847483
+IBMCloud 144,bx2-4x16,AP-SOUTH-1,0.2219378453186354
+IBMCloud 860,gpus-1,ap-south-1,1.8201064150025967
+IBMCloud 71,bx2-2x8,ap-southeast-1,0.1223490603657438
+IBMCloud 90,bx2-4x16,ap-southeast-1,0.2506156437097023
+IBMCloud 301,gpus-1,ap-southeast-1 v33,1.6150206697459233
+IBMCloud 68,bx2-2x8,ap-northeast-1,0.1159692917471872
+IBMCloud 620,bx2-4x16,ap-northeast-1 v11,0.2376964284425316
+IBMCloud 556,GPUS-1,ap-northeast-1,1.7737473681102576
+IBMCloud v14 748,bx2-2x8,asia-south1 v24,0.0900765710300401
+IBMCloud 996,bx2-4x16,asia-south1,0.1794636230204947
+IBMCloud 87,gpus-1,asia-south1,1.3903125141778838
+IBMCloud 254,bx2-2x8,me-central-1,0.0907492856979777
+IBMCloud 699,bx2-4x16 v2,me-central-1,0.2801410507598479
+IBMCloud v12 512,gpus-1,me-central-1,2.1160613459796864
+IBMCLOUD 556,bx2-2x8 v16,sa-east-1,0.1148597076401165
+IBMCloud 192,bx2-4x16,sa-east-1,0.1911119163743344
+IBMCloud v18 123,gpus-1,SA-EAST-1,1.7411434881714427
+DigitalOcean 71,s-1vcpu-1gb,us-east-1,0.0302954335618138
+DigitalOcean 155,S-2VCPU-4GB,us-east-1 v19,0.0832962343415707
+DigitalOcean 647,g-2vcpu-8gb,us-east-1,0.1113726097803331
+DigitalOcean 192,s-1vcpu-1gb,us-west-1,0.0338041901863573
+DigitalOcean 693,s-2vcpu-4gb,us-west-1,0.075030091654023
+DigitalOcean 93,g-2vcpu-8gb,us-west-1,0.0896271204630975
+DigitalOcean 840,s-1vcpu-1gb,us-west-2,0.0273804197516882
+DigitalOcean 840,s-2vcpu-4gb,us-west-2,0.087951832248634
+DigitalOcean 631,g-2vcpu-8gb,us-west-2,0.1243284948653282
+DIGITALOCEAN 652,s-1vcpu-1gb,eu-west-1,0.0259497891514161
+DigitalOcean 546,S-2VCPU-4GB,eu-west-1,0.0536249647904842
+DigitalOcean 958,g-2vcpu-8gb v17,eu-west-1,0.1100896565450874
+DigitalOcean 871,S-1VCPU-1GB,eu-central-1,0.0314528955484392
+DigitalOcean 106,s-2vcpu-4gb,eu-central-1,0.0769665972611472
+DigitalOcean v4 19,g-2vcpu-8gb,eu-central-1,0.1209104490341995
+DigitalOcean v17 774,s-1vcpu-1gb,ap-south-1,0.0259415922115251
+DigitalOcean 447,s-2vcpu-4gb,ap-south-1,0.0558064987321071
+DigitalOcean v12 520,g-2vcpu-8gb,ap-south-1,0.0880020194359781
+DigitalOcean 740,s-1vcpu-1gb,ap-southeast-1,0.0245374160380461
+DigitalOcean 804,s-2vcpu-4gb,ap-southeast-1 v20,0.0556749909053747
+DigitalOcean 752,g-2vcpu-8gb v12,ap-southeast-1,0.0959811109228679
+DigitalOcean 661,s-1vcpu-1gb,ap-northeast-1,0.0240045491186815
+DigitalOcean 20,s-2vcpu-4gb,ap-northeast-1,0.0834625233157174
+DigitalOcean 422,g-2vcpu-8gb v7,ap-northeast-1 v9,0.1136620061527588
+DigitalOcean v44 375,s-1vcpu-1gb v22,asia-south1,0.0227356869091119
+DigitalOcean 51,s-2vcpu-4gb,asia-south1,0.0770312833755414
+DigitalOcean 266,g-2vcpu-8gb,asia-south1,0.1073902876456215
+DigitalOcean 70,s-1vcpu-1gb,me-central-1,0.0311967215299989
+DigitalOcean 984,s-2vcpu-4gb,me-central-1,0.0692408204779544
+DigitalOcean 825,g-2vcpu-8gb,me-central-1 v18,0.0927448169689799
+DigitalOcean 298,s-1vcpu-1gb,sa-east-1,0.0263032116712924
+DigitalOcean 180,s-2vcpu-4gb,sa-east-1,0.067640990624749
+DigitalOcean 25,g-2vcpu-8gb,sa-east-1,0.0840076312348697
+Linode v34 232,nanode,us-east-1,0.0323590535582362
+Linode 576,g6-standard-2,us-east-1,0.0689253973401888
+Linode 258,g6-highmem-4,us-east-1,0.2263962849157562
+Linode 226,nanode,us-west-1,0.029401981250791
+Linode 88,g6-standard-2,us-west-1 v18,0.0728609221936014
+Linode 309,g6-highmem-4,US-WEST-1,0.204308472867105
+Linode 186,nanode,us-west-2 v49,0.0302527219103276
+Linode 808,g6-standard-2,us-west-2 v33,0.0713139460278723
+Linode 210,g6-highmem-4,us-west-2,0.248920222760989
+Linode 279,nanode,eu-west-1,0.0246684791144744
+Linode 792,g6-standard-2,eu-west-1 v16,0.0659475424331779
+Linode 112,g6-highmem-4 v8,eu-west-1,0.2510583316631539
+Linode 339,nanode v30,eu-central-1,0.0246804112179306
+Linode 891,g6-standard-2,eu-central-1,0.0580572357382402
+Linode 898,g6-highmem-4,eu-central-1,0.1911662699621135
+Linode 589,nanode,ap-south-1,0.0345817988911674
+Linode v12 903,g6-standard-2 v2,ap-south-1,0.0809726751467145
+Linode 151,g6-highmem-4 v24,ap-south-1,0.2521049369956842
+Linode 544,nanode,ap-southeast-1,0.0238675240344898
+Linode 459,g6-standard-2,ap-southeast-1,0.0842872741534299
+Linode v13 178,g6-highmem-4 v41,ap-southeast-1,0.2777966018015992
+Linode 775,nanode,ap-northeast-1,0.0315706716026941
+Linode v32 143,g6-standard-2,ap-northeast-1,0.0577509877852925
+Linode 577,g6-highmem-4,ap-northeast-1,0.2156024538125753
+Linode v44 421,nanode,asia-south1,0.0353445975480945
+Linode 237,g6-standard-2,asia-south1,0.0573917455876197
+Linode 936,g6-highmem-4,asia-south1,0.2200086249400403
+Linode 990,nanode,me-central-1,0.0332030216045267
+Linode 336,g6-standard-2,ME-CENTRAL-1,0.0801980546552785
+Linode 300,g6-highmem-4,me-central-1,0.2349783360479278
+Linode 353,nanode,sa-east-1,0.0229173064820112
+Linode 950,g6-standard-2,sa-east-1,0.0749960850979466
+LINODE 197,g6-highmem-4 v28,sa-east-1,0.3147075376520069
+Hetzner v34 618,cx11,US-EAST-1,0.0305715518141244
+Hetzner 75,cx31,us-east-1,0.0804643697383444
+Hetzner 545,ccx51,us-east-1,0.3705422646719515
+Hetzner v41 768,cx11,us-west-1,0.0384567203704305
+Hetzner 655,cx31,us-west-1,0.0682842583588781
+Hetzner 595,ccx51,us-west-1,0.3682432283765977
+Hetzner 4,cx11,us-west-2 v10,0.0355685578431853
+Hetzner 804,cx31,us-west-2,0.075661600036155
+Hetzner v12 101,ccx51,us-west-2,0.4163733962433817
+Hetzner 510,cx11,eu-west-1 v18,0.0264025745520524
+Hetzner 105,cx31,eu-west-1,0.065813861299586
+Hetzner 429,ccx51 v29,eu-west-1,0.3892695299717629
+Hetzner 588,cx11,eu-central-1 v28,0.0252506616339282
+Hetzner 167,cx31,eu-central-1 v34,0.0690618814285355
+Hetzner 251,ccx51,eu-central-1,0.33104398911019
+Hetzner 170,cx11,ap-south-1,0.0328822376796495
+Hetzner 446,cx31,ap-south-1,0.0659234816701686
+Hetzner 59,ccx51,ap-south-1 v22,0.404429974038538
+Hetzner 472,cx11 v7,ap-southeast-1 v23,0.0232605753591359
+Hetzner 367,cx31 v31,ap-southeast-1,0.0793920750983849
+Hetzner 689,ccx51 v43,ap-southeast-1 v34,0.5075003374798758
+Hetzner 367,cx11,ap-northeast-1,0.033533410173383
+Hetzner 464,cx31,ap-northeast-1,0.0628467684509557
+Hetzner 420,ccx51,ap-northeast-1,0.4930974497431143
+Hetzner 114,cx11,asia-south1,0.0361147226008328
+Hetzner 469,cx31,asia-south1 v49,0.0589636964690126
+Hetzner 698,ccx51 v31,asia-south1,0.5333785421896003
+Hetzner 668,cx11 v20,me-central-1,0.0259605728189287
+Hetzner 145,cx31,me-central-1,0.0624015027452956
+Hetzner 45,ccx51,me-central-1 v13,0.379723875153705
+Hetzner 868,cx11,sa-east-1,0.0319980924802672
+Hetzner 300,cx31,sa-east-1,0.0578955696195786
+Hetzner 580,ccx51,sa-east-1,0.4007246468253487
+AlibabaCloud 55,ecs.nano,us-east-1,0.0340244041899035
+ALIBABACLOUD 231,ecs.c6.large,us-east-1 v42,0.1222159504583003
+AlibabaCloud v10 987,gn5i-c8g1,us-east-1,2.304081122027708
+AlibabaCloud 392,ecs.nano,us-west-1,0.0205582598738594
+AlibabaCloud 85,ecs.c6.large v49,us-west-1,0.1152545077856821
+AlibabaCloud 145,gn5i-c8g1,us-west-1,2.072018106136324
+AlibabaCloud 479,ecs.nano,us-west-2,0.0244386183453162
+AlibabaCloud 171,ecs.c6.large,us-west-2,0.0828704214569075
+AlibabaCloud 673,gn5i-c8g1,us-west-2,1.5764091405162706
+AlibabaCloud 446,ecs.nano,eu-west-1,0.0258905749529936
+AlibabaCloud 378,ecs.c6.large,eu-west-1,0.0913690184702215
+AlibabaCloud 825,gn5i-c8g1,eu-west-1,2.2788291859487377
+AWS_7695,t3.nano,us-east-1,0.044801499296695
+AWS 1119_9909,t3.micro,us-east-1,0.049462478322037526
+AWS_553,m5.large,us-east-1,0.08666138157028526
+AWS_3319,c5.xlarge 833,us-east-1,0.19191177006507998
+AWS_5403,g4dn.xlarge,us-east-1,1.6191958542172806
+AWS_2561,t3.nano,US-WEST-1,0.05029323116323352
+AWS_6788,T3.MICRO,US-WEST-1,0.05755052093722588
+AWS 784_5573,m5.large,us-west-1,0.09923257585561014
+AWS_6678,c5.xlarge,US-WEST-1,0.16780324822201356
+AWS_8788,g4dn.xlarge,us-west-1 1636,1.7314149742589535
+AWS_4499,T3.NANO,us-west-2,0.03640231565183243
+AWS_7494,t3.micro,us-west-2,0.0691999181036333
+AWS 1601_2170,m5.large,us-west-2,0.13974914222847007
+AWS_7996,c5.xlarge 953,us-west-2,0.15583284833341815
+AWS_7441,g4dn.xlarge,us-west-2,1.7344222235451892
+AWS_3074,t3.nano,EU-WEST-1,0.04372427565436446
+AWS_8677,t3.micro 827,eu-west-1,0.055145873241123806
+AWS_3737,m5.large,eu-west-1,0.14317835392023578
+AWS_6128,c5.xlarge,eu-west-1,0.2381219754225347
+AWS_7965,g4dn.xlarge 555,eu-west-1 728,1.289094899314118
+AWS_385,t3.nano,eu-central-1,0.050757875306123
+AWS_6607,t3.micro,eu-central-1 886,0.04792186019221801
+AWS_6103,m5.large,eu-central-1,0.1175450200622711
+AWS_926,c5.xlarge,eu-central-1,0.15915711270277008
+AWS_7145,G4DN.XLARGE,eu-central-1,0.9210165638958854
+AWS_8887,t3.nano,ap-south-1,0.05025395032404376
+AWS_6447,t3.micro,ap-south-1 543,0.06564868487402732
+AWS_5864,m5.large,ap-south-1,0.12959008838367075
+AWS_7055,c5.xlarge,ap-south-1,0.2820004196346268
+AWS_8714,g4dn.xlarge,ap-south-1,1.526020235946632
+AWS_6535,t3.nano,AP-SOUTHEAST-1,0.030477281882151187
+AWS_8576,t3.micro,ap-southeast-1,0.0341925651886614
+AWS_7597,m5.large,ap-southeast-1 206,0.0890732811876343
+AWS 340_8765,c5.xlarge,ap-southeast-1,0.2843485235671408
+AWS_3698,g4dn.xlarge 176,ap-southeast-1,1.8568220423735267
+AWS_7406,t3.nano,ap-northeast-1,0.06116790988942839
+AWS_6269,t3.micro,ap-northeast-1,0.06492136472092071
+AWS_8817,m5.large,ap-northeast-1 690,0.0679787202360747
+AWS 1325_9472,c5.xlarge,ap-northeast-1,0.21075535258504605
+AWS_3579,g4dn.xlarge,ap-northeast-1,0.8510068555469774
+AWS_2652,t3.nano,asia-south1,0.030725165659826238
+AWS 1175_4927,t3.micro 961,asia-south1,0.07186775602074433
+AWS_1232,m5.large 501,asia-south1 66,0.13167738217831276
+AWS_9402,c5.xlarge,asia-south1 54,0.2830908378358417
+AWS_5497,g4dn.xlarge,asia-south1 378,1.9484533205782937
+AWS_9449,t3.nano,me-central-1 1302,0.03409908951078524
+AWS_162,t3.micro 937,me-central-1,0.06554024043958089
+AWS 994_7944,m5.large,me-central-1,0.14856034215562972
+AWS 553_3454,c5.xlarge,me-central-1,0.2881848285499641
+AWS_6207,g4dn.xlarge,me-central-1,1.9800336438432684
+AWS 1281_6503,t3.nano 1340,sa-east-1,0.05362026708950914
+AWS_8258,t3.micro 1776,sa-east-1,0.05420896090977749
+AWS_1264,m5.large,sa-east-1,0.14505093946351721
+AWS_5090,c5.xlarge 18,sa-east-1,0.21637854620943103
+AWS_2852,g4dn.xlarge,sa-east-1,1.4059267072716857
+Azure_1621,B1s,us-east-1,0.03978843456099932
+Azure 555_2240,B2s,us-east-1,0.061645243299821545
+Azure_9477,D2s_v3 284,us-east-1,0.08634608140336769
+Azure_9076,F4s_v2,us-east-1 1103,0.21141077013131584
+Azure 1151_4196,NC6,us-east-1,1.2712640792220349
+Azure_3296,B1s,us-west-1,0.026089731242248882
+Azure_8638,B2s,US-WEST-1,0.09353163960573808
+Azure_30,D2s_v3,us-west-1,0.08954888099124514
+AZURE_4973,F4s_v2,us-west-1 827,0.17876295278366855
+Azure_4798,NC6,us-west-1,1.0106062562053693
+Azure_3569,B1s,us-west-2,0.04262009939321764
+Azure 797_3420,B2s,us-west-2,0.08838959998247249
+Azure_8026,D2s_v3,us-west-2,0.1179753316739356
+Azure 1313_90,F4s_v2,us-west-2,0.10813908410162526
+Azure_4459,NC6 1463,us-west-2,1.5427220094377008
+AZURE_7534,B1s,eu-west-1,0.025719939582648742
+Azure_4400,B2s,eu-west-1,0.05675738210379615
+Azure_4262,D2S_V3,eu-west-1,0.16473557329811075
+Azure_1156,F4s_v2,eu-west-1 1796,0.122570272633154
+Azure_4516,NC6 503,eu-west-1,2.244126046493713
+Azure_2418,B1s,eu-central-1,0.02316002883199169
+Azure_9720,B2s 1128,eu-central-1 957,0.06965123960511563
+AZURE_6851,D2s_v3,eu-central-1 252,0.10460612315318955
+AZURE_2948,F4s_v2,eu-central-1,0.16263096853061929
+Azure_4024,NC6,eu-central-1,2.060138868183884
+Azure_3099,B1s,ap-south-1,0.02195338529077593
+Azure_4917,B2s 714,ap-south-1,0.0617228062391168
+Azure_5643,D2s_v3,ap-south-1,0.07595057291547325
+Azure_1504,F4s_v2,ap-south-1 1653,0.12066048322889146
+Azure_9805,NC6,ap-south-1,1.1530727522874555
+Azure_404,B1s 1430,ap-southeast-1 844,0.02495340542357788
+Azure_3908,B2s,ap-southeast-1,0.06176582508429232
+Azure 1801_3712,D2s_v3,AP-SOUTHEAST-1,0.09682822194652398
+Azure 990_5891,F4s_v2,ap-southeast-1 1348,0.20511092515913787
+Azure_8111,NC6,ap-southeast-1,1.268439487892344
+Azure_8201,B1s,ap-northeast-1 884,0.03884690507307167
+Azure_9887,B2s,ap-northeast-1,0.09922381293215743
+Azure_6725,D2s_v3,ap-northeast-1 737,0.13317071226507174
+Azure_3644,F4s_v2 1361,ap-northeast-1,0.10054756451169324
+Azure_5648,NC6,ap-northeast-1,2.08225136470066
+AZURE_8341,B1s,ASIA-SOUTH1,0.025853551217324834
+AZURE_7583,B2s,asia-south1,0.08092333867619592
+Azure_6049,D2s_v3,asia-south1,0.08890877597201645
+Azure 653_4068,F4s_v2,asia-south1,0.23361511897317372
+Azure_1680,NC6,asia-south1,1.65574899712641
+AZURE_3939,B1s,me-central-1,0.03257255876111631
+Azure_7258,B2s,me-central-1,0.07129398178336822
+Azure 861_3307,D2s_v3,me-central-1,0.08712983545385848
+Azure_1385,F4s_v2,me-central-1,0.1283480486562811
+Azure_7777,NC6 1228,me-central-1,2.3969254162461375
+Azure_7974,B1s,sa-east-1,0.036187938415563
+Azure_2426,B2S,sa-east-1,0.08111754142279719
+Azure_990,D2s_v3,sa-east-1,0.13059756561308106
+AZURE_8451,F4s_v2,sa-east-1,0.16688674295403877
+Azure_9502,NC6,sa-east-1,2.4121013437106567
+GCP 131_8262,e2-micro,us-east-1,0.0665291973724223
+GCP_5107,e2-small 1293,us-east-1,0.0708781710764821
+GCP_9575,n1-standard-2,us-east-1,0.11161651745955102
+GCP_2902,n2-standard-8,us-east-1,0.36344584462831986
+GCP_9568,a2-highgpu-1g,us-east-1,2.0421907436272284
+GCP 1863_638,e2-micro,us-west-1,0.0554921925973571
+GCP_7506,e2-small,us-west-1,0.08473962183100583
+GCP 132_8207,n1-standard-2,us-west-1,0.06095642986934491
+GCP_2430,n2-standard-8 581,us-west-1,0.30131608248328146
+GCP_8000,a2-highgpu-1g,us-west-1,1.3475664162351937
+GCP_2178,e2-micro 431,us-west-2,0.041449538319407495
+GCP 1525_436,e2-small 929,us-west-2,0.03905012724295424
+GCP 649_8064,n1-standard-2,us-west-2,0.12442345935969372
+GCP 1684_4726,n2-standard-8,us-west-2 822,0.36133737828437146
+GCP 1768_2329,a2-highgpu-1g 1160,us-west-2,1.7728753437621592
+GCP_3626,e2-micro 1514,eu-west-1 47,0.04340273529426466
+GCP_6130,e2-small,eu-west-1 553,0.03889727497020112
+GCP_9902,n1-standard-2,eu-west-1 1339,0.13876969968616212
+GCP_2574,N2-STANDARD-8,eu-west-1,0.34174362800689057
+GCP_5827,a2-highgpu-1g,eu-west-1 1223,2.455433812572072
+GCP_9885,e2-micro,eu-central-1,0.04187384583293321
+GCP_2015,e2-small,eu-central-1 947,0.047557725679940925
+GCP_8281,n1-standard-2,eu-central-1,0.08693171384795836
+GCP_1283,n2-standard-8,eu-central-1,0.2561317501587986
+GCP_1869,a2-highgpu-1g,eu-central-1,1.3678831895036263
+GCP_1674,e2-micro,ap-south-1,0.039510698094639814
+GCP_9455,e2-small,ap-south-1,0.07282843722479163
+GCP_4853,n1-standard-2,ap-south-1,0.07194674345571349
+GCP_6353,n2-standard-8,ap-south-1,0.4998942395345615
+GCP_6680,a2-highgpu-1g,ap-south-1,2.293653843013888
+GCP 1449_3626,e2-micro,ap-southeast-1 1328,0.04546028014584142
+GCP_1736,E2-SMALL,ap-southeast-1 657,0.0821963007208215
+GCP_4035,n1-standard-2 693,ap-southeast-1,0.12804202360838626
+GCP_7823,N2-STANDARD-8,ap-southeast-1,0.2690501686192102
+GCP_8365,a2-highgpu-1g,ap-southeast-1,1.8767314061297025
+GCP_6132,e2-micro,ap-northeast-1 1394,0.034502926492810365
+GCP_9473,e2-small,ap-northeast-1,0.049216695233361606
+GCP 522_5426,n1-standard-2,ap-northeast-1,0.11665963001914616
+GCP_2194,n2-standard-8 287,ap-northeast-1,0.5243889159914644
+GCP_1047,a2-highgpu-1g,ap-northeast-1,1.8489672505797692
+GCP_8910,e2-micro 804,asia-south1,0.0419180306758302
+GCP_2425,e2-small,asia-south1,0.06879785411213578
+GCP 1130_2575,n1-standard-2,ASIA-SOUTH1,0.09804648633372909
+GCP_8474,n2-standard-8,asia-south1,0.47066139252922495
+GCP_1390,a2-highgpu-1g 603,asia-south1,1.9159755204343267
+GCP_6184,e2-micro,me-central-1,0.06471887379288771
+GCP_3967,e2-small,me-central-1,0.04238439207677162
+GCP_9556,n1-standard-2 1100,me-central-1,0.10251664164259097
+GCP_7552,n2-standard-8,me-central-1,0.5035622747887594
+GCP_6936,a2-highgpu-1g,me-central-1 1716,1.38148483792125
+GCP_2483,e2-micro,sa-east-1 1859,0.06627665482946102
+GCP_8417,e2-small 37,sa-east-1,0.058217176296701895
+GCP_151,n1-standard-2,sa-east-1,0.1319934531693482
+GCP_2917,n2-standard-8,sa-east-1,0.447356601587755
+GCP_747,a2-highgpu-1g,sa-east-1 201,2.136378650796393
+OracleCloud 1247_8087,VM.Standard.E2.1,us-east-1,0.0312369201412449
+OracleCloud_6303,VM.Standard2.2,us-east-1,0.1260640577068996
+OracleCloud 615_5483,BM.GPU2.2,us-east-1,2.6835063057802926
+OracleCloud 1643_3171,VM.Standard.E2.1,us-west-1,0.025169268400632508
+OracleCloud 183_7446,VM.Standard2.2,us-west-1 762,0.12143986208905541
+OracleCloud 1612_1146,BM.GPU2.2 31,us-west-1 1375,3.153489687291484
+OracleCloud_5336,VM.STANDARD.E2.1,us-west-2 1637,0.03150142947784281
+OracleCloud_8536,VM.Standard2.2,us-west-2 211,0.12135529495774788
+OracleCloud 1439_6930,BM.GPU2.2,us-west-2,1.5562134288911014
+OracleCloud_833,VM.Standard.E2.1,eu-west-1,0.02326884278417501
+OracleCloud_8012,VM.Standard2.2,eu-west-1,0.07360209407426845
+OracleCloud_2600,BM.GPU2.2,eu-west-1,2.597834698047138
+OracleCloud_3087,VM.Standard.E2.1,eu-central-1,0.029671749641821607
+OracleCloud_5573,VM.Standard2.2,eu-central-1,0.13775535676695494
+ORACLECLOUD_2096,BM.GPU2.2 1942,eu-central-1 34,1.5135043975632767
+OracleCloud_2900,VM.Standard.E2.1,ap-south-1 1190,0.02531520143675237
+OracleCloud_702,VM.Standard2.2,ap-south-1,0.08841807278895872
+OracleCloud 1202_445,BM.GPU2.2,ap-south-1,1.6022738946205755
+OracleCloud_2499,VM.Standard.E2.1 1548,ap-southeast-1,0.02193349787627731
+OracleCloud 1497_748,VM.Standard2.2 1433,ap-southeast-1 1298,0.12447113592808881
+OracleCloud_4896,BM.GPU2.2,ap-southeast-1,3.055898253176746
+OracleCloud_8492,VM.Standard.E2.1,ap-northeast-1,0.018617898537222663
+OracleCloud_145,VM.Standard2.2 399,ap-northeast-1,0.13871612108574924
+OracleCloud_2235,BM.GPU2.2,ap-northeast-1,3.3284120471397975
+OracleCloud_3409,VM.Standard.E2.1 514,asia-south1,0.033236752424110505
+OracleCloud_1557,VM.Standard2.2,asia-south1,0.15183664918025713
+ORACLECLOUD_8819,BM.GPU2.2,asia-south1,3.22417868471889
+OracleCloud_5143,VM.Standard.E2.1 1797,me-central-1,0.03008453816859292
+OracleCloud_98,VM.Standard2.2,me-central-1,0.13938604277623143
+OracleCloud 555_523,BM.GPU2.2,me-central-1 1582,3.284806712079088
+OracleCloud_7013,VM.STANDARD.E2.1,sa-east-1,0.018409054085172235
+OracleCloud_8603,VM.Standard2.2,sa-east-1 189,0.13471753155923796
+OracleCloud_8744,BM.GPU2.2 1294,sa-east-1,2.500787795618153
+IBMCloud_4943,BX2-2X8,us-east-1,0.07592870866724528
+IBMCloud 1915_455,bx2-4x16,us-east-1,0.2672675746726992
+IBMCloud_4806,gpus-1,us-east-1 54,2.1466854572348257
+IBMCloud 454_8418,BX2-2X8,us-west-1,0.08608989627386839
+IBMCloud 562_4474,BX2-4X16,us-west-1 460,0.25344625805027604
+IBMCloud_7245,gpus-1 228,us-west-1,1.4874983022107011
+IBMCloud_8509,bx2-2x8,us-west-2 1074,0.15090776645000045
+IBMCloud 89_151,bx2-4x16,us-west-2 785,0.21810619866681452
+IBMCloud_2765,gpus-1,us-west-2,1.6888645107804998
+IBMCloud_9049,bx2-2x8,EU-WEST-1,0.14686256354498128
+IBMCloud_6216,bx2-4x16,eu-west-1,0.1472479286485808
+IBMCloud_3464,gpus-1,eu-west-1,1.6978841733402488
+IBMCloud_6751,bx2-2x8,eu-central-1,0.10548448818719622
+IBMCloud_2720,BX2-4X16,eu-central-1,0.24950663448596103
+IBMCloud_6043,gpus-1,eu-central-1,1.711784985672392
+IBMCloud_8200,bx2-2x8 709,ap-south-1,0.09956222538349699
+IBMCloud_6955,bx2-4x16,ap-south-1,0.29391760578540427
+IBMCloud_8562,gpus-1,ap-south-1,1.5094967119561447
+IBMCloud_1195,bx2-2x8,ap-southeast-1,0.08712547452756349
+IBMCloud_3839,bx2-4x16,ap-southeast-1,0.2230670742732516
+IBMCloud_7936,gpus-1,ap-southeast-1,1.2322816452679797
+IBMCloud_2113,bx2-2x8,ap-northeast-1 1003,0.06787506428948738
+IBMCloud 1281_8026,bx2-4x16,ap-northeast-1,0.31944256653433606
+IBMCloud_9321,gpus-1,ap-northeast-1,1.088948427476394
+IBMCLOUD_7024,bx2-2x8 1866,asia-south1,0.13363954214179594
+IBMCloud_5336,bx2-4x16,asia-south1 1396,0.1558762001285675
+IBMCloud_5556,gpus-1,asia-south1,2.098286914582384
+IBMCloud_772,bx2-2x8 1711,me-central-1,0.12854298799892597
+IBMCloud_298,bx2-4x16,me-central-1,0.28199391875956464
+IBMCloud_3697,gpus-1,me-central-1 111,1.3480645313555757
+IBMCloud 332_8719,bx2-2x8,sa-east-1,0.07943170456346148
+IBMCloud_5905,bx2-4x16,SA-EAST-1,0.32081769956486306
+IBMCloud_1673,gpus-1,sa-east-1,1.6244840199732922
+DigitalOcean_1711,s-1vcpu-1gb 1485,us-east-1,0.020508066352317042
+DigitalOcean_5773,s-2vcpu-4gb,us-east-1,0.06676898554875746
+DigitalOcean 768_3498,g-2vcpu-8gb,us-east-1,0.10515740286576346
+DigitalOcean_2876,s-1vcpu-1gb 193,us-west-1,0.03153571767611313
+DigitalOcean_8737,s-2vcpu-4gb,us-west-1,0.10671240087217902
+DigitalOcean_6066,g-2vcpu-8gb,us-west-1,0.08105446077950812
+DigitalOcean_627,s-1vcpu-1gb,us-west-2,0.02169609974980006
+DigitalOcean_6847,s-2vcpu-4gb,us-west-2,0.061124459271168156
+DigitalOcean_9557,g-2vcpu-8gb,us-west-2,0.142859043942262
+DigitalOcean_4072,s-1vcpu-1gb 15,eu-west-1,0.034458598399612655
+DigitalOcean_1802,s-2vcpu-4gb 1113,eu-west-1,0.09119213322728204
+DigitalOcean 294_6143,G-2VCPU-8GB,eu-west-1,0.11979911704101985
+DigitalOcean_3491,s-1vcpu-1gb,eu-central-1,0.036122554611162226
+DigitalOcean 1612_9233,s-2vcpu-4gb,eu-central-1,0.09992835233486368
+DigitalOcean_4039,G-2VCPU-8GB,EU-CENTRAL-1,0.08577035900837209
+DigitalOcean_5448,s-1vcpu-1gb 382,ap-south-1 1309,0.02493892369324063
+DigitalOcean_8922,s-2vcpu-4gb,ap-south-1,0.07444488540591784
+DigitalOcean_8888,g-2vcpu-8gb,ap-south-1,0.13056006228075864
+DigitalOcean_4591,s-1vcpu-1gb 298,ap-southeast-1 714,0.023607962068344555
+DIGITALOCEAN_586,s-2vcpu-4gb,ap-southeast-1,0.05174407438198372
+DigitalOcean_6030,g-2vcpu-8gb 533,ap-southeast-1,0.11396929979172163
+DigitalOcean_946,s-1vcpu-1gb,ap-northeast-1,0.019210452046604126
+DigitalOcean_888,s-2vcpu-4gb,ap-northeast-1,0.07135269131350458
+DigitalOcean_4862,g-2vcpu-8gb,ap-northeast-1,0.13857259220271748
+DigitalOcean 1045_2554,s-1vcpu-1gb,asia-south1,0.041707117487814055
+DigitalOcean_3234,s-2vcpu-4gb 1734,asia-south1,0.054292681844282216
+DigitalOcean_4921,g-2vcpu-8gb,asia-south1,0.0877383418088318
+DIGITALOCEAN_7547,s-1vcpu-1gb 804,me-central-1 504,0.03034668325770011
+DigitalOcean_2232,s-2vcpu-4gb,me-central-1 657,0.0412255990507591
+DigitalOcean_2704,g-2vcpu-8gb,me-central-1,0.12460372415182887
+DigitalOcean 981_9670,s-1vcpu-1gb,sa-east-1,0.04083230221480085
+DigitalOcean_2527,s-2vcpu-4gb,sa-east-1,0.05486635600890175
+DigitalOcean_3004,g-2vcpu-8gb,sa-east-1,0.09301882182803634
+Linode_399,nanode,us-east-1,0.019136935264610074
+Linode_2164,g6-standard-2,us-east-1,0.07679966645229104
+Linode_1752,g6-highmem-4 625,us-east-1,0.23284942728194727
+Linode_8520,nanode,us-west-1,0.03062372332313874
+Linode_5883,g6-standard-2,US-WEST-1,0.04727436142748094
+Linode_269,g6-highmem-4,us-west-1 1366,0.23170803609210625
+Linode_3701,nanode 311,us-west-2 553,0.032604545266523205
+Linode_1548,g6-standard-2,us-west-2,0.09248230645548801
+Linode_8410,g6-highmem-4,us-west-2,0.3090847753682054
+Linode 1428_1230,nanode,eu-west-1,0.02047853667187453
+Linode_6939,G6-STANDARD-2,eu-west-1 779,0.09022661768093235
+Linode_6791,g6-highmem-4,eu-west-1,0.19462708809904455
+Linode_5326,nanode,EU-CENTRAL-1,0.027405986011224518
+Linode_2107,g6-standard-2,eu-central-1,0.060564754337768215
+Linode 1913_8571,g6-highmem-4,eu-central-1,0.2682072809059424
+Linode_1733,nanode,ap-south-1 1611,0.0292708759578588
+Linode 1065_4981,g6-standard-2,ap-south-1,0.05083186739689523
+Linode_9885,g6-highmem-4,ap-south-1,0.22190401159191941
+Linode 1203_9735,nanode,ap-southeast-1,0.02875712040283817
+Linode 1123_1369,g6-standard-2 573,AP-SOUTHEAST-1,0.050797780104897765
+Linode_7738,g6-highmem-4,ap-southeast-1,0.23371181535888186
+Linode_2461,nanode,ap-northeast-1,0.019302393506510043
+Linode_8885,g6-standard-2,AP-NORTHEAST-1,0.06817929603864417
+Linode 245_7957,g6-highmem-4,ap-northeast-1 660,0.2813826510903824
+Linode_9397,nanode,asia-south1,0.023317608449931616
+Linode_8774,g6-standard-2 392,asia-south1,0.10098004226175196
+Linode_6224,g6-highmem-4 37,asia-south1,0.32835386399761507
+Linode_3048,nanode 774,me-central-1,0.02803584897129638
+Linode_7781,g6-standard-2,me-central-1 676,0.07389965933723724
+Linode_3915,g6-highmem-4 99,me-central-1,0.18206378018773028
+Linode 1002_9980,nanode 247,sa-east-1 693,0.03473818879155238
+Linode_5193,g6-standard-2,sa-east-1,0.05316288850025415
+Linode 1743_8413,g6-highmem-4,sa-east-1,0.2455426183391052
+Hetzner_5013,cx11,us-east-1 1493,0.04251447571120394
+Hetzner 1975_6114,cx31,us-east-1 787,0.051581100045561865
+HETZNER_523,ccx51,us-east-1,0.6230762796869616
+Hetzner 1632_9247,cx11,us-west-1,0.02506749567867849
+Hetzner 220_4100,cx31 1605,us-west-1,0.043481044960440585
+Hetzner_9862,ccx51,us-west-1,0.5221842946146559
+Hetzner_6383,cx11,US-WEST-2,0.03339205313297554
+Hetzner_1992,cx31,us-west-2,0.07114768399327169
+Hetzner_4339,ccx51,us-west-2,0.5588503354372459
+Hetzner_3660,cx11,eu-west-1 702,0.04085590600796058
+Hetzner_8323,CX31,eu-west-1,0.06372495339317431
+Hetzner_4098,ccx51 625,eu-west-1,0.46556354098166275
+Hetzner 1835_4214,cx11,eu-central-1,0.022850191863375436
+Hetzner_623,cx31,eu-central-1,0.08174184530340496
+Hetzner 1264_4157,ccx51,eu-central-1,0.44549673792812766
+Hetzner_5475,cx11,ap-south-1 1137,0.019029141171569928
+Hetzner 516_9975,cx31,ap-south-1,0.06834734872658647
+Hetzner_1662,ccx51,ap-south-1,0.2727805020005166
+Hetzner_1983,cx11,ap-southeast-1,0.02103627518409454
+Hetzner_1408,cx31,ap-southeast-1,0.06945719857918163
+Hetzner_4732,ccx51 856,ap-southeast-1,0.5633520243124388
+Hetzner_4492,cx11,ap-northeast-1,0.026627019992944524
+Hetzner_5457,cx31,ap-northeast-1,0.07371287117662963
+Hetzner_3873,ccx51,ap-northeast-1 1306,0.31421713316725247
+Hetzner_2755,cx11 406,asia-south1 239,0.018707055699238404
+Hetzner_4155,CX31,asia-south1,0.0545210425675339
+Hetzner_6597,ccx51,asia-south1,0.5407424686944639
+Hetzner_4755,cx11,me-central-1,0.035285199417002804
+Hetzner 1349_6289,cx31 1959,me-central-1,0.08164148557964797
+HETZNER_6927,ccx51,me-central-1,0.5052350527050189
+HETZNER_73,cx11 91,sa-east-1,0.03928065644959708
+Hetzner_389,cx31,sa-east-1 1578,0.0690535851098952
+Hetzner_9379,ccx51,sa-east-1 53,0.6162940151522671
+AlibabaCloud_2155,ecs.nano 835,us-east-1,0.032295928831599624
+AlibabaCloud_4094,ecs.c6.large,us-east-1,0.08172820713033205
+AlibabaCloud 1083_5250,gn5i-c8g1 927,us-east-1,2.139585845616324
+AlibabaCloud_8869,ecs.nano,us-west-1,0.03450243444449581
+AlibabaCloud_3109,ecs.c6.large,us-west-1,0.0675204750022124
+AlibabaCloud_6651,gn5i-c8g1,us-west-1,1.382439124131748
+AlibabaCloud_8423,ecs.nano,us-west-2,0.030103780605598814
+AlibabaCloud_5714,ecs.c6.large,us-west-2 1976,0.10101816501888149
+AlibabaCloud_4827,gn5i-c8g1 1713,us-west-2,1.5250879552882584
+AlibabaCloud_9461,ecs.nano,EU-WEST-1,0.03814767850690459
+AlibabaCloud_6313,ecs.c6.large,eu-west-1,0.13678961268223788
+ALIBABACLOUD_9180,gn5i-c8g1 873,eu-west-1,1.8663822320593857
+AlibabaCloud_711,ecs.nano,eu-central-1 1977,0.02346355777214104
+AlibabaCloud_278,ecs.c6.large,eu-central-1 460,0.09223552610536008
+AlibabaCloud_947,gn5i-c8g1,eu-central-1,1.7632887133468544
+AlibabaCloud_9610,ecs.nano,ap-south-1,0.026387324264381437
+AlibabaCloud_3775,ecs.c6.large,ap-south-1 987,0.09746069169791517
+AlibabaCloud_6702,gn5i-c8g1,ap-south-1 356,1.2216474124855983
+AlibabaCloud_773,ecs.nano,ap-southeast-1,0.02861392392839706
+AlibabaCloud_1010,ecs.c6.large 1625,ap-southeast-1 503,0.12761628324449648
+AlibabaCloud_2466,gn5i-c8g1,ap-southeast-1,1.344575253991113
+ALIBABACLOUD_7456,ecs.nano,AP-NORTHEAST-1,0.0298862045988767
+AlibabaCloud 1334_7620,ecs.c6.large,ap-northeast-1,0.09049607600857539
+AlibabaCloud_8387,gn5i-c8g1,ap-northeast-1 1401,2.076297803240652
+AlibabaCloud_1951,ecs.nano,asia-south1 1045,0.017138292252205686
+AlibabaCloud_1814,ecs.c6.large,asia-south1,0.10288766310945271
+AlibabaCloud 111_3822,gn5i-c8g1,asia-south1 792,1.5403790015356102
+AlibabaCloud_1105,ecs.nano,me-central-1 1561,0.018680786602638434
+AlibabaCloud_2331,ecs.c6.large,me-central-1,0.14122943880475156
+AlibabaCloud_7824,gn5i-c8g1,me-central-1,2.078647495383158
+AlibabaCloud_2230,ecs.nano,sa-east-1,0.02669465304604189
+AlibabaCloud_9079,ecs.c6.large,sa-east-1,0.0693646817870685
+AlibabaCloud_5966,gn5i-c8g1,sa-east-1 1906,2.3540301910917125
+TencentCloud_5344,s1.small 1480,us-east-1,0.04204704759705907
+TencentCloud_8490,s2.medium 936,us-east-1,0.08616759599572377
+TencentCloud_8774,gn6.large,us-east-1,0.09672488828551239
+TencentCloud_4331,s1.small,us-west-1,0.02849612365972249
+TencentCloud_9301,s2.medium,us-west-1,0.09908959477783966
+TencentCloud_2018,gn6.large,us-west-1,0.19903861012531332
+TencentCloud_7921,s1.small 646,us-west-2,0.023229793994458042
+TencentCloud_9337,s2.medium 870,us-west-2,0.06508779660519955
+TencentCloud_7904,gn6.large,us-west-2,0.16323837171135294
+TencentCloud_2019,s1.small 515,eu-west-1,0.024740729470795305
+TENCENTCLOUD_3439,s2.medium,eu-west-1,0.06645429284147253
+TencentCloud_3051,gn6.large,eu-west-1 1691,0.13170552485017303
+TencentCloud_8252,s1.small,eu-central-1 679,0.031285496532039235
+TencentCloud_1373,s2.medium,eu-central-1,0.09396778447934348
+TencentCloud_4124,gn6.large,eu-central-1,0.18049598039512996
+TencentCloud 1108_89,s1.small,AP-SOUTH-1,0.04009259287654484
+TencentCloud_7834,s2.medium,ap-south-1 248,0.09741888494172879
+TencentCloud_3089,gn6.large,ap-south-1 1358,0.10985375228196151
+TencentCloud_4060,s1.small 1335,ap-southeast-1,0.03646385436541954
+TencentCloud_6793,s2.medium,ap-southeast-1 93,0.08872902795160957
+TencentCloud 594_3036,gn6.large,ap-southeast-1,0.1642814149742473
+TencentCloud_87,s1.small,ap-northeast-1,0.033590665886293905
+TENCENTCLOUD_8228,s2.medium,ap-northeast-1,0.06756175236587941
+TencentCloud_9483,gn6.large,ap-northeast-1,0.20250358331616777
+TencentCloud 1050_9473,s1.small,asia-south1,0.039009480552897983
+TencentCloud 1067_5328,s2.medium,asia-south1 959,0.08434043790343543
+TencentCloud_8091,gn6.large,asia-south1,0.1082119053784561
+TencentCloud 1553_9854,s1.small,me-central-1,0.03091623939986405
+TencentCloud_7760,s2.medium 560,ME-CENTRAL-1,0.05058623844182506
+TencentCloud 174_9743,gn6.large 1391,me-central-1,0.09241548424318902
+TencentCloud_2683,S1.SMALL,sa-east-1 352,0.018399399412869038
+TencentCloud 291_1820,s2.medium,sa-east-1,0.08761592159016046
+TencentCloud_583,gn6.large,sa-east-1,0.14614079509666994
+OVHCloud_6655,b2-7,us-east-1,0.06269623349714501
+OVHCloud_6983,b2-15 563,us-east-1 1387,0.1582168314800048
+OVHCloud_3521,t1-45,us-east-1,0.2443322219869315
+OVHCloud_2997,b2-7,us-west-1,0.0871345008629181
+OVHCloud_9502,b2-15,us-west-1,0.15680842330532416
+OVHCloud_1903,t1-45,us-west-1 1882,0.34864815790763354
+OVHCloud_4476,b2-7,us-west-2 1042,0.06488013622592467
+OVHCloud_3327,b2-15,us-west-2,0.19799866207682432
+OVHCloud_1614,t1-45,us-west-2,0.417286936178161
+OVHCloud_9697,b2-7,eu-west-1,0.08511518101505518
+OVHCloud 1207_2165,b2-15,eu-west-1,0.188107841917205
+OVHCloud_7523,t1-45 1880,eu-west-1,0.4084073249974465
+OVHCloud_1724,b2-7,eu-central-1,0.04694787971873167
+OVHCloud_3008,b2-15,eu-central-1 1591,0.11287088867212741
+OVHCloud_3590,t1-45,eu-central-1,0.3869760400480878
+OVHCloud_7919,b2-7,ap-south-1 350,0.08935824578193811
+OVHCloud 476_2243,b2-15,ap-south-1 1513,0.1735608058709908
+OVHCloud_3453,t1-45,ap-south-1 1154,0.37634821022668785
+OVHCloud_6923,b2-7,ap-southeast-1,0.05793677634403968
+OVHCloud_9327,b2-15,ap-southeast-1,0.21779659677712143
+OVHCloud_7476,t1-45,ap-southeast-1,0.19060403879865898
+OVHCloud_4441,b2-7 1521,ap-northeast-1 1172,0.10331343550847816
+OVHCloud_7173,b2-15,ap-northeast-1 22,0.19327806348673976
+OVHCloud_8155,t1-45 1140,ap-northeast-1,0.37111117910732216
+OVHCloud_4014,b2-7,asia-south1 1839,0.09157440557119706
+OVHCloud_9479,b2-15 1447,asia-south1,0.15060654830350542
+OVHCloud_2113,t1-45,asia-south1,0.3516152632059346
+OVHCloud 632_5953,B2-7,me-central-1 1727,0.0981293474405834
+OVHCloud_1745,b2-15,me-central-1,0.10624506940156966
+OVHCloud_7084,t1-45,me-central-1,0.40156581452740764
+OVHCloud_687,b2-7,sa-east-1,0.05452223362454771
+OVHCloud_9365,b2-15,sa-east-1 1613,0.1871093500058509
+OVHCloud_7984,t1-45,sa-east-1,0.3125189512558084
+AWS 212 1666_6774,t3.nano,us-east-1 v41 1863,0.04613933684674762
+AWS 757 101_6124,t3.micro,us-east-1,0.08557612362712781
+AWS 575_1893,m5.large,us-east-1 v32,0.11495075048984114
+AWS 944_2960,c5.xlarge v46,us-east-1,0.2622822635765709
+AWS 946_3807,G4DN.XLARGE,us-east-1,1.532533277797457
+AWS 331 1880_9520,t3.nano 1359,us-west-1,0.03981098614952622
+AWS 650_2607,t3.micro,us-west-1 v30,0.07846673888017533
+AWS 164_9889,m5.large 236,us-west-1,0.15567689645816057
+AWS V13 870_8472,c5.xlarge,us-west-1 v46,0.1767939086632941
+AWS 750 1365_9128,g4dn.xlarge 636,us-west-1,0.8547676316816148
+AWS 721_5475,t3.nano,us-west-2,0.06469316225848692
+AWS 295_8068,t3.micro v6,us-west-2,0.051690958173024035
+AWS 694_6807,m5.large,us-west-2,0.17441761179045684
+AWS 187_3675,c5.xlarge 1501,us-west-2,0.2366408302844493
+AWS 363_8586,g4dn.xlarge 895,us-west-2,1.6859285681751783
+AWS 680_6669,t3.nano 469,eu-west-1 1690,0.0453507288853013
+AWS 92_5748,t3.micro v43,eu-west-1,0.043867425399739125
+AWS 512_3955,m5.large,eu-west-1,0.140985769571525
+AWS 772_5733,c5.xlarge,eu-west-1,0.15279068384944106
+AWS 822_4876,g4dn.xlarge 1297,eu-west-1 v7,0.7985330299647155
+AWS 129_9122,t3.nano 1476,eu-central-1,0.05271841541988245
+AWS 754_4886,t3.micro,eu-central-1,0.07253085849362444
+AWS 341_7889,m5.large,eu-central-1,0.12544038193992998
+AWS 860_4672,c5.xlarge v5,eu-central-1,0.2096756155971355
+AWS 621_7424,g4dn.xlarge 612,eu-central-1,2.3720617012728678
+AWS 69_387,t3.nano,ap-south-1 v19 1372,0.028501647858244505
+AWS 283_8486,t3.micro,AP-SOUTH-1,0.06265520218719282
+AWS 277_3569,m5.large,ap-south-1,0.1441122288828482
+AWS 856 1894_5847,c5.xlarge 1274,ap-south-1,0.2584755273476813
+AWS v46 864_5130,g4dn.xlarge,ap-south-1,1.2245776713308774
+AWS 177_6910,t3.nano,ap-southeast-1,0.03172460535031178
+AWS 97_312,t3.micro,ap-southeast-1,0.03244194267065858
+AWS v9 109_7996,m5.large,ap-southeast-1 985,0.09862651558184103
+AWS 261 422_7118,C5.XLARGE V22,ap-southeast-1,0.26718039244292824
+AWS 471_7227,G4DN.XLARGE,ap-southeast-1,1.072672745979161
+AWS 895_2629,t3.nano,ap-northeast-1,0.06307840517991589
+AWS 677_5895,t3.micro,ap-northeast-1 1266,0.03872431433372681
+AWS 372_3655,m5.large,ap-northeast-1,0.07124513130320742
+AWS 401_2896,c5.xlarge,AP-NORTHEAST-1,0.3143198325682332
+AWS 485_6844,g4dn.xlarge,ap-northeast-1,2.0938667786094
+AWS 758 77_843,t3.nano 1722,asia-south1 v18,0.025860971101046806
+AWS 416_4791,t3.micro v17 1652,asia-south1,0.051580405499746115
+AWS 115_1684,m5.large,asia-south1 v14,0.08231144412321854
+AWS 540_1112,C5.XLARGE,asia-south1,0.21286147116994056
+AWS 758_7706,G4DN.XLARGE 857,asia-south1 v39,1.037424242056628
+AWS 382_9780,t3.nano 1920,me-central-1,0.037648620091630634
+AWS 137_9438,t3.micro 1376,me-central-1 v8,0.04733211893333849
+AWS 330_9659,m5.large v33 1191,me-central-1,0.13592322834846116
+AWS 925_112,c5.xlarge,me-central-1,0.30293237272348644
+AWS 930_8288,g4dn.xlarge 886,me-central-1 v13 1648,0.9958635595723306
+AWS 433 1262_1500,t3.nano v47 38,sa-east-1,0.05751411357966283
+AWS 295_2403,t3.micro,sa-east-1,0.034587462179320405
+AWS 71 282_6193,m5.large,sa-east-1,0.11641952421294938
+AWS 451_1531,c5.xlarge 733,sa-east-1 1273,0.17756794954173613
+AWS v49 753_2828,g4dn.xlarge 1563,sa-east-1 v39,1.670112537333949
+Azure 251_3497,B1s,us-east-1,0.01948696093272011
+Azure 629_4461,B2s,us-east-1,0.069438498923681
+Azure 25_9481,D2S_V3,us-east-1 v26,0.11695636511967929
+Azure 824_7024,F4s_v2 1153,us-east-1,0.23315492414765848
+Azure 336_9032,NC6 1403,us-east-1,1.6011254052957846
+AZURE 630_7404,B1s,us-west-1,0.041651912978608686
+Azure 962 54_8735,B2s v14,us-west-1 v29 970,0.09014551784078757
+Azure 693 1402_9863,D2s_v3 v15,us-west-1,0.10087549296712175
+Azure v40 560 694_1691,F4s_v2 v18 1600,us-west-1,0.1808329740885727
+Azure v8 751_6991,NC6 v22 1241,us-west-1 1474,1.4030855656465415
+Azure 732_6763,B1s,us-west-2,0.036908462826470735
+Azure 834_4011,B2s v49,us-west-2,0.07848888616701274
+Azure 532_8470,D2s_v3,us-west-2,0.1640172721337275
+Azure 733_686,F4S_V2,us-west-2,0.1832951276774479
+Azure 832_2825,NC6 931,us-west-2 v3,2.1340748519365267
+Azure 644_7175,B1s,eu-west-1,0.023159926025725322
+Azure 122_3885,B2s 559,eu-west-1,0.07909027331394408
+Azure v32 898_3416,D2s_v3,eu-west-1 v27,0.07402297141170172
+Azure v49 671_2292,F4s_v2 563,EU-WEST-1,0.16627609749744252
+Azure 719_3840,NC6,EU-WEST-1,1.2075984746835717
+Azure 201_6777,B1s,eu-central-1,0.02078876223762139
+Azure 429_9110,B2s,eu-central-1,0.07073029179595951
+Azure v32 211_5976,D2s_v3,eu-central-1 v17,0.13610204653470642
+Azure v29 895_8149,F4s_v2,eu-central-1 v7,0.22344657587486202
+Azure 400 897_5341,NC6 v29,eu-central-1 1238,2.3346520834934688
+Azure 858_7236,B1s v3,ap-south-1,0.03023030392977297
+Azure 470_1427,B2s,ap-south-1,0.07460050277665332
+Azure 445_7921,D2s_v3,ap-south-1,0.10844908774710767
+Azure 520_4671,F4s_v2,ap-south-1 1969,0.18140066385316322
+Azure v40 716_7591,NC6 v45,ap-south-1 v2,2.7789826539340505
+Azure 336 1483_5059,B1s,ap-southeast-1,0.02253238389333484
+Azure v2 791_8962,B2s v12 1482,ap-southeast-1,0.0783112453362067
+Azure 384_2063,D2s_v3,ap-southeast-1,0.16045609641041403
+Azure 195 894_2307,F4S_V2,ap-southeast-1 1924,0.17710163469814155
+Azure 990_2107,NC6,ap-southeast-1 v30,1.586184695605947
+Azure 378_6336,B1s,ap-northeast-1,0.029633623298565438
+Azure 790 1226_3267,B2s v27,ap-northeast-1,0.03993696226045848
+Azure 207_4394,D2s_v3 1467,ap-northeast-1,0.1650968695214457
+AZURE 838_295,F4s_v2,ap-northeast-1,0.18152420491012353
+Azure v37 540 1757_3603,NC6 v20,ap-northeast-1,1.0122768217239764
+AZURE 70_5792,B1s 1406,asia-south1 v37,0.02126072397840765
+Azure 591 1698_8964,B2s,asia-south1,0.06723751263620445
+Azure 902_3465,D2s_v3 v46 963,asia-south1,0.11679337202823098
+Azure v46 744_2136,F4s_v2,asia-south1,0.21269153291357057
+Azure 77_1507,NC6,asia-south1,2.0530814498317542
+Azure 331 111_8588,B1s,me-central-1,0.023655063372976026
+AZURE 550_9388,B2s,me-central-1,0.05500290661457904
+Azure 299_6325,D2s_v3,me-central-1,0.08142249751946973
+Azure v27 458 790_1067,F4s_v2,me-central-1,0.1593404064760472
+Azure v27 655_6727,NC6,me-central-1,1.9904528220502322
+Azure 803_5470,B1s 788,sa-east-1,0.027376299199694806
+Azure 499_1828,B2s 1710,SA-EAST-1,0.08676572211897615
+Azure 508_5801,D2S_V3,sa-east-1,0.155682139332875
+Azure 166_4031,F4s_v2,sa-east-1,0.11892107479702259
+Azure 433_9265,NC6,sa-east-1,2.011736065440775
+GCP 768_1984,e2-micro v32 228,us-east-1,0.05975685212995631
+GCP 709_109,e2-small,us-east-1 v35,0.05906578020727484
+GCP 537 1487_6484,n1-standard-2 249,us-east-1 835,0.06061063855469463
+GCP 19_2765,n2-standard-8,us-east-1 965,0.4451158637622158
+GCP 939_389,A2-HIGHGPU-1G,us-east-1,2.6943214245758975
+GCP 855_3245,e2-micro,us-west-1 1531,0.037894094417231274
+GCP 695_300,e2-small,us-west-1,0.05870587063646982
+GCP 780_1918,n1-standard-2,us-west-1 v5 1393,0.1445975041528256
+GCP 921 1707_7564,n2-standard-8 v49 744,us-west-1 v42,0.33620738407400286
+GCP 189 555_893,a2-highgpu-1g 1619,us-west-1,2.044671821878679
+GCP 722_4466,e2-micro 1871,us-west-2,0.0264749566203741
+GCP 940_2236,e2-small 601,us-west-2,0.06308546626329527
+GCP 511_6294,n1-standard-2 144,us-west-2 1811,0.1250774128451248
+GCP 918_362,n2-standard-8 812,us-west-2,0.3655407197730129
+GCP 260_4825,a2-highgpu-1g 915,US-WEST-2,1.891192945785185
+GCP 406_166,e2-micro,EU-WEST-1,0.04570288969950435
+GCP 93_6145,e2-small,EU-WEST-1,0.05329449227071481
+GCP 434 1809_6737,n1-standard-2,eu-west-1,0.11463730431983638
+GCP 43_5199,N2-STANDARD-8,eu-west-1,0.5131482211653261
+GCP 532_1882,a2-highgpu-1g,eu-west-1,2.970034483501835
+GCP 184 1980_2000,e2-micro,EU-CENTRAL-1,0.054541549950444725
+GCP 834 10_9786,e2-small,eu-central-1 1578,0.06966354541285529
+GCP 804_6835,n1-standard-2,eu-central-1,0.05900851468584331
+GCP 936_76,n2-standard-8 v11,eu-central-1,0.3341166946480432
+GCP 29_4917,a2-highgpu-1g 553,eu-central-1,2.380831282312134
+GCP 640_833,E2-MICRO,AP-SOUTH-1,0.0598515809582014
+GCP 942 68_7354,e2-small,ap-south-1 846,0.04882408702361893
+GCP 45_7737,n1-standard-2,ap-south-1 807,0.12654709967366132
+GCP 155 853_1851,n2-standard-8,ap-south-1,0.5017803843326151
+GCP 511_2627,a2-highgpu-1g,ap-south-1,1.5063723040994466
+GCP 465_4457,e2-micro,ap-southeast-1 v20,0.062255850784718285
+GCP 885_2781,e2-small v8,ap-southeast-1,0.06419797694918268
+GCP 743_8013,n1-standard-2,ap-southeast-1,0.08020959175713191
+GCP 64_2495,n2-standard-8,ap-southeast-1 v12,0.4004916175039012
+GCP 494_2556,a2-highgpu-1g,ap-southeast-1,2.27923673857355
+GCP 364 1006_5976,e2-micro,AP-NORTHEAST-1,0.0517959281724998
+GCP 728 1914_6979,E2-SMALL,ap-northeast-1 v20,0.05687466717534127
+GCP 485_9888,n1-standard-2 1316,AP-NORTHEAST-1,0.13700811628194168
+GCP 808_551,N2-STANDARD-8 V37,ap-northeast-1,0.30567394484692845
+GCP 919_8014,a2-highgpu-1g 502,ap-northeast-1,1.7709872609932142
+GCP v46 93_4862,e2-micro,asia-south1,0.04006128041932956
+GCP 39_7374,e2-small,asia-south1,0.04923361856026369
+GCP 992_4404,n1-standard-2 v36,asia-south1,0.16891906421319572
+GCP v26 960_309,n2-standard-8 v22 425,asia-south1 v4 255,0.28913826173426205
+GCP v24 471_7976,a2-highgpu-1g,asia-south1 897,1.880152884566167
+GCP 11_2303,e2-micro,me-central-1,0.04322623766618891
+GCP 453_7559,e2-small 1395,me-central-1,0.06215204348908788
+GCP 920_5380,n1-standard-2 v10,me-central-1 v40 453,0.12310818269672562
+GCP 446_8434,n2-standard-8,me-central-1 441,0.4074595249146801
+GCP 735_8436,a2-highgpu-1g,me-central-1,1.510736685748232
+GCP 909_1099,e2-micro v42,sa-east-1 v34 1353,0.05503484413311481
+GCP 972_4068,E2-SMALL,sa-east-1 1188,0.0920411409185839
+GCP 271 638_4115,n1-standard-2,sa-east-1 1404,0.0793467091058434
+GCP v39 32 1378_5770,n2-standard-8,SA-EAST-1 1788,0.4432250176710849
+GCP 731_2005,a2-highgpu-1g,sa-east-1,1.1955676044446542
+OracleCloud 201_8250,VM.Standard.E2.1,us-east-1,0.018881997440080085
+ORACLECLOUD 211_4116,VM.Standard2.2,us-east-1,0.13162861525194827
+OracleCloud 48_7557,BM.GPU2.2,US-EAST-1,2.6897177084875783
+OracleCloud 224 903_2152,VM.Standard.E2.1 v39,us-west-1 v4 1774,0.02923307195786018
+OracleCloud 849 364_5673,VM.STANDARD2.2,us-west-1,0.15387765121897973
+OracleCloud v6 188_4949,BM.GPU2.2,us-west-1,2.8097890208516847
+OracleCloud 551 11_4287,VM.Standard.E2.1 v31 1441,us-west-2,0.04862493431474216
+OracleCloud 187 120_2089,VM.Standard2.2 1645,us-west-2,0.06447197493154182
+OracleCloud 220_3284,BM.GPU2.2,us-west-2 167,1.8643451709994021
+OracleCloud 643_8211,VM.Standard.E2.1,EU-WEST-1,0.03179098178688162
+OracleCloud 406_507,VM.Standard2.2,eu-west-1,0.10303163088551544
+OracleCloud 247_6028,BM.GPU2.2,eu-west-1 1774,2.941096293401916
+OracleCloud v6 906_417,VM.Standard.E2.1 v14,eu-central-1 1786,0.017414749280061304
+OracleCloud 349_5978,VM.Standard2.2 v12,eu-central-1 v49,0.12915869176712685
+OracleCloud v25 725_9712,BM.GPU2.2 v41 1433,eu-central-1,2.2277345034343257
+OracleCloud 388_9187,VM.Standard.E2.1,ap-south-1 v39,0.03275622620010846
+OracleCloud 626_1594,VM.Standard2.2 57,ap-south-1,0.07809447878674282
+OracleCloud v13 932_9585,BM.GPU2.2,ap-south-1,2.469389438575653
+OracleCloud 273 1140_1639,VM.STANDARD.E2.1,ap-southeast-1,0.02748971287976418
+OracleCloud 109_6391,VM.Standard2.2,ap-southeast-1 v8,0.12784798580879908
+ORACLECLOUD 474_4882,BM.GPU2.2 v8,ap-southeast-1,3.931773517928505
+OracleCloud 229_4238,VM.Standard.E2.1 1686,ap-northeast-1,0.02593641037262825
+OracleCloud 272 1821_4229,VM.Standard2.2,ap-northeast-1,0.10499881578772315
+OracleCloud v18 608_3856,BM.GPU2.2 V17,ap-northeast-1 v30,1.549432825468414
+ORACLECLOUD V46 781_3091,VM.Standard.E2.1,asia-south1,0.038278701120173966
+OracleCloud 624 1188_5782,VM.Standard2.2 1121,asia-south1,0.09530837144073588
+OracleCloud 143_3411,BM.GPU2.2 v40 664,ASIA-SOUTH1,3.6200148168539337
+OracleCloud 479_1197,VM.Standard.E2.1,me-central-1 324,0.025871264566606107
+OracleCloud 649_2541,VM.Standard2.2 v30,me-central-1 v33,0.10045619932094638
+OracleCloud 739 1276_1806,BM.GPU2.2,ME-CENTRAL-1,3.602396470751234
+OracleCloud 800_9880,VM.Standard.E2.1,sa-east-1 721,0.01487262856505005
+OracleCloud 974_7689,VM.Standard2.2 1508,sa-east-1,0.09567013743101935
+OracleCloud 667 1124_8612,BM.GPU2.2,sa-east-1,2.0262751622102777
+IBMCloud 232_798,BX2-2X8,us-east-1,0.10446230914446643
+IBMCloud 615_118,bx2-4x16,us-east-1,0.17336702136640367
+IBMCloud 506 1800_1616,gpus-1 v17,us-east-1,1.7059214680475634
+IBMCloud 407_2922,bx2-2x8 111,US-WEST-1,0.12998921470285474
+IBMCloud 614 1221_6627,bx2-4x16,us-west-1,0.20794318591973535
+IBMCloud 227_4169,gpus-1 v8,us-west-1,1.0311959054111774
+IBMCloud 450_8535,bx2-2x8 v24,us-west-2 v49 1586,0.087718965425538
+IBMCloud 668_1928,bx2-4x16 41,US-WEST-2 1343,0.18985060577093973
+IBMCloud v6 28_7651,gpus-1,US-WEST-2 V19,1.1942300909889154
+IBMCloud 580_8804,bx2-2x8,eu-west-1 v37,0.09878382897188182
+IBMCloud 676_4155,bx2-4x16,eu-west-1,0.2926316171556719
+IBMCloud 288_5593,gpus-1,eu-west-1 1108,1.2319154151198224
+IBMCloud v36 494_7280,bx2-2x8,eu-central-1,0.09088363935902352
+IBMCloud v35 796_6779,bx2-4x16 v46 1202,eu-central-1 1911,0.26380356719852005
+IBMCloud 808_7364,gpus-1 171,eu-central-1,1.1059730322525836
+IBMCloud v12 370 475_8770,bx2-2x8,ap-south-1 v8 1250,0.15269276359180722
+IBMCloud 137_2827,bx2-4x16,ap-south-1,0.21117600054505997
+IBMCloud 375_4158,gpus-1 v12,ap-south-1,1.538216969491064
+IBMCloud 802_2927,bx2-2x8,ap-southeast-1,0.11239072344279485
+IBMCloud 630_3710,bx2-4x16,ap-southeast-1,0.2882155259676894
+IBMCLOUD 10_2508,gpus-1 v26,ap-southeast-1 v20,1.7924164432494656
+IBMCloud 954_7398,bx2-2x8 v24,ap-northeast-1 771,0.145005174189231
+IBMCloud 163_8276,bx2-4x16 373,ap-northeast-1,0.27940717917269886
+IBMCloud v44 162_8827,gpus-1,ap-northeast-1,2.290352445353054
+IBMCloud 140_5451,bx2-2x8,asia-south1,0.15916765313854828
+IBMCLOUD 183_1427,bx2-4x16,asia-south1,0.12132073874186441
+IBMCloud 578_8312,gpus-1,asia-south1,1.734306307330208
+IBMCloud 985_4696,bx2-2x8 883,ME-CENTRAL-1,0.15811439112750586
+IBMCloud 469_4202,bx2-4x16,me-central-1,0.26531837185111384
+IBMCloud v33 765 1884_5805,gpus-1,me-central-1,1.2974291769084927
+IBMCloud v46 302_4816,bx2-2x8,sa-east-1,0.14544910562695468
+IBMCloud 875_1025,bx2-4x16 v24 1375,sa-east-1 v5,0.2845768341165542
+IBMCloud 964 74_9594,GPUS-1,sa-east-1,2.3085952128248417
+DigitalOcean 739 1599_8545,s-1vcpu-1gb 1546,us-east-1,0.01919998542955592
+DigitalOcean 963 1996_3576,S-2VCPU-4GB,us-east-1 343,0.08225663763833545
+DigitalOcean 180_5261,g-2vcpu-8gb,us-east-1,0.07723638987931457
+DigitalOcean 573_6459,s-1vcpu-1gb,us-west-1,0.024602823216323844
+DigitalOcean 237 1843_6133,s-2vcpu-4gb v45,us-west-1 v37,0.06100724498095399
+DigitalOcean 571 424_400,g-2vcpu-8gb,us-west-1,0.07746577288081595
+DigitalOcean 700_3879,s-1vcpu-1gb,us-west-2,0.020997253884665654
+DigitalOcean 844_1849,s-2vcpu-4gb,us-west-2 v11,0.09472752852984667
+DIGITALOCEAN V13 959_6484,G-2VCPU-8GB,us-west-2,0.1528804534465499
+DigitalOcean v28 457_8119,s-1vcpu-1gb,eu-west-1,0.017189463949618507
+DigitalOcean 674 1672_430,s-2vcpu-4gb 1632,eu-west-1 v21,0.06056947972995754
+DIGITALOCEAN 588_9610,g-2vcpu-8gb,eu-west-1,0.06547160925805849
+DigitalOcean 111_2770,s-1vcpu-1gb v22,EU-CENTRAL-1,0.021962529877126866
+DIGITALOCEAN 490_5188,s-2vcpu-4gb,eu-central-1,0.06967716707814574
+DigitalOcean 209_1395,g-2vcpu-8gb,eu-central-1,0.0885082219116034
+DigitalOcean 208_1312,s-1vcpu-1gb,ap-south-1,0.03014783764123496
+DigitalOcean 529_1027,S-2VCPU-4GB,ap-south-1,0.06041862176805477
+DigitalOcean 166_5713,g-2vcpu-8gb 421,ap-south-1,0.12688720038157864
+DigitalOcean 774_9034,s-1vcpu-1gb 832,ap-southeast-1,0.02488020857820011
+DigitalOcean 72_5200,s-2vcpu-4gb,ap-southeast-1,0.06284392006471023
+DigitalOcean 415 720_1303,g-2vcpu-8gb v27,ap-southeast-1,0.07461398707999488
+DigitalOcean 709 320_1064,s-1vcpu-1gb v35,ap-northeast-1,0.026569186381085155
+DigitalOcean v49 930_3995,s-2vcpu-4gb,ap-northeast-1,0.03354910575353441
+DigitalOcean 390_8457,g-2vcpu-8gb 27,ap-northeast-1 v5 527,0.05735088368406652
+DIGITALOCEAN 146_3639,s-1vcpu-1gb,asia-south1,0.028659065479357138
+DIGITALOCEAN 903_1605,s-2vcpu-4gb v14,asia-south1 1966,0.04263523348539829
+DIGITALOCEAN 19_5769,g-2vcpu-8gb 141,asia-south1,0.10959276787531727
+DIGITALOCEAN 337_3803,s-1vcpu-1gb v47 1208,me-central-1,0.025972718833499133
+DigitalOcean 928_7120,s-2vcpu-4gb,me-central-1 v20 1994,0.060620033055887194
+DigitalOcean 920_5656,g-2vcpu-8gb,me-central-1 812,0.11789745434215597
+DigitalOcean v17 65_9444,s-1vcpu-1gb v7,sa-east-1,0.029526797672113563
+DigitalOcean 966_382,s-2vcpu-4gb,SA-EAST-1,0.07418871172505878
+DigitalOcean 880_4980,g-2vcpu-8gb,sa-east-1,0.09063076638250736
+LINODE V4 720_50,nanode,us-east-1,0.04157750813683158
+Linode 429_2271,g6-standard-2 1415,us-east-1,0.06621475208762266
+Linode v32 287_2797,g6-highmem-4 814,us-east-1,0.23439466426809727
+Linode v8 171_3091,nanode,us-west-1,0.019380300144495002
+Linode 962_8704,g6-standard-2,US-WEST-1,0.1010469627391312
+Linode 125_1104,g6-highmem-4 889,us-west-1 v44,0.27330316868783117
+Linode v35 230_2079,nanode,us-west-2,0.01997704424428682
+Linode 733_1825,g6-standard-2,us-west-2 1535,0.05541855237660973
+Linode 382 1474_8861,g6-highmem-4,us-west-2,0.14530981634509715
+Linode v5 634_1716,nanode,eu-west-1 v30,0.02514605956969412
+Linode 93_1370,g6-standard-2,eu-west-1,0.10032841004441514
+Linode 783_5639,g6-highmem-4,eu-west-1 v32,0.26155703655605483
+Linode v32 202_6027,nanode,eu-central-1,0.031759500261596005
+Linode 891_9409,g6-standard-2,eu-central-1,0.05232834469364968
+Linode v42 401_1724,g6-highmem-4,eu-central-1,0.27243247248659025
+Linode v4 979_2010,nanode,ap-south-1,0.016848591570347123
+Linode 454 1406_5553,g6-standard-2 1584,ap-south-1,0.043265763651687245
+Linode 150_1106,g6-highmem-4,ap-south-1,0.34630508061528464
+Linode 763_2559,nanode,ap-southeast-1 692,0.037397918107032246
+Linode 599_8636,g6-standard-2,ap-southeast-1 v9,0.05973276932476429
+LINODE V18 233_2188,g6-highmem-4,ap-southeast-1 914,0.18090068829519257
+Linode 125_3454,nanode,ap-northeast-1,0.031249865706590926
+Linode 256_8484,g6-standard-2,ap-northeast-1,0.10026736864685168
+Linode v25 237_9288,g6-highmem-4,ap-northeast-1,0.31370204231561016
+Linode 586_3987,nanode,asia-south1,0.023832174241365495
+Linode 314_4186,G6-STANDARD-2,asia-south1,0.07158761877482003
+LINODE 25_957,g6-highmem-4,ASIA-SOUTH1,0.2160576368226276
+Linode 99_5281,NANODE,me-central-1 v48,0.029494735011825382
+Linode 214 1669_995,g6-standard-2,me-central-1 1031,0.1077917870004433
+Linode v17 810_8784,g6-highmem-4,me-central-1 v2,0.32457567469233833
+Linode 784_3314,nanode,sa-east-1 1369,0.03151760273303373
+Linode 858_1958,g6-standard-2 v18,sa-east-1 v35,0.07607314104206872
+Linode v44 304 583_19,g6-highmem-4,sa-east-1 v43,0.3556720588525415
+Hetzner v13 758_9693,cx11,us-east-1,0.025166080001026485
+Hetzner v27 72_6161,cx31,us-east-1 1230,0.047754241985699185
+Hetzner v47 575_9646,ccx51,us-east-1,0.4020950522996862
+Hetzner v12 555_5679,cx11,us-west-1 1252,0.02445281122748838
+Hetzner 376_9749,cx31,us-west-1,0.0641995104462504
+Hetzner v8 720_2994,ccx51,us-west-1,0.48830050058301394
+Hetzner 175_2753,cx11,us-west-2,0.02917492394859047
+Hetzner 782_4071,cx31 v30,us-west-2,0.05270442732303574
+Hetzner 124_3227,ccx51,us-west-2,0.4626457649743313
+Hetzner 911_6689,CX11,eu-west-1,0.029934043194687843
+Hetzner v46 461_5482,cx31 1455,eu-west-1,0.05225971182364922
+Hetzner 27 1277_6901,ccx51,eu-west-1 347,0.5104870167068037
+Hetzner 281 1905_6418,cx11 1816,eu-central-1,0.029396460976342093
+Hetzner 918_1187,cx31,EU-CENTRAL-1,0.05444234000793679
+HETZNER 950_8615,ccx51 1403,eu-central-1,0.33295498693647607
+Hetzner 471_3656,cx11,AP-SOUTH-1,0.025690042405361383
+Hetzner 692_3714,cx31 v43,ap-south-1 v29,0.06117983754260719
+Hetzner v36 915_7126,ccx51,AP-SOUTH-1,0.5256904379541294
+Hetzner v47 9_4294,cx11 v15,ap-southeast-1,0.031910926007646716
+Hetzner 517_228,cx31,AP-SOUTHEAST-1,0.0725961215813378
+Hetzner 954_2908,ccx51 v11,ap-southeast-1 1641,0.25331634113739737
+Hetzner 589_4544,cx11,ap-northeast-1,0.024759918111154647
+Hetzner 135_8706,cx31,ap-northeast-1,0.06377714644091581
+Hetzner v42 163_4306,CCX51 V30,ap-northeast-1,0.4944034945135337
+Hetzner 339_1382,cx11,asia-south1,0.03131565553966843
+Hetzner v32 884_3705,cx31,asia-south1,0.060149729082943484
+Hetzner 984 1055_7119,ccx51,asia-south1 660,0.4259966622789785
+Hetzner 423_2182,cx11 v16,me-central-1,0.022922293221233687
+Hetzner v43 907_72,CX31,me-central-1,0.04412699834611321
+Hetzner 410_2978,ccx51 247,me-central-1,0.46961664614041726
+Hetzner 721_6525,cx11,SA-EAST-1,0.031731789179504546
+Hetzner 321_484,cx31 522,sa-east-1,0.06813869137294357
+Hetzner 618 758_5880,ccx51 754,sa-east-1 v42 1960,0.41257853950082224
+AlibabaCloud v44 971_6,ecs.nano 39,us-east-1 676,0.030875684448564915
+AlibabaCloud 493_9785,ecs.c6.large,us-east-1,0.09210502302797552
+AlibabaCloud 795_3570,gn5i-c8g1,us-east-1,1.2926208910083898
+AlibabaCloud 656_5070,ecs.nano,us-west-1 1624,0.018236051789286507
+AlibabaCloud v30 793_4236,ecs.c6.large v20 754,us-west-1 512,0.08406561537984926
+AlibabaCloud 298 161_6623,gn5i-c8g1,us-west-1,2.2242006426633476
+AlibabaCloud 361 1666_6665,ecs.nano,US-WEST-2,0.018219766199941576
+AlibabaCloud 246_9805,ecs.c6.large,us-west-2,0.05847592591885849
+AlibabaCloud 754 1949_6959,gn5i-c8g1,us-west-2 v22 1220,1.6182564362222371
+AlibabaCloud 162_3393,ecs.nano,eu-west-1 1821,0.027514315017946194
+AlibabaCloud 12_231,ecs.c6.large,EU-WEST-1,0.1076336428559368
+AlibabaCloud 201_2884,gn5i-c8g1,eu-west-1,1.6194403943173983
+AlibabaCloud 688_9296,ECS.NANO,eu-central-1,0.02919679654812622
+AlibabaCloud 321 713_5599,ECS.C6.LARGE,eu-central-1,0.15526553961976655
+ALIBABACLOUD 923_6021,gn5i-c8g1,eu-central-1,1.8535691235996536
+AlibabaCloud 194_3730,ecs.nano,ap-south-1 1755,0.0203175101756184
+AlibabaCloud 340_9938,ecs.c6.large,ap-south-1 v12,0.15046140414301867
+AlibabaCloud 622 1960_9698,gn5i-c8g1,ap-south-1 v24,1.1356441695209478
+ALIBABACLOUD 910_100,ecs.nano 472,ap-southeast-1,0.028781670203150995
+ALIBABACLOUD 454_3872,ecs.c6.large 1173,ap-southeast-1 v12 1080,0.1431258714249046
+AlibabaCloud v36 639_5604,gn5i-c8g1,ap-southeast-1,2.3230552799927717
+AlibabaCloud 96_2918,ecs.nano 1019,ap-northeast-1 v36,0.03316867807830495
+AlibabaCloud 294_9323,ecs.c6.large v36,ap-northeast-1,0.06725677781261832
+AlibabaCloud 123_7575,gn5i-c8g1,ap-northeast-1,1.5508878858658826
+AlibabaCloud 755 1004_4470,ecs.nano v5,asia-south1 v4 690,0.026085160778139122
+AlibabaCloud v31 396_7917,ecs.c6.large,asia-south1 1245,0.11713673892536568
+AlibabaCloud 142_5754,gn5i-c8g1,asia-south1,2.0833244380488436
+AlibabaCloud 527_5860,ecs.nano 146,ME-CENTRAL-1,0.018344963681770923
+AlibabaCloud 495 1744_2982,ecs.c6.large,me-central-1,0.09254937704877886
+AlibabaCloud 795_4694,gn5i-c8g1,me-central-1,1.5525216102878743
+AlibabaCloud 891_9929,ecs.nano,sa-east-1,0.03114315834792844
+AlibabaCloud 245_6265,ecs.c6.large,sa-east-1 452,0.15695954642478432
+AlibabaCloud v17 110_6986,gn5i-c8g1,sa-east-1,1.1185847507598246
+TencentCloud 909_5227,s1.small v23,us-east-1,0.029913766465645104
+TencentCloud 797 585_5341,s2.medium,us-east-1 v35,0.052967162991654576
+TencentCloud v25 962_8402,GN6.LARGE,us-east-1,0.18263719041003995
+TencentCloud v27 247 300_8538,s1.small,us-west-1,0.03367901346130058
+TencentCloud 587_5864,S2.MEDIUM,us-west-1 v44,0.10839009104555625
+TencentCloud 971_6748,GN6.LARGE,us-west-1,0.10767204370679094
+TencentCloud 611_9692,S1.SMALL 909,us-west-2,0.02655609274623779
+TencentCloud 895_381,s2.medium,us-west-2 315,0.07548442130298189
+TencentCloud 925_4621,gn6.large v47,us-west-2 v1,0.19442212370411696
+TencentCloud 112_4396,s1.small,eu-west-1,0.01919067038707894
+TencentCloud 675 1368_6485,s2.medium,eu-west-1,0.051184559963084394
+TencentCloud 212_3392,gn6.large 1813,eu-west-1,0.1802447589715891
+TencentCloud v9 243_1070,s1.small 555,eu-central-1,0.03001404024155259
+TencentCloud 171 340_5559,s2.medium v38,eu-central-1,0.04293886785163704
+TencentCloud 86_1689,gn6.large,eu-central-1,0.19043450618888788
+TencentCloud 877_6845,s1.small,ap-south-1,0.039016745199406316
+TencentCloud 200_1239,s2.medium v19 1455,ap-south-1,0.07823414436416254
+TencentCloud 26 455_6514,gn6.large,ap-south-1,0.14540061236822743
+TencentCloud 137_8612,s1.small,ap-southeast-1,0.01949521661537767
+TencentCloud 551_1967,s2.medium,ap-southeast-1 57,0.09953277529690839
+TencentCloud 439_9006,gn6.large,ap-southeast-1,0.17022563976201283
+TencentCloud 411_6646,s1.small,ap-northeast-1,0.04093526031527082
+TencentCloud v34 448_8323,s2.medium 1517,ap-northeast-1,0.08612471358426584
+TencentCloud v38 220_3885,GN6.LARGE,ap-northeast-1,0.1688880639095317
+TencentCloud 443_9448,s1.small,asia-south1,0.016428981729721216
+TencentCloud 267_6355,s2.medium v47,ASIA-SOUTH1,0.10151019474237113
+TencentCloud 908_3429,gn6.large,asia-south1,0.14326178494186573
+TencentCloud 939_7920,s1.small,ME-CENTRAL-1,0.03182829335459781
+TencentCloud 600_4222,s2.medium,me-central-1 v37,0.06271097147603509
+TencentCloud 381_8494,gn6.large,ME-CENTRAL-1,0.21628564332172617
+TencentCloud v4 305_8329,s1.small,SA-EAST-1,0.024979339874192312
+TencentCloud 348_3403,s2.medium,sa-east-1,0.109311957465237
+TencentCloud 791 358_7293,gn6.large 1229,sa-east-1 1274,0.12021964008621522
+OVHCloud 313 1567_3778,b2-7,US-EAST-1,0.06466900807462525
+OVHCLOUD 467_9620,b2-15,us-east-1 913,0.14354628692484578
+OVHCloud 547_9672,t1-45,us-east-1 651,0.3360875412135289
+OVHCloud v17 414_5579,b2-7 v3,us-west-1 1740,0.11989048940847169
+OVHCLOUD 622_1495,B2-15,us-west-1,0.20620613861805825
+OVHCloud 618_7812,t1-45 1917,us-west-1,0.25218042176418193
+OVHCLOUD 246_9948,b2-7,us-west-2 65,0.07243745814265963
+OVHCloud 87_1135,b2-15,us-west-2,0.11546008399504415
+OVHCloud 849_6816,t1-45 1521,us-west-2,0.43240362621616285
+OVHCloud v41 441_805,b2-7,eu-west-1,0.06773914986255661
+OVHCloud 742_2553,b2-15,eu-west-1,0.19231452684350633
+OVHCloud 949_8215,t1-45 v33,eu-west-1,0.24116020244926878
+OVHCloud 644_2670,b2-7,eu-central-1,0.06044376874380808
+OVHCloud 513_1190,b2-15,eu-central-1,0.09736820242636907
+OVHCloud 189_8172,T1-45,eu-central-1 664,0.2393163105862004
+OVHCloud 979_5004,b2-7,ap-south-1,0.0836766726429977
+OVHCloud 846_9891,b2-15,ap-south-1 v43,0.09187907423020057
+OVHCloud v28 528_2554,t1-45,ap-south-1,0.2705220794866482
+OVHCloud 31_8021,b2-7,ap-southeast-1,0.09547201446329896
+OVHCloud 304_5159,b2-15,ap-southeast-1,0.1463495377734892
+OVHCloud 489 839_4822,t1-45 183,ap-southeast-1 449,0.24745743060534267
+OVHCloud 203 344_2653,b2-7,ap-northeast-1 290,0.06307406672291847
+OVHCloud 90_2830,b2-15 v12 1604,ap-northeast-1 v30,0.1054687850250937
+OVHCLOUD 383_9404,t1-45 1069,ap-northeast-1 v7 1261,0.377475879282852
+OVHCLOUD 749 279_8662,b2-7,ASIA-SOUTH1,0.07065088910207257
+OVHCloud 664_3320,b2-15,asia-south1,0.10117078298646899
+OVHCloud 766 478_1002,t1-45,ASIA-SOUTH1 V37,0.33080333133297996
+OVHCloud 229_4756,b2-7 v42,me-central-1,0.10274632804013964
+OVHCloud 905 1398_7540,b2-15 v30,me-central-1,0.11909243642239939
+OVHCloud 541_3445,t1-45 1594,ME-CENTRAL-1,0.33473107362045446
+OVHCloud 271_7355,b2-7,sa-east-1,0.053321542190716366
+OVHCloud v39 950 1461_2408,B2-15,sa-east-1,0.1311213880165715
+OVHCloud 748_5170,t1-45,sa-east-1 v7,0.33679640149326917
+AWS 364_3085,t3.nano,us-east-1,0.026838078798367127
+AWS 580_8625,t3.micro,us-east-1,0.06176601747262024
+AWS 605_1715,m5.large v4,us-east-1,0.10261240172662889
+AWS 383 273_7063,c5.xlarge,us-east-1,0.1668855732045468
+AWS 185_3686,g4dn.xlarge,us-east-1,1.1350210095998907
+AWS 863_4818,t3.nano,us-west-1,0.030909286397864312
+AWS 179_6692,t3.micro,us-west-1 v28,0.04984016391999821
+AWS v9 453_4282,m5.large,us-west-1 v45,0.10427075771713429
+AWS 480_2298,c5.xlarge,us-west-1,0.2955757021430776
+AWS 890 1345_1851,g4dn.xlarge,us-west-1 1814,1.3854859099671926
+AWS 387_447,t3.nano,us-west-2 v29 1954,0.03951549273748265
+AWS v28 35 1514_2466,t3.micro,us-west-2,0.03706682061534144
+AWS 349_4999,m5.large,us-west-2 v47 430,0.09857006104000651
+AWS v8 122_8302,c5.xlarge,us-west-2 986,0.20942667935727421
+AWS 597_1323,g4dn.xlarge,us-west-2,0.8230729890377321
+AWS 16_8417,t3.nano 1721,eu-west-1 1711,0.035088993057648905
+AWS 828_1970,t3.micro,eu-west-1 666,0.04425002168676501
+AWS 614_3730,m5.large,eu-west-1 v7 1363,0.13629385620058115
+AWS 113_8304,c5.xlarge,eu-west-1,0.26708619919501037
+AWS 491_8533,g4dn.xlarge,eu-west-1 1573,1.2139983746463694
+AWS 985_4925,t3.nano v8,eu-central-1,0.07314089558039143
+AWS 700_3447,t3.micro,eu-central-1,0.042850876658881785
+AWS 937_7756,m5.large,eu-central-1 246,0.10714457839530356
+AWS 134_7319,c5.xlarge,eu-central-1,0.2123902000097456
+AWS v43 190_8640,g4dn.xlarge,eu-central-1 1054,1.138846544664937
+AWS 658_7928,t3.nano 1605,AP-SOUTH-1,0.0756284250317877
+AWS v28 155_7717,t3.micro 76,AP-SOUTH-1,0.07442663799456746
+AWS 468 1193_8,m5.large,ap-south-1 v9,0.11333171398105604
+AWS 994_764,C5.XLARGE,ap-south-1 v4,0.1471839192642668
+AWS 976_1724,g4dn.xlarge v26 838,ap-south-1,2.2716304924963127
+AWS 269_6180,t3.nano,ap-southeast-1 v39 437,0.03836439864376046
+AWS 850_1701,t3.micro 229,ap-southeast-1,0.03467362493388353
+AWS 813_1314,m5.large,ap-southeast-1,0.13636854723164984
+AWS 114_172,c5.xlarge 95,ap-southeast-1 v12,0.21783397695825313
+AWS 147_7525,G4DN.XLARGE 111,AP-SOUTHEAST-1,1.3882490309978057
+AWS 750_6579,t3.nano,ap-northeast-1,0.03971376697466671
+AWS 705_951,t3.micro v45,ap-northeast-1 v44,0.045236808838636226
+AWS 502_8966,m5.large 1235,ap-northeast-1 v22,0.08100705163045639
+AWS 732_6439,c5.xlarge,ap-northeast-1,0.2040149070266218
+AWS 891 1270_3857,g4dn.xlarge v33,ap-northeast-1,1.0168260697775566
+AWS 37 1815_9976,t3.nano,asia-south1,0.06517040488268219
+AWS v34 294_3809,t3.micro v35,asia-south1,0.061063790333787255
+AWS 662_352,m5.large v23,asia-south1 277,0.1383206080577487
+AWS 685_9858,c5.xlarge 1264,asia-south1 v48,0.1903491802297465
+AWS 214_3495,G4DN.XLARGE,asia-south1,2.192729240233318
+AWS 921_858,t3.nano,me-central-1,0.053798480471503554
+AWS 627_629,t3.micro,me-central-1,0.056078038562336424
+AWS 919_8968,m5.large,me-central-1,0.12570416539064214
+AWS 658_6154,c5.xlarge 451,me-central-1,0.14243288114076597
+AWS v33 615 1382_2542,g4dn.xlarge,me-central-1 173,1.0896769033703184
+AWS v45 88_4418,t3.nano,sa-east-1 464,0.06482715109929205
+AWS 682 64_7930,t3.micro,sa-east-1 768,0.05922680724081101
+AWS 646_790,m5.large v48,sa-east-1,0.06543742743969369
+AWS v45 296_8905,c5.xlarge v31,sa-east-1,0.2253129875035469
+AWS 343 714_8200,g4dn.xlarge,sa-east-1 259,1.7074328706884248
+Azure v28 937_5488,B1s,us-east-1,0.016665194516254186
+Azure 297 692_5720,B2s,US-EAST-1,0.06743106892775844
+Azure 550_4963,D2s_v3 131,us-east-1,0.07304254288391476
+Azure 834 124_780,F4s_v2,us-east-1,0.18774519053708003
+Azure 531 1705_419,NC6,us-east-1 v35,2.147780057163526
+Azure v49 702_6209,B1s 1506,us-west-1 v24,0.044702455562518624
+Azure 508_701,B2s v25,us-west-1,0.06591417786518647
+Azure 912_7819,D2s_v3,us-west-1,0.10710049465816772
+Azure 723_2014,F4s_v2,us-west-1 1946,0.25121586005257784
+Azure 841_5726,NC6,us-west-1 1740,1.3444500460963742
+Azure v19 748_8614,B1s v33,us-west-2,0.026787929970567663
+Azure 345_4674,B2s 1288,us-west-2,0.09471330608227879
+Azure 634_4088,D2s_v3,us-west-2,0.09049824159958099
+Azure 491_3604,F4s_v2,us-west-2,0.08724095631535375
+Azure 542_5027,NC6,us-west-2,1.463221284855456
+Azure 600_2674,B1s,eu-west-1,0.029408138176219668
+Azure 15 1547_5691,B2s,eu-west-1,0.06695221145125387
+Azure 621_1171,D2s_v3,eu-west-1,0.13913319612093006
+Azure v4 143_1202,F4s_v2,eu-west-1 1079,0.08945267051678649
+Azure v5 788 1399_7365,NC6,eu-west-1,2.403611033463171
+Azure 605_4865,B1s,eu-central-1,0.052055105864016155
+Azure v42 189_2615,B2s,eu-central-1,0.08793929097415176
+Azure 496 299_443,D2S_V3,eu-central-1,0.09839386550495578
+Azure 990_1350,F4s_v2,eu-central-1 778,0.0916450391227123
+Azure v35 298_9954,NC6,eu-central-1,2.511589526900112
+Azure 268_8023,B1s,AP-SOUTH-1,0.03167246138530144
+Azure 73_5361,B2s,ap-south-1,0.10409351250990245
+Azure 824_1991,D2S_V3,ap-south-1,0.15064224500120257
+Azure 832 297_783,F4s_v2,ap-south-1,0.21249831686917167
+Azure 206_6673,NC6,ap-south-1,2.1338876569933127
+Azure 735 271_2648,B1s,ap-southeast-1,0.023954922313890382
+Azure v20 493_8615,B2s v44,ap-southeast-1,0.05896872129139452
+AZURE 871_4531,D2s_v3,ap-southeast-1 1961,0.1436952504119578
+Azure 707_5691,F4s_v2,ap-southeast-1,0.1281877008420906
+Azure 886_4252,NC6,ap-southeast-1 1313,0.9596868638465919
+Azure 726_308,B1s,ap-northeast-1,0.029733370984886515
+Azure 367 1503_2166,B2s 1744,ap-northeast-1,0.08611951669804244
+Azure v24 15_3405,D2s_v3 794,ap-northeast-1,0.16108730783297104
+Azure v35 870 14_1177,F4s_v2 v14,ap-northeast-1,0.21284149833797633
+Azure 305_3080,NC6 1610,ap-northeast-1,1.1905132274852306
+Azure 232_9997,B1s,asia-south1 1392,0.03985033617317318
+Azure v18 554_5918,B2s v28,asia-south1 v16,0.10873382982006312
+Azure 155_7757,D2s_v3,asia-south1 v45,0.14198124054506506
+Azure 920_9243,F4s_v2,asia-south1 v36,0.12528942223328465
+Azure v6 921 1991_7242,NC6 1993,asia-south1,1.8167703339137646
+Azure 331 60_5266,B1s,me-central-1,0.04025024091118431
+Azure 75_5522,B2s v34,me-central-1 1677,0.09254030871466222
+Azure 602_107,D2s_v3,me-central-1 770,0.07357697404732111
+Azure v39 328_1033,F4s_v2,me-central-1,0.21348174898361444
+Azure 59_2537,NC6 v48,me-central-1,1.4960949542918123
+Azure 669_1743,B1S,sa-east-1,0.033398026166687224
+Azure 708_8927,B2s,sa-east-1,0.09463465360683615
+AZURE 616_3177,D2S_V3,sa-east-1 v3,0.08893458167844838
+Azure v1 230_7322,F4s_v2,sa-east-1,0.130130244461821
+Azure 123_574,NC6,sa-east-1,1.9492941327933073
+GCP 690_8182,e2-micro,us-east-1,0.03225223976191221
+GCP 699_6072,e2-small,us-east-1,0.08077978252980438
+GCP 389_3886,n1-standard-2,US-EAST-1,0.10355112054534558
+GCP v3 116_1872,N2-STANDARD-8,us-east-1 v47,0.540945756962475
+GCP 317_5764,a2-highgpu-1g,us-east-1 50,1.3249035560961544
+GCP 628 913_8094,e2-micro v17 634,us-west-1,0.0468512367973069
+GCP 718 1328_1718,e2-small,us-west-1 380,0.047297259470970424
+GCP 271 302_7094,n1-standard-2 v15,us-west-1,0.09280420283023848
+GCP 591_6856,n2-standard-8 1274,us-west-1 1458,0.3741442024833596
+GCP 866_2345,a2-highgpu-1g v47 1495,US-WEST-1,1.711261353523907
+GCP 928_2611,e2-micro 1725,us-west-2,0.06819155577539551
+GCP 781_5244,e2-small,us-west-2 1167,0.06200088106844447
+GCP 236 1743_7389,n1-standard-2,us-west-2 430,0.08441484627111394
+GCP 82_8555,n2-standard-8 534,US-WEST-2,0.23616891309895321
+GCP 704_4789,a2-highgpu-1g,us-west-2 v29,2.229264695605889
+GCP v38 347 980_3349,e2-micro,eu-west-1,0.04892843057388579
+GCP 974_5574,e2-small 201,EU-WEST-1 517,0.09119808282885962
+GCP 340_282,N1-STANDARD-2,eu-west-1,0.07197631692858375
+GCP v22 784_2959,N2-STANDARD-8 761,eu-west-1,0.3312039318806773
+GCP v49 848 1099_8884,a2-highgpu-1g 172,eu-west-1,1.14005193283457
+GCP 597_3906,e2-micro,eu-central-1,0.05049892511337015
+GCP v30 985 1931_3027,e2-small,eu-central-1 v6,0.07205823436113781
+GCP 528 1164_2621,n1-standard-2,eu-central-1,0.12534221955396857
+GCP 713_5261,n2-standard-8,eu-central-1,0.2380764776825136
+GCP 612_7467,a2-highgpu-1g,eu-central-1 v2,2.5120824109206623
+GCP 439_7841,e2-micro v22,ap-south-1 255,0.039958842410061084
+GCP 609_8131,e2-small,ap-south-1 1379,0.0720960985478148
+GCP 97 340_4486,n1-standard-2,ap-south-1,0.09701464780446939
+GCP 125_8118,n2-standard-8,ap-south-1 1364,0.5063550608390782
+GCP 161_5695,a2-highgpu-1g,ap-south-1 v43,2.3518667836007
+GCP 228_5536,e2-micro 1586,ap-southeast-1,0.07558922275571556
+GCP 882_9124,e2-small v16,ap-southeast-1,0.04337838777963381
+GCP 13_9851,n1-standard-2,ap-southeast-1 766,0.05747354349897484
+GCP 113_6345,n2-standard-8,ap-southeast-1 145,0.23167850390224287
+GCP 426_8145,a2-highgpu-1g 857,ap-southeast-1 1655,2.1292483034601704
+GCP 182_6908,e2-micro,ap-northeast-1,0.047852207057439825
+GCP 826_7088,E2-SMALL 1021,AP-NORTHEAST-1,0.03958199230106176
+GCP 146_761,n1-standard-2,ap-northeast-1,0.0762752311456222
+GCP 470_2834,n2-standard-8,ap-northeast-1,0.6049987270913914
+GCP 52_5794,a2-highgpu-1g,ap-northeast-1 v4,2.3930112295581587
+GCP 474_2324,E2-MICRO,asia-south1 1632,0.03082719122287645
+GCP 435_4637,e2-small v47,asia-south1,0.06056889786648216
+GCP v6 934_9696,n1-standard-2,asia-south1 v20,0.07461385704271647
+GCP 384_4888,n2-standard-8 v49,asia-south1,0.3717611734491234
+GCP 831_1468,a2-highgpu-1g,asia-south1,0.8614395849632258
+GCP 989 111_8739,e2-micro,me-central-1 v35,0.04959107851377928
+GCP 499_1143,e2-small v20,me-central-1,0.042003728869009105
+GCP 543_5160,n1-standard-2,me-central-1,0.1115846598189851
+GCP 122_8937,n2-standard-8,me-central-1,0.3264798908314443
+GCP 985_1114,a2-highgpu-1g,me-central-1,2.3814614043892415
+GCP 963_1730,e2-micro,sa-east-1 837,0.055973865263457656
+GCP 482 76_8641,E2-SMALL,SA-EAST-1 V19,0.09021497114364105
+GCP v1 933_2423,n1-standard-2,sa-east-1 v21 1729,0.07361210687416082
+GCP 949 806_3068,n2-standard-8 v1,SA-EAST-1,0.4377990592402116
+GCP 54 1239_5665,A2-HIGHGPU-1G,sa-east-1,1.4000284710105066
+OracleCloud 65_1739,VM.STANDARD.E2.1,us-east-1,0.047956891313830435
+OracleCloud v43 699_7602,VM.Standard2.2,us-east-1,0.09079205127441119
+OracleCloud 108_9702,BM.GPU2.2,us-east-1 v44,2.9552815433965223
+OracleCloud 206 505_4366,VM.Standard.E2.1 v46 423,us-west-1,0.026246075723902203
+OracleCloud 659_4983,VM.Standard2.2,us-west-1,0.08002909399784654
+OracleCloud 838 494_9000,BM.GPU2.2 v17,us-west-1,2.456517846774516
+OracleCloud 129_2020,VM.Standard.E2.1 796,us-west-2 775,0.03242036120858561
+OracleCloud 198_595,VM.Standard2.2,us-west-2,0.1497567013703801
+OracleCloud 97_4329,BM.GPU2.2,us-west-2,1.7918656113283287
+OracleCloud 847_1688,VM.Standard.E2.1 v26,eu-west-1,0.03862096658960603
+OracleCloud 548_7026,VM.Standard2.2 v26,eu-west-1,0.0801369368850496
+OracleCloud 567_2110,BM.GPU2.2 v27,eu-west-1 v5,2.655644208617413
+OracleCloud 806_2799,VM.Standard.E2.1 1746,eu-central-1 1617,0.03290864541930895
+OracleCloud 154_1919,VM.Standard2.2,eu-central-1 559,0.13873340188413566
+OracleCloud 546_6209,BM.GPU2.2 v3,EU-CENTRAL-1,2.954221643196806
+OracleCloud 515 1138_1675,VM.Standard.E2.1,ap-south-1 v41,0.04204890812621389
+OracleCloud 43_178,VM.Standard2.2,ap-south-1 1110,0.05061039835484687
+OracleCloud 270_7681,BM.GPU2.2,ap-south-1,2.574777365827804
+OracleCloud 583_1472,VM.STANDARD.E2.1 V6,ap-southeast-1,0.0376974240981039
+OracleCloud 126_4230,VM.Standard2.2 v30 833,ap-southeast-1,0.12277612624175836
+OracleCloud v33 191_2341,BM.GPU2.2,ap-southeast-1,2.238834984767793
+OracleCloud v12 553_5713,VM.Standard.E2.1 1005,ap-northeast-1 649,0.02307233815923993
+OracleCloud 284 1049_7161,VM.STANDARD2.2,ap-northeast-1,0.13665387459581424
+OracleCloud 442_9406,BM.GPU2.2 v46,ap-northeast-1 1795,2.320709862326341
+OracleCloud 13 1606_2905,VM.Standard.E2.1 v36,asia-south1,0.026674143343020127
+OracleCloud 512_2320,VM.Standard2.2,asia-south1 v23,0.16219371796308513
+OracleCloud 74_3651,BM.GPU2.2,asia-south1,2.679137022921483
+OracleCloud v48 166_7926,VM.Standard.E2.1,me-central-1,0.024892829801322923
+OracleCloud 120 1771_6201,VM.Standard2.2 857,me-central-1 v24 563,0.09917384568588852
+OracleCloud 825_668,BM.GPU2.2 448,ME-CENTRAL-1,1.837286260042074
+OracleCloud 318_6018,VM.Standard.E2.1,sa-east-1,0.03895032847212989
+ORACLECLOUD 117_8224,VM.Standard2.2 1,sa-east-1 v4,0.14855174950083397
+ORACLECLOUD 954_1746,BM.GPU2.2,sa-east-1,3.0236725869566206
+IBMCloud 925_3842,bx2-2x8,us-east-1 v21 1889,0.08290610303202613
+IBMCloud 274_3466,bx2-4x16,US-EAST-1 709,0.25991842034191304
+IBMCloud 82_5475,gpus-1 v20 1477,us-east-1,1.4810618296913833
+IBMCloud v14 735_6869,bx2-2x8,us-west-1,0.10241273642106702
+IBMCloud 376_603,bx2-4x16,us-west-1,0.3471391575427794
+IBMCloud v43 205_4481,GPUS-1 1169,us-west-1 1866,1.675441400735345
+IBMCloud 997_8055,bx2-2x8,us-west-2,0.15970077598915502
+IBMCloud 538_3573,bx2-4x16,us-west-2,0.15118861573898276
+IBMCloud 92 380_2668,gpus-1,us-west-2,1.531683851152898
+IBMCloud 131 1054_108,bx2-2x8 1677,eu-west-1,0.0691638836958485
+IBMCLOUD 273_7625,bx2-4x16 241,eu-west-1,0.12933869623561728
+IBMCloud 831_8228,gpus-1 v12,eu-west-1,2.0873030207679624
+IBMCloud v49 355_4662,bx2-2x8,eu-central-1,0.1513472053368973
+IBMCloud 630 1604_1010,bx2-4x16 811,eu-central-1,0.25884384226479806
+IBMCloud 408_8139,GPUS-1,eu-central-1 v46,1.4599522122180748
+IBMCloud 561_6660,bx2-2x8,ap-south-1,0.05333909468386821
+IBMCloud 144_7788,bx2-4x16,AP-SOUTH-1,0.27646013081097875
+IBMCloud 860 851_6146,gpus-1 1612,ap-south-1,2.497082218974031
+IBMCloud 71_8927,bx2-2x8,ap-southeast-1,0.16285947801762526
+IBMCloud 90 1151_6650,bx2-4x16,ap-southeast-1,0.19012336835258944
+IBMCloud 301_7900,gpus-1,ap-southeast-1 v33,2.1239488250246144
+IBMCloud 68_726,bx2-2x8 1566,ap-northeast-1,0.1520055963373208
+IBMCloud 620 1737_8711,bx2-4x16,ap-northeast-1 v11 1187,0.23530885676392385
+IBMCloud 556_1384,GPUS-1,ap-northeast-1,2.004439102125116
+IBMCloud v14 748 1191_526,bx2-2x8,asia-south1 v24 1662,0.053859374555944396
+IBMCloud 996 121_7267,bx2-4x16,asia-south1,0.2122622844777661
+IBMCloud 87_290,gpus-1,asia-south1,1.408772512267816
+IBMCloud 254_3599,bx2-2x8,me-central-1,0.08936564832752422
+IBMCLOUD 699_6173,bx2-4x16 v2 1230,me-central-1,0.22703874370751972
+IBMCloud v12 512_4819,gpus-1,me-central-1,2.6550006316538366
+IBMCLOUD 556_4638,bx2-2x8 v16,sa-east-1 1770,0.11100837608845618
+IBMCloud 192_257,bx2-4x16,sa-east-1,0.15993313081702096
+IBMCloud v18 123 1013_9685,gpus-1 1746,SA-EAST-1,1.892496307300339
+DigitalOcean 71_7815,s-1vcpu-1gb 1146,us-east-1,0.024455237623744484
+DigitalOcean 155_2406,S-2VCPU-4GB,us-east-1 v19,0.07120664268627958
+DigitalOcean 647_2024,g-2vcpu-8gb,US-EAST-1,0.09552243883729507
+DigitalOcean 192_925,s-1vcpu-1gb,us-west-1,0.04432128721421079
+DigitalOcean 693_4732,S-2VCPU-4GB,us-west-1 1380,0.09593780171871122
+DigitalOcean 93_6477,g-2vcpu-8gb 1340,US-WEST-1,0.07263599921401229
+DigitalOcean 840_5011,s-1vcpu-1gb,us-west-2,0.030328398305833372
+DigitalOcean 840_2130,s-2vcpu-4gb,us-west-2,0.12030386353504716
+DigitalOcean 631_9148,g-2vcpu-8gb,us-west-2,0.13269550018235113
+DIGITALOCEAN 652_2203,s-1vcpu-1gb,eu-west-1,0.03332808787513732
+DigitalOcean 546 1036_2764,S-2VCPU-4GB 1695,eu-west-1,0.04806037744131658
+DigitalOcean 958_5680,g-2vcpu-8gb v17 337,eu-west-1,0.07206683866244372
+DigitalOcean 871_192,S-1VCPU-1GB,eu-central-1,0.03470086548936976
+DigitalOcean 106_8205,s-2vcpu-4gb,eu-central-1 1078,0.09727880389230281
+DigitalOcean v4 19_163,g-2vcpu-8gb 1889,eu-central-1,0.1717441169815529
+DigitalOcean v17 774_4258,s-1vcpu-1gb 464,ap-south-1,0.03462285171785219
+DigitalOcean 447_878,s-2vcpu-4gb 919,ap-south-1 488,0.04681202735705867
+DigitalOcean v12 520_5108,g-2vcpu-8gb,ap-south-1,0.11043240135411664
+DigitalOcean 740 897_2127,s-1vcpu-1gb 733,ap-southeast-1,0.030196190342623185
+DigitalOcean 804_3668,s-2vcpu-4gb 904,ap-southeast-1 v20,0.06357439388982138
+DigitalOcean 752_6848,g-2vcpu-8gb v12 802,ap-southeast-1,0.11674683187437179
+DigitalOcean 661_7303,s-1vcpu-1gb,ap-northeast-1,0.02608525172613603
+DigitalOcean 20_7947,s-2vcpu-4gb,ap-northeast-1 629,0.1102255923362594
+DigitalOcean 422_1132,g-2vcpu-8gb v7,ap-northeast-1 v9,0.10009964654720721
+DigitalOcean v44 375_8192,s-1vcpu-1gb v22,asia-south1,0.028607971414972264
+DigitalOcean 51_7709,s-2vcpu-4gb,asia-south1,0.059324431753210304
+DigitalOcean 266 1266_3856,g-2vcpu-8gb,asia-south1,0.09170418623505035
+DigitalOcean 70_1946,s-1vcpu-1gb,me-central-1,0.020080006211417943
+DigitalOcean 984_22,s-2vcpu-4gb,me-central-1,0.09581653721046457
+DigitalOcean 825_9777,g-2vcpu-8gb,me-central-1 v18,0.13291910752506006
+DigitalOcean 298_468,s-1vcpu-1gb,sa-east-1,0.02229827680816391
+DigitalOcean 180_131,s-2vcpu-4gb,sa-east-1,0.07447932432063148
+DigitalOcean 25_1852,g-2vcpu-8gb,sa-east-1,0.09309466186863219
+Linode v34 232 1477_46,nanode,us-east-1,0.0315920797104075
+Linode 576_6350,g6-standard-2,us-east-1 1791,0.056932002376921226
+Linode 258 1706_8909,g6-highmem-4,us-east-1,0.28215653159041915
+Linode 226_64,nanode,us-west-1,0.03747040793190866
+Linode 88_8266,g6-standard-2,us-west-1 v18 810,0.09365316856287009
+Linode 309_6670,g6-highmem-4,US-WEST-1,0.2802875651879981
+Linode 186_2134,nanode,us-west-2 v49,0.037896320709202395
+Linode 808 1316_9960,G6-STANDARD-2,us-west-2 v33 1305,0.05513012320837856
+Linode 210_3978,g6-highmem-4,us-west-2,0.2023741030918533
+Linode 279_5569,nanode,eu-west-1,0.03277738186616439
+Linode 792_8901,g6-standard-2,eu-west-1 v16,0.07160059757906566
+Linode 112_5530,g6-highmem-4 v8,eu-west-1,0.15994149851328998
+Linode 339 965_5951,nanode v30,eu-central-1 190,0.018995652859985678
+Linode 891_7632,g6-standard-2 285,eu-central-1 251,0.06804549971034794
+Linode 898 1537_7097,g6-highmem-4,eu-central-1 51,0.1223904962575308
+Linode 589_1401,nanode 485,ap-south-1,0.021759963078466067
+Linode v12 903_6232,g6-standard-2 v2 801,ap-south-1,0.10416858714768314
+Linode 151 1572_561,g6-highmem-4 v24,ap-south-1 1350,0.16522521719744732
+Linode 544_2381,nanode,ap-southeast-1,0.031347014319130846
+Linode 459_3149,g6-standard-2,ap-southeast-1,0.0896108631316761
+Linode v13 178_2656,g6-highmem-4 v41,AP-SOUTHEAST-1,0.3015434088686829
+Linode 775 938_1821,nanode,ap-northeast-1 409,0.027583340550639535
+Linode v32 143 518_9990,g6-standard-2,ap-northeast-1,0.0634219467287006
+Linode 577 1831_5088,g6-highmem-4,ap-northeast-1,0.20551133368217572
+LINODE V44 421_9718,nanode,asia-south1,0.02150980898424227
+Linode 237_2030,g6-standard-2,asia-south1,0.039406509415662656
+Linode 936 899_9359,g6-highmem-4,asia-south1,0.13551904512810095
+Linode 990_8793,nanode,me-central-1,0.04159118778913412
+Linode 336_7717,g6-standard-2,ME-CENTRAL-1 26,0.07295119927537075
+Linode 300_1655,G6-HIGHMEM-4,me-central-1 1412,0.17554482225240306
+Linode 353_7673,nanode 1066,sa-east-1,0.01852941264787047
+Linode 950_2222,g6-standard-2,sa-east-1,0.08072664313420055
+LINODE 197_1629,g6-highmem-4 v28,sa-east-1,0.20490608446131012
+Hetzner v34 618_7110,cx11,US-EAST-1,0.03502118386244269
+Hetzner 75 1571_6773,cx31 1566,US-EAST-1,0.06559495334991144
+Hetzner 545_7923,ccx51 1201,US-EAST-1,0.4598399906819449
+Hetzner v41 768_888,cx11,us-west-1,0.032466017209645294
+Hetzner 655_6462,cx31,us-west-1,0.08678819494426354
+Hetzner 595 1621_3847,ccx51 79,us-west-1,0.2571367400195645
+Hetzner 4 1767_6539,cx11 757,us-west-2 v10,0.03975139760525879
+Hetzner 804_9081,cx31,us-west-2,0.0691707757800545
+Hetzner v12 101_3523,CCX51,us-west-2 796,0.26558769133600607
+Hetzner 510_9962,cx11,eu-west-1 v18,0.017673371854485653
+Hetzner 105_147,cx31,eu-west-1,0.06784766686588271
+Hetzner 429_7489,ccx51 v29 1034,eu-west-1,0.4221459946756036
+Hetzner 588_9835,cx11 795,eu-central-1 v28,0.02864611968445684
+Hetzner 167 476_8347,cx31,eu-central-1 v34,0.06509495364455334
+Hetzner 251_2856,ccx51,eu-central-1,0.201738362284574
+Hetzner 170_2475,cx11,ap-south-1 463,0.04046537054601052
+Hetzner 446 1621_2172,cx31,ap-south-1 914,0.05257987604625807
+Hetzner 59 290_7904,ccx51,ap-south-1 v22 18,0.3838738082836023
+Hetzner 472_4729,CX11 V7,ap-southeast-1 v23,0.02352621773651257
+Hetzner 367_6879,cx31 v31 1366,ap-southeast-1,0.06673964346627613
+Hetzner 689_5876,ccx51 v43,ap-southeast-1 v34,0.5158273402913895
+Hetzner 367 1017_7824,cx11,ap-northeast-1,0.046734082227684444
+Hetzner 464_3673,cx31,ap-northeast-1,0.05398243352041216
+Hetzner 420_8404,ccx51,ap-northeast-1 1364,0.48789292929690087
+Hetzner 114_8400,cx11,asia-south1 110,0.03895419279461184
+Hetzner 469_3009,cx31,asia-south1 v49 805,0.06486710827421124
+Hetzner 698_3017,ccx51 v31 779,asia-south1 1616,0.7495727078318479
+Hetzner 668 1927_6988,cx11 v20,me-central-1,0.028129408624689173
+Hetzner 145_9746,cx31,me-central-1,0.06464109801854276
+Hetzner 45_2907,CCX51,me-central-1 v13 1632,0.268890337719437
+Hetzner 868_3836,cx11,sa-east-1 1120,0.02567820016414712
+Hetzner 300_7114,cx31,sa-east-1 632,0.05702569645325652
+Hetzner 580 1490_7355,ccx51 1151,sa-east-1,0.42231586673925225
+AlibabaCloud 55 1428_9523,ecs.nano 1897,us-east-1 1445,0.0251077269683955
+ALIBABACLOUD 231_4129,ecs.c6.large 1732,us-east-1 v42,0.15698090144480448
+AlibabaCloud v10 987_9094,gn5i-c8g1,us-east-1,3.1108257560291546
+AlibabaCloud 392 1760_2723,ecs.nano,us-west-1,0.017027534742298945
+AlibabaCloud 85_7514,ecs.c6.large v49,us-west-1,0.07213051515031248
+AlibabaCloud 145_3440,gn5i-c8g1,us-west-1,1.7699182288017759
+AlibabaCloud 479_5685,ecs.nano,us-west-2,0.027722403855700975
+AlibabaCloud 171_9535,ecs.c6.large,us-west-2 1421,0.08125617311862547
+AlibabaCloud 673_5357,gn5i-c8g1 712,us-west-2,1.220819364208611
+AlibabaCloud 446_1894,ecs.nano,eu-west-1 1019,0.024409508961275975
+AlibabaCloud 378_7927,ecs.c6.large,eu-west-1,0.07442380173735598
+AlibabaCloud 825_845,gn5i-c8g1,eu-west-1,1.9428730196890382
+AWS_9513,t3.nano,us-east-1,0.05598106619603315
+AWS_7736,t3.micro,us-east-1,0.044574485212965725
+AWS 555_7127,m5.large,us-east-1,0.0873586817096638
+AWS 597_5421,c5.xlarge,US-EAST-1,0.28614689329181475
+AWS_2563,g4dn.xlarge,us-east-1,1.5611571596558027
+AWS 774_4059,t3.nano,us-west-1,0.028539587418273164
+AWS_9756,t3.micro 529,us-west-1,0.04307404144694973
+AWS_2910,m5.large,us-west-1,0.12494765897775482
+AWS_2031,c5.xlarge 105,us-west-1,0.2505324881089681
+AWS_4022,g4dn.xlarge,US-WEST-1,1.595663864754359
+AWS_8445,t3.nano,us-west-2,0.04012581949050714
+AWS 1164_1089,t3.micro 35,us-west-2 625,0.06489119666583186
+AWS_6219,m5.large,us-west-2,0.10162230217676214
+AWS_4053,c5.xlarge,us-west-2,0.28172166496537454
+AWS_7566,g4dn.xlarge,us-west-2 1988,1.5504117844053615
+AWS_170,t3.nano,eu-west-1,0.03702410123637818
+AWS_9490,t3.micro,eu-west-1,0.05344192541025719
+AWS_2449,m5.large,eu-west-1,0.15463044423788602
+AWS_9508,c5.xlarge,eu-west-1,0.17902903911990745
+AWS_2664,g4dn.xlarge,eu-west-1 760,0.9770040626017303
+AWS_6055,t3.nano,eu-central-1,0.037303677710266665
+AWS 100_225,t3.micro,eu-central-1,0.061857748751317304
+AWS_2266,m5.large,eu-central-1 74,0.129863773286028
+AWS_9184,c5.xlarge,eu-central-1,0.22603326914844965
+AWS_2047,g4dn.xlarge,eu-central-1,1.5502649550490664
+AWS_5447,t3.nano 1912,ap-south-1 1510,0.06541247350046218
+AWS_1150,t3.micro,ap-south-1 996,0.049221917419977744
+AWS_9186,m5.large,ap-south-1 570,0.09206605436756884
+AWS_3040,c5.xlarge,ap-south-1,0.2784785221812844
+AWS 1227_5276,g4dn.xlarge,ap-south-1,1.2110006601581318
+AWS 1713_7209,t3.nano,ap-southeast-1,0.04273517964277553
+AWS_9383,t3.micro,ap-southeast-1,0.0594285557458113
+AWS_4623,m5.large,ap-southeast-1,0.16348166158613958
+AWS_3937,c5.xlarge,ap-southeast-1,0.24931157102093124
+AWS_68,g4dn.xlarge,ap-southeast-1,1.489719587427457
+AWS 1886_5290,t3.nano,ap-northeast-1,0.03563983811425421
+AWS_87,t3.micro 1541,ap-northeast-1,0.04218934493061206
+AWS_5326,m5.large 1128,ap-northeast-1,0.08184612719200017
+AWS_4239,c5.xlarge,ap-northeast-1,0.2407046251516984
+AWS_5452,g4dn.xlarge,AP-NORTHEAST-1,1.4612507594458568
+AWS_9203,t3.nano,asia-south1,0.04560136662509404
+AWS_6199,t3.micro 1995,asia-south1 1447,0.04865339899799306
+AWS_2780,m5.large,ASIA-SOUTH1,0.12332166671225388
+AWS_5759,c5.xlarge,asia-south1,0.17366779748044453
+AWS_1310,g4dn.xlarge,asia-south1,1.229433292937533
+AWS 1637_5664,t3.nano,me-central-1,0.037959431595355336
+AWS_3249,t3.micro,me-central-1,0.04269468950865011
+AWS_7545,m5.large,me-central-1,0.14728302300916052
+AWS_7320,c5.xlarge,me-central-1 371,0.3066914801966839
+AWS 993_9327,g4dn.xlarge,me-central-1,0.9875482059539445
+AWS_2041,t3.nano,sa-east-1,0.039341578010574016
+AWS_6430,t3.micro 996,sa-east-1,0.039743311588811926
+AWS 124_6162,m5.large,sa-east-1,0.08118657329483245
+AWS_7688,c5.xlarge,sa-east-1,0.20720936200495313
+AWS 35_5034,g4dn.xlarge,sa-east-1,1.3844531039393155
+Azure_9802,B1s,us-east-1,0.02160324153309141
+Azure_6389,B2s,us-east-1,0.06468280951397076
+Azure 1142_8533,D2s_v3 381,us-east-1,0.10698221638179915
+Azure_853,F4s_v2,us-east-1,0.17339848461452037
+Azure 943_8269,NC6,us-east-1,1.8525503778386443
+Azure_4649,B1s,us-west-1,0.03211003740707311
+Azure_8320,B2s 1878,us-west-1,0.0881855174334101
+Azure_5002,D2S_V3,us-west-1,0.11879705887108293
+Azure_9651,F4s_v2,us-west-1,0.205618076180078
+Azure_5096,NC6 347,us-west-1 910,1.8053306008810412
+Azure_5521,B1s,US-WEST-2,0.019776880310134134
+Azure_4234,B2s,us-west-2,0.07330985465362574
+Azure 379_6718,D2s_v3 834,us-west-2,0.07314992585059082
+Azure_1201,F4s_v2,us-west-2,0.18344352692087332
+Azure 383_2711,NC6 1697,us-west-2,1.8002389775559298
+Azure 1107_5475,B1S,eu-west-1,0.021681313691668844
+Azure 1066_8740,B2s 201,eu-west-1,0.04746562223285349
+Azure_6883,D2s_v3 760,eu-west-1 614,0.0850230332526315
+Azure_4797,F4s_v2,eu-west-1,0.17249208371104985
+Azure_5105,NC6,eu-west-1,1.2831304681726885
+Azure 1771_7129,B1s 812,eu-central-1,0.03956498991318658
+Azure_1687,B2s 1537,eu-central-1,0.07383340157163197
+Azure_2627,D2s_v3,eu-central-1 839,0.0989148884014055
+Azure_117,F4s_v2,eu-central-1,0.17860107500533526
+Azure_923,NC6 979,eu-central-1 1215,1.2362117134981199
+Azure_926,B1s 1323,ap-south-1,0.02729978984669301
+Azure 477_2564,B2s,ap-south-1,0.080133753401287
+Azure_6442,D2s_v3,ap-south-1,0.08042136042454834
+Azure_6760,F4s_v2 681,ap-south-1 1623,0.11160588940875935
+Azure_7911,NC6,ap-south-1,1.1129714364949017
+Azure 1403_4208,B1s 123,ap-southeast-1,0.0198565079935992
+Azure_7203,B2s,ap-southeast-1,0.07620159867851846
+Azure_7339,D2s_v3,ap-southeast-1 247,0.12837536737191624
+Azure_4317,F4s_v2,ap-southeast-1 1127,0.125829978428545
+Azure_8759,NC6,ap-southeast-1 1083,2.2016045735873906
+Azure_364,B1s,ap-northeast-1,0.026479891665704077
+Azure_8627,B2s,ap-northeast-1,0.10068568962710023
+AZURE_6423,D2s_v3,ap-northeast-1,0.08109164458565399
+Azure_777,F4s_v2,ap-northeast-1,0.2059290681759057
+Azure_3318,NC6,ap-northeast-1,1.5256661077349027
+Azure_6227,B1s,asia-south1,0.02394640181772129
+Azure_9889,B2s,asia-south1,0.09147958837377196
+Azure_4788,D2s_v3,asia-south1,0.11923489363985879
+Azure_7703,F4s_v2 513,asia-south1,0.14204532023939054
+Azure_2869,NC6,asia-south1 657,2.1887119182194055
+Azure 1460_9595,B1s 1494,me-central-1,0.018866343361065033
+Azure 126_4954,B2s,me-central-1,0.06104643430250836
+Azure_5770,D2S_V3,me-central-1,0.09051321788138682
+AZURE_8421,F4s_v2,me-central-1,0.22761438774871903
+AZURE_4,NC6,me-central-1,2.262953864985934
+Azure 627_4289,B1s 616,sa-east-1,0.019741071534286385
+Azure_3422,B2s,sa-east-1,0.05163907403510745
+Azure_4379,D2s_v3,sa-east-1,0.07817262783522727
+Azure 245_8500,F4s_v2,sa-east-1,0.20314581489511263
+Azure_8762,NC6,sa-east-1 1076,2.0613954863708965
+GCP_1389,e2-micro,us-east-1,0.03865592690047801
+GCP 1654_6082,e2-small 435,us-east-1,0.07597319250649355
+GCP_5644,n1-standard-2,us-east-1,0.06903983861461731
+GCP_5346,n2-standard-8 944,us-east-1,0.27639976232018043
+GCP_4196,a2-highgpu-1g,us-east-1,1.6338206049365391
+GCP_4176,e2-micro,us-west-1,0.06311244460968793
+GCP_7994,e2-small,us-west-1,0.058208059162699895
+GCP_974,n1-standard-2,us-west-1,0.0778330839957255
+GCP_314,n2-standard-8,us-west-1,0.41013103157438013
+GCP_2877,a2-highgpu-1g,us-west-1 530,1.6547469062681688
+GCP_3450,e2-micro,us-west-2,0.033895711396625144
+GCP_5021,e2-small 70,us-west-2,0.06208302618333032
+GCP_5062,n1-standard-2,us-west-2,0.1383768165396114
+GCP_7977,n2-standard-8,us-west-2,0.5821567976879767
+GCP_2297,a2-highgpu-1g,us-west-2,1.291582597328829
+GCP 1614_894,e2-micro,eu-west-1,0.034893773420213395
+GCP_2683,e2-small,eu-west-1,0.04556163120861334
+GCP_9681,n1-standard-2,eu-west-1,0.11781542679563252
+GCP_7021,n2-standard-8,eu-west-1 530,0.5402300116389628
+GCP_5844,a2-highgpu-1g 189,eu-west-1 202,1.5454648372938495
+GCP_6258,e2-micro 1081,eu-central-1,0.053801015624373595
+GCP_1303,e2-small,eu-central-1 1942,0.06600516059924086
+GCP_5603,n1-standard-2,eu-central-1,0.06554313683872977
+GCP_9294,n2-standard-8 703,eu-central-1,0.4840655416642462
+GCP 348_9079,a2-highgpu-1g,eu-central-1,2.3767468039497537
+GCP_853,e2-micro,ap-south-1,0.05293080716276094
+GCP_368,e2-small,ap-south-1,0.041473100559837085
+GCP 1569_5273,n1-standard-2,ap-south-1,0.11001191475439705
+GCP_412,n2-standard-8,ap-south-1,0.4369052025248251
+GCP_6031,a2-highgpu-1g 627,ap-south-1,2.5385530776767253
+GCP_2555,e2-micro,ap-southeast-1 1938,0.06562861956592665
+GCP_4515,e2-small,ap-southeast-1,0.07118762312975686
+GCP_5782,n1-standard-2,ap-southeast-1,0.09269869234715458
+GCP_4301,n2-standard-8,ap-southeast-1,0.28565552657731724
+GCP 327_1455,a2-highgpu-1g,ap-southeast-1,2.308103223154486
+GCP_719,e2-micro,ap-northeast-1,0.03236554312491658
+GCP_2091,e2-small,ap-northeast-1,0.06546138786195713
+GCP 210_1744,n1-standard-2,ap-northeast-1,0.06663742034821811
+GCP_8062,n2-standard-8,ap-northeast-1,0.2731633766950865
+GCP_7912,a2-highgpu-1g 741,ap-northeast-1,1.6243000412149025
+GCP_4512,e2-micro,asia-south1 1074,0.05886654310397558
+GCP_3261,e2-small 824,asia-south1,0.04878596341649617
+GCP_2917,n1-standard-2,asia-south1,0.08404743628515225
+GCP_1169,n2-standard-8,asia-south1,0.5313452998218158
+GCP 1374_3265,a2-highgpu-1g,asia-south1,2.1177179344132564
+GCP_5166,e2-micro,me-central-1,0.050713067416389646
+GCP_5002,e2-small,me-central-1,0.07076001295014488
+GCP 305_9066,n1-standard-2,me-central-1,0.10936848624009406
+GCP 1234_3568,n2-standard-8,me-central-1 161,0.4354238204629941
+GCP_1059,a2-highgpu-1g,me-central-1 574,2.2104475960399186
+GCP_3879,e2-micro,SA-EAST-1,0.05667889547373566
+GCP_2058,e2-small,sa-east-1,0.070107607261396
+GCP 226_788,n1-standard-2,sa-east-1,0.08676855976273552
+GCP_6281,n2-standard-8,sa-east-1,0.5435744910100874
+GCP 1624_8000,a2-highgpu-1g 87,sa-east-1,1.5423079431289355
+OracleCloud_9530,VM.STANDARD.E2.1,us-east-1 1626,0.029448750774818937
+OracleCloud_3919,VM.Standard2.2,us-east-1,0.09376298874855524
+OracleCloud_3802,BM.GPU2.2 1719,us-east-1,1.8810537359787927
+OracleCloud_1097,VM.Standard.E2.1,us-west-1,0.02967495438384088
+OracleCloud 1504_2127,VM.Standard2.2 1128,us-west-1 594,0.0953311306644766
+OracleCloud_4055,BM.GPU2.2 1570,us-west-1,2.9050405844805645
+OracleCloud_6650,VM.Standard.E2.1 408,us-west-2,0.04310853086273512
+OracleCloud_6029,VM.Standard2.2 475,us-west-2,0.12476419700732977
+OracleCloud_4699,BM.GPU2.2,us-west-2,3.0316160139915764
+OracleCloud 1281_4731,VM.Standard.E2.1,eu-west-1,0.032670133410222846
+OracleCloud_1347,VM.Standard2.2 973,eu-west-1 31,0.15027085888485586
+OracleCloud_5149,BM.GPU2.2,EU-WEST-1,2.507010491758091
+OracleCloud_2744,VM.Standard.E2.1,eu-central-1 1812,0.036403483479291204
+OracleCloud 302_6592,VM.Standard2.2,eu-central-1,0.0917047922311601
+OracleCloud_5824,BM.GPU2.2,eu-central-1,2.7719377976030883
+OracleCloud 1603_9261,VM.STANDARD.E2.1,ap-south-1,0.04155625850696371
+OracleCloud 1869_3038,VM.Standard2.2 842,ap-south-1 204,0.13576061396062483
+ORACLECLOUD_3323,BM.GPU2.2,ap-south-1 1655,3.377044108402782
+OracleCloud_5207,VM.Standard.E2.1 1039,ap-southeast-1,0.029183848437616955
+OracleCloud_5156,VM.Standard2.2,ap-southeast-1 137,0.07749995054443379
+OracleCloud_2966,BM.GPU2.2,ap-southeast-1,3.355260747471335
+OracleCloud_8284,VM.Standard.E2.1,ap-northeast-1 80,0.03244200610662058
+OracleCloud 1355_3150,VM.Standard2.2,ap-northeast-1,0.13256245103283626
+OracleCloud_5990,BM.GPU2.2,ap-northeast-1,2.131250556146155
+OracleCloud_1241,VM.Standard.E2.1 665,asia-south1,0.028187807254010117
+OracleCloud 381_882,VM.Standard2.2,asia-south1,0.11775910641867908
+OracleCloud_9710,BM.GPU2.2 804,asia-south1,1.431350844829208
+OracleCloud_7913,VM.Standard.E2.1,me-central-1,0.032623593636018876
+OracleCloud 19_23,VM.Standard2.2,me-central-1,0.08107017787736148
+OracleCloud_6608,BM.GPU2.2,me-central-1,1.650826596806313
+OracleCloud_8095,VM.Standard.E2.1,sa-east-1,0.03170526598101031
+OracleCloud_1290,VM.Standard2.2 316,sa-east-1,0.09481391501612454
+OracleCloud_8702,BM.GPU2.2,sa-east-1,2.6001401983183166
+IBMCloud_3030,bx2-2x8,us-east-1,0.1270685756964697
+IBMCloud_5849,bx2-4x16 91,us-east-1,0.3332097581883443
+IBMCloud_8432,gpus-1,US-EAST-1,1.4700034771818775
+IBMCloud 289_5204,bx2-2x8 793,us-west-1 618,0.12562298547413783
+IBMCloud_7711,bx2-4x16,us-west-1 189,0.15357275265725479
+IBMCloud_6390,gpus-1,us-west-1,1.8243213078439693
+IBMCloud_9727,bx2-2x8 1078,us-west-2,0.1249341903484179
+IBMCloud_3586,bx2-4x16 1574,us-west-2,0.312748683856345
+IBMCloud_7915,GPUS-1,US-WEST-2,1.26100819989742
+IBMCloud_1876,bx2-2x8,eu-west-1,0.14604099731397135
+IBMCloud_2652,bx2-4x16,eu-west-1,0.183539667484895
+IBMCloud_5536,gpus-1,eu-west-1,1.297935999944352
+IBMCloud_7154,bx2-2x8,eu-central-1,0.14111322936382334
+IBMCloud_5349,bx2-4x16,eu-central-1,0.2279766265016262
+IBMCloud_8171,gpus-1,eu-central-1,1.308516135229358
+IBMCloud_2592,bx2-2x8 1224,ap-south-1,0.10747515800478527
+IBMCLOUD_3960,bx2-4x16,ap-south-1,0.2578095871076742
+IBMCloud_3011,gpus-1,ap-south-1 910,1.1573213190526037
+IBMCloud_6357,bx2-2x8 15,ap-southeast-1,0.10978982634764045
+IBMCloud_6879,bx2-4x16,ap-southeast-1,0.27111289354517526
+IBMCloud 38_2864,gpus-1 69,ap-southeast-1,1.546302471682686
+IBMCloud_5491,bx2-2x8 627,AP-NORTHEAST-1,0.08033828989131635
+IBMCloud_358,bx2-4x16 103,ap-northeast-1 1850,0.24480798904908754
+IBMCloud_1614,gpus-1,ap-northeast-1 523,2.2713455391362882
+IBMCloud_6535,bx2-2x8,asia-south1,0.1498090506265698
+IBMCloud_6778,bx2-4x16,asia-south1,0.21579488320541515
+IBMCloud 598_3079,gpus-1,asia-south1,2.07703374381664
+IBMCloud_128,bx2-2x8,me-central-1,0.13707041292848138
+IBMCloud_4357,bx2-4x16,me-central-1 1537,0.1559601230120585
+IBMCloud 1581_1448,gpus-1,ME-CENTRAL-1,1.7373233448696699
+IBMCloud_3308,bx2-2x8,sa-east-1,0.12877907791323243
+IBMCloud 969_6129,bx2-4x16,sa-east-1,0.3253113627760133
+IBMCloud_7446,gpus-1 776,sa-east-1,2.004087187994226
+DigitalOcean 1474_1763,s-1vcpu-1gb,us-east-1 47,0.019853661894097274
+DigitalOcean_5246,s-2vcpu-4gb,us-east-1,0.0566040623351733
+DigitalOcean_7730,g-2vcpu-8gb 316,us-east-1,0.08077485928204002
+DigitalOcean_4904,s-1vcpu-1gb,US-WEST-1,0.018218452415548852
+DigitalOcean_3825,s-2vcpu-4gb,us-west-1,0.0651987558941267
+DigitalOcean_1031,g-2vcpu-8gb,us-west-1,0.1212861641482991
+DigitalOcean_4619,s-1vcpu-1gb,us-west-2,0.03937668541299999
+DIGITALOCEAN_8552,s-2vcpu-4gb,us-west-2,0.056462318752954974
+DigitalOcean_9870,G-2VCPU-8GB,us-west-2,0.10506936057750461
+DigitalOcean_1360,s-1vcpu-1gb,eu-west-1,0.033880227337611424
+DigitalOcean 1059_8412,s-2vcpu-4gb,eu-west-1,0.08495495374821646
+DigitalOcean 1792_1639,g-2vcpu-8gb 756,eu-west-1,0.13635591518407475
+DigitalOcean 664_5302,s-1vcpu-1gb 472,eu-central-1,0.0400725607972791
+DigitalOcean_4658,s-2vcpu-4gb,eu-central-1,0.057060148238466404
+DigitalOcean_2789,g-2vcpu-8gb,eu-central-1,0.120757115399704
+DigitalOcean_3486,s-1vcpu-1gb,ap-south-1 719,0.029529723233505296
+DigitalOcean_6490,s-2vcpu-4gb,ap-south-1,0.08623783679383942
+DigitalOcean_2131,g-2vcpu-8gb 1096,ap-south-1 1251,0.0701560062704801
+DigitalOcean_9031,s-1vcpu-1gb,ap-southeast-1,0.031274554261725096
+DigitalOcean_8292,s-2vcpu-4gb,ap-southeast-1,0.07094982425203904
+DigitalOcean_5204,g-2vcpu-8gb,ap-southeast-1,0.060238525417102964
+DigitalOcean_6081,s-1vcpu-1gb,ap-northeast-1 241,0.03733221206439038
+DigitalOcean_3664,s-2vcpu-4gb,ap-northeast-1,0.04563727063019491
+DigitalOcean 1301_4311,g-2vcpu-8gb,ap-northeast-1,0.06291505709706686
+DigitalOcean 549_9768,s-1vcpu-1gb,asia-south1 537,0.034446427417868825
+DigitalOcean_4559,s-2vcpu-4gb,asia-south1,0.048797247869796424
+DigitalOcean_3010,g-2vcpu-8gb,asia-south1,0.09106805598237067
+DigitalOcean_3448,s-1vcpu-1gb,me-central-1,0.022460491055226954
+DIGITALOCEAN_4818,s-2vcpu-4gb,me-central-1,0.05662123409809598
+DigitalOcean_4607,g-2vcpu-8gb,me-central-1,0.07437997966132856
+DigitalOcean_8211,s-1vcpu-1gb,sa-east-1,0.030440786832557087
+DigitalOcean_3579,s-2vcpu-4gb,sa-east-1,0.07389636483798456
+DigitalOcean_567,g-2vcpu-8gb,sa-east-1 210,0.0955300348201079
+Linode_3099,nanode,us-east-1 1285,0.031278375238334724
+Linode 1072_3711,g6-standard-2,us-east-1 1739,0.06044801672437728
+Linode 1667_7788,g6-highmem-4,us-east-1,0.2719060477340211
+Linode 1443_1290,nanode 1285,us-west-1 23,0.027490145782580827
+Linode_1753,g6-standard-2,us-west-1,0.0863213819167935
+Linode_7129,g6-highmem-4,us-west-1,0.3436241050307322
+Linode_7505,nanode,us-west-2,0.021088488425959125
+Linode_7928,g6-standard-2 1625,us-west-2,0.0884087973684319
+Linode_3435,G6-HIGHMEM-4,us-west-2,0.21079846195007737
+Linode_9835,nanode 1206,eu-west-1,0.029649381713441027
+Linode_8447,g6-standard-2,eu-west-1,0.08554824453679213
+Linode_4616,g6-highmem-4,eu-west-1,0.1728324566921971
+Linode_6692,nanode,eu-central-1,0.02863704792561983
+Linode 159_8980,g6-standard-2,eu-central-1,0.0768008538418712
+Linode_7720,g6-highmem-4,eu-central-1,0.15326478359215168
+Linode_1739,nanode 1894,ap-south-1 253,0.018569151595919244
+Linode_9443,g6-standard-2,ap-south-1 119,0.09028136773749201
+Linode 544_3149,g6-highmem-4 454,ap-south-1,0.31261926519162725
+Linode_3274,nanode,ap-southeast-1 1005,0.024925607268960162
+Linode_7292,g6-standard-2,ap-southeast-1,0.09485655932365113
+Linode_8359,g6-highmem-4 265,ap-southeast-1,0.24759164042624257
+Linode_67,nanode,ap-northeast-1,0.039314362162559555
+Linode_5436,g6-standard-2,ap-northeast-1,0.08846755330249281
+Linode_9594,g6-highmem-4 1983,ap-northeast-1 1477,0.1928061636132882
+LINODE_3585,nanode,asia-south1,0.03235772237148059
+Linode_5623,g6-standard-2,asia-south1,0.077810329687145
+Linode_1976,g6-highmem-4,asia-south1,0.23958808873700305
+Linode_2919,nanode 1138,me-central-1,0.01885388070233997
+Linode_4378,g6-standard-2,ME-CENTRAL-1,0.05919257657514948
+Linode_9239,g6-highmem-4,me-central-1,0.2870553737082911
+Linode 539_8265,nanode,sa-east-1,0.035945570314077156
+Linode_226,g6-standard-2,sa-east-1,0.05841286245651756
+Linode_7387,g6-highmem-4,sa-east-1,0.245521517708359
+HETZNER_1062,cx11,us-east-1 737,0.02423182917394811
+Hetzner_4879,cx31 1086,us-east-1,0.09035812597472409
+Hetzner_7714,ccx51,us-east-1,0.3171529781933402
+Hetzner_9481,cx11,us-west-1,0.03580897645457135
+Hetzner_770,cx31,us-west-1 1237,0.0658081636909209
+Hetzner_8617,ccx51 671,us-west-1,0.298967884890485
+Hetzner_3934,cx11 182,us-west-2 1740,0.02143891551308977
+Hetzner_4502,cx31,us-west-2 1481,0.08348347586074678
+Hetzner_5768,ccx51,us-west-2,0.4460060566709749
+Hetzner_4862,cx11,eu-west-1,0.03028741623862763
+Hetzner_4588,cx31,eu-west-1,0.0747126277655528
+Hetzner_225,ccx51,eu-west-1,0.31251085029905
+Hetzner_7832,cx11,eu-central-1 1148,0.030203981204242673
+Hetzner_625,cx31,eu-central-1,0.08639879401755034
+Hetzner_9200,ccx51,eu-central-1,0.548711082765431
+Hetzner_5756,cx11,ap-south-1 510,0.02998296743585366
+Hetzner_3447,cx31,ap-south-1 264,0.0811665497802161
+Hetzner_1057,ccx51,ap-south-1,0.3723707750198092
+Hetzner_8993,cx11,ap-southeast-1 1247,0.022831077074177798
+Hetzner_4462,cx31 620,ap-southeast-1,0.09618290636764627
+Hetzner_7683,ccx51,ap-southeast-1,0.5485928489080578
+HETZNER_8654,cx11,ap-northeast-1,0.029252664230675168
+HETZNER_8432,cx31,ap-northeast-1 1076,0.037537691611368953
+Hetzner 1877_5994,ccx51 1804,ap-northeast-1,0.27776938876883206
+Hetzner_3307,cx11 565,asia-south1,0.035957867880078064
+Hetzner_6726,CX31,asia-south1,0.04157882203542022
+Hetzner_3611,ccx51,asia-south1,0.5524372317236909
+Hetzner 432_8598,cx11,me-central-1,0.018122849912593688
+Hetzner_8797,CX31,me-central-1,0.03964120048630127
+Hetzner_6441,ccx51,me-central-1 1699,0.4886566279136095
+Hetzner_2993,cx11,sa-east-1,0.042005334100500336
+Hetzner_3461,cx31,sa-east-1,0.06560018782394683
+Hetzner_1440,ccx51,sa-east-1,0.5422809812468782
+AlibabaCloud_9246,ecs.nano,us-east-1 47,0.03193297426591834
+AlibabaCloud_6404,ecs.c6.large,us-east-1,0.13909062104687847
+AlibabaCloud 1410_2594,gn5i-c8g1,us-east-1,2.4316778811173165
+AlibabaCloud_2507,ecs.nano,us-west-1 161,0.02221053995679243
+AlibabaCloud_5372,ecs.c6.large,us-west-1,0.11464789330743579
+AlibabaCloud_3516,gn5i-c8g1,us-west-1,1.4550283883325767
+ALIBABACLOUD_1038,ecs.nano,us-west-2,0.023394927379037284
+AlibabaCloud 1299_7835,ecs.c6.large 1716,us-west-2,0.10368180347972968
+AlibabaCloud_8643,gn5i-c8g1,US-WEST-2,2.1983158172185666
+AlibabaCloud_7751,ecs.nano,eu-west-1 1366,0.029575455578586613
+AlibabaCloud_6701,ecs.c6.large,eu-west-1,0.08130122921320573
+AlibabaCloud_6603,gn5i-c8g1 389,eu-west-1,1.481461644290789
+AlibabaCloud_2974,ecs.nano,eu-central-1,0.025204831007984534
+AlibabaCloud_8069,ecs.c6.large,eu-central-1,0.08553356417585206
+AlibabaCloud_5145,gn5i-c8g1,eu-central-1 1833,1.8641924419830178
+AlibabaCloud_9047,ecs.nano,AP-SOUTH-1,0.0339116974790944
+AlibabaCloud_2692,ecs.c6.large,ap-south-1,0.1179873468221777
+AlibabaCloud_7453,gn5i-c8g1,ap-south-1,2.118231368941278
+AlibabaCloud_5263,ecs.nano,ap-southeast-1,0.02470166767684921
+AlibabaCloud_7843,ecs.c6.large,ap-southeast-1 1531,0.11822743488594026
+ALIBABACLOUD_5264,gn5i-c8g1,ap-southeast-1,1.7539767195578009
+AlibabaCloud_2408,ecs.nano,ap-northeast-1,0.03621337818174963
+AlibabaCloud_6422,ecs.c6.large,ap-northeast-1,0.11863930010221492
+ALIBABACLOUD_982,gn5i-c8g1,ap-northeast-1,2.1537628400602764
+AlibabaCloud_2436,ecs.nano,asia-south1,0.03336169955511555
+AlibabaCloud_3230,ecs.c6.large 608,asia-south1 1557,0.06892336830018378
+AlibabaCloud_7590,gn5i-c8g1 1439,asia-south1,2.0247739512738083
+AlibabaCloud 1506_5518,ecs.nano,me-central-1,0.018484732533948865
+ALIBABACLOUD_2403,ecs.c6.large,me-central-1,0.06655226136119954
+AlibabaCloud_4044,gn5i-c8g1,me-central-1,2.489211265237056
+AlibabaCloud_4038,ecs.nano,SA-EAST-1,0.019556473397820958
+AlibabaCloud_2611,ecs.c6.large,sa-east-1,0.07258157995915417
+AlibabaCloud_2030,gn5i-c8g1,sa-east-1,2.5180808217229598
+TencentCloud 1189_7316,s1.small,us-east-1,0.021267854866195497
+TencentCloud 859_5675,s2.medium 1165,us-east-1 450,0.07864231513804033
+TencentCloud_5044,gn6.large,us-east-1,0.2107276318103499
+TencentCloud_2444,s1.small,us-west-1,0.03379132617667784
+TencentCloud 1362_2139,s2.medium,us-west-1,0.07474810035240595
+TencentCloud 448_6762,gn6.large,us-west-1,0.22453779600857768
+TencentCloud_7296,s1.small 705,us-west-2,0.03757149010241637
+TencentCloud 1723_7949,s2.medium,us-west-2 378,0.059510711661529866
+TencentCloud_2382,GN6.LARGE,us-west-2,0.13435369133017572
+TencentCloud_5374,s1.small,eu-west-1,0.021198533541748096
+TencentCloud 1499_9816,s2.medium 407,eu-west-1,0.07815614992660752
+TencentCloud_4866,gn6.large 1530,eu-west-1,0.2010789660634758
+TencentCloud_1955,s1.small 907,eu-central-1,0.01986168529362204
+TencentCloud_8973,s2.medium 516,eu-central-1,0.09250494028784564
+TencentCloud 1354_2241,gn6.large 1128,eu-central-1 327,0.09384115621416668
+TencentCloud_4900,s1.small,ap-south-1,0.025003613671910334
+TencentCloud_4159,s2.medium,ap-south-1 1544,0.04098032688971107
+TencentCloud_2886,gn6.large,ap-south-1,0.12841419502859608
+TencentCloud 597_221,s1.small,ap-southeast-1,0.01951322073466971
+TENCENTCLOUD_8767,s2.medium,AP-SOUTHEAST-1,0.0781900067321595
+TencentCloud_4140,gn6.large 277,ap-southeast-1,0.1591670969962917
+TencentCloud_4861,s1.small,ap-northeast-1,0.02328205283027634
+TencentCloud 741_6768,s2.medium,ap-northeast-1,0.06827367502909201
+TencentCloud_5073,gn6.large 1862,ap-northeast-1 829,0.1565505104522761
+TencentCloud_6193,s1.small 1773,asia-south1,0.03149599059399395
+TencentCloud_1055,s2.medium,asia-south1,0.04981742321232087
+TencentCloud_1189,gn6.large 1967,ASIA-SOUTH1,0.12027455249096641
+TencentCloud_7530,s1.small 10,me-central-1,0.021162212681653234
+TencentCloud_1714,s2.medium,me-central-1,0.04486427130238224
+TencentCloud_1523,gn6.large,me-central-1,0.1207210316542986
+TencentCloud_9575,s1.small 330,sa-east-1 401,0.027342114626978775
+TencentCloud_1792,s2.medium,sa-east-1,0.06127708339443967
+TencentCloud_3942,gn6.large,sa-east-1 1629,0.15503200599577716
+OVHCloud_2246,b2-7,us-east-1,0.06996392391621396
+OVHCloud_610,b2-15 1722,us-east-1,0.08837274745556785
+OVHCloud_854,t1-45,us-east-1,0.28851276626620087
+OVHCloud_5867,b2-7 828,us-west-1,0.05885515696588841
+OVHCloud_1334,b2-15,us-west-1,0.1353358135687886
+OVHCloud 1829_9090,t1-45 1293,us-west-1,0.28714592431310587
+OVHCloud_2364,b2-7,us-west-2,0.05197759108321536
+OVHCloud_5578,b2-15,us-west-2,0.16344248883030804
+OVHCloud_3491,t1-45 66,us-west-2,0.22830397694066668
+OVHCloud_1706,b2-7,eu-west-1,0.08555756611657465
+OVHCLOUD_4057,b2-15,eu-west-1,0.10501331534331743
+OVHCloud_7533,t1-45 1088,eu-west-1 528,0.3808714421461105
+OVHCloud_7098,b2-7 716,eu-central-1 1039,0.04508704879669929
+OVHCloud_9691,b2-15,eu-central-1,0.20509315756279073
+OVHCloud_5191,t1-45 1921,eu-central-1,0.2908721311961154
+OVHCloud_236,b2-7,ap-south-1 271,0.084303400277751
+OVHCloud_5446,b2-15,ap-south-1,0.10073457185492996
+OVHCloud_9498,t1-45,ap-south-1,0.31539617249671187
+OVHCloud_5453,b2-7,ap-southeast-1,0.06655278354307113
+OVHCloud_8539,b2-15 1868,ap-southeast-1,0.20664994274946535
+OVHCloud 623_5890,t1-45 203,ap-southeast-1 1919,0.2629618445224321
+OVHCloud_451,b2-7,ap-northeast-1 450,0.10141057811925623
+OVHCloud_7182,b2-15,ap-northeast-1,0.18447548365953384
+OVHCloud_2347,t1-45 790,ap-northeast-1,0.40670406554217037
+OVHCloud 1835_8426,b2-7,asia-south1,0.08535393497158165
+OVHCloud_3731,b2-15 1741,asia-south1,0.11111804177119174
+OVHCloud_6064,t1-45,asia-south1,0.44363966889329787
+OVHCloud 752_228,b2-7,me-central-1,0.053730619711555454
+OVHCloud_1050,b2-15,me-central-1,0.10317262759927122
+OVHCloud 326_6026,t1-45,me-central-1 1905,0.2188008370158391
+OVHCloud 496_4509,b2-7,sa-east-1,0.05964750244745916
+OVHCloud_6805,b2-15,sa-east-1,0.10536832573963124
+OVHCloud_7145,t1-45,sa-east-1,0.3451537916808559
+AWS 212_6546,t3.nano,us-east-1 v41,0.042777999193738564
+AWS 757_3089,t3.micro 656,us-east-1 1132,0.06479799344759893
+AWS 575_1875,m5.large,us-east-1 v32,0.1187545703874621
+AWS 944_4523,c5.xlarge v46,us-east-1,0.3074834066762271
+AWS 946_3348,G4DN.XLARGE,us-east-1,1.6830437246885537
+AWS 331_8419,t3.nano,us-west-1,0.048112802319730474
+AWS 650_4752,t3.micro,us-west-1 v30,0.062177537120731236
+AWS 164_7930,m5.large,us-west-1,0.10279169597859336
+AWS v13 870_8090,c5.xlarge,us-west-1 v46,0.2228099925708788
+AWS 750_768,g4dn.xlarge 1515,US-WEST-1,1.226763719436653
+AWS 721_3007,t3.nano 1924,us-west-2,0.07678829243583472
+AWS 295_8814,t3.micro v6 1367,us-west-2,0.038690936920428944
+AWS 694_1829,m5.large,us-west-2,0.1573156480125347
+AWS 187 49_6996,C5.XLARGE,us-west-2,0.20843063197524012
+AWS 363_2199,g4dn.xlarge,us-west-2,1.9061773239461632
+AWS 680_195,t3.nano,eu-west-1 569,0.06685433277533252
+AWS 92_2889,t3.micro v43,eu-west-1 1539,0.06235403583520101
+AWS 512_1343,m5.large,eu-west-1 1202,0.12364879209266855
+AWS 772 314_2511,c5.xlarge,EU-WEST-1,0.15043664369130164
+AWS 822_654,g4dn.xlarge,eu-west-1 v7,0.9776055184475656
+AWS 129_7516,t3.nano,eu-central-1,0.03931328479630272
+AWS 754_253,t3.micro,eu-central-1,0.06748578400058967
+AWS 341 1755_279,m5.large 1153,eu-central-1,0.12060669936918554
+AWS 860_7420,c5.xlarge v5,eu-central-1,0.21894582866532916
+AWS 621_7647,g4dn.xlarge 217,eu-central-1 973,1.8409319426919335
+AWS 69 1055_2539,t3.nano,ap-south-1 v19,0.040825285936721835
+AWS 283_5383,t3.micro,AP-SOUTH-1,0.04601541159520016
+AWS 277 360_8924,m5.large,ap-south-1,0.15201806262682993
+AWS 856_9680,c5.xlarge,ap-south-1,0.145321418835997
+AWS v46 864 1258_2646,g4dn.xlarge,ap-south-1 43,2.244877044274994
+AWS 177_360,t3.nano,ap-southeast-1,0.03588893043423534
+AWS 97 1027_2010,t3.micro,ap-southeast-1 815,0.06385013984169528
+AWS v9 109_9192,m5.large,ap-southeast-1,0.0856326065592953
+AWS 261 1731_8270,c5.xlarge v22 1206,ap-southeast-1 1607,0.30782906803752086
+AWS 471 1292_8484,G4DN.XLARGE,ap-southeast-1 95,0.8988332285572805
+AWS 895_4582,t3.nano,ap-northeast-1,0.05531618718730097
+AWS 677 155_4127,T3.MICRO,ap-northeast-1,0.06434060865933772
+AWS 372_9641,m5.large,ap-northeast-1,0.09855623815622806
+AWS 401_982,c5.xlarge 1484,ap-northeast-1 445,0.1534402756488804
+AWS 485_7610,G4DN.XLARGE,ap-northeast-1 80,1.146907855225545
+AWS 758_3937,t3.nano,asia-south1 v18,0.028337547778597427
+AWS 416_1759,t3.micro v17 863,asia-south1,0.06801836721634319
+AWS 115_5017,m5.large,asia-south1 v14,0.07890459138360868
+AWS 540_7412,C5.XLARGE,ASIA-SOUTH1,0.23922636080120582
+AWS 758_7553,G4DN.XLARGE,asia-south1 v39 1530,1.3130747837646985
+AWS 382_6282,t3.nano,me-central-1,0.06155582288985426
+AWS 137 502_1361,t3.micro,me-central-1 v8,0.056021249363186615
+AWS 330_4962,m5.large v33,me-central-1,0.100494821280374
+AWS 925_5107,c5.xlarge,me-central-1,0.1825182081273037
+AWS 930_4500,g4dn.xlarge,me-central-1 v13 1362,0.9668104255489206
+AWS 433_1426,t3.nano v47,SA-EAST-1,0.04992618560331391
+AWS 295_4155,t3.micro,SA-EAST-1,0.047636071181513535
+AWS 71_7496,m5.large,sa-east-1,0.10187195310313656
+AWS 451_9350,c5.xlarge,sa-east-1,0.23505189063001508
+AWS v49 753 1641_3544,g4dn.xlarge,sa-east-1 v39,2.2795811343674406
+Azure 251_1539,B1s,us-east-1 676,0.022155515121501646
+Azure 629_5691,B2s,us-east-1,0.07142462389382913
+Azure 25 651_6153,D2s_v3,us-east-1 v26,0.13584645067831175
+Azure 824_2608,F4s_v2,US-EAST-1,0.13508662971133958
+Azure 336 1576_369,NC6,us-east-1,1.4222235707736632
+AZURE 630_8044,B1s,us-west-1,0.020252193491031432
+Azure 962_3531,B2s v14,us-west-1 v29,0.047679985256710945
+Azure 693_8653,D2s_v3 v15,us-west-1,0.1461045557671806
+Azure v40 560_524,F4s_v2 v18 1217,us-west-1,0.114370107010348
+Azure v8 751_8241,NC6 v22,US-WEST-1,1.2629478439384838
+AZURE 732_4071,B1s,us-west-2,0.040975277364955966
+Azure 834 1332_1496,B2s v49,us-west-2,0.06457975972902744
+Azure 532_9757,D2s_v3,us-west-2 963,0.16581625647198756
+Azure 733 1144_8765,F4S_V2,us-west-2,0.1273150687379902
+Azure 832_1662,NC6,us-west-2 v3,2.3514133398763697
+Azure 644_6588,B1s,eu-west-1,0.025780181328647858
+Azure 122_412,B2s,eu-west-1,0.058239544155584785
+Azure v32 898_9652,D2s_v3,eu-west-1 v27,0.1214233203423006
+Azure v49 671_826,F4s_v2,EU-WEST-1,0.17495655025335421
+Azure 719_2213,NC6 75,eu-west-1 845,1.3810225885614122
+AZURE 201_6420,B1s 787,eu-central-1,0.03886149927635709
+Azure 429 1461_5786,B2s,eu-central-1,0.04316551800409517
+Azure v32 211 789_1641,D2s_v3,eu-central-1 v17,0.13088907657116078
+Azure v29 895 1785_3354,F4s_v2 499,eu-central-1 v7,0.17685511593631428
+Azure 400_1161,NC6 v29,eu-central-1 1790,2.069625008500725
+Azure 858 1990_7223,B1s v3,ap-south-1,0.04209143113169157
+Azure 470_7302,B2S,ap-south-1 836,0.0832472924954327
+Azure 445 1995_1793,D2s_v3,ap-south-1,0.15210600044711042
+Azure 520_3373,F4s_v2,ap-south-1 842,0.11156661795884658
+Azure v40 716_1245,NC6 v45,ap-south-1 v2,1.7710580680836876
+Azure 336_1957,B1s,ap-southeast-1 635,0.01843000048954783
+Azure v2 791_576,B2s v12,ap-southeast-1 1193,0.10317745262844183
+Azure 384_9906,D2s_v3 460,ap-southeast-1,0.11040268825193769
+Azure 195_3974,F4S_V2,ap-southeast-1,0.14835893694400595
+Azure 990_2548,NC6,ap-southeast-1 v30,1.5766266590767057
+Azure 378_2591,B1s,ap-northeast-1 857,0.017629723720913208
+Azure 790_7825,B2s v27 792,ap-northeast-1,0.061903110496448234
+Azure 207 328_2948,D2s_v3,ap-northeast-1,0.15746861885156463
+Azure 838 611_8949,F4s_v2 1592,ap-northeast-1,0.19346865974206057
+Azure v37 540 220_1991,NC6 v20,ap-northeast-1,1.9985639892110656
+AZURE 70_1594,B1s,asia-south1 v37,0.018654624903436702
+Azure 591_7422,B2s,asia-south1,0.0729472546829277
+Azure 902_9096,D2s_v3 v46,ASIA-SOUTH1,0.12357388868517136
+Azure v46 744 1892_8673,F4S_V2,asia-south1,0.17794913151469938
+Azure 77_2819,NC6,asia-south1,1.1748941294349053
+AZURE 331_6507,B1s,me-central-1,0.04040011541637787
+Azure 550_7363,B2s,me-central-1,0.06305763953170061
+Azure 299 46_1259,D2s_v3 472,me-central-1,0.10140942852145025
+Azure v27 458_1848,F4s_v2,me-central-1 42,0.1104324683323141
+Azure v27 655 955_276,NC6,me-central-1 98,1.1843648629866275
+Azure 803_3895,B1s,SA-EAST-1,0.029388870583639176
+Azure 499_7556,B2s 764,sa-east-1 1861,0.07375038008774729
+Azure 508_3613,D2S_V3,sa-east-1,0.1329966054723325
+Azure 166_2073,F4s_v2,sa-east-1,0.1429380626180186
+Azure 433_9088,NC6,sa-east-1,2.262627217583708
+GCP 768 1651_727,e2-micro v32 1209,us-east-1,0.048227727574547144
+GCP 709_9212,e2-small,us-east-1 v35,0.05553821202380043
+GCP 537_4117,n1-standard-2,us-east-1,0.08701222461211336
+GCP 19 1883_9848,N2-STANDARD-8,us-east-1 112,0.35612430274550777
+GCP 939_9537,A2-HIGHGPU-1G 270,us-east-1,1.9548436424177635
+GCP 855_2702,e2-micro,us-west-1,0.043155404818695925
+GCP 695_7123,e2-small 219,US-WEST-1,0.05621971421943971
+GCP 780_1464,n1-standard-2,us-west-1 v5,0.1380197707332739
+GCP 921 1111_7374,n2-standard-8 v49,us-west-1 v42,0.3003896611120174
+GCP 189_1838,a2-highgpu-1g,us-west-1 185,1.831411488901763
+GCP 722_6097,e2-micro,us-west-2 1840,0.03158168423370701
+GCP 940_999,e2-small,us-west-2,0.09394599216901234
+GCP 511_7956,n1-standard-2,us-west-2,0.12055105869710286
+GCP 918_4165,n2-standard-8,us-west-2,0.22506220985612277
+GCP 260_4607,A2-HIGHGPU-1G,US-WEST-2,1.4102830740372452
+GCP 406_8003,e2-micro,eu-west-1,0.04080078320832984
+GCP 93_8758,e2-small,eu-west-1 1209,0.048646208747982596
+GCP 434_7763,n1-standard-2,eu-west-1,0.07870450243909818
+GCP 43_263,n2-standard-8 1905,eu-west-1 1112,0.5018749422409995
+GCP 532_4513,a2-highgpu-1g,eu-west-1,2.0931447795971168
+GCP 184_7037,e2-micro 403,eu-central-1,0.07263356430165681
+GCP 834_8791,e2-small,eu-central-1 840,0.058893400173620034
+GCP 804_7743,n1-standard-2,eu-central-1,0.11803006671991378
+GCP 936_2802,n2-standard-8 v11,EU-CENTRAL-1,0.39829783557977566
+GCP 29 1410_785,a2-highgpu-1g,eu-central-1,1.3861955840502658
+GCP 640_2521,e2-micro,ap-south-1,0.03821471688963171
+GCP 942_6730,e2-small,ap-south-1,0.04120253492381985
+GCP 45_2487,n1-standard-2,ap-south-1,0.15323427852197838
+GCP 155_2923,n2-standard-8,ap-south-1,0.3637069192256795
+GCP 511_9736,a2-highgpu-1g 467,ap-south-1 66,1.7236974509980432
+GCP 465_4097,e2-micro,ap-southeast-1 v20 1599,0.04581649994516915
+GCP 885 1374_1024,E2-SMALL V8,ap-southeast-1,0.058647429038724656
+GCP 743 1288_6096,n1-standard-2 1198,ap-southeast-1,0.1158042568350802
+GCP 64_1012,n2-standard-8,ap-southeast-1 v12,0.6136532368871339
+GCP 494_5828,a2-highgpu-1g,ap-southeast-1,2.308743313180615
+GCP 364_5963,e2-micro,ap-northeast-1,0.04148274435229203
+GCP 728_7473,E2-SMALL,ap-northeast-1 v20 468,0.046437549535198346
+GCP 485 547_3748,n1-standard-2,ap-northeast-1,0.12517043816016124
+GCP 808_2630,n2-standard-8 v37 521,ap-northeast-1,0.49632026557926684
+GCP 919_4303,a2-highgpu-1g,ap-northeast-1,1.3639302581421124
+GCP v46 93_5021,e2-micro,ASIA-SOUTH1,0.060664317164847374
+GCP 39_6318,e2-small,asia-south1,0.044407818000565424
+GCP 992_3802,n1-standard-2 v36,asia-south1,0.11183160155969553
+GCP v26 960_3818,n2-standard-8 v22,asia-south1 v4,0.2644944232947186
+GCP v24 471_5958,a2-highgpu-1g,asia-south1,1.515933975655588
+GCP 11 1663_7564,e2-micro,me-central-1,0.0776515171195381
+GCP 453_3546,e2-small 1398,me-central-1,0.050310016156149315
+GCP 920_2446,n1-standard-2 v10,me-central-1 v40,0.10917589920301483
+GCP 446 1632_3888,n2-standard-8,me-central-1,0.5257032126748122
+GCP 735_8239,a2-highgpu-1g,me-central-1,1.9000724752099472
+GCP 909 660_4293,e2-micro v42,sa-east-1 v34 583,0.04212793058662558
+GCP 972_9957,e2-small,sa-east-1,0.04413951169188185
+GCP 271 969_8751,n1-standard-2,SA-EAST-1,0.06702744154021716
+GCP v39 32_3924,n2-standard-8,SA-EAST-1,0.3546945336406053
+GCP 731_3262,a2-highgpu-1g,sa-east-1 235,1.9406507182683663
+OracleCloud 201_8680,VM.Standard.E2.1,us-east-1,0.02169620363377269
+ORACLECLOUD 211_9660,VM.Standard2.2,us-east-1,0.12213180882677424
+OracleCloud 48_683,BM.GPU2.2,US-EAST-1,1.9991506539585835
+OracleCloud 224_4588,VM.Standard.E2.1 v39 749,us-west-1 v4,0.024324088517774897
+ORACLECLOUD 849_5788,VM.Standard2.2,us-west-1,0.1467436323271153
+OracleCloud v6 188_4527,BM.GPU2.2,us-west-1,2.650966739576208

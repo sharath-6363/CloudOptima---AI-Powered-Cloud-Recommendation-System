@@ -1,0 +1,3001 @@
+provider,region,security_score,certifications
+AWS,us-east-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,us-west-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,us-west-2,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,eu-west-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,eu-central-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,ap-south-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,ap-southeast-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,ap-northeast-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,asia-south1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,me-central-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS,sa-east-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,us-east-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,us-west-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,us-west-2,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,eu-west-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,eu-central-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,ap-south-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,ap-southeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,ap-northeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,asia-south1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,me-central-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure,sa-east-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,us-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,us-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,us-west-2,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,eu-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,eu-central-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,ap-south-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,ap-southeast-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,ap-northeast-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,asia-south1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,me-central-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud,us-east-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,us-west-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,us-west-2,82,"ISO27001,SOC2,PCI"
+OracleCloud,eu-west-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,eu-central-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,ap-south-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,ap-southeast-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,ap-northeast-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,asia-south1,82,"ISO27001,SOC2,PCI"
+OracleCloud,me-central-1,82,"ISO27001,SOC2,PCI"
+OracleCloud,sa-east-1,82,"ISO27001,SOC2,PCI"
+IBMCloud,us-east-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,us-west-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,us-west-2,80,"ISO27001,SOC2,PCI"
+IBMCloud,eu-west-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,eu-central-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,ap-south-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,ap-southeast-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,ap-northeast-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,asia-south1,80,"ISO27001,SOC2,PCI"
+IBMCloud,me-central-1,80,"ISO27001,SOC2,PCI"
+IBMCloud,sa-east-1,80,"ISO27001,SOC2,PCI"
+DigitalOcean,us-east-1,72,"ISO27001,GDPR"
+DigitalOcean,us-west-1,72,"ISO27001,GDPR"
+DigitalOcean,us-west-2,72,"ISO27001,GDPR"
+DigitalOcean,eu-west-1,72,"ISO27001,GDPR"
+DigitalOcean,eu-central-1,72,"ISO27001,GDPR"
+DigitalOcean,ap-south-1,72,"ISO27001,GDPR"
+DigitalOcean,ap-southeast-1,72,"ISO27001,GDPR"
+DigitalOcean,ap-northeast-1,72,"ISO27001,GDPR"
+DigitalOcean,asia-south1,72,"ISO27001,GDPR"
+DigitalOcean,me-central-1,72,"ISO27001,GDPR"
+DigitalOcean,sa-east-1,72,"ISO27001,GDPR"
+Linode,us-east-1,70,ISO27001
+Linode,us-west-1,70,ISO27001
+Linode,us-west-2,70,ISO27001
+Linode,eu-west-1,70,ISO27001
+Linode,eu-central-1,70,ISO27001
+Linode,ap-south-1,70,ISO27001
+Linode,ap-southeast-1,70,ISO27001
+Linode,ap-northeast-1,70,ISO27001
+Linode,asia-south1,70,ISO27001
+Linode,me-central-1,70,ISO27001
+Linode,sa-east-1,70,ISO27001
+Hetzner,us-east-1,68,ISO27001
+Hetzner,us-west-1,68,ISO27001
+Hetzner,us-west-2,68,ISO27001
+Hetzner,eu-west-1,68,ISO27001
+Hetzner,eu-central-1,68,ISO27001
+Hetzner,ap-south-1,68,ISO27001
+Hetzner,ap-southeast-1,68,ISO27001
+Hetzner,ap-northeast-1,68,ISO27001
+Hetzner,asia-south1,68,ISO27001
+Hetzner,me-central-1,68,ISO27001
+Hetzner,sa-east-1,68,ISO27001
+AlibabaCloud,us-east-1,78,"ISO27001,SOC2"
+AlibabaCloud,us-west-1,78,"ISO27001,SOC2"
+AlibabaCloud,us-west-2,78,"ISO27001,SOC2"
+AlibabaCloud,eu-west-1,78,"ISO27001,SOC2"
+AlibabaCloud,eu-central-1,78,"ISO27001,SOC2"
+AlibabaCloud,ap-south-1,78,"ISO27001,SOC2"
+AlibabaCloud,ap-southeast-1,78,"ISO27001,SOC2"
+AlibabaCloud,ap-northeast-1,78,"ISO27001,SOC2"
+AlibabaCloud,asia-south1,78,"ISO27001,SOC2"
+AlibabaCloud,me-central-1,78,"ISO27001,SOC2"
+AlibabaCloud,sa-east-1,78,"ISO27001,SOC2"
+TencentCloud,us-east-1,76,"ISO27001,SOC2"
+TencentCloud,us-west-1,76,"ISO27001,SOC2"
+TencentCloud,us-west-2,76,"ISO27001,SOC2"
+TencentCloud,eu-west-1,76,"ISO27001,SOC2"
+TencentCloud,eu-central-1,76,"ISO27001,SOC2"
+TencentCloud,ap-south-1,76,"ISO27001,SOC2"
+TencentCloud,ap-southeast-1,76,"ISO27001,SOC2"
+TencentCloud,ap-northeast-1,76,"ISO27001,SOC2"
+TencentCloud,asia-south1,76,"ISO27001,SOC2"
+TencentCloud,me-central-1,76,"ISO27001,SOC2"
+TencentCloud,sa-east-1,76,"ISO27001,SOC2"
+OVHCloud,us-east-1,74,ISO27001
+OVHCloud,us-west-1,74,ISO27001
+OVHCloud,us-west-2,74,ISO27001
+OVHCloud,eu-west-1,74,ISO27001
+OVHCloud,eu-central-1,74,ISO27001
+OVHCloud,ap-south-1,74,ISO27001
+OVHCloud,ap-southeast-1,74,ISO27001
+OVHCloud,ap-northeast-1,74,ISO27001
+OVHCloud,asia-south1,74,ISO27001
+OVHCloud,me-central-1,74,ISO27001
+OVHCloud,sa-east-1,74,ISO27001
+AWS v27 92,us-east-1,89,"ISO27001,SOC2,HIPAA,G"
+AWS v16 238,us-west-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 372,us-west-2,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 694,eu-west-1 v20,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 530,eu-central-1 v25,89,"ISO27001,SOC2,HIPAA,GDPR v21"
+AWS 57,AP-SOUTH-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 384,ap-southeast-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 193,ap-northeast-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 426,asia-south1,87,"ISO27001,SOC2,HIPAA,G"
+AWS 227,ME-CENTRAL-1,89,"ISO27001,SOC2,HIPAA,G"
+AWS 552,sa-east-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v3 639,us-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 55,us-west-1 v45,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 436,us-west-2,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 981,eu-west-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 951,EU-CENTRAL-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v48 198,AP-SOUTH-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 373,ap-southeast-1,85,"ISO27001,SOC2,HIPAA,G"
+Azure 599,ap-northeast-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 849,asia-south1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 211,me-central-1 v2,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 703,sa-east-1 v7,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 42,us-east-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 788,US-WEST-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v9 283,us-west-2,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v47 19,eu-west-1,85,"ISO27001,SOC2,HIPAA,GDPR v36"
+GCP 837,EU-CENTRAL-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 466,ap-south-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 758,ap-southeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 967,ap-northeast-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 548,asia-south1,84,"ISO27001,SOC2,HIPAA,GDPR v39"
+GCP 998,me-central-1 v40,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 709,sa-east-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud v30 728,us-east-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 196,us-west-1,85,"ISO27001,SOC2,PCI"
+OracleCloud 664,us-west-2,79,"ISO27001,SOC2,PCI"
+OracleCloud v14 146,eu-west-1,81,"ISO27001,SOC2,PCI"
+OracleCloud v42 723,eu-central-1,85,"ISO27001,SOC2,PCI"
+OracleCloud v12 798,ap-south-1 v18,77,"ISO27001,SOC2,PCI"
+ORACLECLOUD 715,ap-southeast-1,84,"ISO27001,SOC2,PCI"
+OracleCloud 279,ap-northeast-1,79,"ISO27001,SOC2,PCI"
+OracleCloud 641,asia-south1,77,"ISO27001,SOC2,PCI"
+OracleCloud 271,me-central-1,85,"ISO27001,SOC2,PCI"
+OracleCloud 700,sa-east-1,84,"ISO27001,SOC2,PCI"
+IBMCloud 726,US-EAST-1,77,"ISO27001,SOC2,PCI"
+IBMCloud v27 365,us-west-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 321,us-west-2,78,"ISO27001,SOC2,PCI"
+IBMCloud 109,eu-west-1,79,"ISO27001,SOC2,PCI v49"
+IBMCloud 522,eu-central-1,75,"ISO27001,SOC2,PCI"
+IBMCloud 827,ap-south-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 892,ap-southeast-1,81,"ISO27001,SOC2,PCI"
+IBMCloud 880,ap-northeast-1,80,"ISO27001,SOC2,PCI v18"
+IBMCloud 732,asia-south1,85,"ISO27001,SOC2,PCI"
+IBMCloud 679,me-central-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 989,sa-east-1,75,"ISO27001,SOC2,PCI"
+DigitalOcean v18 822,us-east-1,74,"ISO27001,GDPR"
+DigitalOcean 839,us-west-1,68,"ISO27001,GDPR"
+DIGITALOCEAN 508,us-west-2 v36,68,"ISO27001,GDPR"
+DigitalOcean 713,eu-west-1 v38,77,"ISO27001,GDPR v9"
+DigitalOcean 255,eu-central-1,74,"ISO27001,GDPR"
+DigitalOcean 547,ap-south-1,69,"ISO27001,GDPR"
+DigitalOcean 389,ap-southeast-1,68,"ISO27001,GDPR"
+DigitalOcean 167,ap-northeast-1,70,"ISO27001,GDPR"
+DigitalOcean 412,asia-south1 v20,75,"ISO27001,GDPR"
+DigitalOcean 235,me-central-1 v12,68,"ISO27001,GDPR"
+DigitalOcean 159,sa-east-1,72,"ISO27001,GDPR"
+Linode 816,us-east-1,71,ISO27001
+Linode 893,us-west-1,68,ISO27001
+Linode v38 68,us-west-2,71,ISO27001
+Linode 217,eu-west-1,72,ISO27001
+Linode 135,eu-central-1,65,ISO27001
+Linode 351,ap-south-1,73,ISO27001
+LINODE 133,ap-southeast-1,74,ISO27001
+Linode v44 810,AP-NORTHEAST-1,66,ISO27001
+Linode 380,asia-south1,70,ISO27001
+Linode 658,me-central-1,71,ISO27001
+Linode 463,sa-east-1 v2,74,ISO27001
+Hetzner 17,us-east-1,72,ISO27001
+Hetzner 327,us-west-1,66,ISO27001
+Hetzner 479,us-west-2,71,ISO27001
+Hetzner v39 710,EU-WEST-1,69,ISO27001 v34
+Hetzner 486,eu-central-1,64,ISO27001
+Hetzner 179,ap-south-1,72,ISO27001
+HETZNER 690,ap-southeast-1 v34,68,ISO27001
+Hetzner 416,ap-northeast-1,67,ISO27001
+Hetzner 515,asia-south1,65,ISO27001
+Hetzner 854,me-central-1,68,ISO27001
+Hetzner v10 579,sa-east-1,65,ISO27001
+AlibabaCloud 519,us-east-1 v12,73,"ISO27001,SOC2"
+AlibabaCloud v13 834,us-west-1,80,"ISO27001,SOC2"
+AlibabaCloud 138,us-west-2,76,"ISO27001,SOC2"
+AlibabaCloud 529,eu-west-1 v39,80,"ISO27001,SOC2"
+AlibabaCloud 646,eu-central-1,76,"ISO27001,SOC2"
+AlibabaCloud 325,ap-south-1,75,"ISO27001,SOC2"
+AlibabaCloud 905,ap-southeast-1,82,"ISO27001,SOC2"
+ALIBABACLOUD 723,ap-northeast-1,83,"ISO27001,SOC2 v13"
+AlibabaCloud 536,asia-south1,77,"ISO27001,SOC2"
+AlibabaCloud 516,me-central-1,78,"ISO27001,SOC2"
+AlibabaCloud 955,sa-east-1,80,"ISO27001,SOC2"
+TencentCloud v35 869,us-east-1 v3,74,"ISO27001,SOC2"
+TencentCloud 688,us-west-1,78,"ISO27001,SOC2"
+TencentCloud 620,us-west-2 v35,78,"ISO27001,SOC2"
+TencentCloud v25 324,eu-west-1,78,"ISO27001,SOC2 v13"
+TencentCloud v46 262,eu-central-1,81,"ISO27001,SOC2"
+TencentCloud 420,ap-south-1,71,"ISO27001,SOC2"
+TencentCloud 355,ap-southeast-1,78,"ISO27001,SOC2 v49"
+TencentCloud 770,ap-northeast-1,71,"ISO27001,SOC2"
+TencentCloud v13 66,asia-south1,74,"ISO27001,SOC2"
+TencentCloud 474,me-central-1 v28,81,"ISO27001,SOC2"
+TencentCloud 439,sa-east-1 v22,81,"ISO27001,SOC2"
+OVHCloud 227,us-east-1,71,ISO27001
+OVHCloud 581,us-west-1 v12,76,ISO27001
+OVHCloud 551,us-west-2 v20,75,ISO27001
+OVHCloud 825,eu-west-1,77,ISO27001
+OVHCloud 493,eu-central-1,73,ISO27001
+OVHCloud 970,ap-south-1,76,ISO27001
+OVHCloud 57,ap-southeast-1,69,ISO27001
+OVHCloud v40 336,ap-northeast-1,74,ISO27001
+OVHCloud 888,asia-south1,71,ISO27001 v3
+OVHCloud 730,me-central-1,73,ISO27001
+OVHCloud 894,sa-east-1,79,ISO27001
+AWS 117,us-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 906,us-west-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 162,us-west-2 v42,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 543,eu-west-1 v3,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 237,eu-central-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 66,ap-south-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 809,ap-southeast-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v32 441,ap-northeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 946,asia-south1,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 396,me-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v7 657,sa-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 326,us-east-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v23 750,us-west-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 166,us-west-2,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 214,eu-west-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 335,eu-central-1 v20,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 861,ap-south-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+AZURE 677,ap-southeast-1,90,"ISO27001,SOC2,HIPAA,G"
+Azure 52,ap-northeast-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 626,asia-south1 v33,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 786,me-central-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 374,sa-east-1,88,"ISO27001,SOC2,HIPAA,G"
+GCP v37 479,us-east-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 300,us-west-1 v10,93,"ISO27001,SOC2,HIPAA,GDPR v48"
+GCP v18 225,us-west-2,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 358,eu-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 668,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR v34"
+GCP 350,ap-south-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 464,ap-southeast-1,92,"ISO27001,SOC2,HIPAA,G"
+GCP 837,ap-northeast-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v28 792,asia-south1 v39,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 314,me-central-1,94,"ISO27001,SOC2,HIPAA,GDPR v30"
+GCP 922,sa-east-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud v7 187,us-east-1 v42,81,"ISO27001,SOC2,PCI"
+OracleCloud v38 471,us-west-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 565,us-west-2,78,"ISO27001,SOC2,PCI"
+OracleCloud 560,eu-west-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 905,eu-central-1,79,"ISO27001,SOC2,PCI"
+OracleCloud 637,ap-south-1,82,"ISO27001,SOC2,PCI"
+OracleCloud 179,ap-southeast-1,86,"ISO27001,SOC2,PCI"
+OracleCloud v39 64,ap-northeast-1,80,"ISO27001,SOC2,PCI v3"
+OracleCloud 97,asia-south1,80,"ISO27001,SOC2,PCI v11"
+OracleCloud 442,ME-CENTRAL-1,82,"ISO27001,SOC2,PCI"
+OracleCloud 411,sa-east-1,87,"ISO27001,SOC2,PCI"
+IBMCloud v33 551,us-east-1,79,"ISO27001,SOC2,PCI"
+IBMCloud 46,us-west-1,80,"ISO27001,SOC2,PCI"
+IBMCloud 603,us-west-2,76,"ISO27001,SOC2,PCI"
+IBMCloud 111,eu-west-1,78,"ISO27001,SOC2,PCI v11"
+IBMCloud 123,eu-central-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 291,ap-south-1 v1,77,"ISO27001,SOC2,PCI"
+IBMCloud 897,ap-southeast-1,81,"ISO27001,SOC2,PCI"
+IBMCloud v25 596,ap-northeast-1 v43,80,"ISO27001,SOC2,PCI"
+IBMCloud v3 210,asia-south1,77,"ISO27001,SOC2,PCI v2"
+IBMCloud 581,me-central-1,84,"ISO27001,SOC2,PCI"
+IBMCloud 258,sa-east-1,83,"ISO27001,SOC2,PCI"
+DigitalOcean 10,us-east-1 v34,72,"ISO27001,GDPR v31"
+DigitalOcean 76,us-west-1,68,"ISO27001,GDPR"
+DigitalOcean 85,us-west-2 v36,72,"ISO27001,GDPR"
+DigitalOcean 495,eu-west-1,67,"ISO27001,GDPR"
+DigitalOcean 689,eu-central-1,72,"ISO27001,GDPR"
+DigitalOcean 970,ap-south-1,69,"ISO27001,GDPR"
+DigitalOcean 218,AP-SOUTHEAST-1,71,"ISO27001,GDPR"
+DigitalOcean 346,ap-northeast-1,71,"ISO27001,GDPR v45"
+DigitalOcean 26,asia-south1,72,"ISO27001,GDPR v44"
+DigitalOcean 261,me-central-1,74,"ISO27001,GDPR"
+DigitalOcean 656,sa-east-1,77,"ISO27001,GDPR"
+Linode 656,us-east-1,65,ISO27001
+Linode 259,us-west-1,69,ISO27001
+Linode 47,us-west-2,68,ISO27001
+Linode 208,eu-west-1 v31,72,ISO27001
+Linode 747,eu-central-1,71,ISO27001
+Linode 834,ap-south-1,69,ISO27001
+Linode 678,ap-southeast-1,70,ISO27001 v27
+Linode 174,ap-northeast-1 v26,74,ISO27001 v38
+Linode 907,asia-south1,73,ISO27001
+Linode 776,me-central-1,72,ISO27001
+Linode v33 199,sa-east-1,69,ISO27001
+Hetzner 533,us-east-1,68,ISO27001
+HETZNER 371,us-west-1,70,ISO27001
+Hetzner 788,us-west-2 v21,70,ISO27001
+Hetzner 58,eu-west-1,70,ISO27001
+Hetzner 249,eu-central-1,64,ISO27001
+Hetzner 271,ap-south-1,71,ISO27001
+Hetzner v30 394,ap-southeast-1,72,ISO27001
+Hetzner 592,AP-NORTHEAST-1,68,ISO27001
+Hetzner 84,asia-south1,66,ISO27001
+Hetzner 549,me-central-1 v45,68,ISO27001
+Hetzner 839,sa-east-1,68,ISO27001
+ALIBABACLOUD 425,us-east-1,79,"ISO27001,SOC2"
+AlibabaCloud 93,us-west-1,80,"ISO27001,SOC2"
+ALIBABACLOUD 412,us-west-2,78,"ISO27001,SOC2"
+ALIBABACLOUD 159,eu-west-1,78,"ISO27001,SOC2"
+AlibabaCloud 505,eu-central-1,77,"ISO27001,SOC2 v33"
+AlibabaCloud 249,ap-south-1,81,"ISO27001,SOC2"
+AlibabaCloud 216,ap-southeast-1,83,"ISO27001,SOC2"
+AlibabaCloud 541,ap-northeast-1 v13,82,"ISO27001,SOC2"
+AlibabaCloud 817,asia-south1,75,"ISO27001,SOC2"
+AlibabaCloud 988,me-central-1,83,"ISO27001,SOC2"
+AlibabaCloud 727,sa-east-1,80,"ISO27001,SOC2"
+TencentCloud 554,us-east-1,75,"ISO27001,SOC2"
+TencentCloud 42,us-west-1,77,"ISO27001,SOC2"
+TencentCloud 873,us-west-2,74,"ISO27001,SOC2"
+TencentCloud 58,eu-west-1,81,"ISO27001,SOC2"
+TencentCloud 537,eu-central-1,72,"ISO27001,SOC2"
+TencentCloud 885,ap-south-1,79,"ISO27001,SOC2"
+TencentCloud 599,ap-southeast-1,81,"ISO27001,SOC2 v1"
+TencentCloud 426,ap-northeast-1,80,"ISO27001,SOC2"
+TencentCloud v25 637,asia-south1 v3,76,"ISO27001,SOC2"
+TencentCloud 578,me-central-1 v6,75,"ISO27001,SOC2"
+TencentCloud 506,sa-east-1,80,"ISO27001,SOC2"
+OVHCloud 599,us-east-1,70,ISO27001
+OVHCloud 204,us-west-1,70,ISO27001
+OVHCloud v22 404,us-west-2,73,ISO27001
+OVHCloud 536,eu-west-1,75,ISO27001
+OVHCloud v48 577,eu-central-1,72,ISO27001
+OVHCloud 209,ap-south-1,69,ISO27001
+OVHCloud 897,ap-southeast-1,79,ISO27001
+OVHCloud 628,ap-northeast-1,73,ISO27001
+OVHCloud 495,asia-south1,77,ISO27001
+OVHCloud 46,ME-CENTRAL-1,71,ISO27001
+OVHCloud 331,sa-east-1,75,ISO27001
+AWS 982,us-east-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 845,us-west-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 536,us-west-2,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 547,eu-west-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 540,eu-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 976,ap-south-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v40 977,ap-southeast-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 950,ap-northeast-1,87,"ISO27001,SOC2,HIPAA,G"
+AWS 994,asia-south1 v15,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 847,me-central-1 v11,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 115,sa-east-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v4 837,us-east-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 75,us-west-1 v35,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 482,US-WEST-2,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 297,eu-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 178,eu-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 967,ap-south-1,89,"ISO27001,SOC2,HIPAA,G"
+Azure 39,ap-southeast-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 716,ap-northeast-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 49,asia-south1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 161,me-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 176,sa-east-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 895,us-east-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 928,us-west-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v4 498,us-west-2,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 676,eu-west-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 188,eu-central-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 547,ap-south-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 36,ap-southeast-1 v48,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 595,ap-northeast-1 v25,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 640,asia-south1,84,"ISO27001,SOC2,HIPAA,GDPR v5"
+GCP 534,me-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 619,sa-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 357,us-east-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 676,us-west-1,81,"ISO27001,SOC2,PCI v36"
+OracleCloud v4 692,us-west-2,80,"ISO27001,SOC2,PCI"
+OracleCloud 466,EU-WEST-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 464,eu-central-1,78,"ISO27001,SOC2,PCI"
+OracleCloud 914,ap-south-1,85,"ISO27001,SOC2,PCI"
+OracleCloud 66,ap-southeast-1,82,"ISO27001,SOC2,PCI"
+OracleCloud 612,ap-northeast-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 559,asia-south1,83,"ISO27001,SOC2,PCI"
+OracleCloud 602,me-central-1 v39,82,"ISO27001,SOC2,PCI"
+ORACLECLOUD 785,sa-east-1,81,"ISO27001,SOC2,PCI"
+IBMCloud 73,us-east-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 101,us-west-1,75,"ISO27001,SOC2,PCI"
+IBMCLOUD 756,us-west-2,76,"ISO27001,SOC2,PCI"
+IBMCloud 865,eu-west-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 954,eu-central-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 954,ap-south-1,81,"ISO27001,SOC2,PCI"
+IBMCloud 980,ap-southeast-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 755,ap-northeast-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 211,asia-south1,83,"ISO27001,SOC2,PCI"
+IBMCloud 229,me-central-1,85,"ISO27001,SOC2,PCI"
+IBMCLOUD 656,sa-east-1,76,"ISO27001,SOC2,PCI"
+DigitalOcean 140,us-east-1,70,"ISO27001,GDPR"
+DigitalOcean v29 270,us-west-1,73,"ISO27001,GDPR"
+DigitalOcean 12,us-west-2,73,"ISO27001,GDPR"
+DigitalOcean v35 337,eu-west-1,71,"ISO27001,GDPR"
+DigitalOcean 106,eu-central-1,76,"ISO27001,GDPR"
+DigitalOcean 171,ap-south-1,76,"ISO27001,GDPR"
+DigitalOcean 69,ap-southeast-1,67,"ISO27001,GDPR"
+DigitalOcean 649,ap-northeast-1,76,"ISO27001,GDPR"
+DigitalOcean v49 100,asia-south1,67,"ISO27001,GDPR v36"
+DigitalOcean 574,me-central-1,68,"ISO27001,GDPR v9"
+DigitalOcean 29,sa-east-1,75,"ISO27001,GDPR"
+Linode 143,us-east-1 v14,73,ISO27001
+Linode 632,us-west-1,70,ISO27001
+Linode 157,us-west-2,74,ISO27001
+Linode 754,eu-west-1,68,ISO27001 v18
+Linode v49 75,eu-central-1,71,ISO27001 v16
+Linode 626,ap-south-1,67,ISO27001
+Linode 429,ap-southeast-1,74,ISO27001 v38
+Linode 954,ap-northeast-1,74,ISO27001 v18
+Linode 112,asia-south1 v20,74,ISO27001
+Linode v25 887,me-central-1 v38,68,ISO27001
+Linode 92,sa-east-1,65,ISO27001
+Hetzner 805,us-east-1,66,ISO27001
+Hetzner 812,us-west-1,70,ISO27001
+Hetzner 236,us-west-2,64,ISO27001
+Hetzner 374,eu-west-1,67,ISO27001
+Hetzner 234,eu-central-1 v5,71,ISO27001
+Hetzner 542,ap-south-1,63,ISO27001 v3
+Hetzner 204,ap-southeast-1,64,ISO27001
+Hetzner 474,ap-northeast-1 v29,65,ISO27001
+Hetzner 253,asia-south1,71,ISO27001
+Hetzner 386,me-central-1,71,ISO27001 v26
+Hetzner 430,sa-east-1,65,ISO27001
+AlibabaCloud 537,us-east-1,76,"ISO27001,SOC2"
+AlibabaCloud 141,us-west-1,75,"ISO27001,SOC2"
+ALIBABACLOUD 300,us-west-2,79,"ISO27001,SOC2"
+AlibabaCloud 471,eu-west-1 v35,79,"ISO27001,SOC2"
+AlibabaCloud 642,eu-central-1,81,"ISO27001,SOC2"
+AlibabaCloud 172,ap-south-1,78,"ISO27001,SOC2 v41"
+AlibabaCloud 352,ap-southeast-1,74,"ISO27001,SOC2"
+AlibabaCloud 622,ap-northeast-1,74,"ISO27001,SOC2 v13"
+AlibabaCloud v5 106,asia-south1,82,"ISO27001,SOC2"
+AlibabaCloud 768,me-central-1 v44,82,"ISO27001,SOC2"
+AlibabaCloud v43 162,sa-east-1,81,"ISO27001,SOC2"
+TencentCloud 286,us-east-1,75,"ISO27001,SOC2"
+TencentCloud 767,us-west-1,77,"ISO27001,SOC2"
+TencentCloud 886,us-west-2,76,"ISO27001,SOC2"
+TencentCloud 835,eu-west-1,77,"ISO27001,SOC2"
+TencentCloud 26,eu-central-1,73,"ISO27001,SOC2"
+TencentCloud 198,ap-south-1 v24,75,"ISO27001,SOC2"
+TencentCloud 188,ap-southeast-1,81,"ISO27001,SOC2"
+TencentCloud 817,ap-northeast-1,80,"ISO27001,SOC2"
+TencentCloud 716,asia-south1,80,"ISO27001,SOC2"
+TencentCloud 484,me-central-1,71,"ISO27001,SOC2"
+TencentCloud 523,sa-east-1,72,"ISO27001,SOC2"
+OVHCloud 354,us-east-1,75,ISO27001
+OVHCLOUD 658,us-west-1,78,ISO27001
+OVHCloud 100,us-west-2,73,ISO27001
+OVHCloud 558,eu-west-1 v40,72,ISO27001
+OVHCloud 693,eu-central-1,74,ISO27001
+OVHCloud 990,ap-south-1,79,ISO27001
+OVHCloud 491,ap-southeast-1,70,ISO27001
+OVHCloud 610,ap-northeast-1,76,ISO27001
+OVHCloud 879,asia-south1,77,ISO27001
+OVHCloud 276,me-central-1 v9,71,ISO27001
+OVHCloud 281,sa-east-1,76,ISO27001
+AWS 773,us-east-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 719,us-west-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 727,us-west-2 v8,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 552,eu-west-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 702,EU-CENTRAL-1,94,"ISO27001,SOC2,HIPAA,GDPR v27"
+AWS 896,ap-south-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 682,ap-southeast-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 700,ap-northeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 801,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 229,me-central-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 609,sa-east-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v47 647,us-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 645,us-west-1 v26,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 732,us-west-2,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 965,eu-west-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 133,eu-central-1,83,"ISO27001,SOC2,HIPAA,GDPR v26"
+Azure 975,AP-SOUTH-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v13 619,ap-southeast-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 865,ap-northeast-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v43 117,asia-south1 v18,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 717,me-central-1,92,"ISO27001,SOC2,HIPAA,GDPR v16"
+Azure 929,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 961,us-east-1,93,"ISO27001,SOC2,HIPAA,GDPR v48"
+GCP 898,us-west-1 v49,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 646,US-WEST-2,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 678,eu-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 216,eu-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v18 425,AP-SOUTH-1,94,"ISO27001,SOC2,HIPAA,G"
+GCP 988,ap-southeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 785,ap-northeast-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 186,asia-south1,90,"ISO27001,SOC2,HIPAA,GDPR v29"
+GCP 974,me-central-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 246,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud v6 935,us-east-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 910,us-west-1,79,"ISO27001,SOC2,PCI"
+OracleCloud 563,us-west-2,82,"ISO27001,SOC2,PCI"
+OracleCloud v23 104,eu-west-1 v48,83,"ISO27001,SOC2,PCI"
+OracleCloud 601,eu-central-1,78,"ISO27001,SOC2,PCI"
+OracleCloud v13 233,ap-south-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 79,ap-southeast-1,86,"ISO27001,SOC2,PCI v9"
+OracleCloud 898,ap-northeast-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 781,asia-south1,85,"ISO27001,SOC2,PCI"
+OracleCloud v34 186,me-central-1,79,"ISO27001,SOC2,PCI"
+OracleCloud 803,SA-EAST-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 632,us-east-1 v38,77,"ISO27001,SOC2,PCI"
+IBMCloud 838,us-west-1,85,"ISO27001,SOC2,PCI"
+IBMCloud v48 323,us-west-2 v49,77,"ISO27001,SOC2,PCI"
+IBMCloud 615,eu-west-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 372,eu-central-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 835,ap-south-1,79,"ISO27001,SOC2,PCI"
+IBMCloud 121,ap-southeast-1,85,"ISO27001,SOC2,PCI"
+IBMCloud v30 965,ap-northeast-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 91,asia-south1,75,"ISO27001,SOC2,PCI"
+IBMCloud 333,me-central-1 v28,76,"ISO27001,SOC2,PCI v12"
+IBMCloud 130,sa-east-1,83,"ISO27001,SOC2,PCI"
+DigitalOcean 99,us-east-1 v37,74,"ISO27001,GDPR"
+DigitalOcean 356,us-west-1,72,"ISO27001,GDPR"
+DigitalOcean v11 826,US-WEST-2,73,"ISO27001,GDPR"
+DigitalOcean 496,eu-west-1,69,"ISO27001,GDPR"
+DigitalOcean 655,eu-central-1,72,"ISO27001,GDPR"
+DigitalOcean 299,ap-south-1 v31,76,"ISO27001,GDPR"
+DigitalOcean 945,ap-southeast-1,76,"ISO27001,GDPR"
+DigitalOcean 770,ap-northeast-1,69,"ISO27001,GDPR"
+DigitalOcean 215,asia-south1,74,"ISO27001,GDPR"
+DigitalOcean v2 543,me-central-1,72,"ISO27001,GDPR"
+DigitalOcean 232,sa-east-1,69,"ISO27001,GDPR"
+Linode 541,us-east-1,74,ISO27001
+Linode 506,us-west-1,67,ISO27001
+Linode 304,us-west-2,73,ISO27001
+Linode 437,eu-west-1,65,ISO27001
+Linode v3 858,eu-central-1,70,ISO27001
+Linode 393,ap-south-1,66,ISO27001
+Linode 599,ap-southeast-1,70,ISO27001
+Linode 761,ap-northeast-1,69,ISO27001
+Linode 405,asia-south1,65,ISO27001
+Linode 379,me-central-1,75,ISO27001 v42
+Linode v6 556,sa-east-1,71,ISO27001
+Hetzner 540,us-east-1,66,ISO27001
+Hetzner 639,us-west-1,63,ISO27001
+Hetzner 680,us-west-2,73,ISO27001
+Hetzner 76,eu-west-1,72,ISO27001 v3
+Hetzner 716,eu-central-1,69,ISO27001
+Hetzner 726,ap-south-1 v2,70,ISO27001 v46
+Hetzner 158,ap-southeast-1,69,ISO27001
+Hetzner 393,ap-northeast-1,67,ISO27001
+Hetzner 69,asia-south1,67,ISO27001 v11
+Hetzner 347,me-central-1,65,ISO27001
+Hetzner 962,sa-east-1,63,ISO27001
+AlibabaCloud 423,us-east-1 v24,73,"ISO27001,SOC2"
+AlibabaCloud v30 115,us-west-1,77,"ISO27001,SOC2"
+AlibabaCloud 343,us-west-2,83,"ISO27001,SOC2"
+AlibabaCloud 130,eu-west-1,81,"ISO27001,SOC2"
+AlibabaCloud v40 739,eu-central-1 v41,83,"ISO27001,SOC2"
+AlibabaCloud v2 101,ap-south-1,79,"ISO27001,SOC2"
+AlibabaCloud 58,ap-southeast-1,77,"ISO27001,SOC2"
+AlibabaCloud v5 941,ap-northeast-1,76,"ISO27001,SOC2"
+AlibabaCloud 861,asia-south1,77,"ISO27001,SOC2"
+AlibabaCloud v20 660,me-central-1,78,"ISO27001,SOC2"
+AlibabaCloud v25 633,sa-east-1,74,"ISO27001,SOC2"
+TencentCloud 454,us-east-1,80,"ISO27001,SOC2"
+TencentCloud 323,US-WEST-1,79,"ISO27001,SOC2"
+TencentCloud 513,us-west-2,71,"ISO27001,SOC2"
+TencentCloud 773,eu-west-1,73,"ISO27001,SOC2"
+TencentCloud 908,eu-central-1,73,"ISO27001,SOC2"
+TencentCloud 332,ap-south-1 v48,79,"ISO27001,SOC2 v35"
+TencentCloud 994,ap-southeast-1,75,"ISO27001,SOC2"
+TencentCloud v22 205,ap-northeast-1,77,"ISO27001,SOC2"
+TencentCloud 687,asia-south1,79,"ISO27001,SOC2"
+TencentCloud v3 468,me-central-1,75,"ISO27001,SOC2"
+TencentCloud v31 472,SA-EAST-1,75,"ISO27001,SOC2"
+OVHCloud v40 216,us-east-1 v33,76,ISO27001
+OVHCloud 212,us-west-1,70,ISO27001
+OVHCloud 884,us-west-2 v16,70,ISO27001
+OVHCloud 551,eu-west-1 v12,78,ISO27001
+OVHCloud 880,eu-central-1 v25,76,ISO27001
+OVHCloud 498,ap-south-1,77,ISO27001
+OVHCloud 384,ap-southeast-1,75,ISO27001
+OVHCloud 700,ap-northeast-1,70,ISO27001 v13
+OVHCloud 527,asia-south1,79,ISO27001 v32
+OVHCloud 831,me-central-1 v36,69,ISO27001
+OVHCloud 214,sa-east-1,73,ISO27001
+AWS 330,us-east-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 978,us-west-1,92,"ISO27001,SOC2,HIPAA,G"
+AWS 146,us-west-2,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 90,eu-west-1 v7,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v5 528,eu-central-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 978,ap-south-1,87,"ISO27001,SOC2,HIPAA,GDPR v26"
+AWS 757,AP-SOUTHEAST-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 801,ap-northeast-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 789,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 279,me-central-1,85,"ISO27001,SOC2,HIPAA,G"
+AWS 977,sa-east-1,93,"ISO27001,SOC2,HIPAA,GDPR v43"
+Azure v14 158,us-east-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 693,us-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 440,us-west-2,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 663,eu-west-1 v13,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 743,eu-central-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 530,ap-south-1,90,"ISO27001,SOC2,HIPAA,G"
+Azure 929,ap-southeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 531,ap-northeast-1 v32,88,"ISO27001,SOC2,HIPAA,GDPR v17"
+Azure 995,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR v6"
+Azure 613,me-central-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 921,sa-east-1 v34,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 202,us-east-1,87,"ISO27001,SOC2,HIPAA,GDPR v10"
+GCP 523,us-west-1 v24,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 445,us-west-2 v27,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 592,eu-west-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v7 16,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 524,ap-south-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 753,ap-southeast-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 939,ap-northeast-1 v21,85,"ISO27001,SOC2,HIPAA,G"
+GCP 785,asia-south1,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 134,me-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 283,sa-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 665,us-east-1,80,"ISO27001,SOC2,PCI"
+OracleCloud v2 604,us-west-1,85,"ISO27001,SOC2,PCI"
+OracleCloud 259,us-west-2,81,"ISO27001,SOC2,PCI v38"
+OracleCloud 966,eu-west-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 993,EU-CENTRAL-1,83,"ISO27001,SOC2,PCI"
+OracleCloud 769,ap-south-1,83,"ISO27001,SOC2,PCI"
+OracleCloud 198,ap-southeast-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 463,ap-northeast-1,78,"ISO27001,SOC2,PCI v47"
+ORACLECLOUD 121,asia-south1,86,"ISO27001,SOC2,PCI"
+ORACLECLOUD 182,me-central-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 814,sa-east-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 543,us-east-1,84,"ISO27001,SOC2,PCI"
+IBMCloud 315,us-west-1,82,"ISO27001,SOC2,PCI"
+IBMCloud 736,us-west-2,84,"ISO27001,SOC2,PCI"
+IBMCloud 910,eu-west-1,75,"ISO27001,SOC2,PCI"
+IBMCloud v40 24,eu-central-1 v36,84,"ISO27001,SOC2,PCI v48"
+IBMCloud v45 187,ap-south-1 v27,83,"ISO27001,SOC2,PCI"
+IBMCloud 338,ap-southeast-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 37,ap-northeast-1,76,"ISO27001,SOC2,PCI"
+IBMCloud v26 916,asia-south1 v9,77,"ISO27001,SOC2,PCI v8"
+IBMCloud 86,me-central-1,80,"ISO27001,SOC2,PCI v42"
+IBMCloud 926,sa-east-1,77,"ISO27001,SOC2,PCI"
+DigitalOcean v28 235,us-east-1,69,"ISO27001,GDPR"
+DIGITALOCEAN 799,us-west-1,77,"ISO27001,GDPR"
+DigitalOcean 100,us-west-2 v49,73,"ISO27001,GDPR"
+DIGITALOCEAN 403,eu-west-1,73,"ISO27001,GDPR"
+DigitalOcean 613,eu-central-1,77,"ISO27001,GDPR"
+DigitalOcean 541,ap-south-1,71,"ISO27001,GDPR v15"
+DigitalOcean 619,ap-southeast-1,68,"ISO27001,GDPR"
+DigitalOcean 84,ap-northeast-1 v26,68,"ISO27001,GDPR"
+DigitalOcean 388,asia-south1,70,"ISO27001,GDPR"
+DigitalOcean 818,me-central-1,72,"ISO27001,GDPR"
+DigitalOcean v38 59,sa-east-1,73,"ISO27001,GDPR"
+Linode 883,us-east-1,74,ISO27001
+Linode 924,us-west-1,75,ISO27001
+Linode 706,us-west-2,72,ISO27001
+Linode 648,eu-west-1,75,ISO27001
+Linode 229,eu-central-1,75,ISO27001
+Linode 439,ap-south-1,66,ISO27001
+Linode 910,ap-southeast-1,66,ISO27001
+Linode 995,ap-northeast-1,70,ISO27001 v10
+Linode 483,asia-south1,73,ISO27001
+Linode 78,me-central-1 v11,67,ISO27001 v39
+Linode v28 295,sa-east-1,75,ISO27001
+Hetzner 906,US-EAST-1,71,ISO27001 v21
+Hetzner v43 86,us-west-1,65,ISO27001 v48
+Hetzner 700,us-west-2,67,ISO27001
+Hetzner 480,eu-west-1,66,ISO27001
+HETZNER 151,EU-CENTRAL-1,64,ISO27001
+Hetzner 988,ap-south-1,67,ISO27001 v4
+Hetzner 521,ap-southeast-1,70,ISO27001
+Hetzner v35 661,ap-northeast-1,67,ISO27001
+Hetzner v18 968,asia-south1,63,ISO27001
+Hetzner 753,ME-CENTRAL-1,65,ISO27001
+Hetzner 95,SA-EAST-1,63,ISO27001 v43
+AlibabaCloud 518,us-east-1,74,"ISO27001,SOC2"
+AlibabaCloud 67,us-west-1,78,"ISO27001,SOC2 v14"
+AlibabaCloud 12,us-west-2,76,"ISO27001,SOC2"
+AlibabaCloud 770,eu-west-1 v45,74,"ISO27001,SOC2"
+AlibabaCloud 925,eu-central-1 v15,79,"ISO27001,SOC2"
+AlibabaCloud 222,ap-south-1 v17,79,"ISO27001,SOC2"
+AlibabaCloud 416,ap-southeast-1,73,"ISO27001,SOC2"
+AlibabaCloud v46 344,ap-northeast-1 v6,75,"ISO27001,SOC2"
+AlibabaCloud 850,asia-south1,78,"ISO27001,SOC2 v27"
+AlibabaCloud 229,me-central-1,80,"ISO27001,SOC2"
+AlibabaCloud 290,sa-east-1 v24,78,"ISO27001,SOC2"
+TencentCloud 47,us-east-1,78,"ISO27001,SOC2"
+TencentCloud 214,us-west-1,81,"ISO27001,SOC2"
+TencentCloud 24,us-west-2,76,"ISO27001,SOC2"
+TencentCloud 556,eu-west-1 v1,72,"ISO27001,SOC2"
+TencentCloud v12 363,eu-central-1,79,"ISO27001,SOC2"
+TencentCloud v28 380,ap-south-1,78,"ISO27001,SOC2"
+TencentCloud 981,ap-southeast-1,77,"ISO27001,SOC2 v23"
+TencentCloud 470,ap-northeast-1,72,"ISO27001,SOC2 v11"
+TencentCloud v42 42,asia-south1,73,"ISO27001,SOC2 v29"
+TencentCloud 722,me-central-1,81,"ISO27001,SOC2"
+TencentCloud 732,sa-east-1,72,"ISO27001,SOC2"
+OVHCLOUD 648,us-east-1,76,ISO27001
+OVHCloud 237,us-west-1 v42,74,ISO27001
+OVHCloud 456,us-west-2,73,ISO27001
+OVHCloud 261,eu-west-1 v4,79,ISO27001 v36
+OVHCloud v33 354,eu-central-1,69,ISO27001
+OVHCloud 103,ap-south-1,76,ISO27001
+OVHCloud 441,ap-southeast-1,78,ISO27001
+OVHCloud 738,ap-northeast-1,73,ISO27001
+OVHCloud 639,asia-south1,75,ISO27001
+OVHCloud 92,me-central-1,76,ISO27001
+OVHCloud 190,sa-east-1,75,ISO27001
+AWS 476,us-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v14 754,us-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 644,us-west-2,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 978,eu-west-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 7,eu-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 668,AP-SOUTH-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 835,ap-southeast-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 595,ap-northeast-1,94,"ISO27001,SOC2,HIPAA,GDPR v20"
+AWS 872,asia-south1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 471,me-central-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v7 701,sa-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 366,us-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 874,us-west-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v19 521,us-west-2,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 210,eu-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 816,eu-central-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v45 793,ap-south-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 590,ap-southeast-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 403,ap-northeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 119,asia-south1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 74,me-central-1,93,"ISO27001,SOC2,HIPAA,GDPR v40"
+Azure 147,sa-east-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 635,us-east-1,88,"ISO27001,SOC2,HIPAA,G"
+GCP 752,us-west-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 339,us-west-2,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v30 869,eu-west-1,89,"ISO27001,SOC2,HIPAA,GDPR v3"
+GCP v41 459,eu-central-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 822,ap-south-1,85,"ISO27001,SOC2,HIPAA,GDPR v12"
+GCP v6 763,ap-southeast-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 221,ap-northeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v30 367,asia-south1 v2,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 349,me-central-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 738,SA-EAST-1,84,"ISO27001,SOC2,HIPAA,GDPR v10"
+OracleCloud v44 758,us-east-1 v8,81,"ISO27001,SOC2,PCI"
+OracleCloud 623,us-west-1,77,"ISO27001,SOC2,PCI"
+OracleCloud v6 749,us-west-2,84,"ISO27001,SOC2,PCI"
+ORACLECLOUD 480,eu-west-1,79,"ISO27001,SOC2,PCI"
+OracleCloud 257,eu-central-1,87,"ISO27001,SOC2,PCI"
+OracleCloud 500,ap-south-1,87,"ISO27001,SOC2,PCI"
+OracleCloud 510,ap-southeast-1,77,"ISO27001,SOC2,PCI"
+OracleCloud 800,ap-northeast-1,84,"ISO27001,SOC2,PCI"
+ORACLECLOUD 894,asia-south1,81,"ISO27001,SOC2,PCI v17"
+OracleCloud 569,me-central-1,84,"ISO27001,SOC2,PCI"
+OracleCloud v42 137,sa-east-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 419,us-east-1,82,"ISO27001,SOC2,PCI v23"
+IBMCloud 463,us-west-1,76,"ISO27001,SOC2,PCI v7"
+IBMCloud 310,us-west-2,79,"ISO27001,SOC2,PCI"
+IBMCloud 754,eu-west-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 764,eu-central-1,83,"ISO27001,SOC2,PCI v3"
+IBMCloud 994,ap-south-1 v46,82,"ISO27001,SOC2,PCI"
+IBMCloud v46 651,ap-southeast-1,80,"ISO27001,SOC2,PCI"
+IBMCloud 807,ap-northeast-1,82,"ISO27001,SOC2,PCI"
+IBMCLOUD 675,asia-south1,85,"ISO27001,SOC2,PCI"
+IBMCloud 302,me-central-1,75,"ISO27001,SOC2,PCI"
+IBMCloud 136,sa-east-1,80,"ISO27001,SOC2,PCI"
+DigitalOcean v37 348,us-east-1,77,"ISO27001,GDPR"
+DigitalOcean 546,us-west-1,74,"ISO27001,GDPR"
+DigitalOcean v32 161,us-west-2 v15,67,"ISO27001,GDPR"
+DigitalOcean 374,eu-west-1,70,"ISO27001,GDPR"
+DigitalOcean v16 801,eu-central-1,75,"ISO27001,GDPR"
+DigitalOcean 989,ap-south-1,67,"ISO27001,GDPR"
+DigitalOcean 698,ap-southeast-1,71,"ISO27001,GDPR"
+DigitalOcean 197,ap-northeast-1,71,"ISO27001,GDPR"
+DigitalOcean 774,asia-south1,76,"ISO27001,GDPR"
+DigitalOcean 115,me-central-1,74,"ISO27001,GDPR"
+DigitalOcean 65,sa-east-1,75,"ISO27001,GDPR v13"
+Linode 825,us-east-1,68,ISO27001
+Linode 522,us-west-1,72,ISO27001
+Linode 233,us-west-2,73,ISO27001 v49
+Linode 907,eu-west-1,67,ISO27001
+Linode 921,eu-central-1,74,ISO27001
+Linode 217,ap-south-1,65,ISO27001 v49
+LINODE 551,ap-southeast-1,75,ISO27001 v36
+Linode 718,ap-northeast-1,69,ISO27001 v26
+Linode 824,asia-south1,71,ISO27001
+Linode 56,me-central-1 v40,65,ISO27001
+Linode v4 803,sa-east-1,72,ISO27001
+Hetzner 870,us-east-1,66,ISO27001 v31
+Hetzner 855,us-west-1,73,ISO27001
+Hetzner 647,us-west-2,66,ISO27001 v16
+Hetzner 440,eu-west-1 v22,73,ISO27001
+Hetzner 570,eu-central-1,63,ISO27001
+Hetzner 103,ap-south-1,73,ISO27001
+Hetzner 640,ap-southeast-1,69,ISO27001
+Hetzner v39 90,ap-northeast-1,72,ISO27001 v48
+Hetzner 457,asia-south1,70,ISO27001
+Hetzner 354,me-central-1,71,ISO27001
+HETZNER 345,sa-east-1,69,ISO27001 v36
+AlibabaCloud v24 130,us-east-1,73,"ISO27001,SOC2"
+AlibabaCloud 956,us-west-1,74,"ISO27001,SOC2 v28"
+AlibabaCloud 655,us-west-2,83,"ISO27001,SOC2"
+ALIBABACLOUD 463,eu-west-1,80,"ISO27001,SOC2"
+AlibabaCloud 276,eu-central-1,73,"ISO27001,SOC2"
+AlibabaCloud 140,ap-south-1,82,"ISO27001,SOC2"
+AlibabaCloud 23,ap-southeast-1 v37,81,"ISO27001,SOC2"
+AlibabaCloud 736,ap-northeast-1,80,"ISO27001,SOC2"
+AlibabaCloud 665,asia-south1,83,"ISO27001,SOC2"
+AlibabaCloud 85,me-central-1,79,"ISO27001,SOC2"
+ALIBABACLOUD 240,sa-east-1,77,"ISO27001,SOC2"
+TencentCloud 363,us-east-1,80,"ISO27001,SOC2"
+TencentCloud 389,us-west-1,76,"ISO27001,SOC2"
+TencentCloud 857,us-west-2,81,"ISO27001,SOC2"
+TencentCloud 99,eu-west-1,73,"ISO27001,SOC2"
+TencentCloud 839,eu-central-1,77,"ISO27001,SOC2"
+TencentCloud 579,ap-south-1,76,"ISO27001,SOC2 v32"
+TencentCloud 119,ap-southeast-1,77,"ISO27001,SOC2 v37"
+TencentCloud 598,ap-northeast-1,72,"ISO27001,SOC2"
+TencentCloud 52,asia-south1,78,"ISO27001,SOC2 v17"
+TencentCloud v27 337,me-central-1,71,"ISO27001,SOC2"
+TencentCloud 880,sa-east-1,80,"ISO27001,SOC2 v12"
+OVHCloud 136,us-east-1,79,ISO27001 v48
+OVHCloud 508,US-WEST-1,75,ISO27001
+OVHCloud 381,us-west-2,78,ISO27001
+OVHCloud 576,eu-west-1,69,ISO27001
+OVHCloud v29 20,eu-central-1,70,ISO27001
+OVHCloud 208,ap-south-1,69,ISO27001
+OVHCloud 376,ap-southeast-1,71,ISO27001
+OVHCloud 904,ap-northeast-1,76,ISO27001
+OVHCloud v38 181,asia-south1,74,ISO27001
+OVHCloud 612,me-central-1,77,ISO27001
+OVHCloud 927,sa-east-1,78,ISO27001
+AWS 913,US-EAST-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 938,us-west-1,93,"ISO27001,SOC2,HIPAA,GDPR v39"
+AWS 103,us-west-2,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 975,EU-WEST-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 634,eu-central-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 226,ap-south-1,95,"ISO27001,SOC2,HIPAA,GDPR v35"
+AWS 182,ap-southeast-1,90,"ISO27001,SOC2,HIPAA,G"
+AWS 318,ap-northeast-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 210,asia-south1,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 857,me-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 756,sa-east-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 394,us-east-1 v22,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 604,us-west-1 v12,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 916,us-west-2,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 791,eu-west-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v9 699,eu-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 46,ap-south-1 v29,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 192,ap-southeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 379,ap-northeast-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 691,asia-south1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 293,me-central-1 v14,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 886,sa-east-1 v34,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 161,us-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 34,us-west-1 v31,94,"ISO27001,SOC2,HIPAA,GDPR v44"
+GCP 967,us-west-2,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 113,eu-west-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 318,eu-central-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 824,ap-south-1,90,"ISO27001,SOC2,HIPAA,GDPR v46"
+GCP 118,ap-southeast-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 701,ap-northeast-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 934,asia-south1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 418,me-central-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v49 827,sa-east-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 867,us-east-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 512,us-west-1,80,"ISO27001,SOC2,PCI"
+ORACLECLOUD 45,us-west-2,78,"ISO27001,SOC2,PCI"
+ORACLECLOUD 443,eu-west-1,87,"ISO27001,SOC2,PCI"
+OracleCloud 177,eu-central-1,87,"ISO27001,SOC2,PCI"
+OracleCloud 703,ap-south-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 672,ap-southeast-1,83,"ISO27001,SOC2,PCI"
+OracleCloud 870,ap-northeast-1 v10,87,"ISO27001,SOC2,PCI"
+OracleCloud 702,asia-south1,82,"ISO27001,SOC2,PCI v41"
+OracleCloud 996,me-central-1,78,"ISO27001,SOC2,PCI"
+OracleCloud v37 744,sa-east-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 950,us-east-1,82,"ISO27001,SOC2,PCI"
+IBMCloud v12 552,us-west-1,79,"ISO27001,SOC2,PCI"
+IBMCloud 323,us-west-2,77,"ISO27001,SOC2,PCI"
+IBMCloud 181,eu-west-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 320,EU-CENTRAL-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 303,ap-south-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 200,ap-southeast-1,80,"ISO27001,SOC2,PCI v16"
+IBMCloud 683,ap-northeast-1,76,"ISO27001,SOC2,PCI v48"
+IBMCloud 881,asia-south1 v39,75,"ISO27001,SOC2,PCI"
+IBMCloud 839,me-central-1,84,"ISO27001,SOC2,PCI"
+IBMCloud 49,sa-east-1,81,"ISO27001,SOC2,PCI v1"
+DigitalOcean 789,us-east-1,70,"ISO27001,GDPR"
+DigitalOcean 628,us-west-1,71,"ISO27001,GDPR"
+DigitalOcean 311,us-west-2,74,"ISO27001,GDPR"
+DigitalOcean 903,eu-west-1,75,"ISO27001,GDPR"
+DigitalOcean 209,eu-central-1,76,"ISO27001,GDPR"
+DigitalOcean 225,ap-south-1,73,"ISO27001,GDPR"
+DigitalOcean 11,ap-southeast-1,73,"ISO27001,GDPR v24"
+DigitalOcean v9 447,ap-northeast-1,69,"ISO27001,GDPR"
+DigitalOcean 220,asia-south1,70,"ISO27001,GDPR v36"
+DigitalOcean 535,me-central-1,75,"ISO27001,GDPR v13"
+DigitalOcean 229,sa-east-1 v19,76,"ISO27001,GDPR"
+Linode 344,us-east-1,71,ISO27001
+Linode 396,us-west-1 v16,65,ISO27001
+Linode v34 671,us-west-2 v7,75,ISO27001
+Linode 359,eu-west-1,66,ISO27001
+LINODE 546,eu-central-1 v15,73,ISO27001 v11
+LINODE 196,AP-SOUTH-1,71,ISO27001
+Linode 16,ap-southeast-1 v11,66,ISO27001
+Linode v39 593,ap-northeast-1,69,ISO27001
+Linode 940,asia-south1,69,ISO27001
+Linode 967,me-central-1,67,ISO27001
+Linode v38 77,sa-east-1,72,ISO27001
+Hetzner 962,us-east-1,67,ISO27001
+HETZNER 510,US-WEST-1,71,ISO27001
+Hetzner 984,us-west-2,73,ISO27001
+Hetzner 583,eu-west-1,68,ISO27001 v26
+Hetzner 615,eu-central-1,71,ISO27001
+Hetzner 363,ap-south-1 v19,68,ISO27001
+Hetzner v29 359,ap-southeast-1,73,ISO27001
+Hetzner 324,ap-northeast-1 v2,65,ISO27001
+Hetzner 326,asia-south1,72,ISO27001
+Hetzner v49 573,me-central-1,71,ISO27001 v37
+Hetzner 969,sa-east-1 v28,69,ISO27001
+AlibabaCloud 737,us-east-1,81,"ISO27001,SOC2"
+AlibabaCloud 627,us-west-1,73,"ISO27001,SOC2"
+AlibabaCloud v6 10,us-west-2,74,"ISO27001,SOC2"
+AlibabaCloud 481,eu-west-1,83,"ISO27001,SOC2"
+AlibabaCloud 333,eu-central-1,73,"ISO27001,SOC2"
+AlibabaCloud 961,ap-south-1 v37,76,"ISO27001,SOC2"
+AlibabaCloud 707,ap-southeast-1,76,"ISO27001,SOC2"
+ALIBABACLOUD 718,ap-northeast-1,74,"ISO27001,SOC2"
+AlibabaCloud 439,asia-south1,83,"ISO27001,SOC2 v17"
+AlibabaCloud v46 997,me-central-1,76,"ISO27001,SOC2"
+AlibabaCloud 821,sa-east-1,82,"ISO27001,SOC2"
+TencentCloud 598,us-east-1,71,"ISO27001,SOC2"
+TencentCloud 514,us-west-1,79,"ISO27001,SOC2"
+TencentCloud 854,us-west-2,77,"ISO27001,SOC2"
+TencentCloud 772,eu-west-1,75,"ISO27001,SOC2"
+TencentCloud 717,eu-central-1 v36,76,"ISO27001,SOC2 v21"
+TencentCloud v37 601,ap-south-1,77,"ISO27001,SOC2"
+TencentCloud 951,ap-southeast-1,80,"ISO27001,SOC2"
+TencentCloud 468,ap-northeast-1,77,"ISO27001,SOC2"
+TencentCloud 270,asia-south1,71,"ISO27001,SOC2"
+TencentCloud 228,me-central-1,78,"ISO27001,SOC2"
+TencentCloud 46,sa-east-1 v17,75,"ISO27001,SOC2"
+OVHCLOUD 340,us-east-1 v16,76,ISO27001
+OVHCloud v29 344,us-west-1,76,ISO27001
+OVHCloud 473,us-west-2,71,ISO27001
+OVHCloud 66,eu-west-1 v19,69,ISO27001
+OVHCloud 978,eu-central-1 v15,74,ISO27001 v10
+OVHCloud 91,ap-south-1 v22,69,ISO27001
+OVHCloud 901,ap-southeast-1,69,ISO27001
+OVHCloud 589,ap-northeast-1,78,ISO27001
+OVHCloud 384,asia-south1 v27,77,ISO27001
+OVHCloud 835,me-central-1,76,ISO27001
+OVHCloud 319,sa-east-1,71,ISO27001
+AWS 995,us-east-1,85,"ISO27001,SOC2,HIPAA,GDPR v30"
+AWS 808,us-west-1 v48,95,"ISO27001,SOC2,HIPAA,GDPR v17"
+AWS v49 57,us-west-2,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 852,EU-WEST-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 697,eu-central-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 738,ap-south-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 330,ap-southeast-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 892,ap-northeast-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 356,asia-south1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 887,me-central-1 v24,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 155,sa-east-1,91,"ISO27001,SOC2,HIPAA,G"
+Azure 249,us-east-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 134,us-west-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 390,us-west-2,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 665,eu-west-1 v22,91,"ISO27001,SOC2,HIPAA,GDPR v24"
+Azure 968,eu-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 728,ap-south-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v48 253,ap-southeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 106,ap-northeast-1,88,"ISO27001,SOC2,HIPAA,GDPR v35"
+Azure 316,asia-south1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 954,me-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 779,sa-east-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v12 551,us-east-1,93,"ISO27001,SOC2,HIPAA,G"
+GCP 651,us-west-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v36 799,us-west-2,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v33 425,eu-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 713,eu-central-1,93,"ISO27001,SOC2,HIPAA,GDPR v24"
+GCP 253,ap-south-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v41 230,ap-southeast-1,93,"ISO27001,SOC2,HIPAA,GDPR v2"
+GCP 811,ap-northeast-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 323,asia-south1 v31,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 831,me-central-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v11 604,sa-east-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 815,us-east-1 v10,82,"ISO27001,SOC2,PCI"
+OracleCloud 562,us-west-1,85,"ISO27001,SOC2,PCI"
+OracleCloud 71,us-west-2,78,"ISO27001,SOC2,PCI"
+OracleCloud 594,EU-WEST-1,78,"ISO27001,SOC2,PCI"
+OracleCloud 600,eu-central-1,80,"ISO27001,SOC2,PCI v41"
+OracleCloud 872,ap-south-1,78,"ISO27001,SOC2,PCI"
+OracleCloud v20 43,ap-southeast-1,78,"ISO27001,SOC2,PCI"
+OracleCloud 934,ap-northeast-1,86,"ISO27001,SOC2,PCI v7"
+ORACLECLOUD 133,asia-south1,86,"ISO27001,SOC2,PCI"
+OracleCloud 376,me-central-1 v11,77,"ISO27001,SOC2,PCI v34"
+OracleCloud 467,sa-east-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 213,us-east-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 573,us-west-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 149,us-west-2,81,"ISO27001,SOC2,PCI"
+IBMCloud 324,eu-west-1,82,"ISO27001,SOC2,PCI"
+IBMCloud 82,eu-central-1,80,"ISO27001,SOC2,PCI v20"
+IBMCloud 792,ap-south-1 v1,75,"ISO27001,SOC2,PCI"
+IBMCloud 453,ap-southeast-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 24,ap-northeast-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 461,asia-south1,81,"ISO27001,SOC2,PCI"
+IBMCloud 717,me-central-1 v16,82,"ISO27001,SOC2,PCI"
+IBMCloud 438,sa-east-1,82,"ISO27001,SOC2,PCI"
+DigitalOcean 706,us-east-1,76,"ISO27001,GDPR"
+DigitalOcean 750,us-west-1,72,"ISO27001,GDPR"
+DigitalOcean 497,US-WEST-2,67,"ISO27001,GDPR"
+DigitalOcean 947,eu-west-1,77,"ISO27001,GDPR"
+DigitalOcean 811,eu-central-1,69,"ISO27001,GDPR"
+DigitalOcean 849,ap-south-1 v29,71,"ISO27001,GDPR"
+DigitalOcean 566,ap-southeast-1,76,"ISO27001,GDPR"
+DigitalOcean 924,ap-northeast-1 v39,76,"ISO27001,GDPR"
+DigitalOcean 138,asia-south1,77,"ISO27001,GDPR v3"
+DigitalOcean 862,me-central-1 v42,76,"ISO27001,GDPR"
+DigitalOcean 416,SA-EAST-1,76,"ISO27001,GDPR"
+Linode 371,us-east-1,74,ISO27001
+Linode 253,us-west-1 v1,72,ISO27001
+Linode 106,us-west-2,74,ISO27001
+Linode 849,eu-west-1,66,ISO27001
+Linode 743,eu-central-1,72,ISO27001
+Linode 308,ap-south-1,71,ISO27001
+Linode 393,ap-southeast-1,75,ISO27001
+Linode 110,ap-northeast-1 v22,66,ISO27001
+Linode 585,asia-south1 v49,65,ISO27001
+Linode 565,me-central-1,68,ISO27001
+Linode 356,sa-east-1,67,ISO27001
+Hetzner 557,us-east-1,70,ISO27001
+Hetzner 905,us-west-1,66,ISO27001
+Hetzner 150,us-west-2,71,ISO27001
+HETZNER 716,eu-west-1,64,ISO27001
+Hetzner 299,eu-central-1,72,ISO27001
+Hetzner 713,ap-south-1,69,ISO27001
+Hetzner 723,ap-southeast-1,68,ISO27001
+Hetzner 464,ap-northeast-1,69,ISO27001
+Hetzner 784,asia-south1,67,ISO27001
+Hetzner 371,me-central-1,63,ISO27001
+Hetzner 487,sa-east-1,67,ISO27001
+AlibabaCloud 125,us-east-1,75,"ISO27001,SOC2 v37"
+AlibabaCloud 214,us-west-1 v17,82,"ISO27001,SOC2"
+AlibabaCloud 957,US-WEST-2,80,"ISO27001,SOC2"
+AlibabaCloud 578,eu-west-1,73,"ISO27001,SOC2"
+AlibabaCloud 363,eu-central-1,76,"ISO27001,SOC2 v18"
+AlibabaCloud 504,ap-south-1 v10,80,"ISO27001,SOC2"
+AlibabaCloud 644,ap-southeast-1 v4,77,"ISO27001,SOC2"
+AlibabaCloud 973,ap-northeast-1,81,"ISO27001,SOC2"
+AlibabaCloud 765,asia-south1,74,"ISO27001,SOC2"
+AlibabaCloud 706,me-central-1,83,"ISO27001,SOC2 v24"
+AlibabaCloud 570,sa-east-1,73,"ISO27001,SOC2"
+TencentCloud 540,us-east-1 v19,79,"ISO27001,SOC2"
+TencentCloud 637,us-west-1 v35,79,"ISO27001,SOC2"
+TencentCloud v10 42,us-west-2,71,"ISO27001,SOC2"
+TencentCloud v21 700,eu-west-1,79,"ISO27001,SOC2"
+TencentCloud 441,eu-central-1,73,"ISO27001,SOC2"
+TencentCloud v5 506,ap-south-1,79,"ISO27001,SOC2"
+TencentCloud 320,ap-southeast-1,76,"ISO27001,SOC2"
+TencentCloud 215,ap-northeast-1,79,"ISO27001,SOC2"
+TencentCloud 568,asia-south1,77,"ISO27001,SOC2"
+TencentCloud v23 987,me-central-1,79,"ISO27001,SOC2"
+TencentCloud 887,sa-east-1 v41,76,"ISO27001,SOC2"
+OVHCloud v34 60,us-east-1,77,ISO27001
+OVHCloud 819,us-west-1 v49,69,ISO27001
+OVHCloud 287,us-west-2,74,ISO27001 v37
+OVHCLOUD 169,eu-west-1,70,ISO27001
+OVHCloud v29 14,eu-central-1,78,ISO27001
+OVHCloud 420,ap-south-1,72,ISO27001
+OVHCloud 847,ap-southeast-1,73,ISO27001
+OVHCloud v8 560,ap-northeast-1 v26,72,ISO27001
+OVHCloud 28,asia-south1,73,ISO27001
+OVHCloud 446,me-central-1,72,ISO27001
+OVHCloud v16 716,sa-east-1,74,ISO27001
+AWS 104,US-EAST-1,87,"ISO27001,SOC2,HIPAA,G"
+AWS 101,us-west-1,90,"ISO27001,SOC2,HIPAA,GDPR v42"
+AWS 522,us-west-2,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 679,eu-west-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 769,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 277,ap-south-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 783,ap-southeast-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 188,ap-northeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 138,asia-south1,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 105,me-central-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 380,sa-east-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 354,us-east-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 317,us-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 694,us-west-2,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 333,eu-west-1,86,"ISO27001,SOC2,HIPAA,GDPR v1"
+Azure v1 592,eu-central-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v15 540,ap-south-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 496,ap-southeast-1 v31,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 657,ap-northeast-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 866,asia-south1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 796,me-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 992,sa-east-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 317,us-east-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 495,us-west-1 v31,84,"ISO27001,SOC2,HIPAA,G"
+GCP 522,us-west-2,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v8 717,eu-west-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v5 542,eu-central-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 971,ap-south-1 v31,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 560,ap-southeast-1,87,"ISO27001,SOC2,HIPAA,G"
+GCP 130,ap-northeast-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 132,asia-south1 v37,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v36 387,me-central-1,89,"ISO27001,SOC2,HIPAA,GDPR v25"
+GCP 982,sa-east-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 460,US-EAST-1,83,"ISO27001,SOC2,PCI"
+OracleCloud 802,us-west-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 862,us-west-2,87,"ISO27001,SOC2,PCI v10"
+OracleCloud 754,eu-west-1,82,"ISO27001,SOC2,PCI v6"
+ORACLECLOUD 350,eu-central-1,78,"ISO27001,SOC2,PCI"
+OracleCloud v2 912,ap-south-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 757,ap-southeast-1,77,"ISO27001,SOC2,PCI"
+OracleCloud 306,ap-northeast-1,84,"ISO27001,SOC2,PCI v48"
+OracleCloud 520,asia-south1 v13,81,"ISO27001,SOC2,PCI v44"
+OracleCloud 558,me-central-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 166,sa-east-1,81,"ISO27001,SOC2,PCI v19"
+IBMCloud 139,US-EAST-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 299,us-west-1,79,"ISO27001,SOC2,PCI"
+IBMCloud 916,us-west-2,78,"ISO27001,SOC2,PCI"
+IBMCloud v21 825,eu-west-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 842,eu-central-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 154,ap-south-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 878,ap-southeast-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 671,ap-northeast-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 759,asia-south1,84,"ISO27001,SOC2,PCI"
+IBMCloud v4 846,me-central-1,80,"ISO27001,SOC2,PCI"
+IBMCloud 623,sa-east-1,78,"ISO27001,SOC2,PCI v26"
+DigitalOcean v48 145,us-east-1,73,"ISO27001,GDPR"
+DigitalOcean 753,us-west-1 v19,69,"ISO27001,GDPR"
+DigitalOcean 831,us-west-2,72,"ISO27001,GDPR"
+DigitalOcean v29 976,eu-west-1,77,"ISO27001,GDPR"
+DIGITALOCEAN 104,eu-central-1,75,"ISO27001,GDPR"
+DigitalOcean v11 568,ap-south-1 v7,76,"ISO27001,GDPR"
+DigitalOcean 345,ap-southeast-1,72,"ISO27001,GDPR"
+DigitalOcean v19 426,ap-northeast-1,76,"ISO27001,GDPR"
+DigitalOcean 23,asia-south1,75,"ISO27001,GDPR v36"
+DigitalOcean v47 834,me-central-1 v13,75,"ISO27001,GDPR"
+DigitalOcean 144,sa-east-1,68,"ISO27001,GDPR"
+Linode 589,us-east-1,73,ISO27001 v28
+Linode 681,us-west-1,67,ISO27001
+Linode 416,us-west-2,69,ISO27001
+Linode 827,eu-west-1 v34,72,ISO27001
+Linode v41 230,EU-CENTRAL-1,66,ISO27001
+Linode 680,ap-south-1 v32,70,ISO27001
+Linode 156,AP-SOUTHEAST-1,74,ISO27001
+Linode v37 705,AP-NORTHEAST-1,73,ISO27001
+Linode 330,asia-south1,73,ISO27001
+Linode 132,me-central-1,71,ISO27001
+Linode 382,sa-east-1,67,ISO27001
+Hetzner 843,us-east-1,72,ISO27001 v47
+Hetzner 396,us-west-1,68,ISO27001
+Hetzner 464,us-west-2,63,ISO27001
+Hetzner 331,eu-west-1 v35,64,ISO27001
+Hetzner 285,eu-central-1,71,ISO27001 v3
+Hetzner 20,ap-south-1,64,ISO27001
+Hetzner v47 310,ap-southeast-1,64,ISO27001 v49
+Hetzner 104,ap-northeast-1 v31,72,ISO27001
+Hetzner 186,asia-south1,72,ISO27001
+Hetzner 281,me-central-1,64,ISO27001 v30
+Hetzner v19 732,sa-east-1,70,ISO27001
+AlibabaCloud 223,us-east-1,80,"ISO27001,SOC2"
+AlibabaCloud 236,us-west-1,75,"ISO27001,SOC2 v3"
+AlibabaCloud 465,us-west-2,78,"ISO27001,SOC2"
+AlibabaCloud 654,eu-west-1,76,"ISO27001,SOC2 v17"
+AlibabaCloud 521,EU-CENTRAL-1,75,"ISO27001,SOC2"
+AlibabaCloud v30 972,ap-south-1,77,"ISO27001,SOC2"
+AlibabaCloud 992,ap-southeast-1,77,"ISO27001,SOC2"
+AlibabaCloud 276,ap-northeast-1,83,"ISO27001,SOC2"
+AlibabaCloud 53,asia-south1,75,"ISO27001,SOC2"
+AlibabaCloud 948,me-central-1 v47,83,"ISO27001,SOC2"
+AlibabaCloud 4,sa-east-1,80,"ISO27001,SOC2"
+TencentCloud 684,us-east-1,81,"ISO27001,SOC2"
+TencentCloud 870,us-west-1,78,"ISO27001,SOC2"
+TencentCloud 213,us-west-2,81,"ISO27001,SOC2"
+TencentCloud 852,eu-west-1,74,"ISO27001,SOC2"
+TencentCloud 205,eu-central-1 v4,81,"ISO27001,SOC2"
+TencentCloud v9 77,ap-south-1 v4,79,"ISO27001,SOC2"
+TencentCloud v48 614,ap-southeast-1,80,"ISO27001,SOC2"
+TencentCloud 476,ap-northeast-1 v42,77,"ISO27001,SOC2"
+TencentCloud 275,asia-south1,80,"ISO27001,SOC2"
+TencentCloud 723,me-central-1,78,"ISO27001,SOC2"
+TencentCloud 77,sa-east-1,71,"ISO27001,SOC2 v13"
+OVHCloud 540,us-east-1,78,ISO27001
+AWS 897_8699,us-east-1,81,"ISO27001,SOC2,HIPAA,GDPR 1487"
+AWS_5180,US-WEST-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_9725,US-WEST-2,95,"ISO27001,SOC2,HIPAA,GDPR 586"
+AWS_2557,eu-west-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 1318_35,eu-central-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_4231,ap-south-1,87,"ISO27001,SOC2,HIPAA,GDPR 172"
+AWS 1737_3072,ap-southeast-1,80,"ISO27001,SOC2,HIPAA,GDPR 253"
+AWS_512,ap-northeast-1 1614,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_1232,asia-south1,99,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_9149,me-central-1 1844,85,"ISO27001,SOC2,HIPAA,GDPR 507"
+AWS_6210,sa-east-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_4005,us-east-1,84,"ISO27001,SOC2,HIPAA,GDPR 1759"
+Azure_1582,us-west-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_8498,us-west-2,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 1435_1319,eu-west-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_7293,eu-central-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_5759,ap-south-1 602,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 308_2026,ap-southeast-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_6988,ap-northeast-1,93,"ISO27001,SOC2,HIPAA,GDPR 1070"
+Azure_9695,asia-south1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_2103,me-central-1,79,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_2568,sa-east-1,79,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_4066,us-east-1 648,80,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_5561,us-west-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_4555,us-west-2,93,"ISO27001,SOC2,HIPAA,GD"
+GCP_2694,eu-west-1 319,96,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_7700,eu-central-1,97,"ISO27001,SOC2,HIPAA,GDPR 59"
+GCP_1945,ap-south-1 678,80,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_1592,ap-southeast-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_903,ap-northeast-1,82,"ISO27001,SOC2,HIPAA,GDPR 1389"
+GCP_4634,asia-south1,82,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_5277,me-central-1 1060,91,"ISO27001,SOC2,HIPAA,GDPR 1913"
+GCP_8812,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud_3362,us-east-1,78,"ISO27001,SOC2,PCI"
+OracleCloud_4951,us-west-1,73,"ISO27001,SOC2,PCI"
+OracleCloud 1271_317,us-west-2,83,"ISO27001,SOC2,PCI"
+OracleCloud_5844,eu-west-1 1151,85,"ISO27001,SOC2,PCI"
+OracleCloud 1480_5375,eu-central-1,82,"ISO27001,SOC2,PCI"
+OracleCloud 1903_4977,ap-south-1,87,"ISO27001,SOC2,PCI"
+OracleCloud_17,ap-southeast-1,91,"ISO27001,SOC2,PCI"
+OracleCloud_3764,ap-northeast-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 614_6541,ASIA-SOUTH1,85,"ISO27001,SOC2,PCI"
+OracleCloud_1786,me-central-1,90,"ISO27001,SOC2,PCI"
+OracleCloud_9025,sa-east-1,91,"ISO27001,SOC2,PCI"
+IBMCloud_1058,us-east-1 985,82,"ISO27001,SOC2,PCI"
+IBMCloud_6652,us-west-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 52_3040,us-west-2,90,"ISO27001,SOC2,PCI"
+IBMCloud_6412,eu-west-1,76,"ISO27001,SOC2,PCI 274"
+IBMCloud_6779,eu-central-1,84,"ISO27001,SOC2,PCI 1697"
+IBMCloud 329_2454,ap-south-1,77,"ISO27001,SOC2,PCI 579"
+IBMCloud_1241,ap-southeast-1 1217,73,"ISO27001,SOC2,PCI"
+IBMCloud_1863,ap-northeast-1,88,"ISO27001,SOC2,PCI"
+IBMCloud_5292,asia-south1,74,"ISO27001,SOC2,PCI"
+IBMCloud_1360,me-central-1 1042,83,"ISO27001,SOC2,PCI 469"
+IBMCloud_7290,sa-east-1,85,"ISO27001,SOC2,PCI"
+DigitalOcean_8446,us-east-1,79,"ISO27001,GDPR 815"
+DigitalOcean_7130,us-west-1 1115,67,"ISO27001,GDPR"
+DigitalOcean 668_3490,us-west-2,78,"ISO27001,GDPR"
+DigitalOcean_2463,EU-WEST-1,69,"ISO27001,GDPR"
+DigitalOcean_4999,eu-central-1,66,"ISO27001,GDPR"
+DigitalOcean_2165,ap-south-1,65,"ISO27001,GDPR"
+DigitalOcean 216_7578,ap-southeast-1 219,78,"ISO27001,GDPR"
+DigitalOcean_3364,ap-northeast-1,62,"ISO27001,GDPR"
+DigitalOcean_7123,ASIA-SOUTH1,74,"ISO27001,GDPR"
+DigitalOcean_7562,me-central-1,67,"ISO27001,GDPR"
+DigitalOcean_7734,sa-east-1,63,"ISO27001,GDPR 663"
+Linode_9813,us-east-1,61,ISO27001
+Linode_4688,us-west-1,75,ISO27001
+Linode_3344,us-west-2 1332,68,ISO27001
+Linode_8977,eu-west-1,70,ISO27001
+Linode_5552,eu-central-1,79,ISO27001
+Linode_5364,ap-south-1 1995,79,ISO27001
+Linode 1013_6984,ap-southeast-1,73,ISO27001
+Linode_318,ap-northeast-1 560,74,ISO27001
+Linode_3971,asia-south1,67,ISO27001
+Linode 1260_6312,me-central-1,60,ISO27001
+Linode_7329,sa-east-1,72,ISO27001
+Hetzner_3716,us-east-1,77,ISO27001
+Hetzner_9250,us-west-1 1134,74,ISO27001 1189
+Hetzner_2671,us-west-2,73,ISO27001 1802
+Hetzner 1637_4438,eu-west-1,70,ISO27001
+Hetzner_8898,eu-central-1,68,ISO27001 1884
+Hetzner 603_4776,ap-south-1 320,77,ISO27001
+Hetzner_6315,AP-SOUTHEAST-1,73,ISO27001
+HETZNER_8861,ap-northeast-1,69,ISO27001
+Hetzner 1282_9911,asia-south1,68,ISO27001 1824
+Hetzner 90_6598,me-central-1 1538,73,ISO27001 1710
+Hetzner_4614,sa-east-1,59,ISO27001
+AlibabaCloud_603,us-east-1,76,"ISO27001,SOC2"
+AlibabaCloud 794_6573,us-west-1,83,"ISO27001,SOC2"
+AlibabaCloud_5272,us-west-2,71,"ISO27001,SOC2"
+AlibabaCloud 1729_7215,eu-west-1,69,"ISO27001,SOC2 1240"
+AlibabaCloud_1302,eu-central-1,79,"ISO27001,SOC2"
+AlibabaCloud_160,ap-south-1,81,"ISO27001,SOC2 750"
+AlibabaCloud_830,ap-southeast-1,73,"ISO27001,SOC2 503"
+AlibabaCloud_7823,ap-northeast-1,76,"ISO27001,SOC2"
+AlibabaCloud 131_8088,asia-south1,70,"ISO27001,SOC2"
+AlibabaCloud_6752,me-central-1 249,87,"ISO27001,SOC2"
+AlibabaCloud_3845,sa-east-1 926,81,"ISO27001,SOC2"
+TencentCloud_2284,us-east-1,83,"ISO27001,SOC2"
+TencentCloud_4791,us-west-1,85,"ISO27001,SOC2"
+TencentCloud_6104,us-west-2 1372,83,"ISO27001,SOC2"
+TencentCloud_1954,eu-west-1 534,80,"ISO27001,SOC2"
+TencentCloud_3296,eu-central-1,85,"ISO27001,SOC2"
+TencentCloud_3215,ap-south-1,73,"ISO27001,SOC2"
+TencentCloud_2100,AP-SOUTHEAST-1,79,"ISO27001,SOC2 345"
+TencentCloud_8457,ap-northeast-1,68,"ISO27001,SOC2 1071"
+TencentCloud 1048_3410,asia-south1,72,"ISO27001,SOC2"
+TencentCloud 1030_3780,me-central-1,70,"ISO27001,SOC2"
+TencentCloud 762_4553,sa-east-1,85,"ISO27001,SOC2"
+OVHCloud_4108,us-east-1,81,ISO27001
+OVHCloud 379_1040,us-west-1,71,ISO27001 1578
+OVHCloud 1828_4723,us-west-2,70,ISO27001
+OVHCloud_4608,eu-west-1 1592,72,ISO27001
+OVHCloud_9557,eu-central-1,72,ISO27001
+OVHCloud_9243,ap-south-1,65,ISO27001 498
+OVHCloud_7116,ap-southeast-1,70,ISO27001
+OVHCloud_8635,ap-northeast-1,68,ISO27001
+OVHCloud 1976_2687,asia-south1,83,ISO27001
+OVHCloud_3352,me-central-1,71,ISO27001
+OVHCloud 890_4857,sa-east-1,79,ISO27001 608
+AWS v27 92_9234,us-east-1,79,"ISO27001,SOC2,HIPAA,G"
+AWS v16 238 438_3403,us-west-1,86,"ISO27001,SOC2,HIPAA,GDPR 1302"
+AWS 372_8559,us-west-2,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 694_3164,eu-west-1 v20,88,"ISO27001,SOC2,HIPAA,GDPR 390"
+AWS 530_7269,eu-central-1 v25,87,"ISO27001,SOC2,HIPAA,GDPR v21"
+AWS 57_8051,AP-SOUTH-1,97,"ISO27001,SOC2,HIPAA,GDPR 15"
+AWS 384_7702,ap-southeast-1,89,"ISO27001,SOC2,HIPAA,GD"
+AWS 193_9601,ap-northeast-1,80,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 426_8273,asia-south1 280,94,"ISO27001,SOC2,HIPAA,G"
+AWS 227 1048_1822,ME-CENTRAL-1,83,"ISO27001,SOC2,HIPAA,G 1985"
+AWS 552 1665_4871,sa-east-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v3 639_2180,us-east-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 55_7285,us-west-1 v45,80,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 436_5621,us-west-2 1791,83,"ISO27001,SOC2,HIPAA,GD"
+Azure 981_4062,eu-west-1,75,"ISO27001,SOC2,HIPAA,GDPR 594"
+Azure 951 1324_9192,EU-CENTRAL-1 209,90,"ISO27001,SOC2,HIPAA,GD"
+Azure v48 198_6478,AP-SOUTH-1,94,"ISO27001,SOC2,HIPAA,GDPR 355"
+Azure 373_1322,ap-southeast-1,75,"ISO27001,SOC2,HIPAA,G"
+Azure 599 1234_2146,ap-northeast-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 849_5478,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 211_9661,me-central-1 v2 675,84,"ISO27001,SOC2,HIPAA,GD"
+Azure 703_8373,sa-east-1 v7,95,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 42_7001,us-east-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 788_4228,US-WEST-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v9 283 436_834,us-west-2,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v47 19_1489,eu-west-1,80,"ISO27001,SOC2,HIPAA,GDPR v36"
+GCP 837_502,EU-CENTRAL-1 1866,75,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 466_785,ap-south-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 758_9752,ap-southeast-1,78,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 967_5044,ap-northeast-1,97,"ISO27001,SOC2,HIPAA,GDPR 1305"
+GCP 548_269,asia-south1,81,"ISO27001,SOC2,HIPAA,GDPR v39 1444"
+GCP 998_6324,me-central-1 v40 267,79,"ISO27001,SOC2,HIPAA,GD"
+GCP 709 1175_2056,sa-east-1,82,"ISO27001,SOC2,HIPAA,GD"
+OracleCloud v30 728_7635,us-east-1,82,"ISO27001,SOC2,PCI 1978"
+OracleCloud 196_3594,us-west-1,77,"ISO27001,SOC2,PCI 774"
+OracleCloud 664_7935,us-west-2 301,87,"ISO27001,SOC2,PCI"
+OracleCloud v14 146 1449_6650,eu-west-1,89,"ISO27001,SOC2,PCI"
+OracleCloud v42 723_9377,eu-central-1,90,"ISO27001,SOC2,PCI"
+OracleCloud v12 798_6009,ap-south-1 v18,87,"ISO27001,SOC2,PCI"
+ORACLECLOUD 715_8204,ap-southeast-1,94,"ISO27001,SOC2,PCI"
+OracleCloud 279_5670,ap-northeast-1,69,"ISO27001,SOC2,PCI 1141"
+OracleCloud 641 923_5898,asia-south1,76,"ISO27001,SOC2,PCI 531"
+OracleCloud 271_5772,me-central-1,95,"ISO27001,SOC2,PCI"
+OracleCloud 700_5089,sa-east-1,93,"ISO27001,SOC2,PCI 1267"
+IBMCloud 726_9785,US-EAST-1,76,"ISO27001,SOC2,PCI 1768"
+IBMCloud v27 365_1671,us-west-1 44,71,"ISO27001,SOC2,PCI"
+IBMCloud 321_762,us-west-2 333,73,"ISO27001,SOC2,PCI"
+IBMCloud 109 1568_5663,eu-west-1,80,"ISO27001,SOC2,PCI v49"
+IBMCloud 522_2107,eu-central-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 827_6585,ap-south-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 892_6854,ap-southeast-1 397,75,"ISO27001,SOC2,PCI 1358"
+IBMCloud 880_8094,AP-NORTHEAST-1,87,"ISO27001,SOC2,PCI v18 538"
+IBMCloud 732 1960_3964,asia-south1,93,"ISO27001,SOC2,PCI"
+IBMCloud 679_2640,me-central-1,78,"ISO27001,SOC2,PCI"
+IBMCloud 989_3648,sa-east-1,82,"ISO27001,SOC2,PCI 1377"
+DigitalOcean v18 822_1418,US-EAST-1,84,"ISO27001,GDPR"
+DigitalOcean 839_719,us-west-1,68,"ISO27001,GDPR"
+DIGITALOCEAN 508_6672,us-west-2 v36 1107,69,"ISO27001,GDPR 490"
+DigitalOcean 713 1407_1857,eu-west-1 v38,68,"ISO27001,GDPR v9"
+DigitalOcean 255_5154,eu-central-1,84,"ISO27001,GDPR"
+DigitalOcean 547_3061,ap-south-1,72,"ISO27001,GDPR"
+DigitalOcean 389_6440,ap-southeast-1 405,76,"ISO27001,GDPR"
+DigitalOcean 167_6573,ap-northeast-1,65,"ISO27001,GDPR 1478"
+DigitalOcean 412 290_4059,asia-south1 v20,77,"ISO27001,GDPR"
+DigitalOcean 235_8296,me-central-1 v12,78,"ISO27001,GDPR"
+DigitalOcean 159_7934,sa-east-1,68,"ISO27001,GDPR"
+Linode 816_849,us-east-1 566,69,ISO27001 557
+LINODE 893_9530,us-west-1 997,65,ISO27001
+Linode v38 68_9134,us-west-2,69,ISO27001
+Linode 217_9782,eu-west-1,77,ISO27001
+Linode 135_3429,eu-central-1,69,ISO27001 151
+Linode 351_8102,ap-south-1 733,74,ISO27001
+LINODE 133_9980,ap-southeast-1 1959,76,ISO27001 368
+Linode v44 810 1079_2977,AP-NORTHEAST-1 242,62,ISO27001
+Linode 380_4298,ASIA-SOUTH1,79,ISO27001
+Linode 658 1229_6678,me-central-1,66,ISO27001
+Linode 463_1932,sa-east-1 v2,83,ISO27001
+HETZNER 17_5807,us-east-1 1154,75,ISO27001 1688
+Hetzner 327_6025,us-west-1 1167,61,ISO27001 924
+Hetzner 479 339_4140,us-west-2,64,ISO27001
+Hetzner v39 710 505_2148,EU-WEST-1 1099,79,ISO27001 v34 1959
+Hetzner 486 447_2661,eu-central-1,74,ISO27001
+Hetzner 179_4017,ap-south-1,65,ISO27001 665
+HETZNER 690 998_3657,ap-southeast-1 v34 281,62,ISO27001
+Hetzner 416_6553,ap-northeast-1,77,ISO27001
+Hetzner 515_1918,asia-south1,70,ISO27001 1519
+Hetzner 854_7956,me-central-1,77,ISO27001
+Hetzner v10 579 1448_6070,sa-east-1,62,ISO27001
+AlibabaCloud 519_7585,us-east-1 v12,64,"ISO27001,SOC2"
+AlibabaCloud v13 834_1495,us-west-1,73,"ISO27001,SOC2 1382"
+ALIBABACLOUD 138_8024,us-west-2 260,81,"ISO27001,SOC2"
+AlibabaCloud 529_5583,eu-west-1 v39,89,"ISO27001,SOC2"
+AlibabaCloud 646_217,eu-central-1 1514,70,"ISO27001,SOC2"
+AlibabaCloud 325_5478,AP-SOUTH-1,65,"ISO27001,SOC2"
+AlibabaCloud 905_7965,ap-southeast-1,92,"ISO27001,SOC2"
+ALIBABACLOUD 723_5298,AP-NORTHEAST-1,92,"ISO27001,SOC2 v13"
+AlibabaCloud 536_2705,asia-south1,84,"ISO27001,SOC2"
+AlibabaCloud 516 1525_9981,me-central-1 212,82,"ISO27001,SOC2 700"
+AlibabaCloud 955_4353,SA-EAST-1,80,"ISO27001,SOC2"
+TencentCloud v35 869_2721,us-east-1 v3,68,"ISO27001,SOC2"
+TencentCloud 688_9290,US-WEST-1,83,"ISO27001,SOC2"
+TencentCloud 620_7629,us-west-2 v35,80,"ISO27001,SOC2"
+TencentCloud v25 324_7817,eu-west-1,83,"ISO27001,SOC2 v13"
+TencentCloud v46 262_1462,eu-central-1,72,"ISO27001,SOC2"
+TencentCloud 420_2852,ap-south-1 1641,66,"ISO27001,SOC2"
+TencentCloud 355 997_4337,ap-southeast-1,79,"ISO27001,SOC2 v49"
+TencentCloud 770_3689,ap-northeast-1,79,"ISO27001,SOC2"
+TencentCloud v13 66_1702,asia-south1,67,"ISO27001,SOC2"
+TencentCloud 474_1153,me-central-1 v28,71,"ISO27001,SOC2 701"
+TencentCloud 439_8902,sa-east-1 v22 790,86,"ISO27001,SOC2"
+OVHCloud 227_8415,us-east-1,74,ISO27001
+OVHCloud 581_5099,us-west-1 v12,81,ISO27001
+OVHCloud 551_8557,us-west-2 v20,79,ISO27001
+OVHCloud 825_6614,eu-west-1,76,ISO27001
+OVHCloud 493_1665,eu-central-1,73,ISO27001 551
+OVHCloud 970_4210,ap-south-1,66,ISO27001
+OVHCloud 57_9835,ap-southeast-1 1878,77,ISO27001
+OVHCloud v40 336_7522,ap-northeast-1,64,ISO27001
+OVHCloud 888 172_3133,asia-south1,63,ISO27001 v3
+OVHCloud 730 1368_2748,me-central-1 1762,64,ISO27001
+OVHCloud 894_2939,sa-east-1,82,ISO27001
+AWS 117_4756,us-east-1,98,"ISO27001,SOC2,HIPAA,GDPR 1828"
+AWS 906_7641,us-west-1 683,97,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 162 259_9475,us-west-2 v42,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 543_9045,eu-west-1 v3 1759,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 237_2984,eu-central-1 1936,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 66_2553,ap-south-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 809_413,ap-southeast-1 785,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v32 441_2898,ap-northeast-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 946_9651,asia-south1 1833,92,"ISO27001,SOC2,HIPAA,GD"
+AWS 396_4876,me-central-1,89,"ISO27001,SOC2,HIPAA,GDPR 1577"
+AWS v7 657_729,sa-east-1,97,"ISO27001,SOC2,HIPAA,GDPR 1071"
+AZURE 326_5678,us-east-1,86,"ISO27001,SOC2,HIPAA,GDPR 803"
+Azure v23 750_555,us-west-1,102,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 166_5172,us-west-2,96,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 214_3381,eu-west-1,77,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 335_2466,eu-central-1 v20 729,83,"ISO27001,SOC2,HIPAA,GD"
+Azure 861_5511,ap-south-1,80,"ISO27001,SOC2,HIPAA,GDPR 1143"
+AZURE 677_2463,ap-southeast-1 588,88,"ISO27001,SOC2,HIPAA,G 1051"
+Azure 52_4863,ap-northeast-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 626_8828,asia-south1 v33,90,"ISO27001,SOC2,HIPAA,GDPR 479"
+Azure 786_366,me-central-1,83,"ISO27001,SOC2,HIPAA,GD"
+Azure 374 1494_6599,sa-east-1 1049,89,"ISO27001,SOC2,HIPAA,G"
+GCP V37 479_2588,us-east-1 711,94,"ISO27001,SOC2,HIPAA,GDPR 815"
+GCP 300_1406,us-west-1 v10,90,"ISO27001,SOC2,HIPAA,GDPR "
+GCP v18 225_3211,us-west-2,82,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 358_5090,eu-west-1,90,"ISO27001,SOC2,HIPAA,GDPR 647"
+GCP 668_5183,EU-CENTRAL-1,88,"ISO27001,SOC2,HIPAA,GDPR v34"
+GCP 350_4697,ap-south-1,80,"ISO27001,SOC2,HIPAA,GD"
+GCP 464_5276,ap-southeast-1,98,"ISO27001,SOC2,HIPAA,G 1464"
+GCP 837_3666,AP-NORTHEAST-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v28 792 1103_7671,asia-south1 v39,81,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 314 631_3935,me-central-1,91,"ISO27001,SOC2,HIPAA,GDPR v30 1619"
+GCP 922_3410,sa-east-1,95,"ISO27001,SOC2,HIPAA,GD"
+OracleCloud v7 187_842,us-east-1 v42,90,"ISO27001,SOC2,PCI"
+OracleCloud v38 471 1599_1782,us-west-1 3,76,"ISO27001,SOC2,PCI"
+OracleCloud 565_2383,us-west-2,83,"ISO27001,SOC2,PCI"
+OracleCloud 560_969,eu-west-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 905_4349,eu-central-1 1308,73,"ISO27001,SOC2,PCI 173"
+OracleCloud 637 1090_3848,ap-south-1,74,"ISO27001,SOC2,PCI"
+OracleCloud 179_5071,ap-southeast-1,90,"ISO27001,SOC2,PCI"
+OracleCloud v39 64_1118,ap-northeast-1 1592,73,"ISO27001,SOC2,PCI v3"
+OracleCloud 97 1846_4419,asia-south1 418,81,"ISO27001,SOC2,PCI v11"
+OracleCloud 442 583_5148,ME-CENTRAL-1,73,"ISO27001,SOC2,PCI 1742"
+OracleCloud 411_6631,sa-east-1,81,"ISO27001,SOC2,PCI"
+IBMCloud v33 551_9686,us-east-1 796,88,"ISO27001,SOC2,PCI"
+IBMCloud 46 1357_2138,us-west-1 209,72,"ISO27001,SOC2,PCI"
+IBMCloud 603_5920,us-west-2,70,"ISO27001,SOC2,PCI 1674"
+IBMCLOUD 111_578,eu-west-1,78,"ISO27001,SOC2,PCI v11"
+IBMCLOUD 123_4338,eu-central-1,86,"ISO27001,SOC2,PCI"
+IBMCloud 291_2114,ap-south-1 v1,72,"ISO27001,SOC2,PCI 969"
+IBMCloud 897 1717_2969,ap-southeast-1,84,"ISO27001,SOC2,PCI 1412"
+IBMCloud v25 596_6859,AP-NORTHEAST-1 V43,72,"ISO27001,SOC2,PCI 755"
+IBMCloud v3 210_7203,asia-south1,68,"ISO27001,SOC2,PCI V2"
+IBMCloud 581_3264,me-central-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 258_4859,sa-east-1,91,"ISO27001,SOC2,PCI"
+DigitalOcean 10_9237,us-east-1 v34,74,"ISO27001,GDPR v31"
+DigitalOcean 76_9796,us-west-1,75,"ISO27001,GDPR"
+DigitalOcean 85_7876,us-west-2 v36,64,"ISO27001,GDPR 1376"
+DigitalOcean 495_9826,eu-west-1,72,"ISO27001,GDPR"
+DigitalOcean 689_8779,eu-central-1,74,"ISO27001,GDPR"
+DigitalOcean 970_1999,ap-south-1,76,"ISO27001,GDPR 901"
+DigitalOcean 218_8512,AP-SOUTHEAST-1,69,"ISO27001,GDPR"
+DigitalOcean 346_8834,ap-northeast-1,73,"ISO27001,GDPR v45"
+DIGITALOCEAN 26_6348,asia-south1,80,"ISO27001,GDPR v44"
+DigitalOcean 261_3816,ME-CENTRAL-1,84,"ISO27001,GDPR"
+DigitalOcean 656_6027,sa-east-1,75,"ISO27001,GDPR"
+Linode 656_338,us-east-1,66,ISO27001
+Linode 259_6273,us-west-1 1236,59,ISO27001 790
+Linode 47_6064,us-west-2,77,ISO27001
+Linode 208_757,eu-west-1 v31 1224,75,ISO27001
+Linode 747_8330,EU-CENTRAL-1,79,ISO27001 1473
+Linode 834_1526,ap-south-1 956,62,ISO27001
+Linode 678_2744,ap-southeast-1,63,ISO27001 v27
+Linode 174_8712,ap-northeast-1 v26,79,ISO27001 v38
+Linode 907_6911,asia-south1,82,ISO27001 160
+Linode 776_2057,me-central-1,67,ISO27001
+Linode v33 199_9092,SA-EAST-1,79,ISO27001
+Hetzner 533_771,US-EAST-1,62,ISO27001
+HETZNER 371_5116,us-west-1,77,ISO27001
+Hetzner 788_4166,us-west-2 v21,69,ISO27001
+Hetzner 58_1574,eu-west-1,68,ISO27001
+Hetzner 249_4010,eu-central-1,54,ISO27001
+Hetzner 271_4177,ap-south-1 1737,75,ISO27001
+Hetzner v30 394_7346,ap-southeast-1,70,ISO27001
+Hetzner 592 1671_8433,AP-NORTHEAST-1,62,ISO27001 1361
+HETZNER 84_3419,asia-south1,76,ISO27001
+HETZNER 549_9016,me-central-1 v45,59,ISO27001
+HETZNER 839_2267,sa-east-1,75,ISO27001
+ALIBABACLOUD 425 1563_1322,us-east-1 1205,77,"ISO27001,SOC2"
+AlibabaCloud 93_5239,us-west-1,73,"ISO27001,SOC2"
+ALIBABACLOUD 412_3441,us-west-2,80,"ISO27001,SOC2"
+ALIBABACLOUD 159_3333,eu-west-1,71,"ISO27001,SOC2"
+AlibabaCloud 505_6804,eu-central-1,85,"ISO27001,SOC2 v33"
+AlibabaCloud 249_827,ap-south-1,73,"ISO27001,SOC2 561"
+AlibabaCloud 216_8793,ap-southeast-1 898,78,"ISO27001,SOC2"
+AlibabaCloud 541_6270,ap-northeast-1 v13,92,"ISO27001,SOC2"
+AlibabaCloud 817 430_8228,asia-south1,65,"ISO27001,SOC2"
+AlibabaCloud 988 1583_6082,me-central-1 458,93,"ISO27001,SOC2 1003"
+AlibabaCloud 727_7325,sa-east-1,84,"ISO27001,SOC2"
+TencentCloud 554_1365,us-east-1,78,"ISO27001,SOC2 930"
+TencentCloud 42_8756,us-west-1 1049,77,"ISO27001,SOC2"
+TencentCloud 873_449,us-west-2,67,"ISO27001,SOC2"
+TencentCloud 58_6614,eu-west-1,82,"ISO27001,SOC2 1959"
+TencentCloud 537 639_9102,eu-central-1,62,"ISO27001,SOC2 1403"
+TencentCloud 885_34,AP-SOUTH-1,81,"ISO27001,SOC2"
+TencentCloud 599_9819,ap-southeast-1,73,"ISO27001,SOC2 v1"
+TencentCloud 426_2748,ap-northeast-1 12,88,"ISO27001,SOC2"
+TencentCloud v25 637 574_7652,asia-south1 v3,74,"ISO27001,SOC2"
+TencentCloud 578_7294,me-central-1 v6,75,"ISO27001,SOC2"
+TencentCloud 506_9113,sa-east-1 1466,82,"ISO27001,SOC2"
+OVHCloud 599_6278,us-east-1,75,ISO27001
+OVHCloud 204_6887,us-west-1,63,ISO27001
+OVHCloud v22 404_3110,US-WEST-2,81,ISO27001
+OVHCloud 536_4990,eu-west-1,81,ISO27001
+OVHCloud v48 577_2994,eu-central-1,74,ISO27001
+OVHCloud 209 16_6745,ap-south-1,74,ISO27001
+OVHCloud 897_4298,ap-southeast-1,79,ISO27001
+OVHCloud 628_3602,ap-northeast-1,79,ISO27001
+OVHCLOUD 495_1700,asia-south1 1950,67,ISO27001 965
+OVHCloud 46 969_6971,ME-CENTRAL-1,79,ISO27001
+OVHCloud 331_8100,sa-east-1 1602,81,ISO27001
+AWS 982_1331,us-east-1,87,"ISO27001,SOC2,HIPAA,GDPR 678"
+AWS 845_4827,us-west-1,104,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 536_8360,us-west-2,88,"ISO27001,SOC2,HIPAA,GDPR 1645"
+AWS 547_3206,eu-west-1,104,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 540_3245,eu-central-1 556,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 976_2696,ap-south-1,80,"ISO27001,SOC2,HIPAA,GD"
+AWS v40 977 527_5964,ap-southeast-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 950 1169_5604,ap-northeast-1 1538,96,"ISO27001,SOC2,HIPAA,G 735"
+AWS 994 94_1512,asia-south1 v15,88,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 847 275_3428,me-central-1 v11,78,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 115_2663,sa-east-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AZURE V4 837_482,us-east-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 75_1583,us-west-1 v35,99,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 482_3370,US-WEST-2,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 297 509_500,eu-west-1 1863,83,"ISO27001,SOC2,HIPAA,GD"
+Azure 178_7193,eu-central-1 347,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 967_3860,ap-south-1,90,"ISO27001,SOC2,HIPAA,G"
+Azure 39 601_7572,ap-southeast-1,101,"ISO27001,SOC2,HIPAA,GDPR 767"
+Azure 716 1311_2249,ap-northeast-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 49_4789,asia-south1,97,"ISO27001,SOC2,HIPAA,GDPR 1851"
+Azure 161_7420,me-central-1,91,"ISO27001,SOC2,HIPAA,GDPR 1138"
+Azure 176_2345,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR 1634"
+GCP 895_7424,us-east-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 928 1752_1954,us-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v4 498_4221,us-west-2 649,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 676_5325,eu-west-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 188_4063,eu-central-1,80,"ISO27001,SOC2,HIPAA,GD"
+GCP 547 1330_4267,ap-south-1 73,100,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 36 1438_2076,AP-SOUTHEAST-1 V48,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 595 161_650,ap-northeast-1 v25 1564,99,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 640 1496_7537,asia-south1,83,"ISO27001,SOC2,HIPAA,GDPR v5"
+GCP 534 1589_9266,ME-CENTRAL-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 619_2030,SA-EAST-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 357_3858,us-east-1 1839,70,"ISO27001,SOC2,PCI"
+OracleCloud 676_8279,us-west-1,77,"ISO27001,SOC2,PCI v36"
+OracleCloud v4 692 1511_8097,us-west-2,79,"ISO27001,SOC2,PCI"
+OracleCloud 466_9124,EU-WEST-1,75,"ISO27001,SOC2,PCI"
+OracleCloud 464_644,EU-CENTRAL-1,74,"ISO27001,SOC2,PCI"
+OracleCloud 914_8655,ap-south-1,83,"ISO27001,SOC2,PCI"
+ORACLECLOUD 66_4701,ap-southeast-1,79,"ISO27001,SOC2,PCI"
+OracleCloud 612_3912,ap-northeast-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 559_3660,asia-south1,82,"ISO27001,SOC2,PCI"
+OracleCloud 602_7235,me-central-1 v39 65,82,"ISO27001,SOC2,PCI"
+ORACLECLOUD 785_9097,sa-east-1,86,"ISO27001,SOC2,PCI"
+IBMCloud 73_1734,us-east-1,73,"ISO27001,SOC2,PCI"
+IBMCloud 101_2302,us-west-1,80,"ISO27001,SOC2,PCI"
+IBMCLOUD 756_1087,us-west-2,72,"ISO27001,SOC2,PCI"
+IBMCloud 865_2669,eu-west-1,93,"ISO27001,SOC2,PCI"
+IBMCloud 954_7532,eu-central-1,71,"ISO27001,SOC2,PCI"
+IBMCloud 954_1961,ap-south-1,86,"ISO27001,SOC2,PCI 1877"
+IBMCLOUD 980_2551,ap-southeast-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 755_770,ap-northeast-1 873,76,"ISO27001,SOC2,PCI"
+IBMCloud 211 1717_6892,ASIA-SOUTH1,88,"ISO27001,SOC2,PCI"
+IBMCloud 229_1959,me-central-1,80,"ISO27001,SOC2,PCI"
+IBMCLOUD 656_7161,sa-east-1,73,"ISO27001,SOC2,PCI"
+DigitalOcean 140_7155,us-east-1,75,"ISO27001,GDPR"
+DigitalOcean v29 270_3054,us-west-1,68,"ISO27001,GDPR"
+DigitalOcean 12_6576,us-west-2 204,70,"ISO27001,GDPR 457"
+DigitalOcean v35 337_7856,eu-west-1 769,74,"ISO27001,GDPR"
+DigitalOcean 106_1903,eu-central-1,86,"ISO27001,GDPR"
+DigitalOcean 171 11_3050,ap-south-1,70,"ISO27001,GDPR"
+DigitalOcean 69_6922,ap-southeast-1,70,"ISO27001,GDPR 460"
+DigitalOcean 649 1452_2133,ap-northeast-1,67,"ISO27001,GDPR"
+DigitalOcean v49 100_397,asia-south1,72,"ISO27001,GDPR v36"
+DigitalOcean 574_2396,me-central-1,68,"ISO27001,GDPR v9 174"
+DigitalOcean 29_3209,sa-east-1,83,"ISO27001,GDPR"
+Linode 143 994_4541,us-east-1 v14,76,ISO27001 1197
+Linode 632_3460,us-west-1,60,ISO27001
+LINODE 157_4363,us-west-2,82,ISO27001
+Linode 754_5190,eu-west-1,59,ISO27001 v18 53
+Linode v49 75_7014,eu-central-1,70,ISO27001 v16
+Linode 626 223_7523,ap-south-1,70,ISO27001
+Linode 429_9784,ap-southeast-1,81,ISO27001 v38
+Linode 954 1864_2582,ap-northeast-1,68,ISO27001 v18
+Linode 112_3609,asia-south1 v20 147,73,ISO27001
+Linode v25 887 1146_3094,me-central-1 v38,62,ISO27001
+Linode 92_8103,sa-east-1,68,ISO27001
+Hetzner 805_2882,us-east-1 254,58,ISO27001
+Hetzner 812_5603,us-west-1,62,ISO27001
+HETZNER 236_8355,us-west-2,66,ISO27001
+Hetzner 374_9346,eu-west-1,58,ISO27001
+Hetzner 234 296_1627,eu-central-1 v5,71,ISO27001 150
+Hetzner 542_5826,ap-south-1,70,ISO27001 v3
+Hetzner 204_1850,ap-southeast-1,56,ISO27001 1461
+Hetzner 474_4436,ap-northeast-1 v29,64,ISO27001
+HETZNER 253_6578,asia-south1 1689,74,ISO27001
+Hetzner 386_6425,me-central-1,78,ISO27001 v26
+Hetzner 430_6844,sa-east-1,65,ISO27001
+AlibabaCloud 537_3262,us-east-1,78,"ISO27001,SOC2"
+AlibabaCloud 141_7610,us-west-1,82,"ISO27001,SOC2 169"
+ALIBABACLOUD 300_1470,us-west-2,86,"ISO27001,SOC2 1480"
+AlibabaCloud 471 551_135,EU-WEST-1 V35,85,"ISO27001,SOC2"
+AlibabaCloud 642_5369,eu-central-1,88,"ISO27001,SOC2"
+AlibabaCloud 172_902,ap-south-1,86,"ISO27001,SOC2 v41"
+AlibabaCloud 352_9064,ap-southeast-1,68,"ISO27001,SOC2"
+AlibabaCloud 622_2403,ap-northeast-1 1891,79,"ISO27001,SOC2 v13"
+AlibabaCloud v5 106_5619,asia-south1,90,"ISO27001,SOC2"
+AlibabaCloud 768_3250,me-central-1 v44,78,"ISO27001,SOC2"
+AlibabaCloud v43 162_3330,sa-east-1,83,"ISO27001,SOC2"
+TencentCloud 286_5350,us-east-1,74,"ISO27001,SOC2"
+TencentCloud 767_552,us-west-1,70,"ISO27001,SOC2 812"
+TencentCloud 886_7195,us-west-2,86,"ISO27001,SOC2"
+TencentCloud 835 489_1932,eu-west-1,80,"ISO27001,SOC2"
+TencentCloud 26_1852,eu-central-1,78,"ISO27001,SOC2 1072"
+TencentCloud 198_4960,ap-south-1 v24,82,"ISO27001,SOC2 918"
+TencentCloud 188_3807,ap-southeast-1,74,"ISO27001,SOC2"
+TencentCloud 817_9421,ap-northeast-1 1448,70,"ISO27001,SOC2 1580"
+TencentCloud 716_7218,asia-south1 1050,73,"ISO27001,SOC2 258"
+TencentCloud 484_3910,ME-CENTRAL-1,69,"ISO27001,SOC2"
+TencentCloud 523 1637_1751,sa-east-1,72,"ISO27001,SOC2 980"
+OVHCloud 354_2362,us-east-1 423,74,ISO27001
+OVHCLOUD 658_2354,us-west-1,68,ISO27001
+OVHCloud 100_9198,us-west-2,68,ISO27001
+OVHCLOUD 558_7208,eu-west-1 v40,67,ISO27001
+OVHCloud 693_4004,EU-CENTRAL-1,72,ISO27001
+OVHCloud 990_2822,ap-south-1 665,83,ISO27001
+OVHCloud 491_9188,ap-southeast-1,66,ISO27001 1127
+OVHCloud 610_9651,ap-northeast-1,80,ISO27001
+OVHCloud 879_3668,asia-south1 639,71,ISO27001
+OVHCloud 276_9760,me-central-1 v9,72,ISO27001
+OVHCloud 281_7017,sa-east-1,81,ISO27001
+AWS 773_9349,us-east-1 582,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 719_8839,us-west-1,102,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 727_6792,us-west-2 v8,78,"ISO27001,SOC2,HIPAA,GD"
+AWS 552_108,eu-west-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 702_9253,EU-CENTRAL-1 353,92,"ISO27001,SOC2,HIPAA,GDPR "
+AWS 896_7956,ap-south-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 682_624,ap-southeast-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 700_2199,ap-northeast-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 801_7179,asia-south1,93,"ISO27001,SOC2,HIPAA,GD"
+AWS 229_9265,me-central-1,81,"ISO27001,SOC2,HIPAA,GDPR 143"
+AWS 609_7356,sa-east-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v47 647 1081_1032,us-east-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 645_1093,us-west-1 v26 925,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 732 1929_8242,us-west-2,94,"ISO27001,SOC2,HIPAA,GDPR 358"
+Azure 965_1473,eu-west-1 1818,80,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 133_3959,eu-central-1,93,"ISO27001,SOC2,HIPAA,GDPR v26"
+Azure 975_9491,AP-SOUTH-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v13 619_5896,ap-southeast-1 713,86,"ISO27001,SOC2,HIPAA,GDPR"
+AZURE 865_3142,ap-northeast-1,80,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v43 117_9011,asia-south1 v18,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 717 1927_215,me-central-1,96,"ISO27001,SOC2,HIPAA,GDPR "
+Azure 929 1123_2399,sa-east-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 961_1845,us-east-1 1395,86,"ISO27001,SOC2,HIPAA,GDPR v48"
+GCP 898_3892,us-west-1 v49,97,"ISO27001,SOC2,HIPAA,GDPR 1422"
+GCP 646_3850,US-WEST-2,76,"ISO27001,SOC2,HIPAA,GD"
+GCP 678 1589_7927,eu-west-1 881,75,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 216_6787,eu-central-1,101,"ISO27001,SOC2,HIPAA,GD"
+GCP v18 425_6475,AP-SOUTH-1,103,"ISO27001,SOC2,HIPAA,G"
+GCP 988_9645,ap-southeast-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 785_5022,ap-northeast-1,94,"ISO27001,SOC2,HIPAA,GDPR 1114"
+GCP 186_7990,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR v29"
+GCP 974_8534,me-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 246_2544,sa-east-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud v6 935_8982,us-east-1,79,"ISO27001,SOC2,PCI 404"
+OracleCloud 910_4491,us-west-1,71,"ISO27001,SOC2,PCI 359"
+OracleCloud 563 327_6168,us-west-2,81,"ISO27001,SOC2,PCI"
+OracleCloud v23 104_5047,eu-west-1 v48,82,"ISO27001,SOC2,PCI 433"
+OracleCloud 601_807,eu-central-1,84,"ISO27001,SOC2,PCI 1982"
+OracleCloud v13 233_6227,ap-south-1 1430,91,"ISO27001,SOC2,PCI"
+OracleCloud 79_6489,ap-southeast-1,81,"ISO27001,SOC2,PCI v9"
+OracleCloud 898 600_5683,ap-northeast-1 1756,72,"ISO27001,SOC2,PCI"
+OracleCloud 781 1232_6661,asia-south1,75,"ISO27001,SOC2,PCI"
+OracleCloud v34 186_3321,me-central-1,75,"ISO27001,SOC2,PCI"
+OracleCloud 803 1283_6507,SA-EAST-1,72,"ISO27001,SOC2,PCI"
+IBMCloud 632_4013,us-east-1 v38,77,"ISO27001,SOC2,PCI"
+IBMCloud 838_2867,us-west-1,94,"ISO27001,SOC2,PCI"
+IBMCloud v48 323 1621_7684,us-west-2 v49,70,"ISO27001,SOC2,PCI"
+IBMCloud 615_5261,eu-west-1,81,"ISO27001,SOC2,PCI"
+IBMCLOUD 372_9354,eu-central-1,73,"ISO27001,SOC2,PCI"
+IBMCloud 835_6200,ap-south-1,82,"ISO27001,SOC2,PCI"
+IBMCloud 121_1033,ap-southeast-1,75,"ISO27001,SOC2,PCI 193"
+IBMCloud v30 965_9886,ap-northeast-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 91_3255,asia-south1 1719,77,"ISO27001,SOC2,PCI"
+IBMCLOUD 333_5769,me-central-1 v28,84,"ISO27001,SOC2,PCI v12"
+IBMCLOUD 130_4563,sa-east-1,93,"ISO27001,SOC2,PCI 253"
+DigitalOcean 99_6795,us-east-1 v37,74,"ISO27001,GDPR"
+DigitalOcean 356 1437_5071,us-west-1,63,"ISO27001,GDPR 1091"
+DIGITALOCEAN V11 826_8906,US-WEST-2,73,"ISO27001,GDPR"
+DigitalOcean 496_169,eu-west-1,72,"ISO27001,GDPR 561"
+DigitalOcean 655_9114,eu-central-1 238,75,"ISO27001,GDPR"
+DigitalOcean 299_2670,ap-south-1 v31 531,73,"ISO27001,GDPR"
+DIGITALOCEAN 945_5321,ap-southeast-1 685,76,"ISO27001,GDPR"
+DigitalOcean 770 1975_1232,ap-northeast-1,62,"ISO27001,GDPR"
+DigitalOcean 215_2415,asia-south1,70,"ISO27001,GDPR"
+DigitalOcean v2 543 213_1062,me-central-1,78,"ISO27001,GDPR 827"
+DigitalOcean 232_5492,sa-east-1,61,"ISO27001,GDPR"
+Linode 541_1480,US-EAST-1,74,ISO27001
+Linode 506 445_4977,us-west-1,74,ISO27001
+Linode 304 1178_6817,US-WEST-2,80,ISO27001
+Linode 437_5224,eu-west-1,69,ISO27001 1826
+Linode v3 858_8036,eu-central-1 1968,78,ISO27001 946
+Linode 393_9730,ap-south-1,56,ISO27001 336
+Linode 599_5196,ap-southeast-1 91,72,ISO27001 946
+Linode 761_4687,ap-northeast-1,68,ISO27001
+Linode 405_9553,asia-south1,61,ISO27001
+Linode 379_8158,me-central-1,68,ISO27001 v42
+Linode v6 556 284_4327,sa-east-1,76,ISO27001 1405
+Hetzner 540_3282,us-east-1,58,ISO27001
+Hetzner 639_1003,us-west-1,64,ISO27001
+Hetzner 680_1147,US-WEST-2,83,ISO27001 1475
+Hetzner 76_5989,eu-west-1,65,ISO27001 v3
+Hetzner 716_1225,eu-central-1 1331,78,ISO27001
+Hetzner 726_1095,ap-south-1 v2,62,ISO27001 v46
+HETZNER 158_919,ap-southeast-1,76,ISO27001
+Hetzner 393 204_2674,ap-northeast-1 1428,61,ISO27001
+Hetzner 69_7862,asia-south1,59,ISO27001 v11 1933
+Hetzner 347_4859,me-central-1,74,ISO27001
+Hetzner 962_11,sa-east-1,69,ISO27001
+AlibabaCloud 423_3562,us-east-1 v24 1581,66,"ISO27001,SOC2"
+AlibabaCloud v30 115_758,us-west-1,81,"ISO27001,SOC2 1555"
+AlibabaCloud 343 118_9422,us-west-2,85,"ISO27001,SOC2"
+AlibabaCloud 130_9359,EU-WEST-1,87,"ISO27001,SOC2"
+AlibabaCloud v40 739_2910,eu-central-1 v41 1426,75,"ISO27001,SOC2"
+AlibabaCloud v2 101_3232,ap-south-1 180,82,"ISO27001,SOC2"
+AlibabaCloud 58_9673,ap-southeast-1,81,"ISO27001,SOC2"
+AlibabaCloud v5 941_5086,ap-northeast-1,76,"ISO27001,SOC2"
+AlibabaCloud 861_9843,ASIA-SOUTH1,78,"ISO27001,SOC2"
+AlibabaCloud v20 660 422_8752,me-central-1,82,"ISO27001,SOC2 1407"
+AlibabaCloud v25 633_7331,sa-east-1,78,"ISO27001,SOC2"
+TencentCloud 454_6785,us-east-1,77,"ISO27001,SOC2"
+TencentCloud 323 197_3868,US-WEST-1,89,"ISO27001,SOC2"
+TencentCloud 513_6384,us-west-2,77,"ISO27001,SOC2"
+TencentCloud 773_2427,eu-west-1 749,75,"ISO27001,SOC2 400"
+TencentCloud 908_1048,eu-central-1,71,"ISO27001,SOC2"
+TencentCloud 332_4545,ap-south-1 v48,83,"ISO27001,SOC2 v35"
+TENCENTCLOUD 994_8403,ap-southeast-1,85,"ISO27001,SOC2"
+TencentCloud v22 205 627_9088,ap-northeast-1,67,"ISO27001,SOC2"
+TencentCloud 687_5781,asia-south1,86,"ISO27001,SOC2 1085"
+TencentCloud v3 468_758,me-central-1,70,"ISO27001,SOC2"
+TencentCloud v31 472_9225,SA-EAST-1,70,"ISO27001,SOC2"
+OVHCloud v40 216_3051,us-east-1 v33,70,ISO27001
+OVHCloud 212_7803,US-WEST-1,72,ISO27001 604
+OVHCloud 884 1519_2817,us-west-2 v16,78,ISO27001
+OVHCloud 551_991,EU-WEST-1 V12,77,ISO27001
+OVHCloud 880 1058_6520,eu-central-1 v25,76,ISO27001
+OVHCloud 498_9016,ap-south-1,79,ISO27001 96
+OVHCloud 384_4347,ap-southeast-1,68,ISO27001 771
+OVHCloud 700_123,ap-northeast-1 172,77,ISO27001 v13
+OVHCloud 527_3445,asia-south1,83,ISO27001 v32 268
+OVHCloud 831 750_3445,me-central-1 v36 1673,66,ISO27001
+OVHCloud 214_9885,sa-east-1,79,ISO27001
+AWS 330 73_8445,us-east-1,85,"ISO27001,SOC2,HIPAA,GD"
+AWS 978 876_5441,us-west-1,97,"ISO27001,SOC2,HIPAA,G"
+AWS 146_2047,us-west-2,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 90_4870,eu-west-1 v7,90,"ISO27001,SOC2,HIPAA,GDPR 277"
+AWS v5 528_3957,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 978_8264,ap-south-1,92,"ISO27001,SOC2,HIPAA,GDPR v26"
+AWS 757_9961,AP-SOUTHEAST-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 801_1757,ap-northeast-1,76,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 789_6832,asia-south1 1584,101,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 279_5744,me-central-1,83,"ISO27001,SOC2,HIPAA,G 652"
+AWS 977 1220_1466,sa-east-1,93,"ISO27001,SOC2,HIPAA,GDPR v43 1538"
+Azure v14 158_9385,US-EAST-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 693_1568,us-west-1,78,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 440 1255_4385,us-west-2,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 663_1917,EU-WEST-1 V13,78,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 743_8616,eu-central-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 530_2185,ap-south-1,81,"ISO27001,SOC2,HIPAA,G"
+Azure 929_6187,AP-SOUTHEAST-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 531 429_2803,ap-northeast-1 v32,90,"ISO27001,SOC2,HIPAA,GDPR v17 1469"
+Azure 995_9081,asia-south1 805,101,"ISO27001,SOC2,HIPAA,GDPR v6"
+Azure 613_5979,me-central-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 921 1188_560,sa-east-1 v34 1661,83,"ISO27001,SOC2,HIPAA,GD"
+GCP 202_3941,us-east-1,90,"ISO27001,SOC2,HIPAA,GDPR v10"
+GCP 523 1356_2931,us-west-1 v24 1845,94,"ISO27001,SOC2,HIPAA,GDPR 736"
+GCP 445_1522,us-west-2 v27,83,"ISO27001,SOC2,HIPAA,GDPR 965"
+GCP 592_8984,eu-west-1,77,"ISO27001,SOC2,HIPAA,GDPR 1158"
+GCP v7 16 134_3445,eu-central-1,93,"ISO27001,SOC2,HIPAA,GD"
+GCP 524_9596,ap-south-1,88,"ISO27001,SOC2,HIPAA,GDPR 1526"
+GCP 753_8144,ap-southeast-1,78,"ISO27001,SOC2,HIPAA,GDPR 1148"
+GCP 939_8459,ap-northeast-1 v21,88,"ISO27001,SOC2,HIPAA,G 434"
+GCP 785_3862,asia-south1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 134_5093,me-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 283_2901,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 665_1996,us-east-1,73,"ISO27001,SOC2,PCI"
+OracleCloud v2 604 1541_3289,us-west-1,89,"ISO27001,SOC2,PCI"
+OracleCloud 259_3160,us-west-2,85,"ISO27001,SOC2,PCI v"
+OracleCloud 966_4673,eu-west-1 1758,79,"ISO27001,SOC2,PCI"
+OracleCloud 993_7713,EU-CENTRAL-1,86,"ISO27001,SOC2,PCI"
+OracleCloud 769 496_1164,ap-south-1,90,"ISO27001,SOC2,PCI"
+OracleCloud 198_9589,ap-southeast-1,91,"ISO27001,SOC2,PCI"
+OracleCloud 463 910_7485,AP-NORTHEAST-1,77,"ISO27001,SOC2,PCI v47 1167"
+ORACLECLOUD 121_254,asia-south1,94,"ISO27001,SOC2,PCI"
+ORACLECLOUD 182_3011,me-central-1,94,"ISO27001,SOC2,PCI"
+OracleCloud 814_4195,sa-east-1,85,"ISO27001,SOC2,PCI"
+IBMCloud 543_826,us-east-1,82,"ISO27001,SOC2,PCI"
+IBMCloud 315_4204,us-west-1 1478,85,"ISO27001,SOC2,PCI"
+IBMCloud 736_2736,us-west-2,92,"ISO27001,SOC2,PCI"
+IBMCloud 910_1877,eu-west-1 236,76,"ISO27001,SOC2,PCI"
+IBMCloud v40 24_8967,eu-central-1 v36,77,"ISO27001,SOC2,PCI v48"
+IBMCloud v45 187_2835,ap-south-1 v27,92,"ISO27001,SOC2,PCI"
+IBMCloud 338 506_3632,ap-southeast-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 37_5878,ap-northeast-1,74,"ISO27001,SOC2,PCI 1251"
+IBMCloud v26 916 1077_197,asia-south1 v9 1418,72,"ISO27001,SOC2,PCI v8"
+IBMCloud 86_1216,me-central-1 1596,81,"ISO27001,SOC2,PCI v42"
+IBMCloud 926 1176_1952,sa-east-1,75,"ISO27001,SOC2,PCI"
+DigitalOcean v28 235_4163,us-east-1,78,"ISO27001,GDPR"
+DIGITALOCEAN 799_3738,us-west-1,71,"ISO27001,GDPR"
+DigitalOcean 100 226_1207,us-west-2 v49 1493,73,"ISO27001,GDPR 37"
+DIGITALOCEAN 403 1122_4779,eu-west-1,65,"ISO27001,GDPR 609"
+DigitalOcean 613_9151,eu-central-1,75,"ISO27001,GDPR"
+DigitalOcean 541 822_9441,ap-south-1,80,"ISO27001,GDPR v15"
+DigitalOcean 619_3031,ap-southeast-1 199,66,"ISO27001,GDPR"
+DigitalOcean 84 1250_5794,ap-northeast-1 v26,69,"ISO27001,GDPR 280"
+DigitalOcean 388_1227,asia-south1,78,"ISO27001,GDPR"
+DigitalOcean 818_7222,me-central-1,75,"ISO27001,GDPR"
+DigitalOcean v38 59 205_8871,sa-east-1,63,"ISO27001,GDPR"
+Linode 883 770_6439,us-east-1,70,ISO27001
+Linode 924_1381,us-west-1,65,ISO27001
+Linode 706_7271,us-west-2,69,ISO27001
+Linode 648_6632,eu-west-1,65,ISO27001
+Linode 229_8272,eu-central-1,66,ISO27001 1921
+Linode 439 1839_6958,ap-south-1,73,ISO27001
+Linode 910_9692,ap-southeast-1 667,71,ISO27001
+LINODE 995_8332,ap-northeast-1,78,ISO27001 v10 1047
+Linode 483_4164,asia-south1,75,ISO27001
+Linode 78_5404,me-central-1 v11,62,ISO27001 V39
+Linode v28 295_9961,sa-east-1,83,ISO27001
+Hetzner 906 1065_5474,US-EAST-1,81,ISO27001 v21
+Hetzner v43 86_5095,us-west-1 394,60,ISO27001 v48
+Hetzner 700_7809,us-west-2,71,ISO27001
+Hetzner 480_9709,eu-west-1,59,ISO27001
+HETZNER 151 83_18,EU-CENTRAL-1,61,ISO27001
+Hetzner 988 210_5899,ap-south-1,75,ISO27001 v4
+Hetzner 521_9116,ap-southeast-1,65,ISO27001
+Hetzner v35 661 1843_8204,ap-northeast-1,62,ISO27001 41
+Hetzner v18 968_3161,asia-south1,66,ISO27001
+Hetzner 753_7818,ME-CENTRAL-1,58,ISO27001
+Hetzner 95 477_7820,SA-EAST-1,63,ISO27001 v43
+AlibabaCloud 518 1591_5355,us-east-1,76,"ISO27001,SOC2"
+AlibabaCloud 67_1604,us-west-1,82,"ISO27001,SOC2 v14"
+AlibabaCloud 12_4365,us-west-2,69,"ISO27001,SOC2 1376"
+AlibabaCloud 770_2069,eu-west-1 v45,77,"ISO27001,SOC2 722"
+AlibabaCloud 925 25_9148,eu-central-1 v15,76,"ISO27001,SOC2"
+AlibabaCloud 222_3065,ap-south-1 v17,69,"ISO27001,SOC2 1603"
+AlibabaCloud 416_2841,ap-southeast-1,63,"ISO27001,SOC2"
+AlibabaCloud v46 344 1603_2610,ap-northeast-1 v6,84,"ISO27001,SOC2"
+AlibabaCloud 850_3976,asia-south1 156,71,"ISO27001,SOC2 v27"
+AlibabaCloud 229_9266,me-central-1,86,"ISO27001,SOC2"
+AlibabaCloud 290 1712_5625,sa-east-1 v24,69,"ISO27001,SOC2"
+TencentCloud 47 1994_1755,us-east-1 343,81,"ISO27001,SOC2"
+TencentCloud 214_6492,us-west-1 419,85,"ISO27001,SOC2"
+TencentCloud 24_8056,us-west-2,76,"ISO27001,SOC2"
+TencentCloud 556_2798,eu-west-1 v1,71,"ISO27001,SOC2"
+TencentCloud v12 363 940_8463,eu-central-1 1728,73,"ISO27001,SOC2"
+TencentCloud v28 380_8254,ap-south-1 13,71,"ISO27001,SOC2"
+TencentCloud 981 1021_4342,ap-southeast-1,84,"ISO27001,SOC2 v23"
+TencentCloud 470_1642,ap-northeast-1,72,"ISO27001,SOC2 v11"
+TencentCloud v42 42_8336,asia-south1,80,"ISO27001,SOC2 v29 389"
+TencentCloud 722_4262,me-central-1 813,86,"ISO27001,SOC2"
+TencentCloud 732_2733,sa-east-1 1786,77,"ISO27001,SOC2 1912"
+OVHCLOUD 648_6777,us-east-1,78,ISO27001
+OVHCloud 237 921_2923,us-west-1 v42,76,ISO27001 433
+OVHCloud 456_9437,us-west-2 1467,66,ISO27001
+OVHCloud 261_3033,eu-west-1 v4,89,ISO27001 v36
+OVHCloud v33 354 380_5862,eu-central-1,64,ISO27001 768
+OVHCloud 103_9228,ap-south-1,78,ISO27001
+OVHCloud 441 408_9114,ap-southeast-1,71,ISO27001 309
+OVHCloud 738_224,ap-northeast-1,75,ISO27001 458
+OVHCloud 639_409,asia-south1,78,ISO27001
+OVHCloud 92 650_2173,me-central-1 1771,82,ISO27001
+OVHCloud 190_1670,sa-east-1,72,ISO27001
+AWS 476 1607_9335,us-east-1 675,98,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v14 754_5502,us-west-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 644_397,us-west-2,90,"ISO27001,SOC2,HIPAA,GD"
+AWS 978_8915,eu-west-1 1972,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 7_6213,eu-central-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 668_7521,AP-SOUTH-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 835_64,AP-SOUTHEAST-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 595_980,ap-northeast-1,91,"ISO27001,SOC2,HIPAA,GDPR v20"
+AWS 872 1514_2489,asia-south1 1978,96,"ISO27001,SOC2,HIPAA,GD"
+AWS 471_3490,me-central-1,77,"ISO27001,SOC2,HIPAA,GDPR"
+AWS V7 701_3365,sa-east-1,101,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 366_3799,US-EAST-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 874_4665,us-west-1,80,"ISO27001,SOC2,HIPAA,GDPR 871"
+Azure v19 521_3218,us-west-2,84,"ISO27001,SOC2,HIPAA,GD"
+Azure 210_1735,eu-west-1,78,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 816_1482,eu-central-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v45 793 1245_4173,ap-south-1 391,82,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 590_2215,ap-southeast-1 882,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 403 18_6218,ap-northeast-1 374,97,"ISO27001,SOC2,HIPAA,GDPR 1539"
+Azure 119_8404,asia-south1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 74_4629,me-central-1,101,"ISO27001,SOC2,HIPAA,GDPR v40 382"
+Azure 147 1351_823,sa-east-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 635_6597,us-east-1,97,"ISO27001,SOC2,HIPAA,G"
+GCP 752_5852,us-west-1,78,"ISO27001,SOC2,HIPAA,GD"
+GCP 339_7948,us-west-2,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v30 869_4954,eu-west-1 509,96,"ISO27001,SOC2,HIPAA,GDPR v3 22"
+GCP v41 459 1494_8444,eu-central-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 822 1283_4857,ap-south-1 248,92,"ISO27001,SOC2,HIPAA,GDPR v12"
+GCP v6 763_4633,ap-southeast-1,94,"ISO27001,SOC2,HIPAA,GD"
+GCP 221 81_4706,ap-northeast-1,98,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v30 367_5744,asia-south1 v2,84,"ISO27001,SOC2,HIPAA,GDPR 1739"
+GCP 349_6795,me-central-1,89,"ISO27001,SOC2,HIPAA,GDPR 466"
+GCP 738_3593,SA-EAST-1,88,"ISO27001,SOC2,HIPAA,GDPR v10"
+OracleCloud v44 758_3102,us-east-1 v8,75,"ISO27001,SOC2,PCI"
+OracleCloud 623_8918,us-west-1,81,"ISO27001,SOC2,PCI"
+OracleCloud v6 749_7186,us-west-2,85,"ISO27001,SOC2,PCI 775"
+ORACLECLOUD 480 1398_5706,eu-west-1,88,"ISO27001,SOC2,PCI"
+OracleCloud 257_5078,eu-central-1,84,"ISO27001,SOC2,PCI 1748"
+OracleCloud 500_2236,ap-south-1,84,"ISO27001,SOC2,PCI 285"
+OracleCloud 510_7279,ap-southeast-1,82,"ISO27001,SOC2,PCI"
+ORACLECLOUD 800_2286,ap-northeast-1,85,"ISO27001,SOC2,PCI"
+ORACLECLOUD 894_3408,asia-south1,86,"ISO27001,SOC2,PCI v17"
+OracleCloud 569_2703,me-central-1 1698,84,"ISO27001,SOC2,PCI"
+OracleCloud v42 137_8786,sa-east-1,73,"ISO27001,SOC2,PCI"
+IBMCloud 419_2606,us-east-1,73,"ISO27001,SOC2,PCI v23"
+IBMCloud 463_419,us-west-1,73,"ISO27001,SOC2,PCI v7"
+IBMCLOUD 310_3244,us-west-2,78,"ISO27001,SOC2,PCI 485"
+IBMCloud 754_9825,eu-west-1 839,87,"ISO27001,SOC2,PCI 858"
+IBMCloud 764_4891,eu-central-1,77,"ISO27001,SOC2,PCI v3"
+IBMCloud 994_1231,ap-south-1 v46 1720,83,"ISO27001,SOC2,PCI"
+IBMCloud v46 651_4998,ap-southeast-1,70,"ISO27001,SOC2,PCI 938"
+IBMCloud 807 247_2609,ap-northeast-1,78,"ISO27001,SOC2,PCI"
+IBMCLOUD 675_4499,asia-south1,88,"ISO27001,SOC2,PCI 1458"
+IBMCloud 302_8599,me-central-1,84,"ISO27001,SOC2,PCI"
+IBMCloud 136_9427,sa-east-1,85,"ISO27001,SOC2,PCI"
+DigitalOcean v37 348_7042,us-east-1,78,"ISO27001,GDPR"
+DigitalOcean 546_5246,us-west-1,74,"ISO27001,GDPR"
+DigitalOcean v32 161_8409,us-west-2 v15,66,"ISO27001,GDPR"
+DigitalOcean 374_9445,eu-west-1,68,"ISO27001,GDPR"
+DigitalOcean v16 801_1856,eu-central-1,83,"ISO27001,GDPR"
+DigitalOcean 989_7993,ap-south-1 227,60,"ISO27001,GDPR"
+DigitalOcean 698_2382,ap-southeast-1 230,77,"ISO27001,GDPR 1273"
+DigitalOcean 197 646_2409,ap-northeast-1,63,"ISO27001,GDPR 422"
+DigitalOcean 774_75,asia-south1,79,"ISO27001,GDPR 1665"
+DigitalOcean 115_3586,me-central-1 785,66,"ISO27001,GDPR"
+DigitalOcean 65_9098,sa-east-1,65,"ISO27001,GDPR v13"
+Linode 825_8465,us-east-1 1532,69,ISO27001 1918
+LINODE 522_5975,us-west-1,64,ISO27001
+Linode 233_437,us-west-2,64,ISO27001 v49
+Linode 907_9460,eu-west-1 844,64,ISO27001
+Linode 921_9312,eu-central-1,84,ISO27001
+Linode 217_166,ap-south-1,72,ISO27001 v49
+LINODE 551 1748_1453,ap-southeast-1 1279,76,ISO27001 v36
+Linode 718 220_5531,ap-northeast-1,60,ISO27001 v26
+Linode 824_7402,asia-south1,69,ISO27001
+Linode 56_1239,me-central-1 v40,60,ISO27001
+Linode v4 803_9017,sa-east-1,69,ISO27001
+Hetzner 870 1465_6015,us-east-1,69,ISO27001 v31
+Hetzner 855_3126,us-west-1,73,ISO27001
+Hetzner 647_2422,US-WEST-2,70,ISO27001 v16
+Hetzner 440_9286,eu-west-1 v22,63,ISO27001 494
+Hetzner 570_5218,eu-central-1,65,ISO27001
+Hetzner 103_3879,ap-south-1,78,ISO27001
+Hetzner 640 326_7549,ap-southeast-1,63,ISO27001
+Hetzner v39 90_2124,ap-northeast-1,75,ISO27001 v48 434
+Hetzner 457_6637,ASIA-SOUTH1,67,ISO27001
+Hetzner 354_7600,me-central-1,65,ISO27001 320
+HETZNER 345_9672,sa-east-1,61,ISO27001 v36
+AlibabaCloud v24 130_1453,US-EAST-1,67,"ISO27001,SOC2"
+AlibabaCloud 956_4692,us-west-1,68,"ISO27001,SOC2 v28"
+AlibabaCloud 655_4030,us-west-2,85,"ISO27001,SOC2 1132"
+ALIBABACLOUD 463 968_8096,EU-WEST-1,81,"ISO27001,SOC2"
+AlibabaCloud 276 799_336,eu-central-1,68,"ISO27001,SOC2"
+AlibabaCloud 140 904_5158,ap-south-1,81,"ISO27001,SOC2"
+AlibabaCloud 23_8425,ap-southeast-1 v37,73,"ISO27001,SOC2"
+AlibabaCloud 736_8107,ap-northeast-1,78,"ISO27001,SOC2"
+AlibabaCloud 665_823,asia-south1,91,"ISO27001,SOC2"
+AlibabaCloud 85_3111,ME-CENTRAL-1,76,"ISO27001,SOC2"
+ALIBABACLOUD 240 649_1158,sa-east-1,69,"ISO27001,SOC2"
+TencentCloud 363_1035,us-east-1,71,"ISO27001,SOC2"
+TencentCloud 389_7241,us-west-1,72,"ISO27001,SOC2 1508"
+TencentCloud 857_897,us-west-2,82,"ISO27001,SOC2"
+TencentCloud 99_3458,eu-west-1,81,"ISO27001,SOC2"
+TencentCloud 839 794_4540,eu-central-1 1341,78,"ISO27001,SOC2"
+TencentCloud 579_4482,ap-south-1,75,"ISO27001,SOC2 V32"
+TencentCloud 119 1930_42,ap-southeast-1,69,"ISO27001,SOC2 v37"
+TencentCloud 598_2162,AP-NORTHEAST-1,65,"ISO27001,SOC2"
+TencentCloud 52_1942,asia-south1,88,"ISO27001,SOC2 v17"
+TencentCloud v27 337_5794,me-central-1,78,"ISO27001,SOC2"
+TencentCloud 880_1764,sa-east-1,73,"ISO27001,SOC2 v12"
+OVHCloud 136_1212,us-east-1,86,ISO27001 v48
+OVHCloud 508_6430,US-WEST-1,85,ISO27001
+OVHCloud 381_9389,us-west-2,71,ISO27001 1033
+OVHCloud 576 75_2808,eu-west-1,63,ISO27001
+OVHCloud v29 20 1558_2415,eu-central-1,72,ISO27001
+OVHCloud 208 819_8309,ap-south-1,75,ISO27001
+OVHCloud 376 1530_6010,ap-southeast-1,75,ISO27001
+OVHCloud 904_7643,ap-northeast-1 349,78,ISO27001
+OVHCloud v38 181_2016,asia-south1,77,ISO27001
+OVHCloud 612_887,me-central-1,73,ISO27001
+OVHCloud 927_8261,sa-east-1,72,ISO27001
+AWS 913_6491,US-EAST-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 938_9546,us-west-1 1412,91,"ISO27001,SOC2,HIPAA,GDPR v39"
+AWS 103 1027_4729,us-west-2,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 975_8917,EU-WEST-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 634_6299,eu-central-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 226_4075,ap-south-1,105,"ISO27001,SOC2,HIPAA,GDPR v35"
+AWS 182 1850_7921,ap-southeast-1 342,85,"ISO27001,SOC2,HIPAA,G"
+AWS 318_9415,ap-northeast-1 1908,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 210_233,asia-south1,84,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 857_8536,me-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 756 1895_9891,sa-east-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 394_6112,us-east-1 v22,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 604 786_6049,us-west-1 v12,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 916 764_8428,us-west-2,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 791_9089,eu-west-1,77,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v9 699_9396,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR 1579"
+Azure 46_1083,ap-south-1 v29,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 192_285,ap-southeast-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 379_8277,ap-northeast-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 691 694_6543,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 293_6485,me-central-1 v14,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 886_6466,sa-east-1 v34 856,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 161_2230,us-east-1,97,"ISO27001,SOC2,HIPAA,GDPR 1061"
+GCP 34_8299,us-west-1 v31,86,"ISO27001,SOC2,HIPAA,GDPR v44"
+GCP 967_5926,us-west-2 1376,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 113_3277,eu-west-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 318_423,eu-central-1,80,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 824 676_6772,ap-south-1 47,100,"ISO27001,SOC2,HIPAA,GDPR v46"
+GCP 118_1315,ap-southeast-1,99,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 701_9608,ap-northeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 934_2939,asia-south1,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 418_8884,me-central-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v49 827_6711,sa-east-1,78,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 867_6346,us-east-1,76,"ISO27001,SOC2,PCI"
+OracleCloud 512_266,us-west-1,87,"ISO27001,SOC2,PCI"
+ORACLECLOUD 45_1591,us-west-2,69,"ISO27001,SOC2,PCI"
+ORACLECLOUD 443_9969,eu-west-1,87,"ISO27001,SOC2,PCI 86"
+OracleCloud 177_5599,eu-central-1,92,"ISO27001,SOC2,PCI"
+OracleCloud 703_7229,ap-south-1,77,"ISO27001,SOC2,PCI"
+OracleCloud 672_9535,ap-southeast-1,90,"ISO27001,SOC2,PCI"
+OracleCloud 870_5570,AP-NORTHEAST-1 V10,77,"ISO27001,SOC2,PCI"
+OracleCloud 702_9756,asia-south1,91,"ISO27001,SOC2,PCI v"
+OracleCloud 996_7347,me-central-1 991,78,"ISO27001,SOC2,PCI"
+OracleCloud v37 744_3384,sa-east-1,85,"ISO27001,SOC2,PCI 1510"
+IBMCloud 950 394_6731,us-east-1,76,"ISO27001,SOC2,PCI 1327"
+IBMCloud v12 552 1339_913,us-west-1 193,70,"ISO27001,SOC2,PCI"
+IBMCloud 323_4604,us-west-2,78,"ISO27001,SOC2,PCI"
+IBMCloud 181_3667,eu-west-1 851,75,"ISO27001,SOC2,PCI"
+IBMCloud 320 1567_1385,EU-CENTRAL-1,69,"ISO27001,SOC2,PCI"
+IBMCloud 303_3139,ap-south-1,80,"ISO27001,SOC2,PCI"
+IBMCloud 200_7156,ap-southeast-1,71,"ISO27001,SOC2,PCI v16 1582"
+IBMCloud 683_1487,ap-northeast-1,75,"ISO27001,SOC2,PCI V48"
+IBMCloud 881_943,asia-south1 v39,71,"ISO27001,SOC2,PCI"
+IBMCloud 839_1366,me-central-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 49_9935,sa-east-1,88,"ISO27001,SOC2,PCI v1"
+DigitalOcean 789 1500_9743,us-east-1,75,"ISO27001,GDPR"
+DIGITALOCEAN 628_5606,us-west-1,63,"ISO27001,GDPR"
+DigitalOcean 311_8818,us-west-2 468,79,"ISO27001,GDPR"
+DigitalOcean 903_3443,eu-west-1,82,"ISO27001,GDPR"
+DigitalOcean 209_2214,eu-central-1,86,"ISO27001,GDPR"
+DigitalOcean 225_1399,ap-south-1,65,"ISO27001,GDPR"
+DigitalOcean 11_9543,ap-southeast-1,64,"ISO27001,GDPR v24"
+DigitalOcean v9 447_4995,ap-northeast-1,65,"ISO27001,GDPR"
+DigitalOcean 220_6673,asia-south1,80,"ISO27001,GDPR v36"
+DigitalOcean 535_9467,me-central-1 957,65,"ISO27001,GDPR v13"
+DigitalOcean 229 556_1667,sa-east-1 v19,78,"ISO27001,GDPR 596"
+Linode 344_6332,us-east-1,72,ISO27001
+Linode 396 1501_5528,us-west-1 v16 1176,61,ISO27001
+LINODE V34 671_5315,us-west-2 v7,69,ISO27001
+Linode 359_6589,eu-west-1,71,ISO27001
+LINODE 546_9984,eu-central-1 v15,73,ISO27001 v11
+LINODE 196_9589,AP-SOUTH-1,61,ISO27001
+Linode 16 1445_6971,ap-southeast-1 v11,66,ISO27001
+LINODE V39 593_3741,ap-northeast-1,79,ISO27001
+Linode 940_8185,asia-south1,59,ISO27001 1593
+Linode 967 1651_3639,me-central-1 1054,72,ISO27001
+Linode v38 77_179,sa-east-1,73,ISO27001 199
+Hetzner 962 577_4623,us-east-1,77,ISO27001
+HETZNER 510_9474,US-WEST-1,79,ISO27001
+Hetzner 984_6326,us-west-2,70,ISO27001
+Hetzner 583_6591,eu-west-1 891,75,ISO27001 v26 1092
+Hetzner 615 549_9889,eu-central-1,69,ISO27001
+Hetzner 363_9601,ap-south-1 v19,59,ISO27001
+Hetzner v29 359_7859,ap-southeast-1,66,ISO27001
+Hetzner 324_3222,ap-northeast-1 v2 1542,65,ISO27001
+Hetzner 326_7239,asia-south1,69,ISO27001
+Hetzner v49 573 1701_7700,me-central-1,80,ISO27001 v37 727
+Hetzner 969_346,sa-east-1 v28,72,ISO27001 1043
+AlibabaCloud 737_4407,us-east-1,90,"ISO27001,SOC2 1970"
+AlibabaCloud 627_7694,us-west-1,77,"ISO27001,SOC2"
+AlibabaCloud v6 10_2091,us-west-2,70,"ISO27001,SOC2 692"
+AlibabaCloud 481_6746,eu-west-1,86,"ISO27001,SOC2"
+AlibabaCloud 333_6977,eu-central-1,66,"ISO27001,SOC2"
+AlibabaCloud 961 1972_4854,ap-south-1 v37,71,"ISO27001,SOC2 900"
+AlibabaCloud 707 1016_4216,ap-southeast-1,70,"ISO27001,SOC2"
+ALIBABACLOUD 718_7078,ap-northeast-1,64,"ISO27001,SOC2"
+AlibabaCloud 439_1031,asia-south1,73,"ISO27001,SOC2 v17"
+ALIBABACLOUD V46 997_3063,me-central-1,68,"ISO27001,SOC2"
+AlibabaCloud 821_5742,sa-east-1 326,80,"ISO27001,SOC2"
+TencentCloud 598 809_2623,us-east-1,65,"ISO27001,SOC2"
+TencentCloud 514_500,us-west-1,79,"ISO27001,SOC2 1040"
+TencentCloud 854_283,us-west-2,87,"ISO27001,SOC2"
+TENCENTCLOUD 772_7245,eu-west-1,70,"ISO27001,SOC2"
+TencentCloud 717_3140,eu-central-1 v36,74,"ISO27001,SOC2 v21"
+TencentCloud v37 601_4485,AP-SOUTH-1,87,"ISO27001,SOC2"
+TencentCloud 951_162,ap-southeast-1,85,"ISO27001,SOC2 951"
+TencentCloud 468_7821,ap-northeast-1,87,"ISO27001,SOC2"
+TencentCloud 270_6996,asia-south1,64,"ISO27001,SOC2 1110"
+TencentCloud 228_6496,me-central-1,71,"ISO27001,SOC2"
+TencentCloud 46_7863,sa-east-1 v17,77,"ISO27001,SOC2"
+OVHCLOUD 340_5855,us-east-1 v16,83,ISO27001
+OVHCloud v29 344_3886,US-WEST-1,78,ISO27001
+OVHCloud 473 1022_9065,us-west-2 1622,66,ISO27001
+OVHCloud 66_3997,eu-west-1 v19 1067,70,ISO27001 685
+OVHCloud 978_1251,eu-central-1 v15 32,78,ISO27001 v10
+OVHCloud 91_4498,AP-SOUTH-1 V22,76,ISO27001
+OVHCloud 901_2154,ap-southeast-1,62,ISO27001
+OVHCloud 589_401,ap-northeast-1,69,ISO27001
+OVHCloud 384_2159,asia-south1 v27,70,ISO27001
+OVHCloud 835_2449,me-central-1,83,ISO27001
+OVHCloud 319_9783,sa-east-1,62,ISO27001
+AWS 995 203_3564,us-east-1 310,92,"ISO27001,SOC2,HIPAA,GDPR v30 670"
+AWS 808_5571,us-west-1 v48 1654,95,"ISO27001,SOC2,HIPAA,GDPR v17"
+AWS v49 57_2637,us-west-2 290,98,"ISO27001,SOC2,HIPAA,GD"
+AWS 852_1843,EU-WEST-1 1982,96,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 697_2506,eu-central-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 738_2411,ap-south-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 330_5666,ap-southeast-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 892_6696,ap-northeast-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 356_8049,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 887_2484,me-central-1 v24,85,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 155_1056,sa-east-1,86,"ISO27001,SOC2,HIPAA,G"
+Azure 249_8058,us-east-1,101,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 134_2816,us-west-1,85,"ISO27001,SOC2,HIPAA,GDPR 651"
+Azure 390_1424,us-west-2,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 665_7582,eu-west-1 v22 903,101,"ISO27001,SOC2,HIPAA,GDPR v24"
+Azure 968 968_1833,eu-central-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 728_2752,ap-south-1 1906,91,"ISO27001,SOC2,HIPAA,GDPR 123"
+Azure v48 253_3905,ap-southeast-1,82,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 106_6696,ap-northeast-1,83,"ISO27001,SOC2,HIPAA,GDPR v35"
+Azure 316 1670_8562,asia-south1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 954_8315,me-central-1,77,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 779 1352_7192,sa-east-1,79,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v12 551_185,us-east-1,101,"ISO27001,SOC2,HIPAA,G"
+GCP 651_980,us-west-1,97,"ISO27001,SOC2,HIPAA,GD"
+GCP v36 799_1471,us-west-2,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP V33 425_7201,eu-west-1,81,"ISO27001,SOC2,HIPAA,GDPR 1899"
+GCP 713 1283_9260,eu-central-1,101,"ISO27001,SOC2,HIPAA,GDPR v24"
+GCP 253_9029,ap-south-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v41 230_5907,ap-southeast-1,94,"ISO27001,SOC2,HIPAA,GDPR v2"
+GCP 811_9543,ap-northeast-1 1625,90,"ISO27001,SOC2,HIPAA,GDPR 426"
+GCP 323_7874,asia-south1 v31,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 831_5547,me-central-1,96,"ISO27001,SOC2,HIPAA,GD"
+GCP V11 604_3906,sa-east-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 815_1718,us-east-1 v10,90,"ISO27001,SOC2,PCI"
+OracleCloud 562_6823,us-west-1 1948,93,"ISO27001,SOC2,PCI"
+OracleCloud 71_9026,us-west-2 273,80,"ISO27001,SOC2,PCI"
+ORACLECLOUD 594_4175,EU-WEST-1 1392,86,"ISO27001,SOC2,PCI"
+OracleCloud 600_1252,eu-central-1,83,"ISO27001,SOC2,PCI v41"
+OracleCloud 872_5905,ap-south-1,88,"ISO27001,SOC2,PCI"
+OracleCloud v20 43_1473,ap-southeast-1,68,"ISO27001,SOC2,PCI"
+OracleCloud 934_2521,ap-northeast-1,92,"ISO27001,SOC2,PCI v7 725"
+ORACLECLOUD 133_9693,asia-south1 652,83,"ISO27001,SOC2,PCI"
+OracleCloud 376_7955,me-central-1 v11 934,71,"ISO27001,SOC2,PCI v34"
+OracleCloud 467 1465_3034,sa-east-1 1242,79,"ISO27001,SOC2,PCI 1389"
+IBMCloud 213_3883,us-east-1,82,"ISO27001,SOC2,PCI"
+IBMCloud 573_4780,us-west-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 149 1296_9714,us-west-2,86,"ISO27001,SOC2,PCI"
+IBMCloud 324 1553_9757,eu-west-1 914,76,"ISO27001,SOC2,PCI"
+IBMCloud 82_6553,eu-central-1,90,"ISO27001,SOC2,PCI v20"
+IBMCloud 792_4678,ap-south-1 v1,74,"ISO27001,SOC2,PCI"
+IBMCloud 453_4584,ap-southeast-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 24_8073,ap-northeast-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 461_7794,asia-south1,74,"ISO27001,SOC2,PCI 979"
+IBMCloud 717 175_1475,me-central-1 v16,84,"ISO27001,SOC2,PCI"
+IBMCloud 438_9528,sa-east-1,77,"ISO27001,SOC2,PCI 455"
+DigitalOcean 706 570_3116,us-east-1,77,"ISO27001,GDPR"
+DigitalOcean 750_5719,us-west-1,72,"ISO27001,GDPR 877"
+DigitalOcean 497_8527,US-WEST-2,59,"ISO27001,GDPR"
+DigitalOcean 947_1592,eu-west-1,71,"ISO27001,GDPR"
+DigitalOcean 811_8240,EU-CENTRAL-1,77,"ISO27001,GDPR 1707"
+DigitalOcean 849 1297_1395,ap-south-1 v29,71,"ISO27001,GDPR"
+DigitalOcean 566_6889,ap-southeast-1,67,"ISO27001,GDPR"
+DIGITALOCEAN 924_6076,ap-northeast-1 v39 948,70,"ISO27001,GDPR"
+DigitalOcean 138_8318,asia-south1,81,"ISO27001,GDPR v3 422"
+DigitalOcean 862_6095,me-central-1 v42,82,"ISO27001,GDPR"
+DigitalOcean 416 538_5246,SA-EAST-1,70,"ISO27001,GDPR"
+Linode 371_8287,us-east-1 552,66,ISO27001
+Linode 253_9071,us-west-1 v1,75,ISO27001 94
+Linode 106_8913,us-west-2,69,ISO27001
+Linode 849_5013,eu-west-1 151,74,ISO27001
+Linode 743_650,eu-central-1,66,ISO27001 1204
+Linode 308_970,ap-south-1,80,ISO27001
+Linode 393_8093,ap-southeast-1 14,67,ISO27001
+Linode 110_6130,ap-northeast-1 v22 1374,67,ISO27001
+Linode 585 616_7807,asia-south1 v49,69,ISO27001
+Linode 565 1710_901,me-central-1,66,ISO27001
+Linode 356_7618,sa-east-1 1984,73,ISO27001
+Hetzner 557_6485,us-east-1,72,ISO27001
+Hetzner 905_9424,us-west-1,63,ISO27001 1995
+Hetzner 150_3865,us-west-2,67,ISO27001
+HETZNER 716_515,eu-west-1,55,ISO27001
+Hetzner 299_1913,eu-central-1,62,ISO27001 1915
+Hetzner 713_6001,AP-SOUTH-1,63,ISO27001
+Hetzner 723_318,AP-SOUTHEAST-1,76,ISO27001
+Hetzner 464_8360,ap-northeast-1 1190,72,ISO27001
+Hetzner 784_3915,asia-south1,64,ISO27001 1769
+Hetzner 371_3823,me-central-1,65,ISO27001
+Hetzner 487_914,sa-east-1,70,ISO27001
+AlibabaCloud 125_5759,us-east-1,76,"ISO27001,SOC2 v37"
+AlibabaCloud 214 316_8812,us-west-1 v17,74,"ISO27001,SOC2"
+AlibabaCloud 957 176_4856,US-WEST-2 1934,80,"ISO27001,SOC2"
+AlibabaCloud 578_6147,eu-west-1,65,"ISO27001,SOC2 1926"
+AlibabaCloud 363_6144,eu-central-1 847,78,"ISO27001,SOC2 v18 1808"
+AlibabaCloud 504 1303_5089,ap-south-1 v10,81,"ISO27001,SOC2"
+AlibabaCloud 644_7471,ap-southeast-1 v4,78,"ISO27001,SOC2"
+AlibabaCloud 973_6013,ap-northeast-1,74,"ISO27001,SOC2"
+AlibabaCloud 765_6165,asia-south1,66,"ISO27001,SOC2"
+AlibabaCloud 706_4965,me-central-1,85,"ISO27001,SOC2 v24 268"
+AlibabaCloud 570_5910,sa-east-1,64,"ISO27001,SOC2"
+TencentCloud 540_4824,us-east-1 v19,78,"ISO27001,SOC2"
+TencentCloud 637_1471,us-west-1 v35 1590,76,"ISO27001,SOC2"
+TencentCloud v10 42_5354,us-west-2,79,"ISO27001,SOC2"
+TencentCloud v21 700 1818_9851,eu-west-1,74,"ISO27001,SOC2"
+TencentCloud 441 978_2160,eu-central-1,74,"ISO27001,SOC2 1461"
+TencentCloud v5 506_1663,ap-south-1 603,72,"ISO27001,SOC2"
+TencentCloud 320 1710_3793,ap-southeast-1,71,"ISO27001,SOC2"
+TencentCloud 215_9170,ap-northeast-1,76,"ISO27001,SOC2"
+TencentCloud 568_3151,asia-south1,78,"ISO27001,SOC2"
+TencentCloud v23 987 1398_64,me-central-1,85,"ISO27001,SOC2"
+TencentCloud 887_2494,sa-east-1 v41,69,"ISO27001,SOC2 974"
+OVHCloud v34 60 1764_497,us-east-1,87,ISO27001
+OVHCloud 819_2334,us-west-1 v49,65,ISO27001
+OVHCloud 287 110_8088,us-west-2,64,ISO27001 V37
+OVHCLOUD 169_9840,eu-west-1,74,ISO27001
+OVHCLOUD V29 14_266,eu-central-1,88,ISO27001
+OVHCloud 420_3536,ap-south-1,77,ISO27001 131
+OVHCloud 847_7471,AP-SOUTHEAST-1,70,ISO27001
+OVHCloud v8 560_3856,ap-northeast-1 v26,68,ISO27001
+OVHCloud 28 146_6242,asia-south1,73,ISO27001
+OVHCloud 446 1523_6185,me-central-1,64,ISO27001 351
+OVHCloud v16 716_8408,sa-east-1 487,64,ISO27001
+AWS 104_9535,US-EAST-1,89,"ISO27001,SOC2,HIPAA,G"
+AWS 101 1053_7684,us-west-1 1700,92,"ISO27001,SOC2,HIPAA,GDPR v42"
+AWS 522_2771,us-west-2,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 679_5118,eu-west-1 235,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 769_8304,eu-central-1 1029,77,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 277_3368,ap-south-1,99,"ISO27001,SOC2,HIPAA,GD"
+AWS 783_679,ap-southeast-1,91,"ISO27001,SOC2,HIPAA,GDPR 199"
+AWS 188_816,ap-northeast-1,98,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 138_9019,asia-south1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 105_8511,me-central-1 1502,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 380_781,sa-east-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 354_8745,us-east-1 1268,91,"ISO27001,SOC2,HIPAA,GDPR 152"
+Azure 317_4896,us-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 694_6564,us-west-2,101,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 333_4239,eu-west-1,78,"ISO27001,SOC2,HIPAA,GDPR v1"
+Azure v1 592_5842,eu-central-1,77,"ISO27001,SOC2,HIPAA,GDPR 1594"
+Azure v15 540 1412_2987,ap-south-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 496 1790_507,ap-southeast-1 v31,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 657 583_8306,ap-northeast-1,94,"ISO27001,SOC2,HIPAA,GDPR 905"
+Azure 866 1573_1322,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 796_6365,me-central-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 992_4082,sa-east-1,100,"ISO27001,SOC2,HIPAA,GDPR 1776"
+GCP 317_4376,us-east-1 1586,78,"ISO27001,SOC2,HIPAA,GD"
+GCP 495_4807,us-west-1 v31,82,"ISO27001,SOC2,HIPAA"
+GCP 522_7377,us-west-2 613,101,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v8 717 479_451,eu-west-1 1945,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v5 542_5503,eu-central-1,82,"ISO27001,SOC2,HIPAA,GD"
+GCP 971_4959,ap-south-1 v31,83,"ISO27001,SOC2,HIPAA,GDPR 1944"
+GCP 560_4026,ap-southeast-1,94,"ISO27001,SOC2,HIPAA,G"
+GCP 130_5891,ap-northeast-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 132_5673,asia-south1 v37,84,"ISO27001,SOC2,HIPAA,GDPR 1051"
+GCP v36 387_6934,me-central-1,96,"ISO27001,SOC2,HIPAA,GDPR v25"
+GCP 982_7507,sa-east-1,102,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 460_4027,US-EAST-1 102,82,"ISO27001,SOC2,PCI"
+ORACLECLOUD 802_5858,us-west-1,96,"ISO27001,SOC2,PCI"
+OracleCloud 862_6003,us-west-2 543,94,"ISO27001,SOC2,PCI v10 1465"
+OracleCloud 754_3251,eu-west-1,77,"ISO27001,SOC2,PCI v6"
+ORACLECLOUD 350_8902,eu-central-1,75,"ISO27001,SOC2,PCI"
+OracleCloud v2 912_431,ap-south-1,82,"ISO27001,SOC2,PCI 1814"
+OracleCloud 757 693_378,ap-southeast-1,71,"ISO27001,SOC2,PCI"
+OracleCloud 306_4265,ap-northeast-1 206,93,"ISO27001,SOC2,PCI v"
+OracleCloud 520_5244,asia-south1 v13 1662,84,"ISO27001,SOC2,PCI v44"
+OracleCloud 558_3583,me-central-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 166_1789,sa-east-1,77,"ISO27001,SOC2,PCI v19"
+IBMCloud 139 196_6518,US-EAST-1,75,"ISO27001,SOC2,PCI"
+IBMCloud 299 862_5388,us-west-1 719,78,"ISO27001,SOC2,PCI"
+IBMCloud 916_695,us-west-2,76,"ISO27001,SOC2,PCI"
+IBMCloud v21 825_8919,eu-west-1,75,"ISO27001,SOC2,PCI 3"
+IBMCloud 842_106,eu-central-1 1445,67,"ISO27001,SOC2,PCI"
+IBMCLOUD 154_5781,ap-south-1,81,"ISO27001,SOC2,PCI"
+IBMCloud 878_410,AP-SOUTHEAST-1,76,"ISO27001,SOC2,PCI 307"
+IBMCloud 671_1176,ap-northeast-1,69,"ISO27001,SOC2,PCI"
+IBMCloud 759_6921,asia-south1,74,"ISO27001,SOC2,PCI"
+IBMCloud v4 846_9375,ME-CENTRAL-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 623 1199_1338,sa-east-1,74,"ISO27001,SOC2,PCI v26"
+DigitalOcean v48 145_3227,us-east-1,76,"ISO27001,GDPR"
+DIGITALOCEAN 753_6747,us-west-1 v19 1756,78,"ISO27001,GDPR 118"
+DigitalOcean 831_529,US-WEST-2,71,"ISO27001,GDPR"
+DigitalOcean v29 976_8027,eu-west-1,87,"ISO27001,GDPR"
+DIGITALOCEAN 104_9938,eu-central-1,68,"ISO27001,GDPR 1013"
+DigitalOcean v11 568_8743,ap-south-1 v7,84,"ISO27001,GDPR"
+DigitalOcean 345 1421_7208,ap-southeast-1,81,"ISO27001,GDPR"
+DigitalOcean v19 426_4523,ap-northeast-1,76,"ISO27001,GDPR"
+DigitalOcean 23_7908,asia-south1 1133,72,"ISO27001,GDPR v36"
+DigitalOcean v47 834_4310,me-central-1 v13,84,"ISO27001,GDPR"
+DigitalOcean 144_7833,sa-east-1,62,"ISO27001,GDPR"
+Linode 589_2481,US-EAST-1,75,ISO27001 v28
+Linode 681_9667,us-west-1,71,ISO27001
+Linode 416 1332_4609,us-west-2,63,ISO27001 1466
+Linode 827 1227_5571,eu-west-1 v34 1690,76,ISO27001
+Linode v41 230 389_365,EU-CENTRAL-1 800,57,ISO27001
+LINODE 680_6735,ap-south-1 v32,63,ISO27001
+Linode 156_2441,AP-SOUTHEAST-1 381,72,ISO27001 727
+Linode v37 705 323_3617,AP-NORTHEAST-1,63,ISO27001
+Linode 330_7763,asia-south1,79,ISO27001
+Linode 132_9789,me-central-1,65,ISO27001
+Linode 382_1980,sa-east-1,58,ISO27001
+Hetzner 843 456_8933,us-east-1,70,ISO27001 v47
+Hetzner 396_2829,us-west-1,65,ISO27001
+Hetzner 464_7977,us-west-2,65,ISO27001
+Hetzner 331_1034,eu-west-1 v35,62,ISO27001
+Hetzner 285 1279_7554,eu-central-1,66,ISO27001 v3
+Hetzner 20 124_3355,ap-south-1,66,ISO27001
+Hetzner v47 310_9836,ap-southeast-1,62,ISO27001 v49 1485
+Hetzner 104_7033,ap-northeast-1 v31,77,ISO27001
+Hetzner 186_8699,asia-south1 1550,82,ISO27001
+Hetzner 281 255_830,me-central-1 216,71,ISO27001 v30 81
+Hetzner v19 732_5862,sa-east-1 926,63,ISO27001
+AlibabaCloud 223_7603,us-east-1 759,75,"ISO27001,SOC2"
+AlibabaCloud 236 655_8895,us-west-1,78,"ISO27001,SOC2 v3"
+AlibabaCloud 465 1566_991,us-west-2,85,"ISO27001,SOC2"
+AlibabaCloud 654_3271,eu-west-1,67,"ISO27001,SOC2 v17"
+AlibabaCloud 521_8576,EU-CENTRAL-1 1619,73,"ISO27001,SOC2"
+AlibabaCloud v30 972_7314,ap-south-1,70,"ISO27001,SOC2"
+AlibabaCloud 992_5888,ap-southeast-1,84,"ISO27001,SOC2"
+AlibabaCloud 276_1082,ap-northeast-1,89,"ISO27001,SOC2"
+AlibabaCloud 53_831,asia-south1,79,"ISO27001,SOC2 690"
+AlibabaCloud 948_9873,me-central-1 v47,75,"ISO27001,SOC2 594"
+AlibabaCloud 4_889,sa-east-1 867,75,"ISO27001,SOC2 1366"
+TencentCloud 684_7981,us-east-1 1363,83,"ISO27001,SOC2 1742"
+TencentCloud 870_1627,us-west-1,80,"ISO27001,SOC2"
+TENCENTCLOUD 213_3505,US-WEST-2,75,"ISO27001,SOC2"
+TencentCloud 852_8189,eu-west-1,71,"ISO27001,SOC2 13"
+TencentCloud 205 1527_9381,eu-central-1 v4,90,"ISO27001,SOC2 934"
+TencentCloud v9 77_8246,AP-SOUTH-1 V4,70,"ISO27001,SOC2"
+TencentCloud v48 614 1016_6251,ap-southeast-1,85,"ISO27001,SOC2 1948"
+TencentCloud 476_6014,ap-northeast-1 v42,82,"ISO27001,SOC2"
+TencentCloud 275_7058,asia-south1,72,"ISO27001,SOC2"
+TencentCloud 723 1848_9690,me-central-1,76,"ISO27001,SOC2"
+TencentCloud 77_3509,sa-east-1 1769,62,"ISO27001,SOC2 v13"
+OVHCloud 540_4269,us-east-1 1501,71,ISO27001
+AWS 1037_5032,us-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_4818,us-west-1,94,"ISO27001,SOC2,HIPAA,GD"
+AWS_3543,us-west-2 76,83,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_6608,eu-west-1,80,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_9995,eu-central-1 908,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_6461,ap-south-1 850,80,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 1596_9364,ap-southeast-1,87,"ISO27001,SOC2,HIPAA,GDPR 1705"
+AWS 9_702,ap-northeast-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 632_40,asia-south1 503,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_6127,me-central-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS_6873,sa-east-1,86,"ISO27001,SOC2,HIPAA,GD"
+Azure_6034,us-east-1,98,"ISO27001,SOC2,HIPAA,GDPR 10"
+Azure_4648,us-west-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_93,us-west-2 533,94,"ISO27001,SOC2,HIPAA,GDPR 1951"
+Azure_4042,eu-west-1,80,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_2972,eu-central-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 321_4507,ap-south-1,93,"ISO27001,SOC2,HIPAA,GDPR 1365"
+Azure_1814,ap-southeast-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_2045,ap-northeast-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_3047,asia-south1,97,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 1487_2250,me-central-1 1646,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure_5357,sa-east-1 1701,90,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_7841,us-east-1,86,"ISO27001,SOC2,HIPAA,GD"
+GCP_2475,us-west-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_2202,us-west-2,89,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_4685,eu-west-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_3072,eu-central-1,82,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_6891,ap-south-1,92,"ISO27001,SOC2,HIPAA,GDPR 800"
+GCP_1798,ap-southeast-1,80,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_35,ap-northeast-1 1044,87,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 619_3858,asia-south1,81,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_5016,me-central-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP_8253,sa-east-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 96_514,us-east-1,75,"ISO27001,SOC2,PCI 818"
+OracleCloud_6197,us-west-1,78,"ISO27001,SOC2,PCI"
+OracleCloud_6401,us-west-2,90,"ISO27001,SOC2,PCI"
+OracleCloud_1530,eu-west-1,91,"ISO27001,SOC2,PCI"
+OracleCloud 1143_3263,eu-central-1,82,"ISO27001,SOC2,PCI"
+OracleCloud_9734,ap-south-1,92,"ISO27001,SOC2,PCI"
+OracleCloud 1633_1952,ap-southeast-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 1739_871,AP-NORTHEAST-1,88,"ISO27001,SOC2,PCI"
+OracleCloud 504_7594,asia-south1,78,"ISO27001,SOC2,PCI"
+OracleCloud 255_4894,me-central-1,81,"ISO27001,SOC2,PCI"
+OracleCloud_6573,sa-east-1,81,"ISO27001,SOC2,PCI 522"
+IBMCloud_7341,us-east-1,82,"ISO27001,SOC2,PCI 1429"
+IBMCloud_8024,us-west-1 1253,87,"ISO27001,SOC2,PCI"
+IBMCLOUD_9258,us-west-2,70,"ISO27001,SOC2,PCI"
+IBMCloud 1113_909,eu-west-1 250,80,"ISO27001,SOC2,PCI"
+IBMCloud 279_1793,eu-central-1,71,"ISO27001,SOC2,PCI"
+IBMCloud_9825,ap-south-1,76,"ISO27001,SOC2,PCI 273"
+IBMCloud_6922,ap-southeast-1,81,"ISO27001,SOC2,PCI"
+IBMCloud_6211,ap-northeast-1 1155,86,"ISO27001,SOC2,PCI"
+IBMCloud_3920,asia-south1,88,"ISO27001,SOC2,PCI"
+IBMCloud_4259,me-central-1,75,"ISO27001,SOC2,PCI"
+IBMCloud_1442,sa-east-1 1601,86,"ISO27001,SOC2,PCI"
+DigitalOcean_9874,us-east-1,74,"ISO27001,GDPR"
+DigitalOcean_6938,us-west-1,81,"ISO27001,GDPR"
+DigitalOcean 1443_6348,us-west-2,72,"ISO27001,GDPR"
+DigitalOcean 1959_6859,eu-west-1,63,"ISO27001,GDPR"
+DigitalOcean 1294_4368,eu-central-1,78,"ISO27001,GDPR"
+DigitalOcean_2230,ap-south-1,65,"ISO27001,GDPR 708"
+DigitalOcean_9539,AP-SOUTHEAST-1,81,"ISO27001,GDPR"
+DigitalOcean_1657,ap-northeast-1 533,66,"ISO27001,GDPR"
+DigitalOcean_109,asia-south1,71,"ISO27001,GDPR"
+DigitalOcean_1678,me-central-1 350,80,"ISO27001,GDPR"
+DigitalOcean_1665,sa-east-1,70,"ISO27001,GDPR"
+Linode_2302,us-east-1 1277,71,ISO27001
+Linode_1093,us-west-1,64,ISO27001
+LINODE_167,us-west-2,76,ISO27001 941
+Linode_8185,eu-west-1,67,ISO27001
+Linode_2704,eu-central-1,71,ISO27001
+Linode 994_8290,ap-south-1 1196,73,ISO27001
+Linode_6742,ap-southeast-1,64,ISO27001
+Linode_9146,ap-northeast-1,65,ISO27001 1980
+Linode_7713,asia-south1,77,ISO27001
+Linode_829,me-central-1 806,64,ISO27001
+Linode_9996,sa-east-1 1655,78,ISO27001
+Hetzner_8724,us-east-1,75,ISO27001
+Hetzner_7352,us-west-1 874,68,ISO27001 1140
+Hetzner_9507,us-west-2 989,65,ISO27001
+Hetzner 446_5202,eu-west-1,69,ISO27001 1450
+Hetzner_3591,eu-central-1,67,ISO27001
+Hetzner_9074,ap-south-1,58,ISO27001 1986
+Hetzner_4578,ap-southeast-1,63,ISO27001 137
+Hetzner_9888,ap-northeast-1,67,ISO27001 68
+Hetzner_2598,asia-south1,58,ISO27001 1811
+Hetzner_7116,me-central-1 1813,70,ISO27001
+Hetzner 54_969,sa-east-1 243,61,ISO27001
+AlibabaCloud_418,us-east-1,77,"ISO27001,SOC2"
+AlibabaCloud_9473,us-west-1 1219,72,"ISO27001,SOC2"
+AlibabaCloud_4844,us-west-2,88,"ISO27001,SOC2"
+AlibabaCloud_6599,eu-west-1 879,80,"ISO27001,SOC2"
+AlibabaCloud_2426,eu-central-1,77,"ISO27001,SOC2 1569"
+AlibabaCloud_3344,AP-SOUTH-1,70,"ISO27001,SOC2 122"
+AlibabaCloud_8391,ap-southeast-1,86,"ISO27001,SOC2"
+AlibabaCloud_7991,ap-northeast-1,73,"ISO27001,SOC2"
+AlibabaCloud_979,asia-south1 1940,75,"ISO27001,SOC2"
+AlibabaCloud_8183,me-central-1,82,"ISO27001,SOC2"
+AlibabaCloud 138_893,sa-east-1,82,"ISO27001,SOC2"
+TENCENTCLOUD_3729,us-east-1,68,"ISO27001,SOC2"
+TencentCloud 1455_2055,us-west-1,84,"ISO27001,SOC2"
+TencentCloud_7669,us-west-2,68,"ISO27001,SOC2 296"
+TencentCloud_8847,eu-west-1,67,"ISO27001,SOC2 140"
+TencentCloud_9000,eu-central-1,83,"ISO27001,SOC2"
+TencentCloud_8506,ap-south-1 715,71,"ISO27001,SOC2"
+TencentCloud_645,ap-southeast-1,80,"ISO27001,SOC2"
+TencentCloud 832_6320,ap-northeast-1,71,"ISO27001,SOC2"
+TencentCloud_7345,asia-south1,67,"ISO27001,SOC2 290"
+TencentCloud_3104,me-central-1,81,"ISO27001,SOC2 170"
+TencentCloud_4123,sa-east-1,66,"ISO27001,SOC2"
+OVHCloud_3774,us-east-1,81,ISO27001
+OVHCloud_9692,us-west-1,71,ISO27001
+OVHCloud_4045,us-west-2,73,ISO27001
+OVHCloud_3075,eu-west-1,65,ISO27001 1118
+OVHCloud_3645,eu-central-1 1487,81,ISO27001
+OVHCloud_4030,ap-south-1,66,ISO27001 1082
+OVHCloud_6813,ap-southeast-1,68,ISO27001
+OVHCloud_7775,ap-northeast-1,82,ISO27001 1176
+OVHCloud 537_6321,asia-south1,83,ISO27001
+OVHCloud 1447_6384,me-central-1,74,ISO27001
+OVHCloud_9675,sa-east-1 1335,67,ISO27001
+AWS v27 92_7758,us-east-1 732,93,"ISO27001,SOC2,HIPAA,G"
+AWS v16 238 252_5838,us-west-1,83,"ISO27001,SOC2,HIPAA,GD"
+AWS 372_1991,us-west-2,93,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 694_5804,eu-west-1 v20,82,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 530 743_2115,eu-central-1 v25,94,"ISO27001,SOC2,HIPAA,GDPR v21"
+AWS 57_3566,AP-SOUTH-1,83,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 384_931,ap-southeast-1,90,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 193_6978,ap-northeast-1 1228,78,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 426_9022,asia-south1,93,"ISO27001,SOC2,HIPAA,G"
+AWS 227 1376_1409,ME-CENTRAL-1,93,"ISO27001,SOC2,HIPAA,G"
+AWS 552_6168,sa-east-1 764,85,"ISO27001,SOC2,HIPAA,GDPR 1165"
+Azure v3 639 290_2993,us-east-1,99,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 55_2863,us-west-1 v45,91,"ISO27001,SOC2,HIPAA,GDPR"
+AZURE 436_1122,us-west-2,90,"ISO27001,SOC2,HIPAA,GDPR 355"
+Azure 981_8186,eu-west-1 1838,80,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 951_8705,EU-CENTRAL-1,99,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v48 198_1924,AP-SOUTH-1 1961,97,"ISO27001,SOC2,HIPAA,GDPR"
+AZURE 373_8896,ap-southeast-1 400,95,"ISO27001,SOC2,HIPAA,G"
+Azure 599_7987,ap-northeast-1,77,"ISO27001,SOC2,HIPAA,GD"
+Azure 849_8412,asia-south1,93,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 211_1291,ME-CENTRAL-1 V2,78,"ISO27001,SOC2,HIPAA,GD"
+Azure 703_4496,sa-east-1 v7,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 42_3874,us-east-1,101,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 788_238,US-WEST-1 1000,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v9 283_8327,us-west-2,77,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v47 19_5744,eu-west-1,80,"ISO27001,SOC2,HIPAA,GDPR v36"
+GCP 837_8832,EU-CENTRAL-1 1561,93,"ISO27001,SOC2,HIPAA,GDPR 548"
+GCP 466_9560,ap-south-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 758_6655,ap-southeast-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 967_6931,ap-northeast-1,92,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 548_3188,asia-south1,86,"ISO27001,SOC2,HIPAA,GDPR v39"
+GCP 998 295_8172,me-central-1 v40,79,"ISO27001,SOC2,HIPAA,GDPR 817"
+GCP 709_67,sa-east-1,90,"ISO27001,SOC2,HIPAA,GD"
+OracleCloud v30 728_9667,us-east-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 196_4362,us-west-1,80,"ISO27001,SOC2,PCI"
+OracleCloud 664_8810,us-west-2,73,"ISO27001,SOC2,PCI"
+OracleCloud v14 146_8536,eu-west-1 944,86,"ISO27001,SOC2,PCI"
+OracleCloud v42 723_2508,eu-central-1,92,"ISO27001,SOC2,PCI"
+ORACLECLOUD V12 798_8360,ap-south-1 v18,71,"ISO27001,SOC2,PCI 1245"
+ORACLECLOUD 715_5118,AP-SOUTHEAST-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 279_9622,ap-northeast-1,72,"ISO27001,SOC2,PCI"
+OracleCloud 641_4252,asia-south1 446,81,"ISO27001,SOC2,PCI"
+OracleCloud 271_7402,me-central-1 320,76,"ISO27001,SOC2,PCI"
+OracleCloud 700_5259,sa-east-1 248,89,"ISO27001,SOC2,PCI"
+IBMCloud 726_9866,US-EAST-1,72,"ISO27001,SOC2,PCI"
+IBMCloud v27 365_8600,us-west-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 321_1034,us-west-2,71,"ISO27001,SOC2,PCI"
+IBMCloud 109_7133,eu-west-1,88,"ISO27001,SOC2,PCI v49"
+IBMCloud 522_2520,eu-central-1,83,"ISO27001,SOC2,PCI"
+IBMCloud 827_420,ap-south-1,85,"ISO27001,SOC2,PCI 1953"
+IBMCLOUD 892_7498,ap-southeast-1 1596,77,"ISO27001,SOC2,PCI"
+IBMCloud 880 458_4419,ap-northeast-1,80,"ISO27001,SOC2,PCI v18"
+IBMCloud 732_572,asia-south1 1634,86,"ISO27001,SOC2,PCI"
+IBMCloud 679_3632,me-central-1,80,"ISO27001,SOC2,PCI 1292"
+IBMCloud 989_5522,sa-east-1,84,"ISO27001,SOC2,PCI"
+DIGITALOCEAN V18 822_2381,US-EAST-1,72,"ISO27001,GDPR 1559"
+DigitalOcean 839 374_6268,us-west-1,67,"ISO27001,GDPR"
+DIGITALOCEAN 508_4150,us-west-2 v36,58,"ISO27001,GDPR"
+DigitalOcean 713_3949,eu-west-1 v38,78,"ISO27001,GDPR v9"
+DigitalOcean 255_8635,eu-central-1,83,"ISO27001,GDPR 444"
+DigitalOcean 547_7167,ap-south-1,66,"ISO27001,GDPR"
+DigitalOcean 389 1775_2210,ap-southeast-1 1103,67,"ISO27001,GDPR"
+DigitalOcean 167 603_6793,ap-northeast-1,76,"ISO27001,GDPR"
+DigitalOcean 412_5471,asia-south1 v20,83,"ISO27001,GDPR"
+DigitalOcean 235_6121,me-central-1 v12,76,"ISO27001,GDPR"
+DigitalOcean 159 1196_1852,sa-east-1,77,"ISO27001,GDPR"
+Linode 816_2767,us-east-1,77,ISO27001
+Linode 893_2210,us-west-1,67,ISO27001
+Linode v38 68 1575_6427,us-west-2,70,ISO27001
+Linode 217_4441,EU-WEST-1,80,ISO27001
+Linode 135 305_6587,eu-central-1 1380,66,ISO27001
+Linode 351_1826,AP-SOUTH-1,80,ISO27001
+LINODE 133_6010,ap-southeast-1,70,ISO27001
+Linode v44 810_1126,AP-NORTHEAST-1,61,ISO27001
+Linode 380_5020,asia-south1,72,ISO27001
+Linode 658_886,me-central-1,69,ISO27001
+Linode 463_4174,sa-east-1 v2,73,ISO27001
+Hetzner 17 5_6139,us-east-1,65,ISO27001
+Hetzner 327_2463,us-west-1,64,ISO27001
+Hetzner 479_6615,us-west-2,71,ISO27001
+Hetzner v39 710_8628,EU-WEST-1,75,ISO27001 v34
+Hetzner 486_9549,eu-central-1 1613,69,ISO27001
+Hetzner 179_5896,ap-south-1,67,ISO27001
+HETZNER 690_7494,ap-southeast-1 v34 1221,77,ISO27001
+Hetzner 416_9612,ap-northeast-1,75,ISO27001
+Hetzner 515_9382,asia-south1 1753,63,ISO27001
+Hetzner 854 1920_4118,me-central-1,68,ISO27001
+HETZNER V10 579_8719,sa-east-1,72,ISO27001
+AlibabaCloud 519_9205,us-east-1 v12 1821,69,"ISO27001,SOC2"
+AlibabaCloud v13 834 604_8173,us-west-1,73,"ISO27001,SOC2 926"
+AlibabaCloud 138 1115_8944,us-west-2,82,"ISO27001,SOC2"
+AlibabaCloud 529_4338,eu-west-1 v39,73,"ISO27001,SOC2"
+AlibabaCloud 646_5874,eu-central-1,74,"ISO27001,SOC2"
+AlibabaCloud 325 1857_477,ap-south-1,71,"ISO27001,SOC2 1629"
+AlibabaCloud 905_7806,ap-southeast-1 1476,80,"ISO27001,SOC2"
+ALIBABACLOUD 723_4010,ap-northeast-1,89,"ISO27001,SOC2 v13"
+AlibabaCloud 536_3778,asia-south1,71,"ISO27001,SOC2"
+ALIBABACLOUD 516_3040,me-central-1 1932,75,"ISO27001,SOC2"
+AlibabaCloud 955 143_6196,sa-east-1,76,"ISO27001,SOC2"
+TencentCloud v35 869 1954_6669,us-east-1 v3,64,"ISO27001,SOC2"
+TencentCloud 688_6680,us-west-1,88,"ISO27001,SOC2"
+TencentCloud 620_4005,us-west-2 v35,79,"ISO27001,SOC2 155"
+TENCENTCLOUD V25 324_2587,eu-west-1,76,"ISO27001,SOC2 v13"
+TencentCloud v46 262_1289,eu-central-1 917,74,"ISO27001,SOC2 1444"
+TENCENTCLOUD 420_3035,ap-south-1,67,"ISO27001,SOC2"
+TencentCloud 355_6283,ap-southeast-1,84,"ISO27001,SOC2 v49"
+TencentCloud 770_3020,ap-northeast-1,63,"ISO27001,SOC2"
+TencentCloud v13 66 1290_9211,asia-south1 1879,72,"ISO27001,SOC2"
+TencentCloud 474_5682,me-central-1 v28,78,"ISO27001,SOC2"
+TencentCloud 439 1469_9448,sa-east-1 v22,88,"ISO27001,SOC2"
+OVHCloud 227_2861,us-east-1,61,ISO27001
+OVHCloud 581 531_5939,us-west-1 v12,81,ISO27001 1190
+OVHCloud 551_8705,us-west-2 v20,65,ISO27001
+OVHCloud 825 553_2210,eu-west-1,85,ISO27001
+OVHCloud 493_9953,eu-central-1,73,ISO27001 880
+OVHCloud 970_7879,ap-south-1 789,75,ISO27001
+OVHCloud 57_650,ap-southeast-1,61,ISO27001
+OVHCloud v40 336_8399,ap-northeast-1,79,ISO27001
+OVHCloud 888_5033,asia-south1,72,ISO27001 v3
+OVHCloud 730 1938_1537,me-central-1,76,ISO27001
+OVHCloud 894 562_3484,sa-east-1,71,ISO27001 919
+AWS 117_4781,us-east-1,97,"ISO27001,SOC2,HIPAA,GDPR 1508"
+AWS 906 632_6973,us-west-1 1576,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 162 836_3609,us-west-2 v42,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 543 314_7788,eu-west-1 v3 478,101,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 237_8464,eu-central-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 66 356_8153,ap-south-1 1429,101,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 809_5166,ap-southeast-1 1986,89,"ISO27001,SOC2,HIPAA,GD"
+AWS v32 441 1218_4559,ap-northeast-1 1082,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 946 1824_5176,ASIA-SOUTH1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 396_7667,me-central-1,100,"ISO27001,SOC2,HIPAA,GDPR 1003"
+AWS v7 657_664,sa-east-1,99,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 326_1063,us-east-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v23 750_1347,us-west-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 166_5996,us-west-2,87,"ISO27001,SOC2,HIPAA,GD"
+Azure 214_566,eu-west-1,85,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 335_3215,eu-central-1 v20,88,"ISO27001,SOC2,HIPAA,GD"
+Azure 861_5969,ap-south-1,81,"ISO27001,SOC2,HIPAA,GDPR 41"
+AZURE 677_9922,ap-southeast-1,94,"ISO27001,SOC2,HIPAA,G 120"
+Azure 52 1765_6498,ap-northeast-1,88,"ISO27001,SOC2,HIPAA,GDPR 286"
+Azure 626_572,asia-south1 v33,96,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 786 1669_8752,me-central-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 374 1028_6891,sa-east-1,91,"ISO27001,SOC2,HIPAA,G"
+GCP v37 479 765_9481,us-east-1,77,"ISO27001,SOC2,HIPAA,GD"
+GCP 300_5737,us-west-1 v10,90,"ISO27001,SOC2,HIPAA,GDPR v48"
+GCP v18 225_2572,us-west-2,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 358 233_2141,eu-west-1,98,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 668_6337,eu-central-1,78,"ISO27001,SOC2,HIPAA,GDPR "
+GCP 350_5984,ap-south-1 1012,82,"ISO27001,SOC2,HIPAA,GDPR 19"
+GCP 464_5574,ap-southeast-1,102,"ISO27001,SOC2,HIPAA,G"
+GCP 837_3790,ap-northeast-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v28 792_9421,asia-south1 v39 565,90,"ISO27001,SOC2,HIPAA,GDPR 628"
+GCP 314_4776,ME-CENTRAL-1,89,"ISO27001,SOC2,HIPAA,GDPR v30 566"
+GCP 922 1753_7247,sa-east-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud v7 187_5536,us-east-1 v42,83,"ISO27001,SOC2,PCI"
+OracleCloud v38 471 1373_9916,us-west-1 329,76,"ISO27001,SOC2,PCI 766"
+OracleCloud 565 1693_2929,us-west-2 760,82,"ISO27001,SOC2,PCI"
+OracleCloud 560_3356,eu-west-1,76,"ISO27001,SOC2,PCI 1652"
+OracleCloud 905_4191,eu-central-1 1793,81,"ISO27001,SOC2,PCI"
+OracleCloud 637_665,ap-south-1,80,"ISO27001,SOC2,PCI 635"
+OracleCloud 179_1208,ap-southeast-1,79,"ISO27001,SOC2,PCI"
+ORACLECLOUD V39 64_9435,ap-northeast-1,79,"ISO27001,SOC2,PCI v3 967"
+OracleCloud 97 523_7044,asia-south1,79,"ISO27001,SOC2,PCI v11"
+OracleCloud 442_9391,ME-CENTRAL-1 977,91,"ISO27001,SOC2,PCI"
+OracleCloud 411 726_446,sa-east-1,77,"ISO27001,SOC2,PCI"
+IBMCloud v33 551_128,us-east-1,77,"ISO27001,SOC2,PCI"
+IBMCloud 46_7668,us-west-1,72,"ISO27001,SOC2,PCI"
+IBMCloud 603_6749,us-west-2,71,"ISO27001,SOC2,PCI 1585"
+IBMCloud 111_8159,eu-west-1,84,"ISO27001,SOC2,PCI v11 1678"
+IBMCloud 123_8631,eu-central-1 645,75,"ISO27001,SOC2,PCI"
+IBMCloud 291_4250,ap-south-1 v1,71,"ISO27001,SOC2,PCI 1382"
+IBMCloud 897_380,ap-southeast-1,76,"ISO27001,SOC2,PCI 374"
+IBMCLOUD V25 596_6352,ap-northeast-1 v43,73,"ISO27001,SOC2,PCI"
+IBMCLOUD V3 210_3754,asia-south1,73,"ISO27001,SOC2,PCI v2"
+IBMCloud 581_6573,me-central-1 144,80,"ISO27001,SOC2,PCI"
+IBMCloud 258_9805,sa-east-1,89,"ISO27001,SOC2,PCI"
+DigitalOcean 10_8672,us-east-1 v34,67,"ISO27001,GDPR v31"
+DigitalOcean 76_6984,US-WEST-1,68,"ISO27001,GDPR 1138"
+DigitalOcean 85_4534,us-west-2 v36,68,"ISO27001,GDPR"
+DigitalOcean 495_4353,EU-WEST-1,72,"ISO27001,GDPR"
+DigitalOcean 689_9687,eu-central-1,62,"ISO27001,GDPR 1630"
+DigitalOcean 970_3372,ap-south-1,61,"ISO27001,GDPR"
+DigitalOcean 218_1562,AP-SOUTHEAST-1,80,"ISO27001,GDPR 501"
+DigitalOcean 346_2418,ap-northeast-1,80,"ISO27001,GDPR v45 427"
+DigitalOcean 26 422_660,asia-south1,80,"ISO27001,GDPR v44"
+DigitalOcean 261_5895,me-central-1,80,"ISO27001,GDPR"
+DigitalOcean 656_8811,sa-east-1,71,"ISO27001,GDPR"
+Linode 656_233,us-east-1,69,ISO27001
+Linode 259 682_6702,us-west-1,70,ISO27001
+Linode 47_8092,us-west-2,77,ISO27001
+Linode 208_3839,eu-west-1 v31,80,ISO27001
+Linode 747_408,eu-central-1,72,ISO27001
+Linode 834_3547,ap-south-1,75,ISO27001
+Linode 678_3493,ap-southeast-1,67,ISO27001 v27 677
+Linode 174_5224,ap-northeast-1 v26,67,ISO27001 v38
+Linode 907_293,ASIA-SOUTH1,82,ISO27001
+Linode 776 339_4111,me-central-1,77,ISO27001 231
+Linode v33 199_4811,sa-east-1,70,ISO27001
+Hetzner 533_688,us-east-1,74,ISO27001 1496
+HETZNER 371_6969,us-west-1,64,ISO27001
+Hetzner 788 540_5590,us-west-2 v21,73,ISO27001
+Hetzner 58_9588,eu-west-1,65,ISO27001
+Hetzner 249_4506,eu-central-1,65,ISO27001 1529
+Hetzner 271_4441,ap-south-1,69,ISO27001
+Hetzner v30 394_973,ap-southeast-1,73,ISO27001 670
+HETZNER 592_8248,AP-NORTHEAST-1,61,ISO27001
+Hetzner 84_420,ASIA-SOUTH1,70,ISO27001
+Hetzner 549_1447,me-central-1 v45,77,ISO27001
+Hetzner 839_3324,sa-east-1 187,58,ISO27001
+ALIBABACLOUD 425_3384,us-east-1,69,"ISO27001,SOC2"
+AlibabaCloud 93_479,us-west-1,70,"ISO27001,SOC2"
+ALIBABACLOUD 412_6496,us-west-2,76,"ISO27001,SOC2"
+ALIBABACLOUD 159_6911,eu-west-1 581,77,"ISO27001,SOC2"
+AlibabaCloud 505_6882,eu-central-1,70,"ISO27001,SOC2 v33"
+AlibabaCloud 249_6211,AP-SOUTH-1,73,"ISO27001,SOC2"
+AlibabaCloud 216_1234,ap-southeast-1 479,78,"ISO27001,SOC2 1132"
+AlibabaCloud 541_6679,AP-NORTHEAST-1 V13,72,"ISO27001,SOC2"
+AlibabaCloud 817_3794,asia-south1 877,65,"ISO27001,SOC2"
+AlibabaCloud 988_9663,me-central-1,91,"ISO27001,SOC2"
+AlibabaCloud 727_8082,sa-east-1,78,"ISO27001,SOC2"
+TencentCloud 554_2021,us-east-1,84,"ISO27001,SOC2 433"
+TencentCloud 42_6469,us-west-1,87,"ISO27001,SOC2 1198"
+TencentCloud 873_4970,us-west-2,82,"ISO27001,SOC2"
+TENCENTCLOUD 58_5688,eu-west-1,80,"ISO27001,SOC2"
+TencentCloud 537_4392,eu-central-1,77,"ISO27001,SOC2"
+TencentCloud 885_3457,AP-SOUTH-1,71,"ISO27001,SOC2"
+TENCENTCLOUD 599_4073,ap-southeast-1 1138,75,"ISO27001,SOC2 v1 550"
+TencentCloud 426_1053,ap-northeast-1,81,"ISO27001,SOC2"
+TencentCloud v25 637_1369,asia-south1 v3,77,"ISO27001,SOC2"
+TENCENTCLOUD 578_1895,me-central-1 v6 1246,77,"ISO27001,SOC2"
+TencentCloud 506_6941,sa-east-1,81,"ISO27001,SOC2"
+OVHCLOUD 599_4497,us-east-1,64,ISO27001
+OVHCloud 204_8091,US-WEST-1,79,ISO27001
+OVHCloud v22 404_1333,us-west-2,81,ISO27001 1104
+OVHCloud 536_9313,eu-west-1,73,ISO27001 183
+OVHCloud v48 577 1425_6417,eu-central-1 335,64,ISO27001
+OVHCloud 209_8048,ap-south-1 1550,73,ISO27001
+OVHCloud 897_89,ap-southeast-1,88,ISO27001
+OVHCloud 628 1473_6306,ap-northeast-1 1370,69,ISO27001
+OVHCloud 495_3979,asia-south1,77,ISO27001
+OVHCloud 46_3887,ME-CENTRAL-1,74,ISO27001
+OVHCloud 331_6962,sa-east-1,82,ISO27001
+AWS 982_3367,us-east-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 845 18_5862,us-west-1,84,"ISO27001,SOC2,HIPAA,GDPR 686"
+AWS 536_1458,us-west-2,81,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 547_329,eu-west-1,94,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 540_4680,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 976_7819,ap-south-1 1854,86,"ISO27001,SOC2,HIPAA,GDPR"
+AWS v40 977_7153,ap-southeast-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 950_6135,ap-northeast-1 1677,83,"ISO27001,SOC2,HIPAA,G 548"
+AWS 994_1200,asia-south1 v15,101,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 847_9162,me-central-1 v11,92,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 115_6984,sa-east-1,102,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v4 837 952_18,us-east-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 75_6408,us-west-1 v35 1249,89,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 482_6610,US-WEST-2,75,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 297_937,eu-west-1,98,"ISO27001,SOC2,HIPAA,GDPR 489"
+Azure 178_5761,eu-central-1,100,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 967 1545_2118,ap-south-1,79,"ISO27001,SOC2,HIPAA,G"
+Azure 39_6140,ap-southeast-1,102,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 716_1210,ap-northeast-1,79,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 49_5455,asia-south1,79,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 161_451,ME-CENTRAL-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 176_7390,sa-east-1,84,"ISO27001,SOC2,HIPAA,GDPR 506"
+GCP 895_726,us-east-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 928_2196,US-WEST-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v4 498 403_3006,us-west-2,81,"ISO27001,SOC2,HIPAA,GD"
+GCP 676_6787,EU-WEST-1,96,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 188_6839,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR 1470"
+GCP 547_2441,ap-south-1,93,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 36_9997,ap-southeast-1 v48,87,"ISO27001,SOC2,HIPAA,GD"
+GCP 595_3228,ap-northeast-1 v25,94,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 640_7082,asia-south1,78,"ISO27001,SOC2,HIPAA,GDPR v5"
+GCP 534_4257,me-central-1,94,"ISO27001,SOC2,HIPAA,GDPR 154"
+GCP 619_9744,sa-east-1,97,"ISO27001,SOC2,HIPAA,GDPR"
+OracleCloud 357_8942,US-EAST-1,73,"ISO27001,SOC2,PCI"
+OracleCloud 676_4047,us-west-1,72,"ISO27001,SOC2,PCI v36"
+OracleCloud v4 692 1059_295,US-WEST-2,88,"ISO27001,SOC2,PCI"
+OracleCloud 466_8063,EU-WEST-1,88,"ISO27001,SOC2,PCI 1491"
+OracleCloud 464_1883,eu-central-1,80,"ISO27001,SOC2,PCI"
+ORACLECLOUD 914_5978,AP-SOUTH-1,91,"ISO27001,SOC2,PCI"
+OracleCloud 66 780_6932,ap-southeast-1,72,"ISO27001,SOC2,PCI"
+OracleCloud 612_2564,ap-northeast-1,88,"ISO27001,SOC2,PCI"
+OracleCloud 559_5672,asia-south1,81,"ISO27001,SOC2,PCI"
+OracleCloud 602_7172,me-central-1 v39,88,"ISO27001,SOC2,PCI"
+ORACLECLOUD 785_1737,sa-east-1,76,"ISO27001,SOC2,PCI"
+IBMCloud 73_8806,us-east-1 652,67,"ISO27001,SOC2,PCI"
+IBMCloud 101_7152,us-west-1,67,"ISO27001,SOC2,PCI"
+IBMCLOUD 756_446,us-west-2 1489,66,"ISO27001,SOC2,PCI 1174"
+IBMCloud 865_6363,eu-west-1 558,93,"ISO27001,SOC2,PCI"
+IBMCloud 954_8519,eu-central-1 158,76,"ISO27001,SOC2,PCI"
+IBMCloud 954_292,ap-south-1,87,"ISO27001,SOC2,PCI 929"
+IBMCloud 980_5105,ap-southeast-1,68,"ISO27001,SOC2,PCI"
+IBMCloud 755 355_682,ap-northeast-1,68,"ISO27001,SOC2,PCI"
+IBMCloud 211_1251,asia-south1,81,"ISO27001,SOC2,PCI"
+IBMCLOUD 229_3729,me-central-1,85,"ISO27001,SOC2,PCI"
+IBMCLOUD 656_4987,sa-east-1,78,"ISO27001,SOC2,PCI"
+DigitalOcean 140_2668,us-east-1 166,67,"ISO27001,GDPR 1041"
+DigitalOcean v29 270_5240,us-west-1 1610,74,"ISO27001,GDPR"
+DigitalOcean 12_6657,us-west-2 1104,83,"ISO27001,GDPR"
+DigitalOcean v35 337_8771,eu-west-1,65,"ISO27001,GDPR"
+DigitalOcean 106 896_8926,eu-central-1,77,"ISO27001,GDPR"
+DigitalOcean 171_5825,ap-south-1,84,"ISO27001,GDPR"
+DigitalOcean 69_3217,ap-southeast-1,70,"ISO27001,GDPR 1723"
+DigitalOcean 649_6246,AP-NORTHEAST-1,69,"ISO27001,GDPR 1750"
+DigitalOcean v49 100_503,ASIA-SOUTH1,77,"ISO27001,GDPR v36"
+DigitalOcean 574_2435,me-central-1,58,"ISO27001,GDPR v9"
+DigitalOcean 29_6468,sa-east-1 1783,76,"ISO27001,GDPR"
+Linode 143 576_8117,us-east-1 v14,70,ISO27001
+Linode 632_5989,us-west-1 821,79,ISO27001
+Linode 157_1182,us-west-2,64,ISO27001 1000
+Linode 754 1706_8772,eu-west-1,76,ISO27001 v18 914
+Linode v49 75_198,eu-central-1,72,ISO27001 v16
+Linode 626_1998,ap-south-1,64,ISO27001 1817
+Linode 429 982_1035,ap-southeast-1,82,ISO27001 v38
+Linode 954_2167,ap-northeast-1,79,ISO27001 v18
+Linode 112 1809_5648,asia-south1 v20 572,84,ISO27001 461
+Linode v25 887_1573,me-central-1 v38 1378,58,ISO27001 1825
+Linode 92_5076,sa-east-1,57,ISO27001 232
+Hetzner 805_9292,us-east-1 1437,76,ISO27001 1301
+Hetzner 812_2193,us-west-1,68,ISO27001 1035
+Hetzner 236_3667,us-west-2,61,ISO27001
+Hetzner 374 603_1685,eu-west-1,69,ISO27001 1862
+Hetzner 234_8255,eu-central-1 v5 644,75,ISO27001 505
+Hetzner 542_6980,AP-SOUTH-1,67,ISO27001 v3
+Hetzner 204_8748,ap-southeast-1,58,ISO27001
+Hetzner 474_5941,ap-northeast-1 v29,70,ISO27001
+Hetzner 253_1230,asia-south1,69,ISO27001 834
+Hetzner 386 4_1940,me-central-1 1993,78,ISO27001 v26
+Hetzner 430 1589_760,sa-east-1,72,ISO27001
+AlibabaCloud 537 1542_2216,us-east-1,77,"ISO27001,SOC2 348"
+AlibabaCloud 141_6405,us-west-1,72,"ISO27001,SOC2 1948"
+ALIBABACLOUD 300 433_6902,us-west-2,83,"ISO27001,SOC2 1607"
+AlibabaCloud 471_8072,eu-west-1 v35,80,"ISO27001,SOC2 1249"
+AlibabaCloud 642 1713_9320,eu-central-1,86,"ISO27001,SOC2"
+AlibabaCloud 172_8123,ap-south-1 1303,76,"ISO27001,SOC2 v41"
+AlibabaCloud 352_8306,ap-southeast-1 786,80,"ISO27001,SOC2 1213"
+AlibabaCloud 622_6845,ap-northeast-1,72,"ISO27001,SOC2 v13"
+AlibabaCloud v5 106_5749,asia-south1,78,"ISO27001,SOC2 147"
+AlibabaCloud 768_3160,me-central-1 v44,84,"ISO27001,SOC2"
+AlibabaCloud v43 162 1881_2944,sa-east-1,73,"ISO27001,SOC2 380"
+TencentCloud 286_7160,us-east-1,65,"ISO27001,SOC2 781"
+TencentCloud 767 1953_5121,us-west-1,70,"ISO27001,SOC2 675"
+TencentCloud 886 138_3195,us-west-2,71,"ISO27001,SOC2"
+TencentCloud 835_4883,eu-west-1,82,"ISO27001,SOC2"
+TENCENTCLOUD 26_3887,eu-central-1 818,69,"ISO27001,SOC2"
+TencentCloud 198_4730,ap-south-1 v24,71,"ISO27001,SOC2"
+TencentCloud 188_3691,ap-southeast-1,85,"ISO27001,SOC2"
+TencentCloud 817_4544,ap-northeast-1 1218,72,"ISO27001,SOC2 1148"
+TencentCloud 716_4750,asia-south1,84,"ISO27001,SOC2"
+TencentCloud 484_2843,me-central-1,66,"ISO27001,SOC2"
+TencentCloud 523 1715_9918,sa-east-1 220,81,"ISO27001,SOC2"
+OVHCloud 354_3777,us-east-1,70,ISO27001
+OVHCLOUD 658_8069,us-west-1,80,ISO27001
+OVHCloud 100_7575,US-WEST-2,81,ISO27001
+OVHCloud 558_7579,eu-west-1 v40,67,ISO27001
+OVHCloud 693_8302,eu-central-1 784,73,ISO27001
+OVHCloud 990_2257,ap-south-1 744,73,ISO27001
+OVHCloud 491_4188,ap-southeast-1,71,ISO27001
+OVHCloud 610_4278,ap-northeast-1,76,ISO27001
+OVHCloud 879_2120,asia-south1 1074,67,ISO27001
+OVHCloud 276_3610,me-central-1 v9,61,ISO27001
+OVHCloud 281_5469,sa-east-1,86,ISO27001
+AWS 773_9980,us-east-1,78,"ISO27001,SOC2,HIPAA,GDPR 1785"
+AWS 719_1502,us-west-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 727 848_5390,us-west-2 v8,77,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 552_5422,eu-west-1 1229,104,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 702_266,EU-CENTRAL-1,92,"ISO27001,SOC2,HIPAA,GDPR "
+AWS 896_5327,ap-south-1,79,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 682 83_3746,ap-southeast-1,82,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 700 131_1189,ap-northeast-1,89,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 801_5859,asia-south1 792,95,"ISO27001,SOC2,HIPAA,GD"
+AWS 229_384,me-central-1,91,"ISO27001,SOC2,HIPAA,GDPR"
+AWS 609_4158,sa-east-1,97,"ISO27001,SOC2,HIPAA,GDPR 1462"
+Azure v47 647_580,us-east-1 1729,98,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 645_1791,us-west-1 v26,90,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 732_5275,us-west-2,96,"ISO27001,SOC2,HIPAA,GDPR 1416"
+Azure 965_707,eu-west-1,81,"ISO27001,SOC2,HIPAA,GDPR 1864"
+Azure 133 1104_4448,eu-central-1,90,"ISO27001,SOC2,HIPAA,GDPR v26"
+Azure 975_8626,AP-SOUTH-1,81,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v13 619_1309,ap-southeast-1,87,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 865_86,ap-northeast-1,95,"ISO27001,SOC2,HIPAA,GDPR"
+Azure v43 117 1513_6003,asia-south1 v18 175,83,"ISO27001,SOC2,HIPAA,GDPR"
+Azure 717_9832,me-central-1,89,"ISO27001,SOC2,HIPAA,GDPR "
+Azure 929_5987,sa-east-1,84,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 961_2894,us-east-1,100,"ISO27001,SOC2,HIPAA,GDPR v48"
+GCP 898_3730,US-WEST-1 V49,91,"ISO27001,SOC2,HIPAA,GD"
+GCP 646_9531,US-WEST-2,86,"ISO27001,SOC2,HIPAA,GD"
+GCP 678_7469,eu-west-1,76,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 216_232,eu-central-1,86,"ISO27001,SOC2,HIPAA,GDPR"
+GCP v18 425_2782,AP-SOUTH-1,90,"ISO27001,SOC2,HIPAA,G"
+GCP 988_2785,ap-southeast-1 290,84,"ISO27001,SOC2,HIPAA,GD"
+GCP 785_7263,ap-northeast-1,88,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 186_5657,asia-south1,98,"ISO27001,SOC2,HIPAA,GDPR v29"
+GCP 974_9667,me-central-1 1893,83,"ISO27001,SOC2,HIPAA,GDPR"
+GCP 246 1949_2129,sa-east-1,94,"ISO27001,SOC2,HIPAA,GD"
+OracleCloud v6 935_8429,us-east-1,88,"ISO27001,SOC2,PCI"
+OracleCloud 910 1782_4840,us-west-1,73,"ISO27001,SOC2,PCI"
+OracleCloud 563_1694,us-west-2 525,74,"ISO27001,SOC2,PCI 260"
+OracleCloud v23 104_125,eu-west-1 v48,84,"ISO27001,SOC2,PCI"
+OracleCloud 601_1509,eu-central-1,71,"ISO27001,SOC2,PCI"
+OracleCloud v13 233_7702,ap-south-1,81,"ISO27001,SOC2,PCI"
+OracleCloud 79_8527,ap-southeast-1,91,"ISO27001,SOC2,PCI v9 667"
+OracleCloud 898 670_747,ap-northeast-1,77,"ISO27001,SOC2,PCI"
+OracleCloud 781_6173,asia-south1,81,"ISO27001,SOC2,PCI"
+OracleCloud v34 186_7249,me-central-1,76,"ISO27001,SOC2,PCI"
+OracleCloud 803 510_9319,SA-EAST-1 1755,84,"ISO27001,SOC2,PCI"
+IBMCloud 632_5237,us-east-1 v38,72,"ISO27001,SOC2,PCI"
+IBMCloud 838_1529,us-west-1,78,"ISO27001,SOC2,PCI"
+IBMCloud v48 323_4825,us-west-2 v49,75,"ISO27001,SOC2,PCI"
+IBMCloud 615 1444_3814,eu-west-1 874,76,"ISO27001,SOC2,PCI"
+IBMCloud 372 1116_1655,eu-central-1,90,"ISO27001,SOC2,PCI"
+IBMCloud 835_9111,ap-south-1 955,82,"ISO27001,SOC2,PCI 441"
+IBMCloud 121 1523_2806,ap-southeast-1,82,"ISO27001,SOC2,PCI"
+IBMCLOUD V30 965_9524,ap-northeast-1 330,72,"ISO27001,SOC2,PCI"
+IBMCloud 91_9091,asia-south1,82,"ISO27001,SOC2,PCI 378"
+IBMCloud 333_9101,me-central-1 v28,76,"ISO27001,SOC2,PCI v12"
+IBMCloud 130_2667,sa-east-1,73,"ISO27001,SOC2,PCI"
+DigitalOcean 99 960_3928,us-east-1 v37,83,"ISO27001,GDPR"
+DigitalOcean 356 1285_6166,US-WEST-1,78,"ISO27001,GDPR"
+DigitalOcean v11 826_4215,US-WEST-2,73,"ISO27001,GDPR 435"
+DIGITALOCEAN 496_1371,eu-west-1,68,"ISO27001,GDPR"
+DigitalOcean 655 880_2843,eu-central-1,78,"ISO27001,GDPR"
+DigitalOcean 299_1227,ap-south-1 v31,71,"ISO27001,GDPR 1913"
+DigitalOcean 945_5272,ap-southeast-1,77,"ISO27001,GDPR"
+DigitalOcean 770 233_5177,ap-northeast-1,76,"ISO27001,GDPR 1711"
+DigitalOcean 215_9920,asia-south1,81,"ISO27001,GDPR"
+DigitalOcean v2 543 212_2516,me-central-1 1262,81,"ISO27001,GDPR"
+DigitalOcean 232_5417,sa-east-1 212,77,"ISO27001,GDPR"
+Linode 541_4555,us-east-1 643,84,ISO27001 1302
+Linode 506_5560,us-west-1,66,ISO27001
+Linode 304 1070_7543,us-west-2,75,ISO27001
+Linode 437_2230,eu-west-1 508,74,ISO27001
+Linode v3 858_941,eu-central-1,63,ISO27001
+Linode 393_7020,ap-south-1,69,ISO27001
+Linode 599_9520,ap-southeast-1,75,ISO27001
+Linode 761 679_3339,ap-northeast-1 23,64,ISO27001
+Linode 405 679_922,asia-south1 314,62,ISO27001
+Linode 379_6344,me-central-1 1769,74,ISO27001 v42
+Linode v6 556_3486,sa-east-1 552,68,ISO27001
+Hetzner 540_3217,us-east-1 675,73,ISO27001
+Hetzner 639_5365,us-west-1,56,ISO27001 781
+Hetzner 680_4178,us-west-2,76,ISO27001
+Hetzner 76 1343_8334,eu-west-1,76,ISO27001 v3 73
+Hetzner 716_2989,eu-central-1,75,ISO27001
+Hetzner 726_9855,AP-SOUTH-1 V2,69,ISO27001 v46
+Hetzner 158_3739,ap-southeast-1,64,ISO27001
+Hetzner 393_675,ap-northeast-1,76,ISO27001
+Hetzner 69_9958,asia-south1 888,73,ISO27001 v11 1073
+HETZNER 347_1464,ME-CENTRAL-1,62,ISO27001
+Hetzner 962 1689_9166,sa-east-1,59,ISO27001 1750
+AlibabaCloud 423_7303,us-east-1 v24,76,"ISO27001,SOC2 1809"
+AlibabaCloud v30 115_2747,us-west-1,67,"ISO27001,SOC2"
+ALIBABACLOUD 343_3641,us-west-2,89,"ISO27001,SOC2"
+AlibabaCloud 130_4600,eu-west-1,82,"ISO27001,SOC2"
+AlibabaCloud v40 739_3043,eu-central-1 v41,84,"ISO27001,SOC2"
+AlibabaCloud v2 101_6465,ap-south-1,79,"ISO27001,SOC2"
+AlibabaCloud 58_7067,ap-southeast-1,82,"ISO27001,SOC2"
+AlibabaCloud v5 941_4822,ap-northeast-1,76,"ISO27001,SOC2 16"
+AlibabaCloud 861_4134,asia-south1,82,"ISO27001,SOC2 74"
+AlibabaCloud v20 660_6537,me-central-1,80,"ISO27001,SOC2"
+AlibabaCloud v25 633 1309_962,sa-east-1,70,"ISO27001,SOC2"
+TencentCloud 454_5983,us-east-1,75,"ISO27001,SOC2"
+TencentCloud 323_8648,US-WEST-1,80,"ISO27001,SOC2"
+TencentCloud 513_317,us-west-2 1624,74,"ISO27001,SOC2 580"
+TENCENTCLOUD 773_2064,eu-west-1,81,"ISO27001,SOC2"
+TencentCloud 908_5435,eu-central-1,83,"ISO27001,SOC2"
+TENCENTCLOUD 332_8671,ap-south-1 v48 1312,74,"ISO27001,SOC2 v35"
+TencentCloud 994 300_3955,ap-southeast-1,75,"ISO27001,SOC2"
+TencentCloud v22 205 1995_783,ap-northeast-1 761,78,"ISO27001,SOC2"
+TencentCloud 687_5404,asia-south1,83,"ISO27001,SOC2 1812"
+TencentCloud v3 468_1272,me-central-1 287,80,"ISO27001,SOC2"
+TencentCloud v31 472_8597,SA-EAST-1,66,"ISO27001,SOC2"
+OVHCloud v40 216 1334_2743,us-east-1 v33 461,78,ISO27001 1660
+OVHCloud 212_7033,us-west-1 1819,75,ISO27001
+OVHCloud 884_1757,us-west-2 v16,60,ISO27001
+OVHCloud 551 600_8379,eu-west-1 v12,70,ISO27001
+OVHCloud 880 1287_5112,eu-central-1 v25,83,ISO27001
+OVHCloud 498_9833,ap-south-1,77,ISO27001
