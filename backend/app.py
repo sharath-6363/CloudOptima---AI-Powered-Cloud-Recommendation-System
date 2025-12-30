@@ -375,17 +375,22 @@ def get_recommendations(user_id):
         top_options = results_df.head(top_k)
         
         print(f"\n🏆 STEP 6: Top {top_k} recommendations selected")
-        for i in range(min(3, len(top_options))):
+        for i in range(min(5, len(top_options))):
             row = top_options.iloc[i]
-            print(f"   #{i+1}: {row['provider']} {row['instance_type']} - ${row['price_per_hour']:.4f}/hour (score: {row['topsis_score']:.4f})")
+            print(f"   #{i+1}: {row['provider']} {row['instance_type']} - ${row['price_per_hour']:.4f}/hour (TOPSIS: {row['topsis_score']:.6f})")
 
         # STEP 8: Format recommendations for JSON response
         recommendations = []
-        for idx, row in top_options.iterrows():
-            recommendations.append({
-                'rank': idx + 1,
-                'provider': str(row['provider']),
-                'instance_type': str(row['instance_type']),
+        for position, (idx, row) in enumerate(top_options.iterrows()):
+            provider = str(row['provider'])
+            instance_type = str(row['instance_type'])
+            avg_rating, rating_count = UserRating.get_avg_rating_by_instance(provider, instance_type)
+            user_rating = UserRating.check_user_rated(user_id, provider, instance_type)
+            
+            rec = {
+                'rank': position + 1,
+                'provider': provider,
+                'instance_type': instance_type,
                 'region': str(row['region']),
                 'price_per_hour': float(row['price_per_hour']),
                 'vCPU': int(row['vCPU']),
@@ -398,22 +403,63 @@ def get_recommendations(user_id):
                 'bandwidth_score': float(row['bandwidth_score']),
                 'topsis_score': float(row['topsis_score']),
                 'network_bandwidth': str(row.get('network_bandwidth', 'Unknown')),
-                'GPU': int(row.get('GPU', 0))
-            })
+                'GPU': int(row.get('GPU', 0)),
+                'risk_score': 1.0 - float(row['topsis_score']),
+                'avg_rating': avg_rating,
+                'rating_count': rating_count,
+                'user_rating': user_rating,
+                'user_has_rated': user_rating is not None  # Flag to prevent duplicate ratings
+            }
+            rec['ml_satisfaction_score'] = float(row['topsis_score'])
+            rec['hybrid_score'] = float(row['topsis_score'])
+            recommendations.append(rec)
 
         # STEP 9: Enhance with ML predictions (IF MODEL IS LOADED)
+        # ML adds hybrid scores and may re-rank based on learned patterns
         if ml_predictor and ml_predictor.is_loaded:
-            print(f"\n🤖 STEP 7: Enhancing recommendations with ML predictions...")
+            print(f"\n🤖 STEP 8: Enhancing recommendations with ML predictions...")
             try:
                 recommendations = ml_predictor.enhance_recommendations(recommendations)
-                print(f"✅ ML enhancement completed")
+                
+                # STEP 8.5: Add rating boost to hybrid scores
+                print(f"\n⭐ Adding user rating boost to recommendations...")
+                for rec in recommendations:
+                    # Rating boost: 0-10% based on average rating (0-5 stars)
+                    # Formula: rating_boost = (avg_rating / 5.0) * 0.10
+                    # High ratings (5 stars) = +10%, Low ratings (1 star) = +2%
+                    if rec['avg_rating'] > 0 and rec['rating_count'] >= 3:
+                        # Only apply boost if at least 3 users rated it (reliability threshold)
+                        rating_boost = (rec['avg_rating'] / 5.0) * 0.10
+                        rec['hybrid_score'] = rec['hybrid_score'] * (1 + rating_boost)
+                        print(f"   {rec['provider']} {rec['instance_type']}: Rating {rec['avg_rating']:.1f}/5 ({rec['rating_count']} users) → +{rating_boost*100:.1f}% boost")
+                
+                # Re-sort by hybrid score (now includes rating boost)
+                recommendations.sort(key=lambda x: x['hybrid_score'], reverse=True)
+                # Update ranks after re-sorting
+                for i, rec in enumerate(recommendations):
+                    rec['rank'] = i + 1
+                print(f"✅ ML enhancement completed and re-ranked by hybrid scores (with rating boost)")
+                print(f"🔍 Final ranking after ML + Rating boost:")
+                for i in range(min(3, len(recommendations))):
+                    rec = recommendations[i]
+                    print(f"   #{i+1}: {rec['provider']} {rec['instance_type']} (Hybrid: {rec['hybrid_score']:.6f}, Rating: {rec['avg_rating']:.1f}/5)")
             except Exception as e:
                 print(f"⚠️ ML enhancement failed: {e}")
         else:
-            print(f"\n⚠️ STEP 7: ML model not loaded, skipping ML enhancement")
+            print(f"\n⚠️ STEP 8: ML model not loaded, using TOPSIS-only ranking")
+            # Even without ML, apply rating boost to TOPSIS scores
+            print(f"\n⭐ Adding user rating boost to TOPSIS scores...")
+            for rec in recommendations:
+                if rec['avg_rating'] > 0 and rec['rating_count'] >= 3:
+                    rating_boost = (rec['avg_rating'] / 5.0) * 0.10
+                    rec['hybrid_score'] = rec['hybrid_score'] * (1 + rating_boost)
+            recommendations.sort(key=lambda x: x['hybrid_score'], reverse=True)
+            for i, rec in enumerate(recommendations):
+                rec['rank'] = i + 1
         
-        # STEP 10: Generate AI explanation (ALWAYS generate detailed explanation)
-        print(f"\n🤖 STEP 8: Generating AI explanation...")
+        # STEP 10: Generate AI explanation AFTER ML enhancement (ALWAYS generate detailed explanation)
+        # This ensures the LLM explains the ACTUAL #1 recommendation shown to the user
+        print(f"\n🤖 STEP 9: Generating AI explanation for final ranked recommendations...")
         explanation = None
         if llm_recommender:
             try:
@@ -424,17 +470,21 @@ def get_recommendations(user_id):
                     'raw_weights': raw_weights.tolist()
                 }
                 
+                # Convert recommendations list to DataFrame for LLM
+                final_recs_df = pd.DataFrame(recommendations)
+                
                 full_dataset_stats = data_loader.get_dataset_statistics(full_data)
-                prompt = llm_recommender.build_prompt(user_prefs, top_options, full_dataset_stats)
+                prompt = llm_recommender.build_prompt(user_prefs, final_recs_df, full_dataset_stats)
                 explanation = llm_recommender.get_explanation(prompt)
                 print(f"✅ AI explanation generated ({len(explanation)} chars)")
             except Exception as e:
                 print(f"⚠️ LLM explanation failed: {e}")
                 traceback.print_exc()
-                explanation = f"Based on TOPSIS analysis of {len(filtered_data)} instances in {region} region with budget ${budget}/hour."
+                explanation = f"Based on hybrid analysis of {len(filtered_data)} instances in {region} region with budget ${budget}/hour."
         else:
             print(f"⚠️ LLM not available - using simple fallback")
-            explanation = f"Based on TOPSIS analysis of {len(filtered_data)} instances in {region} region with budget ${budget}/hour."
+            explanation = f"Based on hybrid analysis of {len(filtered_data)} instances in {region} region with budget ${budget}/hour."
+        
         print(f"\n✅ SUCCESS: Returning {len(recommendations)} recommendations")
         print(f"{'='*60}\n")
 
@@ -528,27 +578,113 @@ def create_review(user_id):
 @app.route('/api/ratings', methods=['POST'])
 @token_required
 def submit_rating(user_id):
-    """Submit or update a rating"""
+    """Submit a rating (only once per instance per user)"""
     try:
         data = request.json
-        instance_id = data.get('instance_id')
+        provider = data.get('provider')
+        instance_type = data.get('instance_type')
         rating = data.get('rating')
+        comment = data.get('comment', '')
 
+        # Recommendation fields needed to satisfy DB NOT NULL constraints
+        region = data.get('region')
+        price_per_hour = data.get('price_per_hour')
+        vcpu = data.get('vCPU')
+        ram_gb = data.get('RAM_GB')
+        storage_gb = data.get('storage_GB')
+        security_score = data.get('security_score')
+        topsis_score = data.get('topsis_score')
+
+        if not provider or not instance_type:
+            return jsonify({'error': 'provider and instance_type are required'}), 400
+        
+        # Validate rating value
+        try:
+            rating = int(rating)
+        except Exception:
+            return jsonify({'error': 'Rating must be an integer between 1 and 5'}), 400
+
+        if rating < 1 or rating > 5:
+            return jsonify({'error': 'Rating must be between 1 and 5'}), 400
+
+        # Validate required recommendation fields (avoid DB 500s)
+        required_fields = {
+            'region': region,
+            'price_per_hour': price_per_hour,
+            'vCPU': vcpu,
+            'RAM_GB': ram_gb,
+            'storage_GB': storage_gb,
+            'security_score': security_score,
+            'topsis_score': topsis_score,
+        }
+        missing = [k for k, v in required_fields.items() if v is None or v == '']
+        if missing:
+            return jsonify({
+                'error': 'MISSING_FIELDS',
+                'message': f"Missing required fields: {', '.join(missing)}",
+            }), 400
+        
+        # CHECK: Prevent duplicate ratings
+        existing_rating = UserRating.check_user_rated(user_id, provider, instance_type)
+        if existing_rating is not None:
+            return jsonify({
+                'error': 'ALREADY_RATED',
+                'message': f'You already rated this instance with {existing_rating} stars. You cannot rate it again.',
+                'existing_rating': existing_rating
+            }), 409  # 409 Conflict
+
+        from database import db
+
+        # Create a recommendation record with required fields (schema has NOT NULL columns)
+        try:
+            rec_query = """INSERT INTO recommendation 
+                           (user_id, provider, instance_type, region, price_per_hour, vcpu, ram_gb, storage_gb, security_score, topsis_score)
+                           VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+            rec_id = db.execute_query(
+                rec_query,
+                (
+                    user_id,
+                    str(provider),
+                    str(instance_type),
+                    str(region),
+                    float(price_per_hour),
+                    int(vcpu),
+                    int(round(float(ram_gb))),
+                    int(round(float(storage_gb))),
+                    int(round(float(security_score))),
+                    float(topsis_score),
+                ),
+                fetch=False,
+            )
+        except Exception as e:
+            return jsonify({'error': f'Invalid recommendation fields: {str(e)}'}), 400
+
+        if not rec_id:
+            return jsonify({'error': 'Failed to create recommendation record'}), 500
+        
+        # Submit rating
         user_rating = UserRating(
             user_id=user_id,
-            instance_id=instance_id,
-            rating=rating
+            instance_id=rec_id,
+            rating=rating,
+            comment=comment
         )
-
+        
         result = user_rating.create_or_update()
         if result:
-            return jsonify({'message': 'Rating submitted successfully'}), 201
+            return jsonify({
+                'message': '✅ Rating submitted successfully',
+                'rating': rating,
+                'feedback': 'Thank you for your feedback!'
+            }), 201
         else:
-            return jsonify({'message': 'Failed to submit rating'}), 500
+            return jsonify({'error': 'Failed to submit rating'}), 500
 
     except Exception as e:
         print(f"❌ Error submitting rating: {str(e)}")
-        return jsonify({'message': f'Error submitting rating: {str(e)}'}), 500
+        import traceback
+        traceback.print_exc()
+        return jsonify({'error': f'Error submitting rating: {str(e)}'}), 500
 
 
 @app.route('/api/user/ratings', methods=['GET'])

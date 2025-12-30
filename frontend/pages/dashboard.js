@@ -235,6 +235,7 @@ export default function Dashboard() {
                   recommendations={recommendations}
                   aiExplanation={aiExplanation}
                   datasetInfo={datasetInfo}
+                  setRecommendations={setRecommendations}
                 />
               )}
               
@@ -257,7 +258,7 @@ export default function Dashboard() {
   );
 }
 
-function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datasetInfo }) {
+function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datasetInfo, setRecommendations }) {
   const [formData, setFormData] = useState({
     budget: 0.2,
     region: 'us-east-1',
@@ -495,9 +496,22 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   <FaTrophy className="me-2" />
                   #1 RECOMMENDED
                 </h3>
-                <span className="badge bg-success fs-6">
-                  Score: {(recommendations[0].topsis_score * 100).toFixed(1)}%
-                </span>
+                <div className="d-flex gap-3 align-items-center">
+                  {/* Overall Rating from Community */}
+                  {recommendations[0].avg_rating > 0 && (
+                    <div className="text-center">
+                      <div className="text-warning fw-bold fs-5">
+                        {'⭐'.repeat(Math.round(recommendations[0].avg_rating))}
+                      </div>
+                      <small className="text-muted d-block">
+                        {recommendations[0].avg_rating.toFixed(1)}/5 ({recommendations[0].rating_count})
+                      </small>
+                    </div>
+                  )}
+                  <span className="badge bg-success fs-6">
+                    Hybrid Score: {(recommendations[0].hybrid_score * 100).toFixed(1)}%
+                  </span>
+                </div>
               </div>
               
               <div className="row">
@@ -544,16 +558,6 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                         GPU: {recommendations[0].GPU > 0 ? `${Math.round(recommendations[0].GPU)} units` : 'None'}
                       </small>
                     </div>
-                    <button
-                      className="btn btn-success"
-                      onClick={() => {
-                        setSelectedRecommendation(recommendations[0]);
-                        setShowReviewModal(true);
-                      }}
-                    >
-                      <FaStar className="me-1" />
-                      Rate This Choice
-                    </button>
                   </div>
                 </div>
                 
@@ -596,7 +600,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                         <th>RAM (GB)</th>
                         <th>Storage (GB)</th>
                         <th>Security</th>
-                        <th>TOPSIS Score</th>
+                        <th>Hybrid Score</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -627,19 +631,34 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                           <td>{Math.round(rec.security_score)}</td>
                           <td>
                             <span className="fw-bold">
-                              {(rec.topsis_score * 100).toFixed(1)}%
+                              {(rec.hybrid_score * 100).toFixed(1)}%
                             </span>
                           </td>
                           <td>
-                            <button
-                              className="btn btn-sm btn-outline-primary"
-                              onClick={() => {
-                                setSelectedRecommendation(rec);
-                                setShowReviewModal(true);
-                              }}
-                            >
-                              Rate
-                            </button>
+                            <div className="d-flex align-items-center gap-2">
+                              {/* Show average rating with count */}
+                              {rec.avg_rating > 0 && (
+                                <span className="small text-warning fw-bold" title={`Rated by ${rec.rating_count} users`}>
+                                  ⭐ {rec.avg_rating.toFixed(1)} ({rec.rating_count})
+                                </span>
+                              )}
+                              {/* Rating button - disabled if already rated */}
+                              <button
+                                className={`btn btn-sm ${
+                                  rec.user_has_rated 
+                                    ? 'btn-success' 
+                                    : 'btn-outline-primary'
+                                }`}
+                                onClick={() => {
+                                  setSelectedRecommendation(rec);
+                                  setShowReviewModal(true);
+                                }}
+                                disabled={rec.user_has_rated}
+                                title={rec.user_has_rated ? `You rated: ${rec.user_rating}★` : 'Rate this'}
+                              >
+                                {rec.user_has_rated ? `✓ ${rec.user_rating}★` : 'Rate'}
+                              </button>
+                            </div>
                           </td>
                         </tr>
                       ))}
@@ -776,6 +795,33 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
         {showReviewModal && selectedRecommendation && (
           <ReviewModal
             recommendation={selectedRecommendation}
+            onRated={({ provider, instance_type, rating }) => {
+              // Update UI immediately without reloading
+              setRecommendations((prev) => {
+                const updated = prev.map((rec) => {
+                  const sameInstance =
+                    rec.provider === provider && rec.instance_type === instance_type;
+                  if (!sameInstance) return rec;
+
+                  const prevCount = Number(rec.rating_count || 0);
+                  const prevAvg = Number(rec.avg_rating || 0);
+                  const newCount = prevCount + 1;
+                  const newAvg =
+                    newCount > 0 ? (prevAvg * prevCount + rating) / newCount : rating;
+
+                  return {
+                    ...rec,
+                    user_has_rated: true,
+                    user_rating: rating,
+                    avg_rating: newAvg,
+                    rating_count: newCount,
+                  };
+                });
+
+                // Keep existing order; only reflect rating changes live
+                return updated;
+              });
+            }}
             onClose={() => {
               setShowReviewModal(false);
               setSelectedRecommendation(null);
@@ -787,38 +833,67 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
   );
 }
 
-function ReviewModal({ recommendation, onClose }) {
+function ReviewModal({ recommendation, onClose, onRated }) {
   const [rating, setRating] = useState(5);
   const [reviewText, setReviewText] = useState('');
   const [submitting, setSubmitting] = useState(false);
 
   const submitReview = async () => {
+    // Prevent re-submission if already rated
+    if (recommendation.user_has_rated) {
+      alert(`⚠️ You already rated this instance with ${recommendation.user_rating} stars!`);
+      onClose();
+      return;
+    }
+
     setSubmitting(true);
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch('http://localhost:5000/api/reviews', {
+      const response = await fetch('http://localhost:5000/api/ratings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${token}`
         },
         body: JSON.stringify({
-          selected_provider: recommendation.provider,
-          selected_instance: recommendation.instance_type,
+          provider: recommendation.provider,
+          instance_type: recommendation.instance_type,
+          region: recommendation.region,
+          price_per_hour: recommendation.price_per_hour,
+          vCPU: recommendation.vCPU,
+          RAM_GB: recommendation.RAM_GB,
+          storage_GB: recommendation.storage_GB,
+          security_score: recommendation.security_score,
           topsis_score: recommendation.topsis_score,
           rating: rating,
-          review_text: reviewText
+          comment: reviewText
         })
       });
 
+      const data = await response.json();
+
       if (response.ok) {
-        alert('Review submitted successfully!');
-        onClose();
+        // Show feedback message from backend
+        const feedback = data.feedback || 'Rating submitted successfully!';
+        alert(`✅ ${data.message}\n${feedback}`);
+
+        if (typeof onRated === 'function') {
+          onRated({
+            provider: recommendation.provider,
+            instance_type: recommendation.instance_type,
+            rating,
+          });
+        }
+      } else if (response.status === 409) {
+        // Already rated - show existing rating
+        alert(`⚠️ ${data.message}\nYour rating: ${data.existing_rating}★`);
       } else {
-        alert('Failed to submit review');
+        alert(`❌ Error: ${data.error || 'Failed to submit rating'}`);
       }
+      onClose();
     } catch (error) {
-      alert('Error submitting review');
+      console.error('Error submitting rating:', error);
+      alert('❌ Error submitting rating');
     } finally {
       setSubmitting(false);
     }
@@ -829,55 +904,94 @@ function ReviewModal({ recommendation, onClose }) {
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title">Review Recommendation</h5>
+            <h5 className="modal-title">
+              {recommendation.user_has_rated ? '✓ You Already Rated' : 'Rate Recommendation'}
+            </h5>
             <button type="button" className="btn-close" onClick={onClose}></button>
           </div>
           <div className="modal-body">
             <div className="mb-3">
               <strong>{recommendation.provider} {recommendation.instance_type}</strong>
               <br />
-              <small className="text-muted">TOPSIS Score: {recommendation.topsis_score.toFixed(4)}</small>
+              <small className="text-muted">Hybrid Score: {(recommendation.hybrid_score * 100).toFixed(1)}%</small>
             </div>
             
-            <div className="mb-3">
-              <label className="form-label">Rating</label>
-              <div>
-                {[1, 2, 3, 4, 5].map(star => (
-                  <button
-                    key={star}
-                    type="button"
-                    className={`btn btn-sm ${star <= rating ? 'btn-warning' : 'btn-outline-warning'} me-1`}
-                    onClick={() => setRating(star)}
-                  >
-                    ⭐
-                  </button>
-                ))}
+            {/* Show community rating */}
+            {recommendation.avg_rating > 0 && (
+              <div className="mb-3 p-2 bg-light rounded">
+                <small className="d-block mb-1"><strong>Community Rating:</strong></small>
+                <div>
+                  <span className="text-warning fw-bold">
+                    {'⭐'.repeat(Math.round(recommendation.avg_rating))}
+                  </span>
+                  <span className="ms-2">{recommendation.avg_rating.toFixed(1)}/5 ({recommendation.rating_count} ratings)</span>
+                </div>
               </div>
-            </div>
+            )}
             
-            <div className="mb-3">
-              <label className="form-label">Review (Optional)</label>
-              <textarea
-                className="form-control"
-                rows="3"
-                value={reviewText}
-                onChange={(e) => setReviewText(e.target.value)}
-                placeholder="Share your experience..."
-              ></textarea>
-            </div>
+            {/* If already rated, show it */}
+            {recommendation.user_has_rated && (
+              <div className="mb-3 p-3 bg-success bg-opacity-10 border border-success rounded">
+                <small className="d-block mb-2"><strong>Your Rating:</strong></small>
+                <div>
+                  <span className="text-warning fw-bold fs-5">
+                    {'⭐'.repeat(recommendation.user_rating)}
+                  </span>
+                  <span className="ms-2 fw-bold text-success">{recommendation.user_rating} stars</span>
+                </div>
+                <small className="d-block mt-2 text-muted">You cannot change your rating once submitted.</small>
+              </div>
+            )}
+            
+            {/* Only show rating controls if NOT already rated */}
+            {!recommendation.user_has_rated && (
+              <div className="mb-3">
+                <label className="form-label">Your Rating</label>
+                <div>
+                  {[1, 2, 3, 4, 5].map(star => (
+                    <button
+                      key={star}
+                      type="button"
+                      className={`btn btn-sm ${star <= rating ? 'btn-warning' : 'btn-outline-warning'} me-1`}
+                      onClick={() => setRating(star)}
+                      disabled={submitting}
+                    >
+                      ⭐
+                    </button>
+                  ))}
+                  <span className="ms-3 fw-bold">{rating}/5</span>
+                </div>
+              </div>
+            )}
+
+            {!recommendation.user_has_rated && (
+              <div className="mb-3">
+                <label className="form-label">Feedback (optional)</label>
+                <textarea
+                  className="form-control"
+                  rows={3}
+                  value={reviewText}
+                  onChange={(e) => setReviewText(e.target.value)}
+                  placeholder="Share your thoughts about this recommendation..."
+                  disabled={submitting}
+                />
+              </div>
+            )}
           </div>
           <div className="modal-footer">
             <button type="button" className="btn btn-secondary" onClick={onClose}>
-              Cancel
+              {recommendation.user_has_rated ? 'Close' : 'Cancel'}
             </button>
-            <button
-              type="button"
-              className="btn btn-primary"
-              onClick={submitReview}
-              disabled={submitting}
-            >
-              {submitting ? 'Submitting...' : 'Submit Review'}
-            </button>
+            {!recommendation.user_has_rated && (
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={submitReview}
+                disabled={submitting}
+              >
+                {submitting ? 'Submitting...' : 'Submit Rating'}
+              </button>
+            )}
           </div>
         </div>
       </div>

@@ -129,11 +129,12 @@ class Review:
         return 0
 
 class UserRating:
-    def __init__(self, id=None, user_id=None, instance_id=None, rating=None, created_at=None):
+    def __init__(self, id=None, user_id=None, instance_id=None, rating=None, comment=None, created_at=None):
         self.id = id
         self.user_id = user_id
         self.instance_id = instance_id
         self.rating = rating
+        self.comment = comment
         self.created_at = created_at
     
     def create_or_update(self):
@@ -142,13 +143,40 @@ class UserRating:
         existing = db.execute_query(check_query, (self.user_id, self.instance_id))
         
         if existing:
+            if self.comment is not None:
+                query = "UPDATE rating SET rating = %s, comment = %s WHERE user_id = %s AND recommendation_id = %s"
+                return db.execute_query(query, (self.rating, self.comment, self.user_id, self.instance_id), fetch=False)
             query = "UPDATE rating SET rating = %s WHERE user_id = %s AND recommendation_id = %s"
             return db.execute_query(query, (self.rating, self.user_id, self.instance_id), fetch=False)
         else:
-            query = "INSERT INTO rating (user_id, recommendation_id, rating) VALUES (%s, %s, %s)"
-            return db.execute_query(query, (self.user_id, self.instance_id, self.rating), fetch=False)
+            query = "INSERT INTO rating (user_id, recommendation_id, rating, comment) VALUES (%s, %s, %s, %s)"
+            return db.execute_query(query, (self.user_id, self.instance_id, self.rating, self.comment), fetch=False)
     
     @staticmethod
     def get_user_ratings(user_id):
         query = "SELECT * FROM rating WHERE user_id = %s"
         return db.execute_query(query, (user_id,))
+    
+    @staticmethod
+    def get_avg_rating_by_instance(provider, instance_type):
+        """Get average rating for a specific instance"""
+        query = """SELECT AVG(r.rating) as avg_rating, COUNT(r.rating) as rating_count
+                   FROM rating r
+                   JOIN recommendation rec ON r.recommendation_id = rec.id
+                   WHERE rec.provider = %s AND rec.instance_type = %s"""
+        result = db.execute_query(query, (provider, instance_type))
+        if result and result[0]['avg_rating']:
+            return float(result[0]['avg_rating']), int(result[0]['rating_count'])
+        return 0.0, 0
+    
+    @staticmethod
+    def check_user_rated(user_id, provider, instance_type):
+        """Check if user already rated this instance"""
+        query = """SELECT r.rating FROM rating r
+                   JOIN recommendation rec ON r.recommendation_id = rec.id
+                   WHERE r.user_id = %s AND rec.provider = %s AND rec.instance_type = %s
+                   LIMIT 1"""
+        result = db.execute_query(query, (user_id, provider, instance_type))
+        if result:
+            return int(result[0]['rating'])
+        return None

@@ -142,7 +142,7 @@ class TOPSIS:
         epsilon: float = 1e-10
     ) -> np.ndarray:
         """
-        Compute relative closeness to ideal solution (IMPROVED)
+        Compute relative closeness to ideal solution (IMPROVED with tie-breaking)
         
         Closeness = D_worst / (D_best + D_worst)
         
@@ -150,13 +150,15 @@ class TOPSIS:
         - 1.0 = closest to ideal best (best option)
         - 0.0 = closest to ideal worst (worst option)
         
+        Adds micro-variations to break ties and ensure unique ranking
+        
         Args:
             distances_to_best: Distances to ideal best
             distances_to_worst: Distances to ideal worst
             epsilon: Small value to prevent division by zero
             
         Returns:
-            Closeness scores (0-1)
+            Closeness scores (0-1, all unique)
         """
         # Calculate denominator with safety check
         denominator = distances_to_best + distances_to_worst
@@ -169,6 +171,18 @@ class TOPSIS:
         
         # Ensure scores are in [0, 1] range
         closeness = np.clip(closeness, 0.0, 1.0)
+        
+        # Add tie-breaker: Use distance_to_best as secondary criterion
+        # When closeness scores are equal, prefer option closer to ideal best
+        # This creates a stable, deterministic ranking even for near-identical options
+        if len(distances_to_best) > 0:
+            # Invert distance (smaller distance = better = higher tie-breaker)
+            max_dist = distances_to_best.max() if distances_to_best.max() > 0 else 1.0
+            # Scale to tiny range: 0.00001 to 0.000099 per position
+            # Also add index-based micro-tie-breaker to ensure absolute uniqueness
+            tie_breaker_dist = (1.0 - distances_to_best / max_dist) * 0.00001
+            tie_breaker_index = np.arange(len(closeness)) * 0.000000001
+            closeness = closeness + tie_breaker_dist + tie_breaker_index
         
         return closeness
     

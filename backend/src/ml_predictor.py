@@ -131,11 +131,14 @@ class MLPredictor:
         Add XGBoost satisfaction scores to TOPSIS recommendations
         Blends TOPSIS (mathematical) with XGBoost (learned patterns)
         
+        IMPORTANT: Does NOT re-sort recommendations - preserves TOPSIS ranking
+        TOPSIS ranking is primary (most explainable), hybrid scores are additive
+        
         Args:
             recommendations: List of recommendations with TOPSIS scores
             
         Returns:
-            Enhanced recommendations with XGBoost scores
+            Enhanced recommendations with XGBoost scores (SAME ORDER as input)
         """
         if not self.is_loaded:
             print("⚠️ XGBoost model not loaded, skipping ML enhancement")
@@ -151,17 +154,19 @@ class MLPredictor:
             
             # Blend TOPSIS + XGBoost scores
             # 60% TOPSIS (explainable) + 40% XGBoost (learned)
-            rec['hybrid_score'] = (
-                0.6 * rec['topsis_score'] + 
-                0.4 * xgb_score
-            )
+            base_hybrid = 0.6 * rec['topsis_score'] + 0.4 * xgb_score
+            
+            # Add tiny tie-breaker based on TOPSIS score for deterministic ordering
+            # This ensures unique hybrid scores when ML predictions are similar
+            tie_breaker = rec['topsis_score'] * 0.0000001
+            rec['hybrid_score'] = base_hybrid + tie_breaker
             
             print(f"   Rec {i+1}: TOPSIS={rec['topsis_score']*100:.3f}%, XGB={xgb_score*100:.3f}%, Hybrid={rec['hybrid_score']*100:.3f}%")
         
-        # Re-sort by hybrid score
-        recommendations.sort(key=lambda x: x['hybrid_score'], reverse=True)
+        # Note: Parent function (app.py) will re-sort by hybrid_score after this
+        # This allows ML to influence final ranking while keeping process transparent
         
-        print(f"✅ XGBoost enhancement completed!")
+        print(f"✅ XGBoost enhancement completed! Hybrid scores calculated.")
         
         return recommendations
     

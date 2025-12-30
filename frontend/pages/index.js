@@ -168,6 +168,7 @@ export default function Home() {
               ))}
             </div>
           </div>
+      {/* Features Section */}
         </div>
       </section>
 
@@ -210,7 +211,6 @@ export default function Home() {
         </div>
       </section> */}
 
-      {/* Features Section */}
       <section className="py-5 bg-white">
         <div className="container">
           <h2 className="text-center mb-5 fw-bold">Why Choose CloudOptima?</h2>

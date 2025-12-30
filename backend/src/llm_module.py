@@ -46,7 +46,7 @@ class LLMRecommender:
         
         Args:
             user_prefs: User preferences (budget, region, weights)
-            recommendations: Top 5 recommendations DataFrame
+            recommendations: Top 5 recommendations DataFrame (MUST be sorted by score, best first)
             dataset_stats: Overall dataset statistics
             
         Returns:
@@ -58,11 +58,12 @@ class LLMRecommender:
         region = user_prefs.get('region', 'N/A')
         weights = user_prefs.get('raw_weights', [])
         
-        # Build recommendation details
+        # Build recommendation details - CRITICAL: Use iloc to ensure correct ranking
         rec_details = []
-        for idx, row in recommendations.iterrows():
+        for i in range(len(recommendations)):
+            row = recommendations.iloc[i]  # Use iloc to get by position, not index
             rec_details.append({
-                'rank': idx + 1,
+                'rank': i + 1,  # Rank 1 = first row, Rank 2 = second row, etc.
                 'provider': row['provider'],
                 'instance': row['instance_type'],
                 'price': row['price_per_hour'],
@@ -77,6 +78,12 @@ class LLMRecommender:
                 'network': row.get('network_bandwidth', 'Standard'),
                 'bandwidth_score': row.get('bandwidth_score', 7)
             })
+        
+        # Debug: Log what we're about to explain
+        print(f"🔍 LLM Prompt Building - Top 3 instances:")
+        for i in range(min(3, len(rec_details))):
+            rec = rec_details[i]
+            print(f"   Option {i+1}: {rec['provider']} {rec['instance']} (TOPSIS: {rec['topsis_score']:.6f})")
         
         # Build the enhanced prompt optimized for LLaMA
         prompt = f"""You are an expert cloud infrastructure consultant. Analyze these cloud instance recommendations and provide a detailed explanation.
@@ -111,9 +118,11 @@ OPTION {i}: {rec['provider']} {rec['instance']}
 === YOUR TASK ===
 Provide a comprehensive analysis following this EXACT structure:
 
-## 🏆 BEST RECOMMENDATION (Option 1)
+## 🏆 BEST RECOMMENDATION (Option 1: {rec_details[0]['provider']} {rec_details[0]['instance']})
 
-Explain why Option 1 is the top choice:
+IMPORTANT: Option 1 is {rec_details[0]['provider']} {rec_details[0]['instance']} - ONLY explain THIS instance as the best choice.
+
+Explain why {rec_details[0]['provider']} {rec_details[0]['instance']} is the top choice:
 
 1. TOPSIS Analysis Results:
    - Why it achieved the highest score
