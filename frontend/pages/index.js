@@ -97,7 +97,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CloudOptima - AI Cloud Recommendation</title>
+        <title>CloudOptima - AI Cloud Recommendation SHARATH H N</title>
         <meta name="description" content="AI-powered cloud instance recommendation engine" />
       </Head>
 

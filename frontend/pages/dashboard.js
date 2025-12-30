@@ -345,7 +345,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
             <div className="mb-3">
               <label className="form-label fw-semibold small">
                 <FaMapMarkerAlt className="me-1 text-primary" />
-                Region
+                Region 
               </label>
               <select
                 className="form-select"
