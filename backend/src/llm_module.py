@@ -74,7 +74,7 @@ class LLMRecommender:
                 'performance': row.get('performance', 0),
                 'availability': row.get('availability', 0),
                 'latency': row.get('latency', 0),
-                'topsis_score': row['topsis_score'],
+                'hybrid_score': row.get('hybrid_score', row.get('topsis_score', 0)),
                 'network': row.get('network_bandwidth', 'Standard'),
                 'bandwidth_score': row.get('bandwidth_score', 7)
             })
@@ -83,7 +83,7 @@ class LLMRecommender:
         print(f"🔍 LLM Prompt Building - Top 3 instances:")
         for i in range(min(3, len(rec_details))):
             rec = rec_details[i]
-            print(f"   Option {i+1}: {rec['provider']} {rec['instance']} (TOPSIS: {rec['topsis_score']:.6f})")
+            print(f"   Option {i+1}: {rec['provider']} {rec['instance']} (Hybrid: {rec['hybrid_score']:.6f})")
         
         # Build the enhanced prompt optimized for LLaMA
         prompt = f"""You are an expert cloud infrastructure consultant. Analyze these cloud instance recommendations and provide a detailed explanation.
@@ -95,7 +95,7 @@ Instances Analyzed: {len(recommendations)} from {dataset_stats.get('total_instan
 User Priority Weights: {weights}
 
 === TOP 5 CLOUD RECOMMENDATIONS ===
-(Ranked by TOPSIS Multi-Criteria Decision Analysis)
+(Ranked by Hybrid Score from Multi-Criteria Analysis)
 
 """
         
@@ -103,7 +103,7 @@ User Priority Weights: {weights}
         for i, rec in enumerate(rec_details, 1):
             prompt += f"""
 OPTION {i}: {rec['provider']} {rec['instance']}
-✓ TOPSIS Score: {rec['topsis_score']:.4f} (0=worst, 1=best)
+✓ Hybrid Score: {rec['hybrid_score']:.4f} (0=worst, 1=best)
 ✓ Price: ${rec['price']:.4f}/hour ({(rec['price']/budget)*100:.1f}% of budget)
 ✓ Compute: {rec['vcpu']} vCPU | {rec['ram']:.1f} GB RAM | {rec['storage']} GB Storage
 ✓ Security: {rec['security']}/100
@@ -124,7 +124,7 @@ IMPORTANT: Option 1 is {rec_details[0]['provider']} {rec_details[0]['instance']}
 
 Explain why {rec_details[0]['provider']} {rec_details[0]['instance']} is the top choice:
 
-1. TOPSIS Analysis Results:
+1. Hybrid Score Analysis Results:
    - Why it achieved the highest score
    - Which criteria it excels in
    - How it balances price vs performance
@@ -224,7 +224,7 @@ Provide clear decision guidance:
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are an expert cloud infrastructure consultant with deep knowledge of AWS, Azure, GCP, and multi-criteria decision analysis. Provide detailed, actionable recommendations based on TOPSIS analysis results."
+                        "content": "You are an expert cloud infrastructure consultant with deep knowledge of AWS, Azure, GCP, and multi-criteria decision analysis. Provide detailed, actionable recommendations based on Hybrid Score ranking and the provided metrics."
                     },
                     {
                         "role": "user",
@@ -319,11 +319,11 @@ Provide clear decision guidance:
         
         # Generate comprehensive response
         if not recommendations or len(recommendations) == 0:
-            return f"Based on TOPSIS analysis for {region} region with ${budget:.4f}/hour budget, we've identified optimal cloud instances for your needs."
+            return f"Based on Hybrid Score analysis for {region} region with ${budget:.4f}/hour budget, we've identified optimal cloud instances for your needs."
         
         best = recommendations[0]
         best_name = best.get('name', 'Top recommendation')
-        best_score = best['details'].get('TOPSIS Score', 'N/A')
+        best_score = best['details'].get('Hybrid Score', best['details'].get('TOPSIS Score', 'N/A'))
         best_price = best['details'].get('Price', 'competitive pricing')
         best_compute = best['details'].get('Compute', 'robust resources')
         best_security = best['details'].get('Security', 'high security')
@@ -333,11 +333,11 @@ Provide clear decision guidance:
         
         response = f"""## 🏆 BEST RECOMMENDATION: {best_name}
 
-After comprehensive TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) analysis, **{best_name}** emerges as the optimal choice for your {region} deployment.
+After comprehensive multi-criteria analysis, **{best_name}** emerges as the optimal choice for your {region} deployment.
 
 ### Why This is Your Top Choice
 
-**1. TOPSIS Analysis Results:**
+**1. Hybrid Score Analysis Results:**
 - Achieved the highest overall score of {best_score}, indicating superior balance across all evaluation criteria
 - Outperformed all alternatives in the weighted multi-criteria assessment
 - Represents the closest solution to the ideal performance benchmark
@@ -372,7 +372,7 @@ After comprehensive TOPSIS (Technique for Order of Preference by Similarity to I
         # Add detailed analysis for other options
         for i, rec in enumerate(recommendations[1:], 2):
             rec_name = rec.get('name', f'Option {i}')
-            rec_score = rec['details'].get('TOPSIS Score', 'N/A')
+            rec_score = rec['details'].get('Hybrid Score', rec['details'].get('TOPSIS Score', 'N/A'))
             rec_price = rec['details'].get('Price', 'N/A')
             rec_compute = rec['details'].get('Compute', 'N/A')
             rec_security = rec['details'].get('Security', 'N/A')
@@ -415,7 +415,7 @@ After comprehensive TOPSIS (Technique for Order of Preference by Similarity to I
 ## 💡 FINAL RECOMMENDATION GUIDE
 
 ### Default Choice: Option 1 ({best_name})
-Choose this for the best overall balance of performance, reliability, and cost-effectiveness. With a TOPSIS score of {best_score}, it represents the mathematically optimal solution for your requirements.
+Choose this for the best overall balance of performance, reliability, and cost-effectiveness. With a Hybrid Score of {best_score}, it represents the mathematically optimal solution for your requirements.
 
 ### Alternative Scenarios:
 
@@ -466,20 +466,20 @@ All recommendations comply with your ${budget:.4f}/hour budget constraint and ar
         price = best_option.get('price_per_hour', 0)
         vcpu = best_option.get('vCPU', 0)
         ram = best_option.get('RAM_GB', 0)
-        score = best_option.get('topsis_score', 0)
+        score = best_option.get('hybrid_score', best_option.get('topsis_score', 0))
         
         return (
             f"🏆 Best Choice: {provider} {instance} - "
             f"{vcpu} vCPU, {ram} GB RAM at ${price:.4f}/hour "
-            f"(TOPSIS Score: {score:.4f})"
+            f"(Hybrid Score: {score:.4f})"
         )
 
     def explain_topsis_score(self, score: float) -> str:
         """
-        Explain what a TOPSIS score means in simple terms
+        Explain what a Hybrid Score means in simple terms
         
         Args:
-            score: TOPSIS score (0-1)
+            score: Hybrid Score (0-1)
             
         Returns:
             Explanation string
