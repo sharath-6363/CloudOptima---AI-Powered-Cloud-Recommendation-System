@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import { 
-  FaCloud, FaServer, FaDatabase, FaChartBar, FaComments, 
+import {
+  FaCloud, FaServer, FaDatabase, FaChartBar, FaComments,
   FaHistory, FaUser, FaSignOutAlt, FaCog, FaDollarSign,
   FaMapMarkerAlt, FaMicrochip, FaMemory, FaHdd, FaShieldAlt,
-  FaTrophy, FaRobot, FaStar, FaAws, FaMicrosoft 
+  FaTrophy, FaRobot, FaStar, FaAws, FaMicrosoft
 } from 'react-icons/fa';
 import { SiGooglecloud, SiOracle, SiIbm, SiDigitalocean, SiLinode, SiAlibaba } from 'react-icons/si';
 
@@ -21,12 +21,12 @@ export default function Dashboard() {
   useEffect(() => {
     const token = localStorage.getItem('token');
     const userData = localStorage.getItem('user');
-    
+
     if (!token || !userData) {
       router.push('/login');
       return;
     }
-    
+
     setUser(JSON.parse(userData));
     fetchDatasetInfo();
   }, [router]);
@@ -53,7 +53,7 @@ export default function Dashboard() {
     setLoading(true);
     setRecommendations([]);
     setAiExplanation('');
-    
+
     try {
       const token = localStorage.getItem('token');
       const response = await fetch('http://localhost:5000/api/recommendations', {
@@ -66,11 +66,11 @@ export default function Dashboard() {
       });
 
       const data = await response.json();
-      
+
       if (response.ok) {
         setRecommendations(data.recommendations || []);
         setAiExplanation(data.ai_explanation || 'No explanation available.');
-        
+
         // Store in analysis history
         const historyItem = {
           id: Date.now(),
@@ -81,7 +81,7 @@ export default function Dashboard() {
           recommendations: data.recommendations?.slice(0, 5) || [],
           total_analyzed: data.total_analyzed || 0
         };
-        
+
         const existingHistory = JSON.parse(localStorage.getItem('analysisHistory') || '[]');
         existingHistory.unshift(historyItem);
         localStorage.setItem('analysisHistory', JSON.stringify(existingHistory.slice(0, 20)));
@@ -119,12 +119,14 @@ export default function Dashboard() {
         {/* Top Navigation Bar */}
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm border-bottom">
           <div className="container-fluid">
+            <h3 className="fw-bold text-dark">Sharat H N</h3>
+
             {/* Brand */}
             <div className="d-flex align-items-center">
               <FaCloud className="text-primary me-2" size={24} />
               <span className="fw-bold fs-5">CloudOptima</span>
             </div>
-            
+
             {/* Navigation Links */}
             <div className="d-flex align-items-center">
               <div className="navbar-nav d-flex flex-row me-3">
@@ -136,7 +138,7 @@ export default function Dashboard() {
                   <span className="d-none d-md-inline">Instance Analysis</span>
                   <span className="d-md-none">Analysis</span>
                 </button>
-                
+
                 <button
                   onClick={() => setActiveTab('reviews')}
                   className={`nav-link btn me-2 ${activeTab === 'reviews' ? 'btn-primary' : 'btn-outline-primary'}`}
@@ -145,7 +147,7 @@ export default function Dashboard() {
                   <span className="d-none d-md-inline">Community Reviews</span>
                   <span className="d-md-none">Reviews</span>
                 </button>
-                
+
                 <button
                   onClick={() => setActiveTab('history')}
                   className={`nav-link btn me-2 ${activeTab === 'history' ? 'btn-primary' : 'btn-outline-primary'}`}
@@ -154,7 +156,7 @@ export default function Dashboard() {
                   <span className="d-none d-md-inline">Analysis History</span>
                   <span className="d-md-none">History</span>
                 </button>
-                
+
                 <button
                   onClick={() => setActiveTab('profile')}
                   className={`nav-link btn me-2 ${activeTab === 'profile' ? 'btn-primary' : 'btn-outline-primary'}`}
@@ -164,7 +166,7 @@ export default function Dashboard() {
                   <span className="d-md-none">Profile</span>
                 </button>
               </div>
-              
+
               {/* User Info & Logout */}
               <div className="d-flex align-items-center">
                 <span className="text-muted me-3 d-none d-lg-inline">Welcome, {user.username}</span>
@@ -229,7 +231,7 @@ export default function Dashboard() {
 
             <main className="container-fluid py-4">
               {activeTab === 'analysis' && (
-                <AnalysisTab 
+                <AnalysisTab
                   onSubmit={submitAnalysis}
                   loading={loading}
                   recommendations={recommendations}
@@ -238,15 +240,15 @@ export default function Dashboard() {
                   setRecommendations={setRecommendations}
                 />
               )}
-              
+
               {activeTab === 'reviews' && (
                 <ReviewsTab />
               )}
-              
+
               {activeTab === 'history' && (
                 <HistoryTab />
               )}
-              
+
               {activeTab === 'profile' && (
                 <ProfileTab user={user} />
               )}
@@ -300,7 +302,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
   const handleWeightChange = (index, value) => {
     const newWeights = [...formData.weights];
     newWeights[index] = parseInt(value);
-    setFormData({...formData, weights: newWeights});
+    setFormData({ ...formData, weights: newWeights });
   };
 
   const getWeightPercentage = (weight) => {
@@ -320,7 +322,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
               </span>
             )}
           </div>
-          
+
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label className="form-label fw-semibold small">
@@ -334,7 +336,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                 max="2.0"
                 step="0.01"
                 value={formData.budget}
-                onChange={(e) => setFormData({...formData, budget: parseFloat(e.target.value)})}
+                onChange={(e) => setFormData({ ...formData, budget: parseFloat(e.target.value) })}
               />
               <div className="d-flex justify-content-between text-muted small">
                 <span>$0.01</span>
@@ -345,12 +347,12 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
             <div className="mb-3">
               <label className="form-label fw-semibold small">
                 <FaMapMarkerAlt className="me-1 text-primary" />
-                Region 
+                Region
               </label>
               <select
                 className="form-select"
                 value={formData.region}
-                onChange={(e) => setFormData({...formData, region: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, region: e.target.value })}
               >
                 {regions.map(region => (
                   <option key={region.value} value={region.value}>
@@ -365,7 +367,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                 <FaCog className="me-1 text-warning" />
                 Priority Weights
               </label>
-              
+
               <div className="mb-2">
                 <div className="d-flex justify-content-between align-items-center mb-1">
                   <span className="small fw-semibold">
@@ -383,7 +385,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   onChange={(e) => handleWeightChange(0, e.target.value)}
                 />
               </div>
-              
+
               <div className="mb-2">
                 <div className="d-flex justify-content-between align-items-center mb-1">
                   <span className="small fw-semibold">
@@ -401,7 +403,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   onChange={(e) => handleWeightChange(1, e.target.value)}
                 />
               </div>
-              
+
               <div className="mb-2">
                 <div className="d-flex justify-content-between align-items-center mb-1">
                   <span className="small fw-semibold">
@@ -419,7 +421,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   onChange={(e) => handleWeightChange(2, e.target.value)}
                 />
               </div>
-              
+
               <div className="mb-2">
                 <div className="d-flex justify-content-between align-items-center mb-1">
                   <span className="small fw-semibold">
@@ -437,7 +439,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   onChange={(e) => handleWeightChange(3, e.target.value)}
                 />
               </div>
-              
+
               <div className="mb-2">
                 <div className="d-flex justify-content-between align-items-center mb-1">
                   <span className="small fw-semibold">
@@ -513,13 +515,13 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   </span>
                 </div>
               </div>
-              
+
               <div className="row">
                 <div className="col-md-8">
                   <h4 className="fw-bold text-primary mb-3">
                     {recommendations[0].provider.split(' ')[0]} {recommendations[0].instance_type.split(' ')[0]}
                   </h4>
-                  
+
                   <div className="row g-3 mb-3">
                     <div className="col-sm-6 col-lg-3">
                       <div className="text-center p-3 bg-light rounded">
@@ -550,24 +552,24 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="d-flex justify-content-between align-items-center">
                     <div>
                       <small className="text-muted">
-                        Network: {recommendations[0].network_bandwidth || 'Standard'} • 
+                        Network: {recommendations[0].network_bandwidth || 'Standard'} •
                         GPU: {recommendations[0].GPU > 0 ? `${Math.round(recommendations[0].GPU)} units` : 'None'}
                       </small>
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-md-4">
                   <div className="text-center">
                     <div className="display-4 fw-bold text-success mb-2">
                       ${recommendations[0].price_per_hour.toFixed(4)}
                     </div>
                     <div className="text-muted mb-3">per hour</div>
-                    
+
                     <div className="bg-success text-white p-3 rounded">
                       <div className="fw-bold">Monthly Estimate*</div>
                       <div className="fs-5">
@@ -579,7 +581,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                 </div>
               </div>
             </div>
-            
+
             {/* Alternative Options Table */}
             {recommendations.length > 0 && (
               <div className="card p-4 mb-4">
@@ -587,7 +589,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                   <FaServer className="me-2" />
                   All Recommendations
                 </h4>
-                
+
                 <div className="table-responsive">
                   <table className="table table-hover">
                     <thead className="table-light">
@@ -644,11 +646,10 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                               )}
                               {/* Rating button - disabled if already rated */}
                               <button
-                                className={`btn btn-sm ${
-                                  rec.user_has_rated 
-                                    ? 'btn-success' 
+                                className={`btn btn-sm ${rec.user_has_rated
+                                    ? 'btn-success'
                                     : 'btn-outline-primary'
-                                }`}
+                                  }`}
                                 onClick={() => {
                                   setSelectedRecommendation(rec);
                                   setShowReviewModal(true);
@@ -680,10 +681,10 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
               </h5>
               <span className="badge bg-success">Live AI Response</span>
             </div>
-            <div className="ai-explanation" style={{maxHeight: '600px', overflowY: 'auto', fontSize: '0.95rem'}}>
+            <div className="ai-explanation" style={{ maxHeight: '600px', overflowY: 'auto', fontSize: '0.95rem' }}>
               {aiExplanation.split('\n').map((line, index) => {
                 const trimmed = line.trim();
-                
+
                 // Main headers (##)
                 if (line.startsWith('## ')) {
                   return (
@@ -692,7 +693,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                     </h5>
                   );
                 }
-                
+
                 // Sub headers (###)
                 if (line.startsWith('### ')) {
                   return (
@@ -701,7 +702,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                     </h6>
                   );
                 }
-                
+
                 // Emoji headers (🏆, 📊, etc.)
                 if (/^[🏆📊💰🚀🔄⚡🛠️📈🎯💡]/.test(trimmed)) {
                   return (
@@ -710,7 +711,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                     </h5>
                   );
                 }
-                
+
                 // Bold text (**text**)
                 if (line.startsWith('**') && line.includes(':**')) {
                   const text = line.replace(/\*\*/g, '');
@@ -722,7 +723,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                     </div>
                   );
                 }
-                
+
                 // Numbered lists (1., 2., etc.)
                 if (/^\d+\.\s/.test(trimmed)) {
                   return (
@@ -731,7 +732,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                     </div>
                   );
                 }
-                
+
                 // Bullet points (- or •)
                 if (line.startsWith('- ') || line.startsWith('• ')) {
                   const text = line.replace(/^[-•]\s/, '');
@@ -752,30 +753,30 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
                     </div>
                   );
                 }
-                
+
                 // Horizontal rule (---)
                 if (trimmed === '---') {
                   return <hr key={index} className="my-4" />;
                 }
-                
+
                 // Empty lines
                 if (trimmed === '') {
-                  return <div key={index} style={{height: '0.5rem'}}></div>;
+                  return <div key={index} style={{ height: '0.5rem' }}></div>;
                 }
-                
+
                 // Regular paragraphs
                 if (trimmed.length > 0) {
                   // Handle inline bold
                   const parts = trimmed.split(/\*\*/);
                   return (
-                    <p key={index} className="mb-2 text-dark" style={{lineHeight: '1.6'}}>
-                      {parts.map((part, i) => 
+                    <p key={index} className="mb-2 text-dark" style={{ lineHeight: '1.6' }}>
+                      {parts.map((part, i) =>
                         i % 2 === 1 ? <strong key={i} className="text-primary">{part}</strong> : part
                       )}
                     </p>
                   );
                 }
-                
+
                 return null;
               })}
             </div>
@@ -784,7 +785,7 @@ function AnalysisTab({ onSubmit, loading, recommendations, aiExplanation, datase
 
         {!loading && recommendations.length === 0 && (
           <div className="card p-5 text-center">
-            <span className="text-muted mb-3" style={{fontSize: '4rem', opacity: 0.5}}>☁️</span>
+            <span className="text-muted mb-3" style={{ fontSize: '4rem', opacity: 0.5 }}>☁️</span>
             <h4 className="fw-bold text-muted mb-2">Ready for Analysis</h4>
             <p className="text-muted mb-4">
               Configure your requirements and generate recommendations.
@@ -900,7 +901,7 @@ function ReviewModal({ recommendation, onClose, onRated }) {
   };
 
   return (
-    <div className="modal show d-block" style={{backgroundColor: 'rgba(0,0,0,0.5)'}}>
+    <div className="modal show d-block" style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
@@ -915,7 +916,7 @@ function ReviewModal({ recommendation, onClose, onRated }) {
               <br />
               <small className="text-muted">Hybrid Score: {(recommendation.hybrid_score * 100).toFixed(1)}%</small>
             </div>
-            
+
             {/* Show community rating */}
             {recommendation.avg_rating > 0 && (
               <div className="mb-3 p-2 bg-light rounded">
@@ -928,7 +929,7 @@ function ReviewModal({ recommendation, onClose, onRated }) {
                 </div>
               </div>
             )}
-            
+
             {/* If already rated, show it */}
             {recommendation.user_has_rated && (
               <div className="mb-3 p-3 bg-success bg-opacity-10 border border-success rounded">
@@ -942,7 +943,7 @@ function ReviewModal({ recommendation, onClose, onRated }) {
                 <small className="d-block mt-2 text-muted">You cannot change your rating once submitted.</small>
               </div>
             )}
-            
+
             {/* Only show rating controls if NOT already rated */}
             {!recommendation.user_has_rated && (
               <div className="mb-3">
@@ -1037,10 +1038,10 @@ function ReviewsTab() {
         <span className="me-2 text-primary">💬</span>
         Community Reviews
       </h3>
-      
+
       {reviews.length === 0 ? (
         <div className="text-center py-5">
-          <span className="text-muted mb-3" style={{fontSize: '3rem', opacity: 0.5}}>💬</span>
+          <span className="text-muted mb-3" style={{ fontSize: '3rem', opacity: 0.5 }}>💬</span>
           <h5 className="text-muted">No reviews yet</h5>
           <p className="text-muted">Be the first to share your experience!</p>
         </div>
@@ -1096,13 +1097,13 @@ function HistoryTab() {
       const savedHistory = JSON.parse(localStorage.getItem('analysisHistory') || '[]');
       setHistory(savedHistory);
     };
-    
+
     // Listen for storage changes
     window.addEventListener('storage', refreshHistory);
-    
+
     // Also refresh on focus
     window.addEventListener('focus', refreshHistory);
-    
+
     return () => {
       window.removeEventListener('storage', refreshHistory);
       window.removeEventListener('focus', refreshHistory);
@@ -1115,10 +1116,10 @@ function HistoryTab() {
         <FaHistory className="me-2 text-primary" />
         Analysis History
       </h3>
-      
+
       {history.length === 0 ? (
         <div className="text-center py-5">
-          <FaHistory className="text-muted mb-3" style={{fontSize: '3rem', opacity: 0.5}} />
+          <FaHistory className="text-muted mb-3" style={{ fontSize: '3rem', opacity: 0.5 }} />
           <h5 className="text-muted">No history available</h5>
           <p className="text-muted">Your analysis history will appear here.</p>
         </div>
@@ -1139,7 +1140,7 @@ function HistoryTab() {
                       {item.recommendations?.length || 0} recommendations
                     </span>
                   </div>
-                  
+
                   <div className="row mb-3">
                     <div className="col-md-6">
                       <small className="text-muted d-block">Budget: <strong>${item.budget}/hour</strong></small>
@@ -1149,7 +1150,7 @@ function HistoryTab() {
                       <small className="text-muted d-block">Analyzed: <strong>{item.total_analyzed} instances</strong></small>
                     </div>
                   </div>
-                  
+
                   {item.recommendations && item.recommendations.length > 0 && (
                     <div>
                       <small className="text-muted fw-bold">Top Recommendation:</small>
@@ -1187,30 +1188,30 @@ function ProfileTab({ user }) {
         <span className="me-2 text-primary">👤</span>
         Profile Settings
       </h3>
-      
+
       <div className="row">
         <div className="col-md-6">
           <div className="mb-3">
             <label className="form-label fw-semibold">Username</label>
-            <input 
-              type="text" 
-              className="form-control" 
-              value={user.username} 
-              readOnly 
+            <input
+              type="text"
+              className="form-control"
+              value={user.username}
+              readOnly
             />
           </div>
-          
+
           <div className="mb-3">
             <label className="form-label fw-semibold">Email</label>
-            <input 
-              type="email" 
-              className="form-control" 
-              value={user.email} 
-              readOnly 
+            <input
+              type="email"
+              className="form-control"
+              value={user.email}
+              readOnly
             />
           </div>
         </div>
-        
+
         <div className="col-md-6">
           <div className="text-center">
             <div className="user-avatar-large mb-3">

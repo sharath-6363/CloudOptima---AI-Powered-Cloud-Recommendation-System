@@ -62,7 +62,7 @@ export default function Home() {
     };
 
     fetchReviews();
-    
+
     // Fetch recent recommendations for animation
     const fetchRecentRecommendations = async () => {
       try {
@@ -75,9 +75,9 @@ export default function Home() {
         console.error('Error fetching recommendations:', error);
       }
     };
-    
+
     fetchRecentRecommendations();
-    
+
     // Fetch real stats from API
     const fetchStats = async () => {
       try {
@@ -90,7 +90,7 @@ export default function Home() {
         console.error('Error fetching stats:', error);
       }
     };
-    
+
     fetchStats();
   }, []);
 
@@ -105,10 +105,10 @@ export default function Home() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div className="container">
           <Link href="/" className="navbar-brand d-flex align-items-center">
-            <FaCloud className="text-primary me-2" style={{fontSize: '1.8rem'}} />
+            <FaCloud className="text-primary me-2" style={{ fontSize: '1.8rem' }} />
             <span className="fw-bold">CloudOptima</span>
           </Link>
-          
+
           <div className="navbar-nav ms-auto">
             <Link href="/login" className="nav-link text-dark fw-semibold px-3">
               Login
@@ -128,6 +128,8 @@ export default function Home() {
               <h1 className="display-4 fw-bold mb-4">
                 AI-Powered Cloud Instance Recommendations
               </h1>
+              <h3 className="fw-bold text-dark">Sharat H N</h3>
+
               <p className="lead mb-5 fs-4">
                 Smart TOPSIS algorithm analyzes cost, performance, and security to find your perfect cloud solution
               </p>
@@ -154,7 +156,7 @@ export default function Home() {
                       {[...Array(5)].map((_, i) => (
                         <FaStar key={i} className={i < rec.rating ? 'star-filled' : 'star-empty'} />
                       ))}
-                      
+
                     </div>
                   </div>
                   <div className="notification-body">
@@ -168,7 +170,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-      {/* Features Section */}
+          {/* Features Section */}
         </div>
       </section>
 
@@ -293,7 +295,7 @@ export default function Home() {
       <footer className="bg-dark text-white py-4">
         <div className="container text-center">
           <div className="d-flex align-items-center justify-content-center mb-3">
-            <FaCloud className="text-primary me-2" style={{fontSize: '1.5rem'}} />
+            <FaCloud className="text-primary me-2" style={{ fontSize: '1.5rem' }} />
             <span className="fw-bold fs-5">CloudOptima</span>
           </div>
           <p className="text-white mb-0">AI-Powered Cloud Recommendation Engine</p>

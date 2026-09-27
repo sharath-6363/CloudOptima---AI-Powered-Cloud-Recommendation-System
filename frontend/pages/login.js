@@ -59,6 +59,8 @@ export default function Login() {
                     <h2 className="fw-bold text-dark mb-0">CloudOptima</h2>
                   </div>
                   <h3 className="fw-bold text-dark">Welcome Back</h3>
+                                    <h3 className="fw-bold text-dark">Sharat H N</h3>
+
                   <p className="text-muted">Sign in to your account</p>
                 </div>
 
